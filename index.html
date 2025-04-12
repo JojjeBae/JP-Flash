@@ -61,7 +61,8 @@
       <button onclick="loadCategory('pronouns')" class="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 shadow">Pronouns</button>
     </div>
 
-    <div class="flip-card w-full h-48 bg-white rounded-xl shadow relative border border-gray-300">
+    <div class="flip-card w-full h-48 bg-white rounded-xl shadow relative border border-gray-300 
+      onclick="flipCard()">
       <div class="flip-card-inner" id="cardInner">
         <div id="cardFront" class="flip-card-front text-xl font-semibold"></div>
         <div id="cardBack" class="flip-card-back text-lg"></div>
@@ -69,7 +70,6 @@
     </div>
 
     <div class="flex justify-center gap-4 mt-4">
-      <button onclick="flipCard()" class="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow">Flip</button>
       <button onclick="nextCard()" class="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 shadow">Next</button>
     </div>
   </div>

@@ -2,186 +2,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>JP Flash</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#4F46E5"/>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="theme-color" content="#4F46E5" />
+  <link rel="manifest" href="manifest.json" />
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service-worker.js');
+      });
+    }
+  </script>
   <style>
-    .flip-card {
-      perspective: 1000px;
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 2rem;
     }
-    .flip-card-inner {
-      transition: transform 0.6s;
-      transform-style: preserve-3d;
-    }
-    .flipped .flip-card-inner {
-      transform: rotateY(180deg);
-    }
-    .flip-card-front, .flip-card-back {
-      backface-visibility: hidden;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      padding: 1rem;
+    .flashcard {
+      border: 1px solid #ccc;
+      padding: 2rem;
+      margin: 1rem auto;
+      width: 80%;
       border-radius: 1rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    .flip-card-back {
-      transform: rotateY(180deg);
+      background: #f9f9f9;
     }
   </style>
 </head>
-<body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
-  <div class="bg-white p-6 rounded-2xl shadow-xl w-full max-w-md text-center space-y-4">
-    <h1 class="text-3xl font-bold">Japanese Verb Flashcards</h1>
-
-    <div class="flex justify-center space-x-2" id="modeButtons">
-      <button onclick="setFlashMode()" class="px-6 py-3 bg-green-500 text-white rounded-xl hover:bg-green-600 shadow-md">Flash Mode</button>
-    </div>
-
-    <!-- Input Mode -->
-    <div id="inputMode" class="space-y-4">
-      <div id="card" class="text-xl font-medium border p-4 rounded-xl bg-gray-50 shadow">Loading...</div>
-      <input id="answer" type="text" placeholder="Type your answer..." class="w-full p-4 border rounded-xl" />
-      <div id="prompt" class="text-sm text-gray-600"></div>
-      <div id="feedback" class="text-sm"></div>
-      <div class="flex justify-between gap-2">
-        <button onclick="checkAnswer()" class="flex-1 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow">Check</button>
-        <button onclick="nextCard()" class="flex-1 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 shadow">Next</button>
-        <button onclick="toggleMode()" class="flex-1 py-3 bg-gray-600 text-white rounded-xl hover:bg-gray-700 shadow">Switch</button>
-      </div>
-    </div>
-
-    <!-- Flash Mode -->
-    <div id="flashMode" class="hidden">
-      <div class="flip-card w-full h-48 bg-white rounded-xl shadow relative cursor-pointer border border-gray-300" onclick="flipCard()">
-        <div class="flip-card-inner w-full h-full relative">
-          <div id="flashFront" class="flip-card-front text-xl font-bold bg-indigo-100 rounded-xl">Front</div>
-          <div id="flashBack" class="flip-card-back text-xl font-medium bg-green-100 rounded-xl">Back</div>
-        </div>
-      </div>
-      <div class="flex justify-between gap-2 mt-4">
-        <button onclick="nextFlashCard()" class="flex-1 py-3 bg-purple-600 text-white rounded-xl hover:bg-purple-700 shadow">Next</button>
-        <button onclick="setInputMode()" class="flex-1 py-3 bg-gray-600 text-white rounded-xl hover:bg-gray-700 shadow">Back to Input</button>
-      </div>
-    </div>
-  </div>
+<body>
+  <h1>JP Flash</h1>
+  <div id="flashcard" class="flashcard">Loading...</div>
+  <button onclick="flipCard()">Flip</button>
+  <button onclick="nextCard()">Next</button>
 
   <script>
-  let verbs = [];
-  let current = 0;
-  let flipped = false;
-
-  async function loadVerbs() {
-    const response = await fetch('words_verbs.json');
-    verbs = await response.json();
-    shuffleVerbs();
-    showCard();
-  }
-
-  function shuffleVerbs() {
-    verbs = [...verbs].sort(() => Math.random() - 0.5);
-    current = 0;
-  }
-
-  function showCard() {
-    const card = document.getElementById("flashcard");
-    const v = verbs[current];
-    card.innerHTML = flipped
-      ? `<strong>Romaji:</strong> ${v.romaji}<br><strong>Formal:</strong> ${v.formal}<br><strong>Hiragana:</strong> ${v.hiragana}`
-      : `<strong>English:</strong> ${v.english}`;
-  }
-
-  function flipCard() {
-    flipped = !flipped;
-    showCard();
-  }
-
-  function nextCard() {
-    current = (current + 1) % verbs.length;
-    flipped = false;
-    showCard();
-  }
-
-  window.onload = loadVerbs;
-
-    let shuffled = [...verbs];
+    let verbs = [];
     let current = 0;
-    let mode = "en-to-jp";
-    let view = "input";
-    let expectFormal = false;
+    let flipped = false;
+
+    async function loadVerbs() {
+      try {
+        const res = await fetch('./words_verbs.json');
+        verbs = await res.json();
+        shuffleVerbs();
+        showCard();
+      } catch (err) {
+        document.getElementById("flashcard").textContent = "Failed to load verbs.";
+        console.error("Error loading JSON:", err);
+      }
+    }
 
     function shuffleVerbs() {
-      shuffled = [...verbs].sort(() => Math.random() - 0.5);
+      verbs = [...verbs].sort(() => Math.random() - 0.5);
       current = 0;
     }
 
     function showCard() {
-      document.getElementById("answer").value = "";
-      document.getElementById("feedback").textContent = "";
-      expectFormal = Math.random() < 0.5;
-      document.getElementById("prompt").textContent = `Enter the ${expectFormal ? "formal" : "base"} form`;
-      document.getElementById("card").textContent = shuffled[current].english;
-    }
-
-    function checkAnswer() {
-      const input = document.getElementById("answer").value.trim().toLowerCase();
-      const correct = expectFormal ? shuffled[current].formal : shuffled[current].romaji;
-      document.getElementById("feedback").textContent = input === correct ? "Correct!" : `Wrong. Answer: ${correct}`;
-    }
-
-    function nextCard() {
-      current = (current + 1) % shuffled.length;
-      showCard();
-    }
-
-    function toggleMode() {
-      mode = mode === "en-to-jp" ? "jp-to-en" : "en-to-jp";
-      if (view === "input") showCard();
-      else showFlashCard();
-    }
-
-    function setInputMode() {
-      view = "input";
-      document.getElementById("inputMode").classList.remove("hidden");
-      document.getElementById("flashMode").classList.add("hidden");
-      document.getElementById("modeButtons").classList.remove("hidden");
-      showCard();
-    }
-
-    function setFlashMode() {
-      view = "flash";
-      document.getElementById("flashMode").classList.remove("hidden");
-      document.getElementById("inputMode").classList.add("hidden");
-      document.getElementById("modeButtons").classList.add("hidden");
-      showFlashCard();
-    }
-
-    function showFlashCard() {
-      const front = shuffled[current].english;
-      const back = `${shuffled[current].romaji} (${shuffled[current].formal})<br>${shuffled[current].hiragana}`;
-      document.querySelector(".flip-card").classList.remove("flipped");
-      document.getElementById("flashFront").innerHTML = front;
-      document.getElementById("flashBack").innerHTML = back;
+      const card = document.getElementById("flashcard");
+      const v = verbs[current];
+      card.innerHTML = flipped
+        ? `<strong>Romaji:</strong> ${v.romaji}<br><strong>Formal:</strong> ${v.formal}<br><strong>Hiragana:</strong> ${v.hiragana}`
+        : `<strong>English:</strong> ${v.english}`;
     }
 
     function flipCard() {
-      document.querySelector(".flip-card").classList.toggle("flipped");
+      flipped = !flipped;
+      showCard();
     }
 
-    function nextFlashCard() {
-      current = (current + 1) % shuffled.length;
-      showFlashCard();
+    function nextCard() {
+      current = (current + 1) % verbs.length;
+      flipped = false;
+      showCard();
     }
 
-    shuffleVerbs();
-    showCard();
+    window.onload = loadVerbs;
   </script>
 </body>
 </html>

@@ -74,14 +74,42 @@
   </div>
 
   <script>
-    const verbs = [
-      {{ english: "to eat", hiragana: "たべる", romaji: "taberu", formal: "tabemasu" }},
-      {{ english: "to drink", hiragana: "のむ", romaji: "nomu", formal: "nomimasu" }},
-      {{ english: "to sleep", hiragana: "ねる", romaji: "neru", formal: "nemasu" }},
-      {{ english: "to go", hiragana: "いく", romaji: "iku", formal: "ikimasu" }},
-      {{ english: "to come", hiragana: "くる", romaji: "kuru", formal: "kimasu" }},
-      {{ english: "to do", hiragana: "する", romaji: "suru", formal: "shimasu" }}
-    ];
+  let verbs = [];
+  let current = 0;
+  let flipped = false;
+
+  async function loadVerbs() {
+    const response = await fetch('words_verbs.json');
+    verbs = await response.json();
+    shuffleVerbs();
+    showCard();
+  }
+
+  function shuffleVerbs() {
+    verbs = [...verbs].sort(() => Math.random() - 0.5);
+    current = 0;
+  }
+
+  function showCard() {
+    const card = document.getElementById("flashcard");
+    const v = verbs[current];
+    card.innerHTML = flipped
+      ? `<strong>Romaji:</strong> ${v.romaji}<br><strong>Formal:</strong> ${v.formal}<br><strong>Hiragana:</strong> ${v.hiragana}`
+      : `<strong>English:</strong> ${v.english}`;
+  }
+
+  function flipCard() {
+    flipped = !flipped;
+    showCard();
+  }
+
+  function nextCard() {
+    current = (current + 1) % verbs.length;
+    flipped = false;
+    showCard();
+  }
+
+  window.onload = loadVerbs;
 
     let shuffled = [...verbs];
     let current = 0;

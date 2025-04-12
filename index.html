@@ -101,13 +101,13 @@
     function updateCardUI() {
       const front = document.getElementById("cardFront");
       const back = document.getElementById("cardBack");
-      const cardInner = document.getElementById("cardInner");
+      const cardOuter = document.querySelector(".flip-card");
+      cardOuter.classList.toggle("flip", flipped);
 
       const v = cards[current];
       front.textContent = v?.english || "N/A";
       back.innerHTML = v ? `${v.romaji}<br>${v.formal}<br>${v.hiragana}` : "";
 
-      cardInner.classList.toggle("flip", flipped);
     }
 
     function flipCard() {

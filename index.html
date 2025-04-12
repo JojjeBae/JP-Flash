@@ -5,8 +5,9 @@
   <meta charset="UTF-8" />
   <title>JP Flash</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#4F46E5" />
   <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#4F46E5" />
+  <script src="https://cdn.tailwindcss.com"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
@@ -14,27 +15,18 @@
       });
     }
   </script>
-  <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      padding: 2rem;
-    }
-    .flashcard {
-      border: 1px solid #ccc;
-      padding: 2rem;
-      margin: 1rem auto;
-      width: 80%;
-      border-radius: 1rem;
-      background: #f9f9f9;
-    }
-  </style>
 </head>
-<body>
-  <h1>JP Flash</h1>
-  <div id="flashcard" class="flashcard">Loading...</div>
-  <button onclick="flipCard()">Flip</button>
-  <button onclick="nextCard()">Next</button>
+<body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
+  <div class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6">
+    <h1 class="text-3xl font-bold text-gray-800">JP Flash</h1>
+
+    <div id="flashcard" class="text-xl font-medium border p-6 rounded-xl bg-gray-50 shadow">Loading...</div>
+
+    <div class="flex justify-center gap-4">
+      <button onclick="flipCard()" class="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow">Flip</button>
+      <button onclick="nextCard()" class="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 shadow">Next</button>
+    </div>
+  </div>
 
   <script>
     let verbs = [];

@@ -8,6 +8,40 @@
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#4F46E5" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .flip-card {
+      perspective: 1000px;
+    }
+    .flip-card-inner {
+      transition: transform 0.6s ease;
+      transform-style: preserve-3d;
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .flip .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    .flip-card-front, .flip-card-back {
+      backface-visibility: hidden;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 1.5rem;
+    }
+    .flip-card-front {
+      background-color: #eef2ff;
+    }
+    .flip-card-back {
+      background-color: #d1fae5;
+      transform: rotateY(180deg);
+    }
+  </style>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
@@ -15,30 +49,26 @@
       });
     }
   </script>
-  <style>
-    .flip {
-      animation: flip 0.4s ease-in-out forwards;
-    }
-    @keyframes flip {
-      0% { transform: rotateY(0deg); }
-      100% { transform: rotateY(180deg); }
-    }
-  </style>
 </head>
 <body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
   <div class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6">
     <h1 class="text-3xl font-bold text-gray-800">JP Flash</h1>
 
-    <div class="flex flex-wrap justify-center gap-2 mb-4">
+    <div class="flex flex-wrap justify-center gap-2 mb-2">
       <button onclick="loadCategory('verbs')" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 shadow">Verbs</button>
       <button onclick="loadCategory('nouns')" class="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow">Nouns</button>
       <button onclick="loadCategory('adjectives')" class="px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 shadow">Adjectives</button>
       <button onclick="loadCategory('pronouns')" class="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 shadow">Pronouns</button>
     </div>
 
-    <div id="flashcard" class="text-xl font-medium border min-h-[180px] transition duration-300 ease-in-out p-6 rounded-xl bg-gray-50 shadow flex flex-col justify-center items-center">Loading...</div>
+    <div class="flip-card w-full h-48 bg-white rounded-xl shadow relative border border-gray-300">
+      <div class="flip-card-inner" id="cardInner">
+        <div id="cardFront" class="flip-card-front text-xl font-semibold"></div>
+        <div id="cardBack" class="flip-card-back text-lg"></div>
+      </div>
+    </div>
 
-    <div class="flex justify-center gap-4">
+    <div class="flex justify-center gap-4 mt-4">
       <button onclick="flipCard()" class="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow">Flip</button>
       <button onclick="nextCard()" class="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 shadow">Next</button>
     </div>
@@ -54,9 +84,11 @@
         const res = await fetch(`./words_${category}.json`);
         cards = await res.json();
         shuffleCards();
-        showCard();
+        flipped = false;
+        updateCardUI();
       } catch (err) {
-        document.getElementById("flashcard").textContent = "Failed to load data.";
+        document.getElementById("cardFront").textContent = "Failed to load.";
+        document.getElementById("cardBack").textContent = "";
         console.error("Error loading JSON:", err);
       }
     }
@@ -66,27 +98,27 @@
       current = 0;
     }
 
-    function showCard() {
-      const card = document.getElementById("flashcard");
+    function updateCardUI() {
+      const front = document.getElementById("cardFront");
+      const back = document.getElementById("cardBack");
+      const cardInner = document.getElementById("cardInner");
+
       const v = cards[current];
-      card.classList.remove("flip");
-      setTimeout(() => {
-        card.innerHTML = flipped
-          ? `${v.romaji}<br>${v.formal}<br>${v.hiragana}`
-          : `${v.english}`;
-        card.classList.add("flip");
-      }, 50);
+      front.textContent = v?.english || "N/A";
+      back.innerHTML = v ? `${v.romaji}<br>${v.formal}<br>${v.hiragana}` : "";
+
+      cardInner.classList.toggle("flip", flipped);
     }
 
     function flipCard() {
       flipped = !flipped;
-      showCard();
+      updateCardUI();
     }
 
     function nextCard() {
       current = (current + 1) % cards.length;
       flipped = false;
-      showCard();
+      updateCardUI();
     }
 
     window.onload = () => loadCategory("verbs");

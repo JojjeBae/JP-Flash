@@ -68,7 +68,32 @@
       <button onclick="selectGroup('kana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600">Practice Kana/Kanji</button>
     </div>
 
+    <div id="wordModes" class="hidden">
+  
+  
+      <p class="text-lg font-medium">Select a Word Mode</p>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="loadCategory('verbs')">Verbs</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="loadCategory('nouns')">Nouns</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="loadCategory('adjectives')">Adjectives</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="loadCategory('pronouns')">Pronouns</button>
+      
+    </div>
+
+    <div id="kanaModes" class="hidden">
+      <p class="text-lg font-medium">Select a Kana/Kanji Mode</p>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanaPractice('hiragana')">Hiragana</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanaPractice('katakana')">Katakana</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanjiPractice()">Kanji</button>
+      
+    </div>
+
     
+<div id="flashcardPanel" class="hidden space-y-4">
+  <div class="flip-card w-full h-48 rounded-xl border border-gray-300 dark:border-gray-600 cursor-pointer bg-white dark:bg-gray-800" onclick="flipCard()">
+    <div class="flip-card-inner" id="cardInner">
+      <div id="cardFront" class="flip-card-front text-xl font-semibold"></div>
+      <div id="cardBack" class="flip-card-back text-lg"></div>
+    </div>
   </div>
   <div class="flex justify-center gap-4 mt-4">
 

@@ -62,7 +62,7 @@
     </div>
 
     <div class="flip-card w-full h-48 bg-white rounded-xl shadow relative border border-gray-300"
-      onclick="flipCard()">
+         onclick="flipCard()">
       <div class="flip-card-inner" id="cardInner">
         <div id="cardFront" class="flip-card-front text-xl font-semibold"></div>
         <div id="cardBack" class="flip-card-back text-lg"></div>
@@ -99,15 +99,23 @@
     }
 
     function updateCardUI() {
+      const cardOuter = document.querySelector(".flip-card");
+      const cardInner = document.getElementById("cardInner");
       const front = document.getElementById("cardFront");
       const back = document.getElementById("cardBack");
-      const cardOuter = document.querySelector(".flip-card");
-      cardOuter.classList.toggle("flip", flipped);
-
       const v = cards[current];
-      front.textContent = v?.english || "N/A";
-      back.innerHTML = v ? `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}<br>${v.hiragana}` : "";
 
+      front.textContent = v?.english || "N/A";
+      back.innerHTML = v
+        ? `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`
+        : "";
+
+      // Flip only if flipped == true
+      if (flipped) {
+        cardOuter.classList.add("flip");
+      } else {
+        cardOuter.classList.remove("flip");
+      }
     }
 
     function flipCard() {

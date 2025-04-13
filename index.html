@@ -59,7 +59,7 @@
   </style>
 </head>
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 min-h-screen flex items-center justify-center p-4">
-  <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-xl w-full max-w-md text-center space-y-6 border border-gray-300 dark:border-gray-600">
+  <div class="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-xl w-full max-w-md text-center space-y-6 border border-gray-200 dark:border-gray-700">
     <div class="flex justify-between items-center">
       <h1 class="text-2xl font-bold">JP Flash</h1>
       <div class="flex gap-2 items-center"><button onclick="goBack()" id="backBtn" class="hidden text-sm px-2 py-1 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded">← Back</button><button onclick="toggleDarkMode()" id="darkToggle" class="text-xl">🌙</button></div>
@@ -67,24 +67,24 @@
 
     <div id="groupSelect" class="space-y-4">
       <p class="text-lg font-medium">What do you want to practice?</p>
-      <button onclick="selectGroup('words')" class="mode-btn">Practice Words</button>
-      <button onclick="selectGroup('kana')" class="mode-btn">Practice Kana/Kanji</button>
+      <button onclick="selectGroup('words')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600">Practice Words</button>
+      <button onclick="selectGroup('kana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600">Practice Kana/Kanji</button>
     </div>
 
     <div id="wordModes" class="hidden">
       <p class="text-lg font-medium">Select a Word Mode</p>
-      <button class="mode-btn" onclick="loadCategory('verbs')">Verbs</button>
-      <button class="mode-btn" onclick="loadCategory('nouns')">Nouns</button>
-      <button class="mode-btn" onclick="loadCategory('adjectives')">Adjectives</button>
-      <button class="mode-btn" onclick="loadCategory('pronouns')">Pronouns</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="loadCategory('verbs')">Verbs</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="loadCategory('nouns')">Nouns</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="loadCategory('adjectives')">Adjectives</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="loadCategory('pronouns')">Pronouns</button>
       <button class="mt-2 text-sm underline text-blue-500 dark:text-blue-300" onclick="goBack()">← Back</button>
     </div>
 
     <div id="kanaModes" class="hidden">
       <p class="text-lg font-medium">Select a Kana/Kanji Mode</p>
-      <button class="mode-btn" onclick="startKanaPractice('hiragana')">Hiragana</button>
-      <button class="mode-btn" onclick="startKanaPractice('katakana')">Katakana</button>
-      <button class="mode-btn" onclick="startKanjiPractice()">Kanji</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanaPractice('hiragana')">Hiragana</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanaPractice('katakana')">Katakana</button>
+      <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanjiPractice()">Kanji</button>
       <button class="mt-2 text-sm underline text-blue-500 dark:text-blue-300" onclick="goBack()">← Back</button>
     </div>
 
@@ -103,7 +103,7 @@
 
     <div id="kanaPanel" class="hidden space-y-4">
       <div id="kanaPrompt" class="text-4xl font-bold text-gray-800 dark:text-white">あ</div>
-      <input id="kanaAnswer" class="w-full p-3 border rounded-xl text-lg text-black" placeholder="Type romaji..." />
+      <input id="kanaAnswer" class="w-full p-3 border rounded-xl text-lg text-gray-900 dark:text-white dark:bg-gray-800 border-gray-300 dark:border-gray-600" placeholder="Type romaji..." />
       <div id="kanaFeedback" class="text-base font-medium min-h-[1.5rem]"></div>
       <button onclick="submitKanaAnswer()" class="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow">Submit</button>
     </div>

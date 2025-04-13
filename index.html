@@ -56,11 +56,12 @@
       background-color: #d1fae5;
       transform: rotateY(180deg);
     }
+  
     .big-kanji {
-      font-size: 8rem; /* adjust size as needed */
+      font-size: 4rem;
       font-weight: bold;
     }
-  </style>
+    </style>
 </head>
 <body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
   <div id="basePanel" class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6 relative">
@@ -159,42 +160,28 @@
     }
 
     function updateCardUI(skipAnimation = false) {
-      const cardOuter = document.querySelector(".flip-card");
-      const cardInner = document.getElementById("cardInner");
-      const front = document.getElementById("cardFront");
-      const back = document.getElementById("cardBack");
-      const v = cards[current];
-      if (!v) return;
-
-      if (cards[current]?.kanji) {
-        if (!isReversed) {
-          front.textContent = cards[current].kanji;
-          front.classList.add("big-kanji");
-          back.innerHTML = `${cards[current].english}<br>${cards[current].romaji}<br>${cards[current].hiragana}`;
-        } else {
-          front.classList.remove("big-kanji");
-          front.innerHTML = `${cards[current].english}<br>${cards[current].romaji}<br>${cards[current].hiragana}`;
-          back.textContent = cards[current].kanji;
-        }
+    if (cards[current]?.kanji) {
+      if (!isReversed) {
+        front.textContent = cards[current].kanji;
+        front.classList.add("big-kanji");
+        back.innerHTML = `${cards[current].english}<br>${cards[current].romaji}<br>${cards[current].hiragana}`;
       } else {
-        front.classList.remove("big-kanji"); // Remove for non-kanji cards
-        if (!isReversed) {
-          front.textContent = cards[current].english;
-          back.innerHTML = `${cards[current].romaji}<br>${cards[current].formal ? cards[current].formal + "<br>" : ""}${cards[current].hiragana}`;
-        } else {
-          front.innerHTML = `${cards[current].romaji}<br>${cards[current].formal ? cards[current].formal + "<br>" : ""}${cards[current].hiragana}`;
-          back.textContent = cards[current].english;
-        }
+        front.innerHTML = `${cards[current].english}<br>${cards[current].romaji}<br>${cards[current].hiragana}`;
+        back.textContent = cards[current].kanji;
+        front.classList.remove("big-kanji");
       }
-
-
-      if (skipAnimation) {
-        cardInner.style.transition = "none";
+    } else {
+      front.classList.remove("big-kanji");
+      if (!isReversed) {
+        front.textContent = cards[current].english;
+        back.innerHTML = `${cards[current].romaji}<br>${cards[current].formal ? cards[current].formal + "<br>" : ""}${cards[current].hiragana}`;
       } else {
-        cardInner.style.transition = "";
+        front.innerHTML = `${cards[current].romaji}<br>${cards[current].formal ? cards[current].formal + "<br>" : ""}${cards[current].hiragana}`;
+        back.textContent = cards[current].english;
       }
+    }
 
-      cardOuter.classList.toggle("flip", flipped);
+      cardOuter.classList.toggle("flip", flipped\);
 
       if (skipAnimation) {
         setTimeout(() => {

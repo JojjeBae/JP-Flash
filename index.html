@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>JP Flash</title>
@@ -106,11 +106,13 @@
 <script>
   let cards = [], kanaList = [], current = 0, flipped = false, isReversed = false;
 
-  function toggleDarkMode() {
-    const root = document.documentElement;
-    const toggle = document.getElementById('darkToggle');
-    const isDark = root.classList.toggle("dark");
-    toggle.textContent = isDark ? "🌙" : "☀️";
+  
+function toggleDarkMode() {
+  const html = document.querySelector('html');
+  const toggle = document.getElementById('darkToggle');
+  const isDark = html.classList.toggle("dark");
+  toggle.textContent = isDark ? "🌙" : "☀️";
+
   }
 
   function selectGroup(type) {

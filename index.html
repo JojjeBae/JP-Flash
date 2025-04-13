@@ -223,7 +223,7 @@ const input = document.getElementById("kanaAnswer");
 if (input) {
   input.addEventListener("focus", () => {
     setTimeout(() => {
-      input.scrollIntoView({ behavior: "smooth", block: "center" });
+      input.scrollIntoView({ behavior: "smooth", block: "end" , inline: "nearest" });
     }, 150);
   });
 }

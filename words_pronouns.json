@@ -1,0 +1,92 @@
+[
+  {
+    "english": "I (male)",
+    "hiragana": "ぼく",
+    "romaji": "boku"
+  },
+  {
+    "english": "I (female)",
+    "hiragana": "わたし",
+    "romaji": "watashi"
+  },
+  {
+    "english": "you",
+    "hiragana": "あなた",
+    "romaji": "anata"
+  },
+  {
+    "english": "he",
+    "hiragana": "かれ",
+    "romaji": "kare"
+  },
+  {
+    "english": "she",
+    "hiragana": "かのじょ",
+    "romaji": "kanojo"
+  },
+  {
+    "english": "we",
+    "hiragana": "わたしたち",
+    "romaji": "watashitachi"
+  },
+  {
+    "english": "they (male)",
+    "hiragana": "かれら",
+    "romaji": "karera"
+  },
+  {
+    "english": "they (female)",
+    "hiragana": "かのじょたち",
+    "romaji": "kanojotachi"
+  },
+  {
+    "english": "this",
+    "hiragana": "これ",
+    "romaji": "kore"
+  },
+  {
+    "english": "that",
+    "hiragana": "それ",
+    "romaji": "sore"
+  },
+  {
+    "english": "that (over there)",
+    "hiragana": "あれ",
+    "romaji": "are"
+  },
+  {
+    "english": "which",
+    "hiragana": "どれ",
+    "romaji": "dore"
+  },
+  {
+    "english": "who",
+    "hiragana": "だれ",
+    "romaji": "dare"
+  },
+  {
+    "english": "me",
+    "hiragana": "わたし",
+    "romaji": "watashi"
+  },
+  {
+    "english": "him",
+    "hiragana": "かれ",
+    "romaji": "kare"
+  },
+  {
+    "english": "her",
+    "hiragana": "かのじょ",
+    "romaji": "kanojo"
+  },
+  {
+    "english": "us",
+    "hiragana": "わたしたち",
+    "romaji": "watashitachi"
+  },
+  {
+    "english": "them",
+    "hiragana": "かれら",
+    "romaji": "karera"
+  }
+]

@@ -9,6 +9,21 @@
   <meta name="theme-color" content="#4F46E5" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
+    .mode-btn {
+      padding: 0.5rem 1rem;
+      background-color: #e5e7eb;
+      color: #1f2937;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+      margin: 0.25rem;
+    }
+    .mode-btn:hover {
+      background-color: #d1d5db;
+    }
+    .mode-btn.active {
+      background-color: #2563eb;
+      color: white;
+    }
     .flip-card {
       perspective: 1000px;
     }
@@ -41,26 +56,10 @@
       background-color: #d1fae5;
       transform: rotateY(180deg);
     }
-  
-    .mode-btn {
-    padding: 0.5rem 1rem;
-    background-color: #e5e7eb; /* Tailwind gray-300 */
-    color: #1f2937;            /* Tailwind gray-800 */
-    border-radius: 0.5rem;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-    margin: 0.15rem;
-  }
-  .mode-btn:hover {
-    background-color: #d1d5db; /* Tailwind gray-400 */
-  }
-  .mode-btn.active {
-    background-color: #2563eb; /* Tailwind blue-600 */
-    color: white;
-  }
-    </style>
+  </style>
 </head>
 <body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
-  <div id="basePanel" class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6">
+  <div class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6">
     <h1 class="text-3xl font-bold text-gray-800">JP Flash</h1>
 
     <div class="flex flex-wrap justify-center gap-2 mb-2">
@@ -72,7 +71,6 @@
       <button id="btn-katakana" onclick="startKanaPractice('katakana')" class="mode-btn">Katakana</button>
     </div>
 
-    <!-- Flashcard Mode -->
     <div id="flashcardPanel">
       <div class="flip-card w-full h-48 bg-white rounded-xl shadow relative border border-gray-300"
            onclick="flipCard()">
@@ -82,11 +80,11 @@
         </div>
       </div>
       <div class="flex justify-center gap-4 mt-4">
+        <button onclick="toggleDirection()" class="px-4 py-2 bg-gray-500 text-white rounded-xl hover:bg-gray-600 shadow">↔️ Flip Direction</button>
         <button onclick="nextCard()" class="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 shadow">Next</button>
       </div>
     </div>
 
-    <!-- Kana Practice Mode -->
     <div id="kanaPanel" class="hidden space-y-4">
       <div id="kanaPrompt" class="text-4xl font-bold text-gray-800">あ</div>
       <input id="kanaAnswer" class="w-full p-3 border rounded-xl text-lg" placeholder="Type romaji..." />
@@ -101,8 +99,8 @@
     let current = 0;
     let flipped = false;
     let isKanaMode = false;
+    let isReversed = false;
 
-    
     function setActiveButton(id) {
       document.querySelectorAll(".mode-btn").forEach(btn => btn.classList.remove("active"));
       const button = document.getElementById("btn-" + id);
@@ -110,10 +108,9 @@
     }
 
     function loadCategory(category) {
-      setActiveButton(category);
-
       isKanaMode = false;
       showFlashcardPanel();
+      setActiveButton(category);
       fetch(`./words_${category}.json`)
         .then(res => res.json())
         .then(data => {
@@ -135,11 +132,15 @@
       const front = document.getElementById("cardFront");
       const back = document.getElementById("cardBack");
       const v = cards[current];
+      if (!v) return;
 
-      front.textContent = v?.english || "N/A";
-      back.innerHTML = v
-        ? `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`
-        : "";
+      if (!isReversed) {
+        front.textContent = v?.english || "N/A";
+        back.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
+      } else {
+        front.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
+        back.textContent = v?.english || "N/A";
+      }
 
       if (skipAnimation) {
         cardInner.style.transition = "none";
@@ -167,6 +168,12 @@
       updateCardUI(true);
     }
 
+    function toggleDirection() {
+      isReversed = !isReversed;
+      flipped = false;
+      updateCardUI(true);
+    }
+
     function showFlashcardPanel() {
       document.getElementById("flashcardPanel").classList.remove("hidden");
       document.getElementById("kanaPanel").classList.add("hidden");
@@ -177,12 +184,10 @@
       document.getElementById("kanaPanel").classList.remove("hidden");
     }
 
-    
     function startKanaPractice(type) {
-      setActiveButton(type);
-
       isKanaMode = true;
       showKanaPanel();
+      setActiveButton(type);
       fetch(`./kana_${type}.json`)
         .then(res => res.json())
         .then(data => {
@@ -216,18 +221,17 @@
       }
     }
 
-    window.onload = () => loadCategory("verbs");
-  
-// Auto-scroll input field into view on mobile when focused
-const input = document.getElementById("kanaAnswer");
-const base = document.getElementById("basePanel");
-if (input) {
-  input.addEventListener("focus", () => {
-    setTimeout(() => {
-      base.scrollIntoView({ behavior: "smooth", block: "end" , inline: "nearest" });
-    }, 150);
-  });
+    // Scroll into view on mobile
+    window.addEventListener("load", () => {
+      const input = document.getElementById("kanaAnswer");
+      const base = document.getElementById("basePanel");
+      if (input) {
+        input.addEventListener("focus", () => {
+          setTimeout(() => {
+            base.scrollIntoView({ behavior: "smooth", block: "end" , inline: "nearest" });
+          }, 150);
+        });
 }
-</script>
+  </script>
 </body>
 </html>

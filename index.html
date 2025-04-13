@@ -59,7 +59,7 @@
   </style>
 </head>
 <body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
-  <div class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6 relative">
+  <div id="basePanel" class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6 relative">
     <div class="flex justify-between items-center">
       <h1 class="text-3xl font-bold text-gray-800">JP Flash</h1>
       <button id="directionBtn" onclick="toggleDirection()" class="text-2xl hidden">↔️</button>
@@ -229,11 +229,12 @@
       loadCategory("verbs");
 
       const input = document.getElementById("kanaAnswer");
+      const base = document.getElementById("basePanel");
       if (input) {
         input.addEventListener("focus", () => {
           setTimeout(() => {
-            input.scrollIntoView({ behavior: "smooth", block: "center" });
-          }, 300);
+            base.scrollIntoView({ behavior: "smooth", block: "center" });
+          }, 150);
         });
       }
     });

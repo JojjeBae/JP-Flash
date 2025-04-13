@@ -60,7 +60,7 @@
     </style>
 </head>
 <body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
-  <div class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6">
+  <div id="basePanel" class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6">
     <h1 class="text-3xl font-bold text-gray-800">JP Flash</h1>
 
     <div class="flex flex-wrap justify-center gap-2 mb-2">
@@ -219,11 +219,12 @@
     window.onload = () => loadCategory("verbs");
   
 // Auto-scroll input field into view on mobile when focused
-const input = document.getElementById("kanaPanel");
+const input = document.getElementById("kanaAnswer");
+const base = document.getElementById("basePanel");
 if (input) {
   input.addEventListener("focus", () => {
     setTimeout(() => {
-      input.scrollIntoView({ behavior: "smooth", block: "end" , inline: "nearest" });
+      base.scrollIntoView({ behavior: "smooth", block: "end" , inline: "nearest" });
     }, 150);
   });
 }

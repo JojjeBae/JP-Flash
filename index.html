@@ -98,25 +98,35 @@
       current = 0;
     }
 
-    function updateCardUI() {
-      const cardOuter = document.querySelector(".flip-card");
-      const cardInner = document.getElementById("cardInner");
-      const front = document.getElementById("cardFront");
-      const back = document.getElementById("cardBack");
-      const v = cards[current];
+function updateCardUI(skipAnimation = false) {
+  const cardOuter = document.querySelector(".flip-card");
+  const cardInner = document.getElementById("cardInner");
+  const front = document.getElementById("cardFront");
+  const back = document.getElementById("cardBack");
+  const v = cards[current];
 
-      front.textContent = v?.english || "N/A";
-      back.innerHTML = v
-        ? `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`
-        : "";
+  front.textContent = v?.english || "N/A";
+  back.innerHTML = v
+    ? `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`
+    : "";
 
-      // Flip only if flipped == true
-      if (flipped) {
-        cardOuter.classList.add("flip");
-      } else {
-        cardOuter.classList.remove("flip");
-      }
-    }
+  // Temporarily disable transition if skipping animation
+  if (skipAnimation) {
+    cardInner.style.transition = "none";
+  } else {
+    cardInner.style.transition = "";
+  }
+
+  // Apply flip state
+  cardOuter.classList.toggle("flip", flipped);
+
+  // Re-enable transition shortly after (if it was skipped)
+  if (skipAnimation) {
+    setTimeout(() => {
+      cardInner.style.transition = "";
+    }, 20);
+  }
+}
 
     function flipCard() {
       flipped = !flipped;
@@ -126,7 +136,7 @@
     function nextCard() {
       current = (current + 1) % cards.length;
       flipped = false;
-      updateCardUI();
+      updateCardUI(true); // Skip animation
     }
 
     window.onload = () => loadCategory("verbs");

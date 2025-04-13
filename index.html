@@ -162,17 +162,25 @@
       const v = cards[current];
       if (!v) return;
 
-      if (!isReversed && cards[current]?.kanji) {
+      if (cards[current]?.kanji) {
+      // Kanji mode
+      if (!isReversed) {
         front.textContent = cards[current].kanji;
         back.innerHTML = `${cards[current].english}<br>${cards[current].romaji}<br>${cards[current].hiragana}`;
-      }
-
-        front.textContent = v?.english || "N/A";
-        back.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
       } else {
-        front.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
-        back.textContent = v?.english || "N/A";
+        front.innerHTML = `${cards[current].english}<br>${cards[current].romaji}<br>${cards[current].hiragana}`;
+        back.textContent = cards[current].kanji;
       }
+    } else {
+      // All other modes
+      if (!isReversed) {
+        front.textContent = cards[current].english;
+        back.innerHTML = `${cards[current].romaji}<br>${cards[current].formal ? cards[current].formal + "<br>" : ""}${cards[current].hiragana}`;
+      } else {
+        front.innerHTML = `${cards[current].romaji}<br>${cards[current].formal ? cards[current].formal + "<br>" : ""}${cards[current].hiragana}`;
+        back.textContent = cards[current].english;
+      }
+    }
 
       if (skipAnimation) {
         cardInner.style.transition = "none";

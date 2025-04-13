@@ -4,11 +4,11 @@
 <html class="dark" lang="en">
 <head>
 <script src="https://cdn.tailwindcss.com"></script>
-<script>
+<script>document.addEventListener("DOMContentLoaded", function() {
   tailwind.config = { 
     darkMode: "class",   
     safelist: ['bg-blue-500', 'text-white'] 
-  , safelist: ["bg-purple-500", "text-white"] </script>
+  , safelist: ["bg-purple-500", "text-white"] });</script>
 <meta charset="utf-8"/>
 <title>JP Flash</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -101,7 +101,7 @@
 <button class="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow" onclick="submitKanaAnswer()">Submit</button>
 </div>
 </div>
-<script>
+<script>document.addEventListener("DOMContentLoaded", function() {
   let cards = [], kanaList = [], current = 0, flipped = false, isReversed = false;
 
   function toggleDarkMode() {
@@ -299,8 +299,8 @@ function loadSubcategory(category) {
   });
 }
 
-</script>
-<script>
+});</script>
+<script>document.addEventListener("DOMContentLoaded", function() {
 
 function loadSubcategory(category) {
   category = category.toLowerCase();
@@ -408,5 +408,5 @@ function loadSubcategory(category) {
     subcategoryContainer.appendChild(btn);
   });
 }
-</script></body>
+});</script></body>
 </html>

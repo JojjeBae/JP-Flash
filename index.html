@@ -42,13 +42,6 @@
       transform: rotateY(180deg);
     }
   </style>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./service-worker.js');
-      });
-    }
-  </script>
 </head>
 <body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
   <div class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6">
@@ -59,74 +52,84 @@
       <button onclick="loadCategory('nouns')" class="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 shadow">Nouns</button>
       <button onclick="loadCategory('adjectives')" class="px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 shadow">Adjectives</button>
       <button onclick="loadCategory('pronouns')" class="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 shadow">Pronouns</button>
+      <button onclick="startKanaPractice('hiragana')" class="px-4 py-2 bg-pink-500 text-white rounded-lg hover:bg-pink-600 shadow">Hiragana</button>
+      <button onclick="startKanaPractice('katakana')" class="px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 shadow">Katakana</button>
     </div>
 
-    <div class="flip-card w-full h-48 bg-white rounded-xl shadow relative border border-gray-300"
-         onclick="flipCard()">
-      <div class="flip-card-inner" id="cardInner">
-        <div id="cardFront" class="flip-card-front text-xl font-semibold"></div>
-        <div id="cardBack" class="flip-card-back text-lg"></div>
+    <!-- Flashcard Mode -->
+    <div id="flashcardPanel">
+      <div class="flip-card w-full h-48 bg-white rounded-xl shadow relative border border-gray-300"
+           onclick="flipCard()">
+        <div class="flip-card-inner" id="cardInner">
+          <div id="cardFront" class="flip-card-front text-xl font-semibold"></div>
+          <div id="cardBack" class="flip-card-back text-lg"></div>
+        </div>
+      </div>
+      <div class="flex justify-center gap-4 mt-4">
+        <button onclick="nextCard()" class="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 shadow">Next</button>
       </div>
     </div>
 
-    <div class="flex justify-center gap-4 mt-4">
-      <button onclick="nextCard()" class="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 shadow">Next</button>
+    <!-- Kana Practice Mode -->
+    <div id="kanaPanel" class="hidden space-y-4">
+      <div id="kanaPrompt" class="text-4xl font-bold text-gray-800">あ</div>
+      <input id="kanaAnswer" class="w-full p-3 border rounded-xl text-lg" placeholder="Type romaji..." />
+      <div id="kanaFeedback" class="text-base font-medium min-h-[1.5rem]"></div>
+      <button onclick="submitKanaAnswer()" class="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow">Submit</button>
     </div>
   </div>
 
   <script>
     let cards = [];
+    let kanaList = [];
     let current = 0;
     let flipped = false;
+    let isKanaMode = false;
 
-    async function loadCategory(category) {
-      try {
-        const res = await fetch(`./words_${category}.json`);
-        cards = await res.json();
-        shuffleCards();
-        flipped = false;
-        updateCardUI();
-      } catch (err) {
-        document.getElementById("cardFront").textContent = "Failed to load.";
-        document.getElementById("cardBack").textContent = "";
-        console.error("Error loading JSON:", err);
+    function loadCategory(category) {
+      isKanaMode = false;
+      showFlashcardPanel();
+      fetch(`./words_${category}.json`)
+        .then(res => res.json())
+        .then(data => {
+          cards = data;
+          shuffle(cards);
+          current = 0;
+          flipped = false;
+          updateCardUI();
+        });
+    }
+
+    function shuffle(array) {
+      return array.sort(() => Math.random() - 0.5);
+    }
+
+    function updateCardUI(skipAnimation = false) {
+      const cardOuter = document.querySelector(".flip-card");
+      const cardInner = document.getElementById("cardInner");
+      const front = document.getElementById("cardFront");
+      const back = document.getElementById("cardBack");
+      const v = cards[current];
+
+      front.textContent = v?.english || "N/A";
+      back.innerHTML = v
+        ? `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`
+        : "";
+
+      if (skipAnimation) {
+        cardInner.style.transition = "none";
+      } else {
+        cardInner.style.transition = "";
+      }
+
+      cardOuter.classList.toggle("flip", flipped);
+
+      if (skipAnimation) {
+        setTimeout(() => {
+          cardInner.style.transition = "";
+        }, 20);
       }
     }
-
-    function shuffleCards() {
-      cards = [...cards].sort(() => Math.random() - 0.5);
-      current = 0;
-    }
-
-function updateCardUI(skipAnimation = false) {
-  const cardOuter = document.querySelector(".flip-card");
-  const cardInner = document.getElementById("cardInner");
-  const front = document.getElementById("cardFront");
-  const back = document.getElementById("cardBack");
-  const v = cards[current];
-
-  front.textContent = v?.english || "N/A";
-  back.innerHTML = v
-    ? `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`
-    : "";
-
-  // Temporarily disable transition if skipping animation
-  if (skipAnimation) {
-    cardInner.style.transition = "none";
-  } else {
-    cardInner.style.transition = "";
-  }
-
-  // Apply flip state
-  cardOuter.classList.toggle("flip", flipped);
-
-  // Re-enable transition shortly after (if it was skipped)
-  if (skipAnimation) {
-    setTimeout(() => {
-      cardInner.style.transition = "";
-    }, 20);
-  }
-}
 
     function flipCard() {
       flipped = !flipped;
@@ -136,7 +139,53 @@ function updateCardUI(skipAnimation = false) {
     function nextCard() {
       current = (current + 1) % cards.length;
       flipped = false;
-      updateCardUI(true); // Skip animation
+      updateCardUI(true);
+    }
+
+    function showFlashcardPanel() {
+      document.getElementById("flashcardPanel").classList.remove("hidden");
+      document.getElementById("kanaPanel").classList.add("hidden");
+    }
+
+    function showKanaPanel() {
+      document.getElementById("flashcardPanel").classList.add("hidden");
+      document.getElementById("kanaPanel").classList.remove("hidden");
+    }
+
+    function startKanaPractice(type) {
+      isKanaMode = true;
+      showKanaPanel();
+      fetch(`./kana_${type}.json`)
+        .then(res => res.json())
+        .then(data => {
+          kanaList = shuffle(data);
+          current = 0;
+          showKanaPrompt();
+        });
+    }
+
+    function showKanaPrompt() {
+      const char = kanaList[current];
+      document.getElementById("kanaPrompt").textContent = char.kana;
+      document.getElementById("kanaAnswer").value = "";
+      document.getElementById("kanaFeedback").innerHTML = "";
+    }
+
+    function submitKanaAnswer() {
+      const input = document.getElementById("kanaAnswer").value.trim().toLowerCase();
+      const correct = kanaList[current].romaji;
+      const feedback = document.getElementById("kanaFeedback");
+      if (input === correct) {
+        feedback.innerHTML = "✅ Correct!";
+        feedback.className = "text-green-600 font-bold";
+        setTimeout(() => {
+          current = (current + 1) % kanaList.length;
+          showKanaPrompt();
+        }, 800);
+      } else {
+        feedback.innerHTML = `❌ Correct answer: ${correct}`;
+        feedback.className = "text-red-600 font-bold";
+      }
     }
 
     window.onload = () => loadCategory("verbs");

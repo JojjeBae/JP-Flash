@@ -8,7 +8,7 @@
   tailwind.config = { 
     darkMode: "class",   
     safelist: ['bg-blue-500', 'text-white'] 
-  , safelist: ["bg-purple-500", "text-white"] }</script>
+  , safelist: ["bg-purple-500", "text-white"] </script>
 <meta charset="utf-8"/>
 <title>JP Flash</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -60,12 +60,7 @@
 <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-xl w-full max-w-md text-center space-y-6 border border-gray-200 dark:border-gray-700">
 <div class="flex justify-between items-center">
 <h1 class="text-2xl font-bold">JP Flash</h1>
-
-    <div class="flex gap-2 items-center">
-      <button onclick="goHome()" id="homeBtn" class="hidden text-xl">🏠</button>
-      <button onclick="toggleDarkMode()" id="darkToggle" class="text-xl">🌙</button>
-    </div>
-    
+<div class="flex gap-2 items-center"><button class="text-xl" id="homeBtn" onclick="goHome()">🏠</button></div>
 </div>
 <div class="space-y-4" id="groupSelect">
 <p class="text-lg font-medium">What do you want to practice?</p>
@@ -116,20 +111,15 @@
     toggle.textContent = isDark ? "🌙" : "☀️";
   }
 
-  
-function selectGroup(type) {
-  document.getElementById("groupSelect").classList.add("hidden");
-  document.getElementById("homeBtn").classList.remove("hidden");
-
-  if (type === 'words') {
-    document.getElementById("wordModes").classList.remove("hidden");
-    document.getElementById("subcategoryPanel").classList.add("hidden");
-  } else {
-    document.getElementById("kanaModes").classList.remove("hidden");
-    document.getElementById("flashcardPanel").classList.add("hidden");
-    document.getElementById("homeBtn").classList.remove("hidden");
+  function selectGroup(type) {
+    document.getElementById("groupSelect").classList.add("hidden");
+    document.getElementById("backBtn").classList.remove("hidden");
+    if (type === 'words') {
+      document.getElementById("wordModes").classList.remove("hidden");
+    } else {
+      document.getElementById("kanaModes").classList.remove("hidden");
+    }
   }
-}
 
   function goBack() {
     document.getElementById("wordModes").classList.add("hidden");
@@ -265,92 +255,18 @@ function selectGroup(type) {
   }
 
 
-function loadSubcategory(category) {
-  const subcategoryContainer = document.getElementById("subcategoryContainer");
-  subcategoryContainer.innerHTML = "";
-  subcategoryContainer.classList.remove("hidden");
-
-  const files = {
-    verbs: ["verbs", "verbs_actions", "verbs_movement", "verbs_emotions"],
-    nouns: ["nouns", "nouns_people", "nouns_places", "nouns_objects"],
-    adjectives: ["adjectives", "adjectives_colors", "adjectives_sizes"],
-    pronouns: ["pronouns"]
-  };
-
-  files[category].forEach(file => {
-    const btn = document.createElement("button");
-    btn.className = "subcategory-btn px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded hover:bg-gray-300 dark:hover:bg-gray-600 shadow";
-    btn.textContent = file.replace(category + "_", "").replace("_", " ").toUpperCase();
-    btn.onclick = () => {
-      document.querySelectorAll(".subcategory-btn").forEach(b => b.classList.remove("bg-blue-500", "text-white"));
-      btn.classList.add("bg-blue-500", "text-white");
-      loadCategory(file);
-    };
-    subcategoryContainer.appendChild(btn);
-  });
-}
-
-</script>
-<script>
-function loadSubcategory(category) {
-  const groupButtons = document.querySelectorAll(".wordgroup-btn");
-  const clickedBtn = [...groupButtons].find(b => b.textContent.toLowerCase() === category);
-  const isActive = clickedBtn.classList.contains("bg-purple-500");
-
-  groupButtons.forEach(b => b.classList.remove("bg-purple-500", "text-white"));
-
-  if (isActive) return;
-
-  clickedBtn.classList.add("bg-purple-500", "text-white");
-
-  document.getElementById("wordModes").classList.add("hidden");
-  document.getElementById("subcategoryPanel").classList.remove("hidden");
-
-  const subcategoryContainer = document.getElementById("subcategoryContainer");
-  subcategoryContainer.innerHTML = "";
-
-  const files = {
-    verbs: ["verbs", "verbs_actions", "verbs_movement", "verbs_emotions"],
-    nouns: ["nouns", "nouns_people", "nouns_places", "nouns_objects"],
-    adjectives: ["adjectives", "adjectives_colors", "adjectives_sizes"],
-    pronouns: ["pronouns"]
-  };
-
-  files[category].forEach(file => {
-    const btn = document.createElement("button");
-    btn.className = "subcategory-btn px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded hover:bg-gray-300 dark:hover:bg-gray-600 shadow";
-    btn.textContent = file.replace(category + "_", "").replace("_", " ").toUpperCase();
-    btn.onclick = () => {
-      loadCategory(file);
-    };
-    subcategoryContainer.appendChild(btn);
-  });
-}
-
-function goBackToWordGroups() {
-  document.getElementById("subcategoryPanel").classList.add("hidden");
-  document.getElementById("wordModes").classList.remove("hidden");
-}
-
-function goHome() {
-  document.getElementById("groupSelect").classList.remove("hidden");
-  document.getElementById("wordModes").classList.add("hidden");
-  document.getElementById("subcategoryPanel").classList.add("hidden");
-  document.getElementById("flashcardPanel").classList.add("hidden");
-  document.getElementById("kanaPanel").classList.add("hidden");
-  document.getElementById("homeBtn").classList.add("hidden");
-}
 
 function loadSubcategory(category) {
+  category = category.toLowerCase();
   const subcategoryPanel = document.getElementById("subcategoryPanel");
   const subcategoryContainer = document.getElementById("subcategoryContainer");
   const groupButtons = document.querySelectorAll(".wordgroup-btn");
 
   const clickedBtn = [...groupButtons].find(b => b.textContent.toLowerCase() === category);
-  const isActive = clickedBtn.classList.contains("bg-purple-500");
+  const isActive = clickedBtn?.classList.contains("bg-purple-500");
 
   groupButtons.forEach(b => b.classList.remove("bg-purple-500", "text-white"));
-  clickedBtn.classList.add("bg-purple-500", "text-white");
+  if (clickedBtn) clickedBtn.classList.add("bg-purple-500", "text-white");
 
   document.getElementById("wordModes").classList.add("hidden");
   subcategoryPanel.classList.remove("hidden");
@@ -365,13 +281,128 @@ function loadSubcategory(category) {
     pronouns: ["pronouns"]
   };
 
-  if (!files[category]) return;
+  if (!files[category]) {
+    console.error("No subcategories found for:", category);
+    return;
+  }
 
   files[category].forEach(file => {
     const btn = document.createElement("button");
     btn.className = "subcategory-btn px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded hover:bg-gray-300 dark:hover:bg-gray-600 shadow transition-all duration-200";
     btn.textContent = file.replace(category + "_", "").replace("_", " ").toUpperCase();
     btn.onclick = () => {
+      document.querySelectorAll(".subcategory-btn").forEach(b => b.classList.remove("bg-purple-500", "text-white"));
+      btn.classList.add("bg-purple-500", "text-white");
+      loadCategory(file);
+    };
+    subcategoryContainer.appendChild(btn);
+  });
+}
+
+</script>
+<script>
+
+function loadSubcategory(category) {
+  category = category.toLowerCase();
+  const subcategoryPanel = document.getElementById("subcategoryPanel");
+  const subcategoryContainer = document.getElementById("subcategoryContainer");
+  const groupButtons = document.querySelectorAll(".wordgroup-btn");
+
+  const clickedBtn = [...groupButtons].find(b => b.textContent.toLowerCase() === category);
+  const isActive = clickedBtn?.classList.contains("bg-purple-500");
+
+  groupButtons.forEach(b => b.classList.remove("bg-purple-500", "text-white"));
+  if (clickedBtn) clickedBtn.classList.add("bg-purple-500", "text-white");
+
+  document.getElementById("wordModes").classList.add("hidden");
+  subcategoryPanel.classList.remove("hidden");
+  document.getElementById("homeBtn").classList.remove("hidden");
+
+  subcategoryContainer.innerHTML = "";
+
+  const files = {
+    verbs: ["verbs", "verbs_actions", "verbs_movement", "verbs_emotions"],
+    nouns: ["nouns", "nouns_people", "nouns_places", "nouns_objects"],
+    adjectives: ["adjectives", "adjectives_colors", "adjectives_sizes"],
+    pronouns: ["pronouns"]
+  };
+
+  if (!files[category]) {
+    console.error("No subcategories found for:", category);
+    return;
+  }
+
+  files[category].forEach(file => {
+    const btn = document.createElement("button");
+    btn.className = "subcategory-btn px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded hover:bg-gray-300 dark:hover:bg-gray-600 shadow transition-all duration-200";
+    btn.textContent = file.replace(category + "_", "").replace("_", " ").toUpperCase();
+    btn.onclick = () => {
+      document.querySelectorAll(".subcategory-btn").forEach(b => b.classList.remove("bg-purple-500", "text-white"));
+      btn.classList.add("bg-purple-500", "text-white");
+      loadCategory(file);
+    };
+    subcategoryContainer.appendChild(btn);
+  });
+}
+
+function goBackToWordGroups() {
+  document.getElementById("subcategoryPanel").classList.add("hidden");
+  document.getElementById("wordModes").classList.remove("hidden");
+}
+
+
+function goHome() {
+  document.getElementById("groupSelect").classList.remove("hidden");
+  document.getElementById("wordModes").classList.add("hidden");
+  document.getElementById("subcategoryPanel").classList.add("hidden");
+  document.getElementById("flashcardPanel").classList.add("hidden");
+  document.getElementById("kanaPanel").classList.add("hidden");
+  document.getElementById("homeBtn").classList.add("hidden");
+
+  document.querySelectorAll(".wordgroup-btn").forEach(b => b.classList.remove("bg-purple-500", "text-white"));
+  document.querySelectorAll(".subcategory-btn").forEach(b => b.classList.remove("bg-purple-500", "text-white"));
+  document.getElementById("subcategoryContainer").innerHTML = "";
+}
+
+
+
+function loadSubcategory(category) {
+  category = category.toLowerCase();
+  const subcategoryPanel = document.getElementById("subcategoryPanel");
+  const subcategoryContainer = document.getElementById("subcategoryContainer");
+  const groupButtons = document.querySelectorAll(".wordgroup-btn");
+
+  const clickedBtn = [...groupButtons].find(b => b.textContent.toLowerCase() === category);
+  const isActive = clickedBtn?.classList.contains("bg-purple-500");
+
+  groupButtons.forEach(b => b.classList.remove("bg-purple-500", "text-white"));
+  if (clickedBtn) clickedBtn.classList.add("bg-purple-500", "text-white");
+
+  document.getElementById("wordModes").classList.add("hidden");
+  subcategoryPanel.classList.remove("hidden");
+  document.getElementById("homeBtn").classList.remove("hidden");
+
+  subcategoryContainer.innerHTML = "";
+
+  const files = {
+    verbs: ["verbs", "verbs_actions", "verbs_movement", "verbs_emotions"],
+    nouns: ["nouns", "nouns_people", "nouns_places", "nouns_objects"],
+    adjectives: ["adjectives", "adjectives_colors", "adjectives_sizes"],
+    pronouns: ["pronouns"]
+  };
+
+  if (!files[category]) {
+    console.error("No subcategories found for:", category);
+    return;
+  }
+
+  files[category].forEach(file => {
+    const btn = document.createElement("button");
+    btn.className = "subcategory-btn px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded hover:bg-gray-300 dark:hover:bg-gray-600 shadow transition-all duration-200";
+    btn.textContent = file.replace(category + "_", "").replace("_", " ").toUpperCase();
+    btn.onclick = () => {
+      document.querySelectorAll(".subcategory-btn").forEach(b => b.classList.remove("bg-purple-500", "text-white"));
+      btn.classList.add("bg-purple-500", "text-white");
       loadCategory(file);
     };
     subcategoryContainer.appendChild(btn);

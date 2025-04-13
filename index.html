@@ -15,7 +15,7 @@
       color: #1f2937;
       border-radius: 0.5rem;
       box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-      margin: 0.25rem;
+      margin: 0.15rem;
     }
     .mode-btn:hover {
       background-color: #d1d5db;
@@ -59,8 +59,11 @@
   </style>
 </head>
 <body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
-  <div class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6">
-    <h1 class="text-3xl font-bold text-gray-800">JP Flash</h1>
+  <div class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6 relative">
+    <div class="flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-gray-800">JP Flash</h1>
+      <button id="directionBtn" onclick="toggleDirection()" class="text-2xl hidden">↔️</button>
+    </div>
 
     <div class="flex flex-wrap justify-center gap-2 mb-2">
       <button id="btn-verbs" onclick="loadCategory('verbs')" class="mode-btn">Verbs</button>
@@ -80,7 +83,6 @@
         </div>
       </div>
       <div class="flex justify-center gap-4 mt-4">
-        <button onclick="toggleDirection()" class="px-4 py-2 bg-gray-500 text-white rounded-xl hover:bg-gray-600 shadow">↔️ Flip Direction</button>
         <button onclick="nextCard()" class="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 shadow">Next</button>
       </div>
     </div>
@@ -107,6 +109,18 @@
       if (button) button.classList.add("active");
     }
 
+    function showFlashcardPanel() {
+      document.getElementById("flashcardPanel").classList.remove("hidden");
+      document.getElementById("kanaPanel").classList.add("hidden");
+      document.getElementById("directionBtn").classList.remove("hidden");
+    }
+
+    function showKanaPanel() {
+      document.getElementById("flashcardPanel").classList.add("hidden");
+      document.getElementById("kanaPanel").classList.remove("hidden");
+      document.getElementById("directionBtn").classList.add("hidden");
+    }
+
     function loadCategory(category) {
       isKanaMode = false;
       showFlashcardPanel();
@@ -118,7 +132,20 @@
           shuffle(cards);
           current = 0;
           flipped = false;
-          updateCardUI();
+          updateCardUI(true);
+        });
+    }
+
+    function startKanaPractice(type) {
+      isKanaMode = true;
+      showKanaPanel();
+      setActiveButton(type);
+      fetch(`./kana_${type}.json`)
+        .then(res => res.json())
+        .then(data => {
+          kanaList = shuffle(data);
+          current = 0;
+          showKanaPrompt();
         });
     }
 
@@ -174,29 +201,6 @@
       updateCardUI(true);
     }
 
-    function showFlashcardPanel() {
-      document.getElementById("flashcardPanel").classList.remove("hidden");
-      document.getElementById("kanaPanel").classList.add("hidden");
-    }
-
-    function showKanaPanel() {
-      document.getElementById("flashcardPanel").classList.add("hidden");
-      document.getElementById("kanaPanel").classList.remove("hidden");
-    }
-
-    function startKanaPractice(type) {
-      isKanaMode = true;
-      showKanaPanel();
-      setActiveButton(type);
-      fetch(`./kana_${type}.json`)
-        .then(res => res.json())
-        .then(data => {
-          kanaList = shuffle(data);
-          current = 0;
-          showKanaPrompt();
-        });
-    }
-
     function showKanaPrompt() {
       const char = kanaList[current];
       document.getElementById("kanaPrompt").textContent = char.kana;
@@ -221,17 +225,18 @@
       }
     }
 
-    // Scroll into view on mobile
     window.addEventListener("load", () => {
+      loadCategory("verbs");
+
       const input = document.getElementById("kanaAnswer");
-      const base = document.getElementById("basePanel");
       if (input) {
         input.addEventListener("focus", () => {
           setTimeout(() => {
-            base.scrollIntoView({ behavior: "smooth", block: "end" , inline: "nearest" });
-          }, 150);
+            input.scrollIntoView({ behavior: "smooth", block: "center" });
+          }, 300);
         });
-}
+      }
+    });
   </script>
 </body>
 </html>

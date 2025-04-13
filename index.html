@@ -59,10 +59,10 @@
   </style>
 </head>
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 min-h-screen flex items-center justify-center p-4">
-  <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-xl w-full max-w-md text-center space-y-6">
+  <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-xl w-full max-w-md text-center space-y-6 border border-gray-300 dark:border-gray-600">
     <div class="flex justify-between items-center">
       <h1 class="text-2xl font-bold">JP Flash</h1>
-      <button onclick="toggleDarkMode()" class="text-sm text-blue-500 dark:text-blue-300 underline">Toggle Dark</button>
+      <div class="flex gap-2 items-center"><button onclick="goBack()" id="backBtn" class="hidden text-sm px-2 py-1 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded">← Back</button><button onclick="toggleDarkMode()" id="darkToggle" class="text-xl">🌙</button></div>
     </div>
 
     <div id="groupSelect" class="space-y-4">
@@ -112,11 +112,32 @@
 <script>
   let cards = [], kanaList = [], current = 0, flipped = false, isReversed = false;
 
+  
   function toggleDarkMode() {
+    const root = document.documentElement;
+    const toggle = document.getElementById('darkToggle');
+    root.classList.toggle("dark");
+    if (root.classList.contains("dark")) {
+      toggle.textContent = "🌙";
+    } else {
+      toggle.textContent = "☀️";
+    }
+  }
+
     document.documentElement.classList.toggle("dark");
   }
 
+  
   function selectGroup(type) {
+    document.getElementById("groupSelect").classList.add("hidden");
+    document.getElementById("backBtn").classList.remove("hidden");
+    if (type === 'words') {
+      document.getElementById("wordModes").classList.remove("hidden");
+    } else {
+      document.getElementById("kanaModes").classList.remove("hidden");
+    }
+  }
+
     document.getElementById("groupSelect").classList.add("hidden");
     if (type === 'words') {
       document.getElementById("wordModes").classList.remove("hidden");
@@ -125,7 +146,16 @@
     }
   }
 
+  
   function goBack() {
+    document.getElementById("wordModes").classList.add("hidden");
+    document.getElementById("kanaModes").classList.add("hidden");
+    document.getElementById("flashcardPanel").classList.add("hidden");
+    document.getElementById("kanaPanel").classList.add("hidden");
+    document.getElementById("groupSelect").classList.remove("hidden");
+    document.getElementById("backBtn").classList.add("hidden");
+  }
+
     document.getElementById("wordModes").classList.add("hidden");
     document.getElementById("kanaModes").classList.add("hidden");
     document.getElementById("flashcardPanel").classList.add("hidden");

@@ -270,6 +270,24 @@
 
 function loadSubcategory(category) {
   const subcategoryContainer = document.getElementById("subcategoryContainer");
+  const groupButtons = document.querySelectorAll(".wordgroup-btn");
+
+  const clickedBtn = [...groupButtons].find(b => b.textContent.toLowerCase() === category);
+  const isActive = clickedBtn.classList.contains("bg-blue-500");
+
+  // Reset all word group buttons
+  groupButtons.forEach(b => b.classList.remove("bg-blue-500", "text-white"));
+
+  if (isActive) {
+    subcategoryContainer.innerHTML = "";
+    subcategoryContainer.classList.add("hidden");
+    return;
+  }
+
+  // Highlight selected
+  clickedBtn.classList.add("bg-blue-500", "text-white");
+
+  // Show subcategories
   subcategoryContainer.innerHTML = "";
   subcategoryContainer.classList.remove("hidden");
 
@@ -292,6 +310,7 @@ function loadSubcategory(category) {
     subcategoryContainer.appendChild(btn);
   });
 }
+
 
 </script>
 </body>

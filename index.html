@@ -1,29 +1,12 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8" />
   <title>JP Flash</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#4F46E5" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
-    .mode-btn {
-      padding: 0.5rem 1rem;
-      background-color: #e5e7eb;
-      color: #1f2937;
-      border-radius: 0.5rem;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-      margin: 0.15rem;
-    }
-    .mode-btn:hover {
-      background-color: #d1d5db;
-    }
-    .mode-btn.active {
-      background-color: #2563eb;
-      color: white;
-    }
     .flip-card {
       perspective: 1000px;
     }
@@ -50,33 +33,63 @@
       padding: 1.5rem;
     }
     .flip-card-front {
-      background-color: #eef2ff;
+      background-color: #e0e7ff;
     }
     .flip-card-back {
       background-color: #d1fae5;
       transform: rotateY(180deg);
     }
+    .dark .flip-card-front {
+      background-color: #1f2937;
+      color: white;
+    }
+    .dark .flip-card-back {
+      background-color: #374151;
+      color: white;
+    }
+    .mode-btn {
+      @apply px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1;
+    }
+    .mode-btn:hover {
+      @apply bg-gray-400 dark:bg-gray-600;
+    }
+    .mode-btn.active {
+      @apply bg-blue-600 text-white;
+    }
   </style>
 </head>
-<body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
-  <div id="basePanel" class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6 relative">
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-xl w-full max-w-md text-center space-y-6">
     <div class="flex justify-between items-center">
-      <h1 class="text-3xl font-bold text-gray-800">JP Flash</h1>
-      <button id="directionBtn" onclick="toggleDirection()" class="text-2xl hidden">↔️</button>
+      <h1 class="text-2xl font-bold">JP Flash</h1>
+      <button onclick="toggleDarkMode()" class="text-sm text-blue-500 dark:text-blue-300 underline">Toggle Dark</button>
     </div>
 
-    <div class="flex flex-wrap justify-center gap-2 mb-2">
-      <button id="btn-verbs" onclick="loadCategory('verbs')" class="mode-btn">Verbs</button>
-      <button id="btn-nouns" onclick="loadCategory('nouns')" class="mode-btn">Nouns</button>
-      <button id="btn-adjectives" onclick="loadCategory('adjectives')" class="mode-btn">Adjectives</button>
-      <button id="btn-pronouns" onclick="loadCategory('pronouns')" class="mode-btn">Pronouns</button>
-      <button id="btn-hiragana" onclick="startKanaPractice('hiragana')" class="mode-btn">Hiragana</button>
-      <button id="btn-katakana" onclick="startKanaPractice('katakana')" class="mode-btn">Katakana</button>
-      <button id="btn-kanji" onclick="startKanjiPractice()" class="mode-btn">Kanji</button>
+    <div id="groupSelect" class="space-y-4">
+      <p class="text-lg font-medium">What do you want to practice?</p>
+      <button onclick="selectGroup('words')" class="mode-btn">Practice Words</button>
+      <button onclick="selectGroup('kana')" class="mode-btn">Practice Kana/Kanji</button>
     </div>
 
-    <div id="flashcardPanel">
-      <div class="flip-card w-full h-48 bg-white rounded-xl shadow relative border border-gray-300"
+    <div id="wordModes" class="hidden">
+      <p class="text-lg font-medium">Select a Word Mode</p>
+      <button class="mode-btn" onclick="loadCategory('verbs')">Verbs</button>
+      <button class="mode-btn" onclick="loadCategory('nouns')">Nouns</button>
+      <button class="mode-btn" onclick="loadCategory('adjectives')">Adjectives</button>
+      <button class="mode-btn" onclick="loadCategory('pronouns')">Pronouns</button>
+      <button class="mt-2 text-sm underline text-blue-500 dark:text-blue-300" onclick="goBack()">← Back</button>
+    </div>
+
+    <div id="kanaModes" class="hidden">
+      <p class="text-lg font-medium">Select a Kana/Kanji Mode</p>
+      <button class="mode-btn" onclick="startKanaPractice('hiragana')">Hiragana</button>
+      <button class="mode-btn" onclick="startKanaPractice('katakana')">Katakana</button>
+      <button class="mode-btn" onclick="startKanjiPractice()">Kanji</button>
+      <button class="mt-2 text-sm underline text-blue-500 dark:text-blue-300" onclick="goBack()">← Back</button>
+    </div>
+
+    <div id="flashcardPanel" class="hidden">
+      <div class="flip-card w-full h-48 bg-white dark:bg-gray-700 rounded-xl shadow border border-gray-300 dark:border-gray-600 cursor-pointer"
            onclick="flipCard()">
         <div class="flip-card-inner" id="cardInner">
           <div id="cardFront" class="flip-card-front text-xl font-semibold"></div>
@@ -89,188 +102,160 @@
     </div>
 
     <div id="kanaPanel" class="hidden space-y-4">
-      <div id="kanaPrompt" class="text-4xl font-bold text-gray-800">あ</div>
-      <input id="kanaAnswer" class="w-full p-3 border rounded-xl text-lg" placeholder="Type romaji..." />
+      <div id="kanaPrompt" class="text-4xl font-bold text-gray-800 dark:text-white">あ</div>
+      <input id="kanaAnswer" class="w-full p-3 border rounded-xl text-lg text-black" placeholder="Type romaji..." />
       <div id="kanaFeedback" class="text-base font-medium min-h-[1.5rem]"></div>
       <button onclick="submitKanaAnswer()" class="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow">Submit</button>
     </div>
   </div>
 
-  <script>
-    let cards = [];
-    let kanaList = [];
-    let current = 0;
-    let flipped = false;
-    let isKanaMode = false;
-    let isReversed = false;
+<script>
+  let cards = [], kanaList = [], current = 0, flipped = false, isReversed = false;
 
-    function setActiveButton(id) {
-      document.querySelectorAll(".mode-btn").forEach(btn => btn.classList.remove("active"));
-      const button = document.getElementById("btn-" + id);
-      if (button) button.classList.add("active");
+  function toggleDarkMode() {
+    document.documentElement.classList.toggle("dark");
+  }
+
+  function selectGroup(type) {
+    document.getElementById("groupSelect").classList.add("hidden");
+    if (type === 'words') {
+      document.getElementById("wordModes").classList.remove("hidden");
+    } else {
+      document.getElementById("kanaModes").classList.remove("hidden");
     }
+  }
 
-    function showFlashcardPanel() {
-      document.getElementById("flashcardPanel").classList.remove("hidden");
-      document.getElementById("kanaPanel").classList.add("hidden");
-      document.getElementById("directionBtn").classList.remove("hidden");
-    }
+  function goBack() {
+    document.getElementById("wordModes").classList.add("hidden");
+    document.getElementById("kanaModes").classList.add("hidden");
+    document.getElementById("flashcardPanel").classList.add("hidden");
+    document.getElementById("kanaPanel").classList.add("hidden");
+    document.getElementById("groupSelect").classList.remove("hidden");
+  }
 
-    function showKanaPanel() {
-      document.getElementById("flashcardPanel").classList.add("hidden");
-      document.getElementById("kanaPanel").classList.remove("hidden");
-      document.getElementById("directionBtn").classList.add("hidden");
-    }
+  function loadCategory(category) {
+    showFlashcardPanel();
+    fetch(`./words_${category}.json`)
+      .then(res => res.json())
+      .then(data => {
+        cards = data;
+        current = 0;
+        flipped = false;
+        isReversed = false;
+        updateCardUI(true);
+      });
+  }
 
-    function loadCategory(category) {
-      isKanaMode = false;
-      showFlashcardPanel();
-      setActiveButton(category);
-      fetch(`./words_${category}.json`)
-        .then(res => res.json())
-        .then(data => {
-          cards = data;
-          shuffle(cards);
-          current = 0;
-          flipped = false;
-          updateCardUI(true);
-        });
-    }
+  function startKanaPractice(type) {
+    showKanaPanel();
+    fetch(`./kana_${type}.json`)
+      .then(res => res.json())
+      .then(data => {
+        kanaList = data.sort(() => Math.random() - 0.5);
+        current = 0;
+        showKanaPrompt();
+      });
+  }
 
-    function startKanaPractice(type) {
-      isKanaMode = true;
-      showKanaPanel();
-      setActiveButton(type);
-      fetch(`./kana_${type}.json`)
-        .then(res => res.json())
-        .then(data => {
-          kanaList = shuffle(data);
-          current = 0;
-          showKanaPrompt();
-        });
-    }
+  function startKanjiPractice() {
+    showFlashcardPanel();
+    fetch('./words_kanji.json')
+      .then(res => res.json())
+      .then(data => {
+        cards = data;
+        current = 0;
+        flipped = false;
+        isReversed = false;
+        updateCardUI(true);
+      });
+  }
 
-    function shuffle(array) {
-      return array.sort(() => Math.random() - 0.5);
-    }
+  function showFlashcardPanel() {
+    document.getElementById("flashcardPanel").classList.remove("hidden");
+    document.getElementById("kanaPanel").classList.add("hidden");
+  }
 
-    
-    function updateCardUI(skipAnimation = false) {
-      const cardOuter = document.querySelector(".flip-card");
-      const cardInner = document.getElementById("cardInner");
-      const front = document.getElementById("cardFront");
-      const back = document.getElementById("cardBack");
-      const v = cards[current];
-      if (!v) return;
+  function showKanaPanel() {
+    document.getElementById("flashcardPanel").classList.add("hidden");
+    document.getElementById("kanaPanel").classList.remove("hidden");
+  }
 
-      const isKanjiCard = v.kanji !== undefined;
+  function updateCardUI(skipAnimation = false) {
+    const cardOuter = document.querySelector(".flip-card");
+    const cardInner = document.getElementById("cardInner");
+    const front = document.getElementById("cardFront");
+    const back = document.getElementById("cardBack");
+    const v = cards[current];
+    if (!v) return;
 
-      if (isKanjiCard) {
-        if (!isReversed) {
-          front.textContent = v.kanji;
-          back.innerHTML = `${v.english}<br>${v.romaji}<br>${v.hiragana}`;
-        } else {
-          front.innerHTML = `${v.english}<br>${v.romaji}<br>${v.hiragana}`;
-          back.textContent = v.kanji;
-        }
+    const isKanjiCard = v.kanji !== undefined;
+    if (isKanjiCard) {
+      if (!isReversed) {
+        front.textContent = v.kanji;
+        back.innerHTML = `${v.english}<br>${v.romaji}<br>${v.hiragana}`;
       } else {
-        if (!isReversed) {
-          front.textContent = v.english;
-          back.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
-        } else {
-          front.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
-          back.textContent = v.english;
-        }
+        front.innerHTML = `${v.english}<br>${v.romaji}<br>${v.hiragana}`;
+        back.textContent = v.kanji;
       }
-
-      if (skipAnimation) {
-        cardInner.style.transition = "none";
+    } else {
+      if (!isReversed) {
+        front.textContent = v.english;
+        back.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
       } else {
+        front.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
+        back.textContent = v.english;
+      }
+    }
+
+    if (skipAnimation) {
+      cardInner.style.transition = "none";
+    } else {
+      cardInner.style.transition = "";
+    }
+
+    cardOuter.classList.toggle("flip", flipped);
+
+    if (skipAnimation) {
+      setTimeout(() => {
         cardInner.style.transition = "";
-      }
-
-      cardOuter.classList.toggle("flip", flipped);
-
-      if (skipAnimation) {
-        setTimeout(() => {
-          cardInner.style.transition = "";
-        }, 20);
-      }
+      }, 20);
     }
+  }
 
+  function flipCard() {
+    flipped = !flipped;
+    updateCardUI();
+  }
 
-    function flipCard() {
-      flipped = !flipped;
-      updateCardUI();
+  function nextCard() {
+    current = (current + 1) % cards.length;
+    flipped = false;
+    updateCardUI(true);
+  }
+
+  function showKanaPrompt() {
+    const char = kanaList[current];
+    document.getElementById("kanaPrompt").textContent = char.kana;
+    document.getElementById("kanaAnswer").value = "";
+    document.getElementById("kanaFeedback").innerHTML = "";
+  }
+
+  function submitKanaAnswer() {
+    const input = document.getElementById("kanaAnswer").value.trim().toLowerCase();
+    const correct = kanaList[current].romaji;
+    const feedback = document.getElementById("kanaFeedback");
+    if (input === correct) {
+      feedback.innerHTML = "✅ Correct!";
+      feedback.className = "text-green-500 font-bold";
+      setTimeout(() => {
+        current = (current + 1) % kanaList.length;
+        showKanaPrompt();
+      }, 800);
+    } else {
+      feedback.innerHTML = `❌ Correct answer: ${correct}`;
+      feedback.className = "text-red-500 font-bold";
     }
-
-    function nextCard() {
-      current = (current + 1) % cards.length;
-      flipped = false;
-      updateCardUI(true);
-    }
-
-    function toggleDirection() {
-      isReversed = !isReversed;
-      flipped = false;
-      updateCardUI(true);
-    }
-
-    
-    function startKanjiPractice() {
-      document.getElementById('directionBtn').classList.add('hidden');
-      isKanaMode = false;
-      setActiveButton('kanji');
-      showFlashcardPanel();
-      fetch('./words_kanji.json')
-        .then(res => res.json())
-        .then(data => {
-          cards = data;
-          shuffle(cards);
-          current = 0;
-          flipped = false;
-          updateCardUI(true);
-        });
-    }
-
-
-    function showKanaPrompt() {
-      const char = kanaList[current];
-      document.getElementById("kanaPrompt").textContent = char.kana;
-      document.getElementById("kanaAnswer").value = "";
-      document.getElementById("kanaFeedback").innerHTML = "";
-    }
-
-    function submitKanaAnswer() {
-      const input = document.getElementById("kanaAnswer").value.trim().toLowerCase();
-      const correct = kanaList[current].romaji;
-      const feedback = document.getElementById("kanaFeedback");
-      if (input === correct) {
-        feedback.innerHTML = "✅ Correct!";
-        feedback.className = "text-green-600 font-bold";
-        setTimeout(() => {
-          current = (current + 1) % kanaList.length;
-          showKanaPrompt();
-        }, 800);
-      } else {
-        feedback.innerHTML = `❌ Correct answer: ${correct}`;
-        feedback.className = "text-red-600 font-bold";
-      }
-    }
-
-    window.addEventListener("load", () => {
-      loadCategory("verbs");
-
-      const input = document.getElementById("kanaAnswer");
-      const base = document.getElementById("basePanel");
-      if (input) {
-        input.addEventListener("focus", () => {
-          setTimeout(() => {
-            base.scrollIntoView({ behavior: "smooth", block: "center" });
-          }, 150);
-        });
-      }
-    });
-  </script>
+  }
+</script>
 </body>
 </html>

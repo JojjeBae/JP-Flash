@@ -61,6 +61,11 @@
       font-size: 4rem;
       font-weight: bold;
     }
+    
+    .big-kanji {
+      font-size: 4rem;
+      font-weight: bold;
+    }
     </style>
 </head>
 <body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
@@ -160,6 +165,7 @@
     }
 
     
+    
     function updateCardUI(skipAnimation = false) {
       const cardOuter = document.querySelector(".flip-card");
       const cardInner = document.getElementById("cardInner");
@@ -203,6 +209,9 @@
         setTimeout(() => {
           cardInner.style.transition = "";
         }, 20);
+      }
+    }
+, 20);
       }
     }
 , 20);

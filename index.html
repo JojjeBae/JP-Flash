@@ -112,37 +112,16 @@
 <script>
   let cards = [], kanaList = [], current = 0, flipped = false, isReversed = false;
 
-  
-  
-  
-function toggleDarkMode() {
-  const root = document.documentElement;
-  const toggle = document.getElementById('darkToggle');
-  const isDark = root.classList.toggle("dark");
-  toggle.textContent = isDark ? "🌙" : "☀️";
-}
-
-
-  
-  
-  
-function selectGroup(type) {
-  document.getElementById("groupSelect").classList.add("hidden");
-  document.getElementById("backBtn").classList.remove("hidden");
-  if (type === 'words') {
-    document.getElementById("wordModes").classList.remove("hidden");
-  } else {
-    document.getElementById("kanaModes").classList.remove("hidden");
-  }
-}
-
-  }
- else {
-      document.getElementById("kanaModes").classList.remove("hidden");
-    }
+  function toggleDarkMode() {
+    const root = document.documentElement;
+    const toggle = document.getElementById('darkToggle');
+    const isDark = root.classList.toggle("dark");
+    toggle.textContent = isDark ? "🌙" : "☀️";
   }
 
+  function selectGroup(type) {
     document.getElementById("groupSelect").classList.add("hidden");
+    document.getElementById("backBtn").classList.remove("hidden");
     if (type === 'words') {
       document.getElementById("wordModes").classList.remove("hidden");
     } else {
@@ -150,7 +129,6 @@ function selectGroup(type) {
     }
   }
 
-  
   function goBack() {
     document.getElementById("wordModes").classList.add("hidden");
     document.getElementById("kanaModes").classList.add("hidden");
@@ -158,13 +136,6 @@ function selectGroup(type) {
     document.getElementById("kanaPanel").classList.add("hidden");
     document.getElementById("groupSelect").classList.remove("hidden");
     document.getElementById("backBtn").classList.add("hidden");
-  }
-
-    document.getElementById("wordModes").classList.add("hidden");
-    document.getElementById("kanaModes").classList.add("hidden");
-    document.getElementById("flashcardPanel").classList.add("hidden");
-    document.getElementById("kanaPanel").classList.add("hidden");
-    document.getElementById("groupSelect").classList.remove("hidden");
   }
 
   function loadCategory(category) {

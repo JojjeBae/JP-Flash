@@ -56,7 +56,17 @@
       background-color: #d1fae5;
       transform: rotateY(180deg);
     }
-  </style>
+  
+    .big-kanji {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    
+    .big-kanji {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    </style>
 </head>
 <body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
   <div id="basePanel" class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6 relative">
@@ -154,6 +164,8 @@
       return array.sort(() => Math.random() - 0.5);
     }
 
+    
+    
     function updateCardUI(skipAnimation = false) {
       const cardOuter = document.querySelector(".flip-card");
       const cardInner = document.getElementById("cardInner");
@@ -162,16 +174,27 @@
       const v = cards[current];
       if (!v) return;
 
-      if (!isReversed && cards[current]?.kanji) {
-        front.textContent = cards[current].kanji;
-        back.innerHTML = `${cards[current].english}<br>${cards[current].romaji}<br>${cards[current].hiragana}`;
-      }
+      const isKanjiCard = v.kanji !== undefined;
 
-        front.textContent = v?.english || "N/A";
-        back.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
+      if (isKanjiCard) {
+        if (!isReversed) {
+          front.textContent = v.kanji;
+          front.classList.add("big-kanji");
+          back.innerHTML = `${v.english}<br>${v.romaji}<br>${v.hiragana}`;
+        } else {
+          front.innerHTML = `${v.english}<br>${v.romaji}<br>${v.hiragana}`;
+          back.textContent = v.kanji;
+          front.classList.remove("big-kanji");
+        }
       } else {
-        front.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
-        back.textContent = v?.english || "N/A";
+        front.classList.remove("big-kanji");
+        if (!isReversed) {
+          front.textContent = v.english;
+          back.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
+        } else {
+          front.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
+          back.textContent = v.english;
+        }
       }
 
       if (skipAnimation) {
@@ -186,6 +209,12 @@
         setTimeout(() => {
           cardInner.style.transition = "";
         }, 20);
+      }
+    }
+, 20);
+      }
+    }
+, 20);
       }
     }
 

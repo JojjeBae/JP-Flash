@@ -162,8 +162,7 @@
       const v = cards[current];
       if (!v) return;
 
-      if (!isReversed) {
-      if (cards[current]?.kanji) {
+      if (!isReversed && cards[current]?.kanji) {
         front.textContent = cards[current].kanji;
         back.innerHTML = `${cards[current].english}<br>${cards[current].romaji}<br>${cards[current].hiragana}`;
       }
@@ -209,6 +208,7 @@
 
     
     function startKanjiPractice() {
+      document.getElementById('directionBtn').classList.add('hidden');
       isKanaMode = false;
       setActiveButton('kanji');
       showFlashcardPanel();

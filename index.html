@@ -166,7 +166,6 @@
       if (cards[current]?.kanji) {
         front.textContent = cards[current].kanji;
         back.innerHTML = `${cards[current].english}<br>${cards[current].romaji}<br>${cards[current].hiragana}`;
-        return;
       }
 
         front.textContent = v?.english || "N/A";

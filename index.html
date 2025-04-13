@@ -68,13 +68,13 @@
 
     <div id="groupSelect" class="space-y-4">
       <p class="text-lg font-medium">What do you want to practice?</p>
-      <button onclick="selectGroup('words')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600">Practice Words</button>
-      <button onclick="selectGroup('kana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600">Practice Kana/Kanji</button>
+      <button onclick="selectGroup('words')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600">Words</button>
+      <button onclick="selectGroup('kana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600">Kana/Kanji</button>
     </div>
 
     
 <div id="wordModes" class="hidden">
-  <p class="text-lg font-medium">Select a Word Mode</p>
+  <p class="text-lg font-medium">Select a Category</p>
   <div class="flex justify-center gap-2 flex-wrap mb-2">
     <button onclick="loadSubcategory('verbs')" class="wordgroup-btn px-3 py-1 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded shadow hover:bg-gray-400 dark:hover:bg-gray-600">Verbs</button>
     <button onclick="loadSubcategory('nouns')" class="wordgroup-btn px-3 py-1 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded shadow hover:bg-gray-400 dark:hover:bg-gray-600">Nouns</button>
@@ -85,7 +85,7 @@
 </div>
 
 <div id="kanaModes" class="hidden">
-      <p class="text-lg font-medium">Select a Kana/Kanji Mode</p>
+      <p class="text-lg font-medium">Select a Kana or Kanji</p>
       <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanaPractice('hiragana')">Hiragana</button>
       <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanaPractice('katakana')">Katakana</button>
       <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanjiPractice()">Kanji</button>

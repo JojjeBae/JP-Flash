@@ -7,9 +7,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   
+
+<style>
+.flip-card {
+  perspective: 1000px;
+}
+.flip-card-inner {
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.flip .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+.flip-card-front {
+  background-color: #f3f4f6;
+}
+.flip-card-back {
+  background-color: #e5e7eb;
+  transform: rotateY(180deg);
+}
+.dark .flip-card-front {
+  background-color: #1f2937;
+  color: white;
+}
+.dark .flip-card-back {
+  background-color: #374151;
+  color: white;
+}
+</style>
 </head>
-<body class="bg-gray-100 dark:bg-gray-950 text-gray-800 dark:text-gray-100 min-h-screen flex items-center justify-center p-4 transition-colors duration-300">
-  <div class="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-xl w-full max-w-md text-center space-y-6 border border-gray-300 dark:border-gray-700 transition-colors duration-300">
+<body class="bg-gray-100 dark:bg-gray-950 text-gray-800 dark:text-gray-100 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-xl w-full max-w-md text-center space-y-6 border border-gray-200 dark:border-gray-700">
     <div class="flex justify-between items-center">
       <h1 class="text-2xl font-bold">JP Flash</h1>
       <div class="flex gap-2 items-center"><button onclick="goBack()" id="backBtn" class="hidden text-sm px-2 py-1 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded">← Back</button><button onclick="toggleDarkMode()" id="darkToggle" class="text-xl">🌙</button></div>
@@ -27,7 +70,7 @@
       <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="loadCategory('nouns')">Nouns</button>
       <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="loadCategory('adjectives')">Adjectives</button>
       <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="loadCategory('pronouns')">Pronouns</button>
-      
+      <button class="mt-2 text-sm underline text-blue-500 dark:text-blue-300" onclick="goBack()">← Back</button>
     </div>
 
     <div id="kanaModes" class="hidden">
@@ -35,18 +78,19 @@
       <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanaPractice('hiragana')">Hiragana</button>
       <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanaPractice('katakana')">Katakana</button>
       <button class="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg shadow m-1 hover:bg-gray-400 dark:hover:bg-gray-600" onclick="startKanjiPractice()">Kanji</button>
-      
+      <button class="mt-2 text-sm underline text-blue-500 dark:text-blue-300" onclick="goBack()">← Back</button>
     </div>
 
-    <div id="flashcardPanel" class="hidden">
-      <div class="flip-card w-full h-48 bg-white dark:bg-gray-700 rounded-xl shadow border border-gray-300 dark:border-gray-600 cursor-pointer"
-           onclick="flipCard()">
-        <div class="flip-card-inner" id="cardInner">
-          <div id="cardFront" class="flip-card-front text-xl font-semibold"></div>
-          <div id="cardBack" class="flip-card-back text-lg"></div>
-        </div>
-      </div>
-      <div class="flex justify-center gap-4 mt-4">
+    
+<div id="flashcardPanel" class="hidden space-y-4">
+  <div class="flip-card w-full h-48 rounded-xl border border-gray-300 dark:border-gray-600 cursor-pointer bg-white dark:bg-gray-800" onclick="flipCard()">
+    <div class="flip-card-inner" id="cardInner">
+      <div id="cardFront" class="flip-card-front text-xl font-semibold"></div>
+      <div id="cardBack" class="flip-card-back text-lg"></div>
+    </div>
+  </div>
+  <div class="flex justify-center gap-4 mt-4">
+
         <button onclick="nextCard()" class="px-6 py-3 bg-purple-500 text-white rounded-xl hover:bg-purple-600 shadow">Next</button>
       </div>
     </div>

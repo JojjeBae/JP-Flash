@@ -56,17 +56,7 @@
       background-color: #d1fae5;
       transform: rotateY(180deg);
     }
-  
-    .big-kanji {
-      font-size: 4rem;
-      font-weight: bold;
-    }
-    
-    .big-kanji {
-      font-size: 4rem;
-      font-weight: bold;
-    }
-    </style>
+  </style>
 </head>
 <body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">
   <div id="basePanel" class="bg-white text-center p-6 rounded-2xl shadow-xl w-full max-w-md space-y-6 relative">
@@ -165,7 +155,6 @@
     }
 
     
-    
     function updateCardUI(skipAnimation = false) {
       const cardOuter = document.querySelector(".flip-card");
       const cardInner = document.getElementById("cardInner");
@@ -179,15 +168,12 @@
       if (isKanjiCard) {
         if (!isReversed) {
           front.textContent = v.kanji;
-          front.classList.add("big-kanji");
           back.innerHTML = `${v.english}<br>${v.romaji}<br>${v.hiragana}`;
         } else {
           front.innerHTML = `${v.english}<br>${v.romaji}<br>${v.hiragana}`;
           back.textContent = v.kanji;
-          front.classList.remove("big-kanji");
         }
       } else {
-        front.classList.remove("big-kanji");
         if (!isReversed) {
           front.textContent = v.english;
           back.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
@@ -209,9 +195,6 @@
         setTimeout(() => {
           cardInner.style.transition = "";
         }, 20);
-      }
-    }
-, 20);
       }
     }
 , 20);

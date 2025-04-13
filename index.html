@@ -72,6 +72,7 @@
       <button id="btn-pronouns" onclick="loadCategory('pronouns')" class="mode-btn">Pronouns</button>
       <button id="btn-hiragana" onclick="startKanaPractice('hiragana')" class="mode-btn">Hiragana</button>
       <button id="btn-katakana" onclick="startKanaPractice('katakana')" class="mode-btn">Katakana</button>
+      <button id="btn-kanji" onclick="startKanjiPractice()" class="mode-btn">Kanji</button>
     </div>
 
     <div id="flashcardPanel">
@@ -162,6 +163,12 @@
       if (!v) return;
 
       if (!isReversed) {
+      if (cards[current]?.kanji) {
+        front.textContent = cards[current].kanji;
+        back.innerHTML = `${cards[current].english}<br>${cards[current].romaji}<br>${cards[current].hiragana}`;
+        return;
+      }
+
         front.textContent = v?.english || "N/A";
         back.innerHTML = `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}${v.hiragana}`;
       } else {
@@ -200,6 +207,23 @@
       flipped = false;
       updateCardUI(true);
     }
+
+    
+    function startKanjiPractice() {
+      isKanaMode = false;
+      setActiveButton('kanji');
+      showFlashcardPanel();
+      fetch('./words_kanji.json')
+        .then(res => res.json())
+        .then(data => {
+          cards = data;
+          shuffle(cards);
+          current = 0;
+          flipped = false;
+          updateCardUI(true);
+        });
+    }
+
 
     function showKanaPrompt() {
       const char = kanaList[current];

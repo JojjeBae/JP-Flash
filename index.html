@@ -7,9 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#4F46E5" />
-  <script src="https://cdn.tailwindcss.com">
-
-</script>
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .flip-card {
       perspective: 1000px;
@@ -45,11 +43,20 @@
     }
   
     .mode-btn {
-      @apply px-4 py-2 bg-gray-300 text-gray-800 rounded-lg hover:bg-gray-400 shadow;
-    }
-    .mode-btn.active {
-      @apply bg-blue-600 text-white;
-    }
+    padding: 0.5rem 1rem;
+    background-color: #e5e7eb; /* Tailwind gray-300 */
+    color: #1f2937;            /* Tailwind gray-800 */
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    margin: 0.25rem;
+  }
+  .mode-btn:hover {
+    background-color: #d1d5db; /* Tailwind gray-400 */
+  }
+  .mode-btn.active {
+    background-color: #2563eb; /* Tailwind blue-600 */
+    color: white;
+  }
     </style>
 </head>
 <body class="bg-gradient-to-r from-indigo-100 to-blue-100 flex flex-col items-center justify-center min-h-screen p-4">

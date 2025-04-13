@@ -106,7 +106,7 @@
 
       const v = cards[current];
       front.textContent = v?.english || "N/A";
-      back.innerHTML = v ? `${v.romaji}<br>${v.formal}<br>${v.hiragana}` : "";
+      back.innerHTML = v ? `${v.romaji}<br>${v.formal ? v.formal + "<br>" : ""}<br>${v.hiragana}` : "";
 
     }
 

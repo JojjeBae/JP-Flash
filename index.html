@@ -7,7 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#4F46E5" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com">
+// Auto-scroll input field into view on mobile when focused
+const input = document.getElementById("kanaAnswer");
+if (input) {
+  input.addEventListener("focus", () => {
+    setTimeout(() => {
+      input.scrollIntoView({ behavior: "smooth", block: "center" });
+    }, 300);
+  });
+}
+</script>
   <style>
     .flip-card {
       perspective: 1000px;
@@ -208,14 +218,16 @@
     }
 
     window.onload = () => loadCategory("verbs");
-
-    // Auto-scroll input field into view on mobile when focused
-    document.getElementById("kanaAnswer").addEventListener("focus", () => {
-      setTimeout(() => {
-        document.getElementById("kanaAnswer").scrollIntoView({ behavior: "smooth", block: "center" });
-      }, 300); // delay to wait for keyboard
-    });
-
-  </script>
+  
+// Auto-scroll input field into view on mobile when focused
+const input = document.getElementById("kanaAnswer");
+if (input) {
+  input.addEventListener("focus", () => {
+    setTimeout(() => {
+      input.scrollIntoView({ behavior: "smooth", block: "center" });
+    }, 150);
+  });
+}
+</script>
 </body>
 </html>

@@ -1,0 +1,97 @@
+[
+  {
+    "english": "Sunday",
+    "hiragana": "にちようび",
+    "romaji": "nichiyoubi"
+  },
+  {
+    "english": "Monday",
+    "hiragana": "げつようび",
+    "romaji": "getsuyoubi"
+  },
+  {
+    "english": "Tuesday",
+    "hiragana": "かようび",
+    "romaji": "kayoubi"
+  },
+  {
+    "english": "Wednesday",
+    "hiragana": "すいようび",
+    "romaji": "suiyoubi"
+  },
+  {
+    "english": "Thursday",
+    "hiragana": "もくようび",
+    "romaji": "mokuyoubi"
+  },
+  {
+    "english": "Friday",
+    "hiragana": "きんようび",
+    "romaji": "kinyoubi"
+  },
+  {
+    "english": "Saturday",
+    "hiragana": "どようび",
+    "romaji": "doyoubi"
+  },
+  {
+    "english": "January",
+    "hiragana": "いちがつ",
+    "romaji": "ichigatsu"
+  },
+  {
+    "english": "February",
+    "hiragana": "にがつ",
+    "romaji": "nigatsu"
+  },
+  {
+    "english": "March",
+    "hiragana": "さんがつ",
+    "romaji": "sangatsu"
+  },
+  {
+    "english": "April",
+    "hiragana": "しがつ",
+    "romaji": "shigatsu"
+  },
+  {
+    "english": "May",
+    "hiragana": "ごがつ",
+    "romaji": "gogatsu"
+  },
+  {
+    "english": "June",
+    "hiragana": "ろくがつ",
+    "romaji": "rokugatsu"
+  },
+  {
+    "english": "July",
+    "hiragana": "しちがつ",
+    "romaji": "shichigatsu"
+  },
+  {
+    "english": "August",
+    "hiragana": "はちがつ",
+    "romaji": "hachigatsu"
+  },
+  {
+    "english": "September",
+    "hiragana": "くがつ",
+    "romaji": "kugatsu"
+  },
+  {
+    "english": "October",
+    "hiragana": "じゅうがつ",
+    "romaji": "juugatsu"
+  },
+  {
+    "english": "November",
+    "hiragana": "じゅういちがつ",
+    "romaji": "juuichigatsu"
+  },
+  {
+    "english": "December",
+    "hiragana": "じゅうにがつ",
+    "romaji": "juunigatsu"
+  }
+]

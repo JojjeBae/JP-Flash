@@ -10,9 +10,48 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .hidden { display: none; }
-    .active-btn {
-      background-color: #8b5cf6;
+    .flip-card {
+      perspective: 1000px;
+      width: 100%;
+      height: 200px;
+    }
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+    }
+    .flip .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .flip-card-front {
+      background-color: #e5e7eb;
+      color: #111827;
+    }
+    .flip-card-back {
+      background-color: #334155;
       color: white;
+      transform: rotateY(180deg);
+    }
+    .dark .flip-card-front {
+      background-color: #334155;
+      color: white;
+    }
+    .dark .flip-card-back {
+      background-color: #1f2937;
     }
   </style>
 </head>
@@ -20,33 +59,58 @@
   <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg w-full max-w-md text-center space-y-6">
     <div class="flex justify-between items-center">
       <h1 class="text-xl font-bold">JP Flash</h1>
-      <button onclick="toggleDarkMode()" id="darkToggle">🌙</button>
-    </div>
-
-    <!-- Step 1: Select Category -->
-    <div id="categorySelect" class="space-y-4">
-      <p class="text-lg font-medium">Select a Category</p>
-      <div id="categoryButtons" class="flex flex-wrap justify-center gap-2">
-        <button class="category-btn px-4 py-2 rounded bg-gray-300 dark:bg-gray-700" onclick="selectCategory('verbs')">Verbs</button>
-        <button class="category-btn px-4 py-2 rounded bg-gray-300 dark:bg-gray-700" onclick="selectCategory('nouns')">Nouns</button>
-        <button class="category-btn px-4 py-2 rounded bg-gray-300 dark:bg-gray-700" onclick="selectCategory('adjectives')">Adjectives</button>
-        <button class="category-btn px-4 py-2 rounded bg-gray-300 dark:bg-gray-700" onclick="selectCategory('pronouns')">Pronouns</button>
-        <button class="category-btn px-4 py-2 rounded bg-gray-300 dark:bg-gray-700" onclick="selectCategory('counters')">Counters</button>
+      <div class="flex gap-2">
+        <button onclick="goHome()">🏠</button>
+        <button onclick="toggleDarkMode()" id="darkToggle">🌙</button>
       </div>
     </div>
 
-    <!-- Step 2: Select Subcategory -->
+    <!-- Main menu -->
+    <div id="mainMenu" class="space-y-4">
+      <p class="text-lg font-medium">What do you want to practice?</p>
+      <div class="flex flex-wrap justify-center gap-2">
+        <button onclick="showCategorySelect()" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Words</button>
+        <button onclick="startKanaPractice('hiragana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Hiragana</button>
+        <button onclick="startKanaPractice('katakana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Katakana</button>
+        <button onclick="startKanjiPractice()" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Kanji</button>
+      </div>
+    </div>
+
+    <!-- Category -->
+    <div id="categorySelect" class="hidden space-y-4">
+      <p class="text-lg font-medium">Select a Category</p>
+      <div class="flex flex-wrap justify-center gap-2">
+        <button onclick="selectCategory('verbs')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Verbs</button>
+        <button onclick="selectCategory('nouns')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Nouns</button>
+        <button onclick="selectCategory('adjectives')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Adjectives</button>
+        <button onclick="selectCategory('pronouns')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Pronouns</button>
+        <button onclick="selectCategory('counters')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Counters</button>
+      </div>
+    </div>
+
+    <!-- Subcategory -->
     <div id="subcategorySelect" class="hidden space-y-4">
       <p class="text-lg font-medium">Select a Subcategory</p>
       <div id="subcategoryButtons" class="flex flex-wrap justify-center gap-2"></div>
-      <button onclick="goHome()" class="mt-4 text-sm text-blue-400 underline">← Back to Categories</button>
     </div>
 
-    <!-- Flashcard Panel -->
+    <!-- Flashcard -->
     <div id="flashcardPanel" class="hidden space-y-4">
-      <div class="bg-gray-200 dark:bg-gray-700 p-6 rounded-xl text-lg" id="flashcard"></div>
+      <div class="flip-card" onclick="flipCard()">
+        <div class="flip-card-inner" id="cardInner">
+          <div class="flip-card-front" id="cardFront"></div>
+          <div class="flip-card-back" id="cardBack"></div>
+        </div>
+      </div>
       <button onclick="nextCard()" class="px-6 py-2 bg-purple-500 text-white rounded hover:bg-purple-600">Next</button>
-      <button onclick="goHome()" class="text-sm text-blue-400 underline">← Home</button>
+    </div>
+
+    <!-- Kana Panel -->
+    <div id="kanaPanel" class="hidden space-y-4">
+      <div id="kanaPrompt" class="text-4xl font-bold"></div>
+      <input id="kanaAnswer" class="w-full p-3 border rounded-xl text-lg text-gray-900 dark:text-white dark:bg-gray-800 border-gray-300 dark:border-gray-600" placeholder="Type romaji..." />
+      <div id="kanaFeedback" class="text-base font-medium min-h-[1.5rem]"></div>
+      <button onclick="submitKanaAnswer()" class="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow">Submit</button>
     </div>
   </div>
 
@@ -58,27 +122,31 @@ const subcategories = {
   pronouns: [""],
   counters: [""]
 };
-
-let cards = [];
-let currentCard = 0;
+let cards = [], kanaList = [], current = 0, flipped = false;
 
 function toggleDarkMode() {
   document.documentElement.classList.toggle("dark");
-  const icon = document.getElementById("darkToggle");
-  icon.textContent = document.documentElement.classList.contains("dark") ? "🌙" : "☀️";
+  document.getElementById("darkToggle").textContent = document.documentElement.classList.contains("dark") ? "🌙" : "☀️";
 }
-
+function goHome() {
+  document.getElementById("mainMenu").classList.remove("hidden");
+  document.getElementById("categorySelect").classList.add("hidden");
+  document.getElementById("subcategorySelect").classList.add("hidden");
+  document.getElementById("flashcardPanel").classList.add("hidden");
+  document.getElementById("kanaPanel").classList.add("hidden");
+}
+function showCategorySelect() {
+  document.getElementById("mainMenu").classList.add("hidden");
+  document.getElementById("categorySelect").classList.remove("hidden");
+}
 function selectCategory(category) {
   document.getElementById("categorySelect").classList.add("hidden");
   document.getElementById("subcategorySelect").classList.remove("hidden");
-
   const container = document.getElementById("subcategoryButtons");
   container.innerHTML = "";
-
   subcategories[category].forEach(sub => {
     const label = sub ? sub.toUpperCase() : category.toUpperCase();
     const filename = `words_${category}${sub ? "_" + sub : ""}.json`;
-
     const btn = document.createElement("button");
     btn.className = "px-4 py-2 rounded bg-gray-300 dark:bg-gray-700";
     btn.textContent = label;
@@ -86,38 +154,78 @@ function selectCategory(category) {
     container.appendChild(btn);
   });
 }
-
-function goHome() {
-  document.getElementById("categorySelect").classList.remove("hidden");
-  document.getElementById("subcategorySelect").classList.add("hidden");
-  document.getElementById("flashcardPanel").classList.add("hidden");
-}
-
 function loadFlashcards(file) {
   fetch(file)
     .then(res => res.json())
     .then(data => {
-      cards = data;
-      currentCard = 0;
-      showFlashcard();
+      cards = data.sort(() => Math.random() - 0.5);
+      current = 0;
+      flipped = false;
+      updateCardUI(true);
       document.getElementById("subcategorySelect").classList.add("hidden");
       document.getElementById("flashcardPanel").classList.remove("hidden");
     });
 }
-
-function showFlashcard() {
-  const card = cards[currentCard];
-  let content = `<div class="text-xl font-semibold mb-2">${card.english}</div>`;
-  if (card.romaji) content += `<div>${card.romaji}</div>`;
-  if (card.formal) content += `<div>${card.formal}</div>`;
-  if (card.hiragana) content += `<div>${card.hiragana}</div>`;
-  if (card.counter) content += `<div class="mt-2 text-sm text-gray-400">${card.counter}</div>`;
-  document.getElementById("flashcard").innerHTML = content;
+function flipCard() {
+  flipped = !flipped;
+  updateCardUI();
 }
-
+function updateCardUI(skipAnimation = false) {
+  const inner = document.getElementById("cardInner");
+  const front = document.getElementById("cardFront");
+  const back = document.getElementById("cardBack");
+  const v = cards[current];
+  front.textContent = v.english || "";
+  back.innerHTML = `${v.romaji || ""}<br>${v.formal || ""}<br>${v.hiragana || ""}`;
+  inner.style.transition = skipAnimation ? "none" : "";
+  document.querySelector(".flip-card").classList.toggle("flip", flipped);
+  if (skipAnimation) setTimeout(() => { inner.style.transition = ""; }, 20);
+}
 function nextCard() {
-  currentCard = (currentCard + 1) % cards.length;
-  showFlashcard();
+  current = (current + 1) % cards.length;
+  flipped = false;
+  updateCardUI(true);
+}
+function startKanaPractice(type) {
+  fetch(`kana_${type}.json`)
+    .then(res => res.json())
+    .then(data => {
+      kanaList = data.sort(() => Math.random() - 0.5);
+      current = 0;
+      document.getElementById("mainMenu").classList.add("hidden");
+      document.getElementById("kanaPanel").classList.remove("hidden");
+      showKanaPrompt();
+    });
+}
+function showKanaPrompt() {
+  document.getElementById("kanaPrompt").textContent = kanaList[current].kana;
+  document.getElementById("kanaAnswer").value = "";
+  document.getElementById("kanaFeedback").innerHTML = "";
+}
+function submitKanaAnswer() {
+  const input = document.getElementById("kanaAnswer").value.trim().toLowerCase();
+  const correct = kanaList[current].romaji;
+  const feedback = document.getElementById("kanaFeedback");
+  if (input === correct) {
+    feedback.innerHTML = "✅ Correct!";
+    feedback.className = "text-green-500 font-bold";
+    setTimeout(() => { current = (current + 1) % kanaList.length; showKanaPrompt(); }, 800);
+  } else {
+    feedback.innerHTML = `❌ Correct answer: ${correct}`;
+    feedback.className = "text-red-500 font-bold";
+  }
+}
+function startKanjiPractice() {
+  fetch("words_kanji.json")
+    .then(res => res.json())
+    .then(data => {
+      cards = data.sort(() => Math.random() - 0.5);
+      current = 0;
+      flipped = false;
+      updateCardUI(true);
+      document.getElementById("mainMenu").classList.add("hidden");
+      document.getElementById("flashcardPanel").classList.remove("hidden");
+    });
 }
 </script>
 </body>

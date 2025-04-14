@@ -1,7 +1,137 @@
 [
   {
-    "english": "adj test 2",
-    "hiragana": "おおきい",
-    "romaji": "ookii"
+    "english": "greedy",
+    "hiragana": "よくばり",
+    "romaji": "yokubari"
+  },
+  {
+    "english": "awkward",
+    "hiragana": "ぎこちない",
+    "romaji": "gikochinai"
+  },
+  {
+    "english": "reliable",
+    "hiragana": "たよれる",
+    "romaji": "tayo reru"
+  },
+  {
+    "english": "generous",
+    "hiragana": "おおらか",
+    "romaji": "ooraka"
+  },
+  {
+    "english": "sharp",
+    "hiragana": "するどい",
+    "romaji": "surudoi"
+  },
+  {
+    "english": "blunt",
+    "hiragana": "にぶい",
+    "romaji": "nibui"
+  },
+  {
+    "english": "wealthy",
+    "hiragana": "ゆうふく",
+    "romaji": "yuufuku"
+  },
+  {
+    "english": "poor",
+    "hiragana": "びんぼう",
+    "romaji": "binbou"
+  },
+  {
+    "english": "polite",
+    "hiragana": "れいぎただしい",
+    "romaji": "reigitadashii"
+  },
+  {
+    "english": "rude",
+    "hiragana": "しつれい",
+    "romaji": "shitsurei"
+  },
+  {
+    "english": "grumpy",
+    "hiragana": "ふきげん",
+    "romaji": "fukigen"
+  },
+  {
+    "english": "cheerful",
+    "hiragana": "あかるい",
+    "romaji": "akaruii"
+  },
+  {
+    "english": "arrogant",
+    "hiragana": "じまんたらしい",
+    "romaji": "jimantarashii"
+  },
+  {
+    "english": "modest",
+    "hiragana": "けんきょ",
+    "romaji": "kenkyo"
+  },
+  {
+    "english": "tall (object)",
+    "hiragana": "たかい",
+    "romaji": "takaii"
+  },
+  {
+    "english": "short (object)",
+    "hiragana": "ひくい",
+    "romaji": "hikui"
+  },
+  {
+    "english": "graceful",
+    "hiragana": "ゆうが",
+    "romaji": "yuuga"
+  },
+  {
+    "english": "wild",
+    "hiragana": "やせい",
+    "romaji": "yasei"
+  },
+  {
+    "english": "tame",
+    "hiragana": "おとなしい",
+    "romaji": "otonashii"
+  },
+  {
+    "english": "salty",
+    "hiragana": "しょっぱい",
+    "romaji": "shoppai"
+  },
+  {
+    "english": "spicy",
+    "hiragana": "からい",
+    "romaji": "karai"
+  },
+  {
+    "english": "bitter",
+    "hiragana": "にがい",
+    "romaji": "nigai"
+  },
+  {
+    "english": "sour",
+    "hiragana": "すっぱい",
+    "romaji": "suppai"
+  },
+  {
+    "english": "sweet",
+    "hiragana": "あまい",
+    "romaji": "amai"
+  },
+  {
+    "english": "noisy (person)",
+    "hiragana": "さわがしい",
+    "romaji": "sawagashii"
+  },
+  {
+    "english": "mysterious",
+    "hiragana": "ふしぎ",
+    "romaji": "fushigi"
+  },
+  {
+    "english": "chilly",
+    "hiragana": "ひんやり",
+    "romaji": "hinyari"
   }
 ]

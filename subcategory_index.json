@@ -15,6 +15,8 @@
     "adjectives_3"
   ],
   "counters": [
-    "counters_1"
+    "counters_base",
+    "counters_native",
+    "counters_objects"
   ]
 }

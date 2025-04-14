@@ -5,34 +5,9 @@
     "romaji": "enpitsu"
   },
   {
-    "english": "notebook",
-    "hiragana": "ノート",
-    "romaji": "nooto"
-  },
-  {
-    "english": "mirror",
-    "hiragana": "かがみ",
-    "romaji": "kagami"
-  },
-  {
-    "english": "key",
-    "hiragana": "かぎ",
-    "romaji": "kagi"
-  },
-  {
-    "english": "bottle",
-    "hiragana": "びん",
-    "romaji": "bin"
-  },
-  {
     "english": "plate",
     "hiragana": "さら",
     "romaji": "sara"
-  },
-  {
-    "english": "window",
-    "hiragana": "まど",
-    "romaji": "mado"
   },
   {
     "english": "curtain",
@@ -45,24 +20,9 @@
     "romaji": "megane"
   },
   {
-    "english": "wallet",
-    "hiragana": "さいふ",
-    "romaji": "saifu"
-  },
-  {
-    "english": "bag",
-    "hiragana": "かばん",
-    "romaji": "kaban"
-  },
-  {
     "english": "suitcase",
     "hiragana": "スーツケース",
     "romaji": "suutsukeesu"
-  },
-  {
-    "english": "clock",
-    "hiragana": "とけい",
-    "romaji": "tokei"
   },
   {
     "english": "lamp",
@@ -90,19 +50,9 @@
     "romaji": "taoru"
   },
   {
-    "english": "bed",
-    "hiragana": "ベッド",
-    "romaji": "beddo"
-  },
-  {
     "english": "cushion",
     "hiragana": "ざぶとん",
     "romaji": "zabuton"
-  },
-  {
-    "english": "door",
-    "hiragana": "ドア",
-    "romaji": "doa"
   },
   {
     "english": "picture",
@@ -135,18 +85,68 @@
     "romaji": "kutsushita"
   },
   {
-    "english": "hat",
-    "hiragana": "ぼうし",
-    "romaji": "boushi"
-  },
-  {
     "english": "scarf",
     "hiragana": "マフラー",
     "romaji": "mafuraa"
   },
   {
-    "english": "umbrella",
-    "hiragana": "かさ",
-    "romaji": "kasa"
+    "english": "ladder",
+    "hiragana": "はしご",
+    "romaji": "hashigo"
+  },
+  {
+    "english": "broom",
+    "hiragana": "ほうき",
+    "romaji": "houki"
+  },
+  {
+    "english": "bucket",
+    "hiragana": "バケツ",
+    "romaji": "baketsu"
+  },
+  {
+    "english": "glove",
+    "hiragana": "てぶくろ",
+    "romaji": "tebukuro"
+  },
+  {
+    "english": "tape",
+    "hiragana": "テープ",
+    "romaji": "teepu"
+  },
+  {
+    "english": "string",
+    "hiragana": "ひも",
+    "romaji": "himo"
+  },
+  {
+    "english": "nail",
+    "hiragana": "くぎ",
+    "romaji": "kugi"
+  },
+  {
+    "english": "screwdriver",
+    "hiragana": "ドライバー",
+    "romaji": "doraibaa"
+  },
+  {
+    "english": "hammer",
+    "hiragana": "ハンマー",
+    "romaji": "hanmaa"
+  },
+  {
+    "english": "shovel",
+    "hiragana": "スコップ",
+    "romaji": "sukoppu"
+  },
+  {
+    "english": "mailbox",
+    "hiragana": "ゆうびんうけ",
+    "romaji": "yuubinuke"
+  },
+  {
+    "english": "drawer",
+    "hiragana": "ひきだし",
+    "romaji": "hikidashi"
   }
 ]

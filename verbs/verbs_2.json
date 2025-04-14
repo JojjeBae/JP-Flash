@@ -1,8 +1,188 @@
 [
   {
-    "english": "teeeest",
-    "hiragana": "た",
-    "romaji": "testo",
-    "formal": "testimas"
+    "english": "to yell",
+    "hiragana": "さけぶ",
+    "romaji": "sakebu",
+    "formal": "sakebimasu"
+  },
+  {
+    "english": "to whisper",
+    "hiragana": "ささやく",
+    "romaji": "sasayaku",
+    "formal": "sasayakimasu"
+  },
+  {
+    "english": "to apologize formally",
+    "hiragana": "しゃざいする",
+    "romaji": "shazai suru",
+    "formal": "shazai shimasu"
+  },
+  {
+    "english": "to kneel",
+    "hiragana": "ひざまずく",
+    "romaji": "hizamazuku",
+    "formal": "hizamazukimasu"
+  },
+  {
+    "english": "to decorate",
+    "hiragana": "かざる",
+    "romaji": "kazaru",
+    "formal": "kazarimasu"
+  },
+  {
+    "english": "to dig",
+    "hiragana": "ほる",
+    "romaji": "horu",
+    "formal": "horimasu"
+  },
+  {
+    "english": "to grow (plants)",
+    "hiragana": "そだてる",
+    "romaji": "sodateru",
+    "formal": "sodatemasu"
+  },
+  {
+    "english": "to burn",
+    "hiragana": "もやす",
+    "romaji": "moyasu",
+    "formal": "moyashimasu"
+  },
+  {
+    "english": "to boil",
+    "hiragana": "にる",
+    "romaji": "niru",
+    "formal": "nimashu"
+  },
+  {
+    "english": "to grill",
+    "hiragana": "やく",
+    "romaji": "yaku",
+    "formal": "yakimasu"
+  },
+  {
+    "english": "to blend",
+    "hiragana": "まぜる",
+    "romaji": "mazeru",
+    "formal": "mazemasu"
+  },
+  {
+    "english": "to shave",
+    "hiragana": "そる",
+    "romaji": "soru",
+    "formal": "sorimasu"
+  },
+  {
+    "english": "to tie",
+    "hiragana": "むすぶ",
+    "romaji": "musubu",
+    "formal": "musubimasu"
+  },
+  {
+    "english": "to bark",
+    "hiragana": "ほえる",
+    "romaji": "hoeru",
+    "formal": "hoemasu"
+  },
+  {
+    "english": "to meow",
+    "hiragana": "にゃーとないた",
+    "romaji": "nyaa to naita",
+    "formal": "nyaa to naimasu"
+  },
+  {
+    "english": "to smell",
+    "hiragana": "におう",
+    "romaji": "niou",
+    "formal": "nioimasu"
+  },
+  {
+    "english": "to chase",
+    "hiragana": "おう",
+    "romaji": "ou",
+    "formal": "oimasu"
+  },
+  {
+    "english": "to jump",
+    "hiragana": "とぶ",
+    "romaji": "tobu",
+    "formal": "tobimasu"
+  },
+  {
+    "english": "to hug",
+    "hiragana": "だく",
+    "romaji": "daku",
+    "formal": "dakimasu"
+  },
+  {
+    "english": "to pick up",
+    "hiragana": "ひろう",
+    "romaji": "hirou",
+    "formal": "hiroimasu"
+  },
+  {
+    "english": "to drop",
+    "hiragana": "おとす",
+    "romaji": "otosu",
+    "formal": "otoshimasu"
+  },
+  {
+    "english": "to stretch",
+    "hiragana": "のばす",
+    "romaji": "nobasu",
+    "formal": "nobashimasu"
+  },
+  {
+    "english": "to fold",
+    "hiragana": "たたむ",
+    "romaji": "tatamu",
+    "formal": "tatamimasu"
+  },
+  {
+    "english": "to wave",
+    "hiragana": "ふる",
+    "romaji": "furu",
+    "formal": "furimasu"
+  },
+  {
+    "english": "to stare",
+    "hiragana": "じっとみる",
+    "romaji": "jitto miru",
+    "formal": "jitto mimasu"
+  },
+  {
+    "english": "to blend in",
+    "hiragana": "とけこむ",
+    "romaji": "tokekomu",
+    "formal": "tokekomimasu"
+  },
+  {
+    "english": "to roast",
+    "hiragana": "いる",
+    "romaji": "iru",
+    "formal": "irimasu"
+  },
+  {
+    "english": "to be silent",
+    "hiragana": "だまる",
+    "romaji": "damaru",
+    "formal": "damarimasu"
+  },
+  {
+    "english": "to yawn",
+    "hiragana": "あくびする",
+    "romaji": "akubi suru",
+    "formal": "akubi shimasu"
+  },
+  {
+    "english": "to nod",
+    "hiragana": "うなずく",
+    "romaji": "unazuku",
+    "formal": "unazukimasu"
+  },
+  {
+    "english": "to blink",
+    "hiragana": "まばたきする",
+    "romaji": "mabataki suru",
+    "formal": "mabataki shimasu"
   }
 ]

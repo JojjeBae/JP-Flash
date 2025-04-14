@@ -1,0 +1,182 @@
+[
+  {
+    "english": "1 person",
+    "hiragana": "ひとり",
+    "romaji": "hitori",
+    "counter": "人 (にん)"
+  },
+  {
+    "english": "2 people",
+    "hiragana": "ふたり",
+    "romaji": "futari",
+    "counter": "人 (にん)"
+  },
+  {
+    "english": "3 people",
+    "hiragana": "さんにん",
+    "romaji": "sannin",
+    "counter": "人 (にん)"
+  },
+  {
+    "english": "4 people",
+    "hiragana": "よにん",
+    "romaji": "yonin",
+    "counter": "人 (にん)"
+  },
+  {
+    "english": "1 cat",
+    "hiragana": "いっぴき",
+    "romaji": "ippiki",
+    "counter": "匹 (ひき)"
+  },
+  {
+    "english": "2 cats",
+    "hiragana": "にひき",
+    "romaji": "nihiki",
+    "counter": "匹 (ひき)"
+  },
+  {
+    "english": "3 cats",
+    "hiragana": "さんびき",
+    "romaji": "sanbiki",
+    "counter": "匹 (ひき)"
+  },
+  {
+    "english": "4 cats",
+    "hiragana": "よんひき",
+    "romaji": "yonhiki",
+    "counter": "匹 (ひき)"
+  },
+  {
+    "english": "1 pen",
+    "hiragana": "いっぽん",
+    "romaji": "ippon",
+    "counter": "本 (ほん)"
+  },
+  {
+    "english": "2 pens",
+    "hiragana": "にほん",
+    "romaji": "nihon",
+    "counter": "本 (ほん)"
+  },
+  {
+    "english": "3 pens",
+    "hiragana": "さんぼん",
+    "romaji": "sanbon",
+    "counter": "本 (ほん)"
+  },
+  {
+    "english": "4 pens",
+    "hiragana": "よんほん",
+    "romaji": "yonhon",
+    "counter": "本 (ほん)"
+  },
+  {
+    "english": "1 sheet",
+    "hiragana": "いちまい",
+    "romaji": "ichimai",
+    "counter": "枚 (まい)"
+  },
+  {
+    "english": "2 sheets",
+    "hiragana": "にまい",
+    "romaji": "nimai",
+    "counter": "枚 (まい)"
+  },
+  {
+    "english": "3 sheets",
+    "hiragana": "さんまい",
+    "romaji": "sanmai",
+    "counter": "枚 (まい)"
+  },
+  {
+    "english": "1 book",
+    "hiragana": "いっさつ",
+    "romaji": "issatsu",
+    "counter": "冊 (さつ)"
+  },
+  {
+    "english": "2 books",
+    "hiragana": "にさつ",
+    "romaji": "nisatsu",
+    "counter": "冊 (さつ)"
+  },
+  {
+    "english": "3 books",
+    "hiragana": "さんさつ",
+    "romaji": "sansatsu",
+    "counter": "冊 (さつ)"
+  },
+  {
+    "english": "1 car",
+    "hiragana": "いちだい",
+    "romaji": "ichidai",
+    "counter": "台 (だい)"
+  },
+  {
+    "english": "2 cars",
+    "hiragana": "にだい",
+    "romaji": "nidai",
+    "counter": "台 (だい)"
+  },
+  {
+    "english": "3 cars",
+    "hiragana": "さんだい",
+    "romaji": "sandai",
+    "counter": "台 (だい)"
+  },
+  {
+    "english": "1 apple",
+    "hiragana": "ひとつ",
+    "romaji": "hitotsu",
+    "counter": "つ"
+  },
+  {
+    "english": "2 apples",
+    "hiragana": "ふたつ",
+    "romaji": "futatsu",
+    "counter": "つ"
+  },
+  {
+    "english": "3 apples",
+    "hiragana": "みっつ",
+    "romaji": "mittsu",
+    "counter": "つ"
+  },
+  {
+    "english": "4 apples",
+    "hiragana": "よっつ",
+    "romaji": "yottsu",
+    "counter": "つ"
+  },
+  {
+    "english": "5 apples",
+    "hiragana": "いつつ",
+    "romaji": "itsutsu",
+    "counter": "つ"
+  },
+  {
+    "english": "1 floor",
+    "hiragana": "いっかい",
+    "romaji": "ikkai",
+    "counter": "階 (かい)"
+  },
+  {
+    "english": "2nd floor",
+    "hiragana": "にかい",
+    "romaji": "nikai",
+    "counter": "階 (かい)"
+  },
+  {
+    "english": "3rd floor",
+    "hiragana": "さんがい",
+    "romaji": "sangai",
+    "counter": "階 (かい)"
+  },
+  {
+    "english": "4th floor",
+    "hiragana": "よんかい",
+    "romaji": "yonkai",
+    "counter": "階 (かい)"
+  }
+]

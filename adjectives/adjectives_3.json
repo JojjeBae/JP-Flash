@@ -1,7 +1,122 @@
 [
   {
-    "english": "adj test 3",
-    "hiragana": "おおきい",
-    "romaji": "ookii"
+    "english": "colorful",
+    "hiragana": "いろとりどり",
+    "romaji": "irotoridori"
+  },
+  {
+    "english": "monotone",
+    "hiragana": "たんちょう",
+    "romaji": "tanchou"
+  },
+  {
+    "english": "modern",
+    "hiragana": "げんだいてき",
+    "romaji": "gendaiteki"
+  },
+  {
+    "english": "traditional",
+    "hiragana": "でんとうてき",
+    "romaji": "dentouteki"
+  },
+  {
+    "english": "peaceful",
+    "hiragana": "へいわ",
+    "romaji": "heiwa"
+  },
+  {
+    "english": "chaotic",
+    "hiragana": "こんとん",
+    "romaji": "konton"
+  },
+  {
+    "english": "curious",
+    "hiragana": "こうきしんおうせい",
+    "romaji": "koukishin ousei"
+  },
+  {
+    "english": "flexible",
+    "hiragana": "じゅうなん",
+    "romaji": "juunan"
+  },
+  {
+    "english": "rigid",
+    "hiragana": "かたくるしい",
+    "romaji": "katakurusshii"
+  },
+  {
+    "english": "rough",
+    "hiragana": "あらい",
+    "romaji": "arai"
+  },
+  {
+    "english": "smooth",
+    "hiragana": "なめらか",
+    "romaji": "nameraka"
+  },
+  {
+    "english": "empty",
+    "hiragana": "からっぽ",
+    "romaji": "karappo"
+  },
+  {
+    "english": "crowded",
+    "hiragana": "こんでいる",
+    "romaji": "kondeiru"
+  },
+  {
+    "english": "shiny",
+    "hiragana": "ぴかぴか",
+    "romaji": "pikapika"
+  },
+  {
+    "english": "dull",
+    "hiragana": "にぶい",
+    "romaji": "nibui"
+  },
+  {
+    "english": "healthy",
+    "hiragana": "けんこう",
+    "romaji": "kenkou"
+  },
+  {
+    "english": "sick",
+    "hiragana": "びょうき",
+    "romaji": "byouki"
+  },
+  {
+    "english": "heavy",
+    "hiragana": "おもい",
+    "romaji": "omoi"
+  },
+  {
+    "english": "light (weight)",
+    "hiragana": "かるい",
+    "romaji": "karui"
+  },
+  {
+    "english": "moody",
+    "hiragana": "きむずかしい",
+    "romaji": "kimuzukashii"
+  },
+  {
+    "english": "bright (light)",
+    "hiragana": "まぶしい",
+    "romaji": "mabushii"
+  },
+  {
+    "english": "fuzzy",
+    "hiragana": "けむくじゃら",
+    "romaji": "kemukujara"
+  },
+  {
+    "english": "transparent",
+    "hiragana": "とうめい",
+    "romaji": "toumei"
+  },
+  {
+    "english": "crystal clear",
+    "hiragana": "すきとおった",
+    "romaji": "sukitootta"
   }
 ]

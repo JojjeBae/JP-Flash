@@ -1,0 +1,62 @@
+[
+  {
+    "english": "1",
+    "hiragana": "ひとつ",
+    "romaji": "hitotsu",
+    "kanji": "一"
+  },
+  {
+    "english": "2",
+    "hiragana": "ふたつ",
+    "romaji": "futatsu",
+    "kanji": "二"
+  },
+  {
+    "english": "3",
+    "hiragana": "みっつ",
+    "romaji": "mittsu",
+    "kanji": "三"
+  },
+  {
+    "english": "4",
+    "hiragana": "よっつ",
+    "romaji": "yottsu",
+    "kanji": "四"
+  },
+  {
+    "english": "5",
+    "hiragana": "いつつ",
+    "romaji": "itsutsu",
+    "kanji": "五"
+  },
+  {
+    "english": "6",
+    "hiragana": "むっつ",
+    "romaji": "muttsu",
+    "kanji": "六"
+  },
+  {
+    "english": "7",
+    "hiragana": "ななつ",
+    "romaji": "nanatsu",
+    "kanji": "七"
+  },
+  {
+    "english": "8",
+    "hiragana": "やっつ",
+    "romaji": "yattsu",
+    "kanji": "八"
+  },
+  {
+    "english": "9",
+    "hiragana": "ここのつ",
+    "romaji": "kokonotsu",
+    "kanji": "九"
+  },
+  {
+    "english": "10",
+    "hiragana": "とお",
+    "romaji": "too",
+    "kanji": "十"
+  }
+]

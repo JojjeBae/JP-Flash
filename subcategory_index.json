@@ -1,0 +1,22 @@
+{
+  "verbs": [
+    "verbs_1",
+    "verbs_2",
+    "verbs_3"
+  ],
+  "nouns": [
+    "nouns_1",
+    "nouns_2",
+    "nouns_3"
+  ],
+  "adjectives": [
+    "adjectives_1",
+    "adjectives_2"
+  ],
+  "pronouns": [
+    "pronouns_1"
+  ],
+  "counters": [
+    "counters_1"
+  ]
+}

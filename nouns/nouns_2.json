@@ -1,7 +1,152 @@
 [
   {
-    "english": "test noun 2",
-    "hiragana": "ひと",
-    "romaji": "hito"
+    "english": "pencil",
+    "hiragana": "えんぴつ",
+    "romaji": "enpitsu"
+  },
+  {
+    "english": "notebook",
+    "hiragana": "ノート",
+    "romaji": "nooto"
+  },
+  {
+    "english": "mirror",
+    "hiragana": "かがみ",
+    "romaji": "kagami"
+  },
+  {
+    "english": "key",
+    "hiragana": "かぎ",
+    "romaji": "kagi"
+  },
+  {
+    "english": "bottle",
+    "hiragana": "びん",
+    "romaji": "bin"
+  },
+  {
+    "english": "plate",
+    "hiragana": "さら",
+    "romaji": "sara"
+  },
+  {
+    "english": "window",
+    "hiragana": "まど",
+    "romaji": "mado"
+  },
+  {
+    "english": "curtain",
+    "hiragana": "カーテン",
+    "romaji": "kaaten"
+  },
+  {
+    "english": "glasses",
+    "hiragana": "めがね",
+    "romaji": "megane"
+  },
+  {
+    "english": "wallet",
+    "hiragana": "さいふ",
+    "romaji": "saifu"
+  },
+  {
+    "english": "bag",
+    "hiragana": "かばん",
+    "romaji": "kaban"
+  },
+  {
+    "english": "suitcase",
+    "hiragana": "スーツケース",
+    "romaji": "suutsukeesu"
+  },
+  {
+    "english": "clock",
+    "hiragana": "とけい",
+    "romaji": "tokei"
+  },
+  {
+    "english": "lamp",
+    "hiragana": "ランプ",
+    "romaji": "ranpu"
+  },
+  {
+    "english": "soap",
+    "hiragana": "せっけん",
+    "romaji": "sekken"
+  },
+  {
+    "english": "shampoo",
+    "hiragana": "シャンプー",
+    "romaji": "shanpuu"
+  },
+  {
+    "english": "comb",
+    "hiragana": "くし",
+    "romaji": "kushi"
+  },
+  {
+    "english": "towel",
+    "hiragana": "タオル",
+    "romaji": "taoru"
+  },
+  {
+    "english": "bed",
+    "hiragana": "ベッド",
+    "romaji": "beddo"
+  },
+  {
+    "english": "cushion",
+    "hiragana": "ざぶとん",
+    "romaji": "zabuton"
+  },
+  {
+    "english": "door",
+    "hiragana": "ドア",
+    "romaji": "doa"
+  },
+  {
+    "english": "picture",
+    "hiragana": "え",
+    "romaji": "e"
+  },
+  {
+    "english": "photograph",
+    "hiragana": "しゃしん",
+    "romaji": "shashin"
+  },
+  {
+    "english": "fan",
+    "hiragana": "せんぷうき",
+    "romaji": "senpuuki"
+  },
+  {
+    "english": "remote control",
+    "hiragana": "リモコン",
+    "romaji": "rimokon"
+  },
+  {
+    "english": "shoe",
+    "hiragana": "くつ",
+    "romaji": "kutsu"
+  },
+  {
+    "english": "sock",
+    "hiragana": "くつした",
+    "romaji": "kutsushita"
+  },
+  {
+    "english": "hat",
+    "hiragana": "ぼうし",
+    "romaji": "boushi"
+  },
+  {
+    "english": "scarf",
+    "hiragana": "マフラー",
+    "romaji": "mafuraa"
+  },
+  {
+    "english": "umbrella",
+    "hiragana": "かさ",
+    "romaji": "kasa"
   }
 ]

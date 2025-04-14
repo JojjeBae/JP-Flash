@@ -1,8 +1,182 @@
 [
   {
-    "english": "meeh",
-    "hiragana": "たべる",
-    "romaji": "taberu",
-    "formal": "tabemasu"
+    "english": "to shine",
+    "hiragana": "かがやく",
+    "romaji": "kagayaku",
+    "formal": "kagayakimasu"
+  },
+  {
+    "english": "to fade",
+    "hiragana": "あせる",
+    "romaji": "aseru",
+    "formal": "asemasu"
+  },
+  {
+    "english": "to wrap",
+    "hiragana": "つつむ",
+    "romaji": "tsutsumu",
+    "formal": "tsutsumimasu"
+  },
+  {
+    "english": "to plant",
+    "hiragana": "うえる",
+    "romaji": "ueru",
+    "formal": "uemasu"
+  },
+  {
+    "english": "to slide",
+    "hiragana": "すべる",
+    "romaji": "suberu",
+    "formal": "suberimasu"
+  },
+  {
+    "english": "to bite",
+    "hiragana": "かむ",
+    "romaji": "kamu",
+    "formal": "kamimasu"
+  },
+  {
+    "english": "to scratch",
+    "hiragana": "ひっかく",
+    "romaji": "hikkaku",
+    "formal": "hikkakimasu"
+  },
+  {
+    "english": "to erase",
+    "hiragana": "けす",
+    "romaji": "kesu",
+    "formal": "keshimasu"
+  },
+  {
+    "english": "to sneeze",
+    "hiragana": "くしゃみする",
+    "romaji": "kushami suru",
+    "formal": "kushami shimasu"
+  },
+  {
+    "english": "to nod off",
+    "hiragana": "うとうとする",
+    "romaji": "utouto suru",
+    "formal": "utouto shimasu"
+  },
+  {
+    "english": "to climb",
+    "hiragana": "のぼる",
+    "romaji": "noboru",
+    "formal": "noborimasu"
+  },
+  {
+    "english": "to swim",
+    "hiragana": "およぐ",
+    "romaji": "oyogu",
+    "formal": "oyogimasu"
+  },
+  {
+    "english": "to whistle",
+    "hiragana": "くちぶえをふく",
+    "romaji": "kuchibue o fuku",
+    "formal": "kuchibue o fukimasu"
+  },
+  {
+    "english": "to dive",
+    "hiragana": "もぐる",
+    "romaji": "moguru",
+    "formal": "mogurimasu"
+  },
+  {
+    "english": "to knock",
+    "hiragana": "ノックする",
+    "romaji": "nokku suru",
+    "formal": "nokku shimasu"
+  },
+  {
+    "english": "to blow (wind)",
+    "hiragana": "ふく",
+    "romaji": "fuku",
+    "formal": "fukimasu"
+  },
+  {
+    "english": "to ring",
+    "hiragana": "なる",
+    "romaji": "naru",
+    "formal": "narimasu"
+  },
+  {
+    "english": "to lean",
+    "hiragana": "かたむく",
+    "romaji": "katamuku",
+    "formal": "katamukimasu"
+  },
+  {
+    "english": "to dry",
+    "hiragana": "かわかす",
+    "romaji": "kawakasu",
+    "formal": "kawakashimasu"
+  },
+  {
+    "english": "to melt",
+    "hiragana": "とける",
+    "romaji": "tokeru",
+    "formal": "tokemasu"
+  },
+  {
+    "english": "to freeze",
+    "hiragana": "こおる",
+    "romaji": "kooru",
+    "formal": "koorimasu"
+  },
+  {
+    "english": "to open (book)",
+    "hiragana": "ひらく",
+    "romaji": "hiraku",
+    "formal": "hirakimasu"
+  },
+  {
+    "english": "to pinch",
+    "hiragana": "つねる",
+    "romaji": "tsuneru",
+    "formal": "tsunemasu"
+  },
+  {
+    "english": "to poke",
+    "hiragana": "つつく",
+    "romaji": "tsutsuku",
+    "formal": "tsutsukimasu"
+  },
+  {
+    "english": "to tremble",
+    "hiragana": "ふるえる",
+    "romaji": "furueru",
+    "formal": "furuemasu"
+  },
+  {
+    "english": "to dig up",
+    "hiragana": "ほりおこす",
+    "romaji": "horiokosu",
+    "formal": "horiokoshimasu"
+  },
+  {
+    "english": "to rotate",
+    "hiragana": "まわす",
+    "romaji": "mawasu",
+    "formal": "mawashimasu"
+  },
+  {
+    "english": "to carve",
+    "hiragana": "ほる",
+    "romaji": "horu",
+    "formal": "horimasu"
+  },
+  {
+    "english": "to hover",
+    "hiragana": "うかぶ",
+    "romaji": "ukabu",
+    "formal": "ukabimasu"
+  },
+  {
+    "english": "to disguise",
+    "hiragana": "へんそうする",
+    "romaji": "hensou suru",
+    "formal": "hensou shimasu"
   }
 ]

@@ -1,123 +1,58 @@
 [
   {
-    "english": "1 (small animal)",
-    "hiragana": "いっぴき",
-    "romaji": "ippiki"
+    "english": "8 small animals",
+    "hiragana": "はっぴき",
+    "romaji": "happiki"
   },
   {
-    "english": "2 (small animals)",
-    "hiragana": "にひき",
-    "romaji": "nihiki"
+    "english": "5 long objects",
+    "hiragana": "ごほん",
+    "romaji": "gohon"
   },
   {
-    "english": "3 (small animals)",
-    "hiragana": "さんびき",
-    "romaji": "sanbiki"
+    "english": "7 flat objects",
+    "hiragana": "ななまい",
+    "romaji": "nanamai"
   },
   {
-    "english": "1 person",
-    "hiragana": "ひとり",
-    "romaji": "hitori"
+    "english": "12 machines",
+    "hiragana": "じゅうにだい",
+    "romaji": "juunidai"
   },
   {
-    "english": "2 people",
-    "hiragana": "ふたり",
-    "romaji": "futari"
+    "english": "4 books",
+    "hiragana": "よんさつ",
+    "romaji": "yonsatsu"
   },
   {
-    "english": "3 people",
-    "hiragana": "さんにん",
-    "romaji": "sannin"
+    "english": "10 cups",
+    "hiragana": "じゅっぱい",
+    "romaji": "juppai"
   },
   {
-    "english": "1 (long object)",
-    "hiragana": "いっぽん",
-    "romaji": "ippon"
+    "english": "10 small animals",
+    "hiragana": "じゅっぴき",
+    "romaji": "juppiki"
   },
   {
-    "english": "2 (long objects)",
-    "hiragana": "にほん",
-    "romaji": "nihon"
+    "english": "7 flat objects",
+    "hiragana": "ななまい",
+    "romaji": "nanamai"
   },
   {
-    "english": "3 (long objects)",
-    "hiragana": "さんぼん",
-    "romaji": "sanbon"
+    "english": "9 long objects",
+    "hiragana": "きゅうほん",
+    "romaji": "kyuuhon"
   },
   {
-    "english": "1 (flat object)",
-    "hiragana": "いちまい",
-    "romaji": "ichimai"
+    "english": "10 machines",
+    "hiragana": "じゅうだい",
+    "romaji": "juudai"
   },
   {
-    "english": "2 (flat objects)",
-    "hiragana": "にまい",
-    "romaji": "nimai"
-  },
-  {
-    "english": "3 (flat objects)",
-    "hiragana": "さんまい",
-    "romaji": "sanmai"
-  },
-  {
-    "english": "1 machine",
-    "hiragana": "いちだい",
-    "romaji": "ichidai"
-  },
-  {
-    "english": "2 machines",
-    "hiragana": "にだい",
-    "romaji": "nidai"
-  },
-  {
-    "english": "3 machines",
-    "hiragana": "さんだい",
-    "romaji": "sandai"
-  },
-  {
-    "english": "1 book",
-    "hiragana": "いっさつ",
-    "romaji": "issatsu"
-  },
-  {
-    "english": "2 books",
-    "hiragana": "にさつ",
-    "romaji": "nisatsu"
-  },
-  {
-    "english": "3 books",
-    "hiragana": "さんさつ",
-    "romaji": "sansatsu"
-  },
-  {
-    "english": "1 time",
-    "hiragana": "いっかい",
-    "romaji": "ikkai"
-  },
-  {
-    "english": "2 times",
-    "hiragana": "にかい",
-    "romaji": "nikai"
-  },
-  {
-    "english": "3 times",
-    "hiragana": "さんかい",
-    "romaji": "sankai"
-  },
-  {
-    "english": "1 building",
-    "hiragana": "いっけん",
-    "romaji": "ikken"
-  },
-  {
-    "english": "2 buildings",
-    "hiragana": "にけん",
-    "romaji": "niken"
-  },
-  {
-    "english": "3 buildings",
-    "hiragana": "さんげん",
-    "romaji": "sangen"
+    "english": "6 books",
+    "hiragana": "ろくさつ",
+    "romaji": "rokusatsu"
   },
   {
     "english": "1 cup",
@@ -125,28 +60,218 @@
     "romaji": "ippai"
   },
   {
-    "english": "2 cups",
-    "hiragana": "にはい",
-    "romaji": "nihai"
+    "english": "7 long objects",
+    "hiragana": "ななほん",
+    "romaji": "nanahon"
   },
   {
-    "english": "3 cups",
-    "hiragana": "さんばい",
-    "romaji": "sanbai"
+    "english": "1 flat object",
+    "hiragana": "いちまい",
+    "romaji": "ichimai"
   },
   {
-    "english": "1 year old",
-    "hiragana": "いっさい",
-    "romaji": "issai"
+    "english": "8 books",
+    "hiragana": "はっさつ",
+    "romaji": "hassatsu"
   },
   {
-    "english": "2 years old",
-    "hiragana": "にさい",
-    "romaji": "nisai"
+    "english": "5 ships",
+    "hiragana": "ごせき",
+    "romaji": "goseki"
   },
   {
-    "english": "3 years old",
-    "hiragana": "さんさい",
-    "romaji": "sansai"
+    "english": "7 ships",
+    "hiragana": "ななせき",
+    "romaji": "nanaseki"
+  },
+  {
+    "english": "5 clothing",
+    "hiragana": "ごちゃく",
+    "romaji": "gochaku"
+  },
+  {
+    "english": "6 round objects",
+    "hiragana": "ろっこ",
+    "romaji": "rokko"
+  },
+  {
+    "english": "3 ships",
+    "hiragana": "さんせき",
+    "romaji": "sanseki"
+  },
+  {
+    "english": "7 round objects",
+    "hiragana": "ななこ",
+    "romaji": "nanako"
+  },
+  {
+    "english": "3 round objects",
+    "hiragana": "さんこ",
+    "romaji": "sanko"
+  },
+  {
+    "english": "2 clothing",
+    "hiragana": "にちゃく",
+    "romaji": "nichaku"
+  },
+  {
+    "english": "9 floors",
+    "hiragana": "きゅうかい",
+    "romaji": "kyuukai"
+  },
+  {
+    "english": "10 birds",
+    "hiragana": "じゅうわ",
+    "romaji": "juuwa"
+  },
+  {
+    "english": "3 birds",
+    "hiragana": "さんわ",
+    "romaji": "sanwa"
+  },
+  {
+    "english": "7 floors",
+    "hiragana": "ななかい",
+    "romaji": "nanakai"
+  },
+  {
+    "english": "3 floors",
+    "hiragana": "さんがい",
+    "romaji": "sangai"
+  },
+  {
+    "english": "6 ships",
+    "hiragana": "ろくせき",
+    "romaji": "rokuseki"
+  },
+  {
+    "english": "6 clothing",
+    "hiragana": "ろくちゃく",
+    "romaji": "rokuchaku"
+  },
+  {
+    "english": "10 round objects",
+    "hiragana": "じゅっこ",
+    "romaji": "jukko"
+  },
+  {
+    "english": "5 birds",
+    "hiragana": "ごわ",
+    "romaji": "gowa"
+  },
+  {
+    "english": "12 clothing",
+    "hiragana": "じゅうにちゃく",
+    "romaji": "juunichaku"
+  },
+  {
+    "english": "2 round objects",
+    "hiragana": "にこ",
+    "romaji": "niko"
+  },
+  {
+    "english": "7 birds",
+    "hiragana": "ななわ",
+    "romaji": "nanawa"
+  },
+  {
+    "english": "10 slices",
+    "hiragana": "じゅうまい",
+    "romaji": "juumai"
+  },
+  {
+    "english": "8 punches",
+    "hiragana": "はっぱつ",
+    "romaji": "happatsu"
+  },
+  {
+    "english": "5 sheets of paper",
+    "hiragana": "ごまい",
+    "romaji": "gomai"
+  },
+  {
+    "english": "9 sheets of paper",
+    "hiragana": "きゅうまい",
+    "romaji": "kyuumai"
+  },
+  {
+    "english": "2 bound volumes",
+    "hiragana": "にさつ",
+    "romaji": "nisatsu"
+  },
+  {
+    "english": "7 punches",
+    "hiragana": "ななはつ",
+    "romaji": "nanahatsu"
+  },
+  {
+    "english": "9 slices",
+    "hiragana": "きゅうまい",
+    "romaji": "kyuumai"
+  },
+  {
+    "english": "1 pairs of footwear",
+    "hiragana": "いっそく",
+    "romaji": "issoku"
+  },
+  {
+    "english": "12 slices",
+    "hiragana": "じゅうにまい",
+    "romaji": "juunimai"
+  },
+  {
+    "english": "6 sheets of paper",
+    "hiragana": "ろくまい",
+    "romaji": "rokumai"
+  },
+  {
+    "english": "5 punches",
+    "hiragana": "ごはつ",
+    "romaji": "gohatsu"
+  },
+  {
+    "english": "4 pairs of footwear",
+    "hiragana": "よんそく",
+    "romaji": "yonsoku"
+  },
+  {
+    "english": "7 sheets of paper",
+    "hiragana": "ななまい",
+    "romaji": "nanamai"
+  },
+  {
+    "english": "3 sheets of paper",
+    "hiragana": "さんまい",
+    "romaji": "sanmai"
+  },
+  {
+    "english": "9 bound volumes",
+    "hiragana": "きゅうさつ",
+    "romaji": "kyuusatsu"
+  },
+  {
+    "english": "1 slice",
+    "hiragana": "いちまい",
+    "romaji": "ichimai"
+  },
+  {
+    "english": "6 punches",
+    "hiragana": "ろっぱつ",
+    "romaji": "roppatsu"
+  },
+  {
+    "english": "3 punches",
+    "hiragana": "さんぱつ",
+    "romaji": "sanpatsu"
+  },
+  {
+    "english": "7 pairs of footwear",
+    "hiragana": "ななそく",
+    "romaji": "nanasoku"
+  },
+  {
+    "english": "4 sheets of paper",
+    "hiragana": "よんまい",
+    "romaji": "yonmai"
   }
 ]

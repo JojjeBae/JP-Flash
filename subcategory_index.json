@@ -17,6 +17,7 @@
   "counters": [
     "counters_base",
     "counters_native",
-    "counters_objects"
+    "counters_common",
+    "counters_days_months"
   ]
 }

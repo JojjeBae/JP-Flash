@@ -1,7 +1,152 @@
 [
   {
-    "english": "noun test 3",
-    "hiragana": "ひと",
-    "romaji": "hito"
+    "english": "lake",
+    "hiragana": "みずうみ",
+    "romaji": "mizuumi"
+  },
+  {
+    "english": "forest",
+    "hiragana": "もり",
+    "romaji": "mori"
+  },
+  {
+    "english": "island",
+    "hiragana": "しま",
+    "romaji": "shima"
+  },
+  {
+    "english": "desert",
+    "hiragana": "さばく",
+    "romaji": "sabaku"
+  },
+  {
+    "english": "ocean",
+    "hiragana": "たいよう",
+    "romaji": "taiyou"
+  },
+  {
+    "english": "beach",
+    "hiragana": "うみべ",
+    "romaji": "umibe"
+  },
+  {
+    "english": "bridge",
+    "hiragana": "はし",
+    "romaji": "hashi"
+  },
+  {
+    "english": "road",
+    "hiragana": "みち",
+    "romaji": "michi"
+  },
+  {
+    "english": "cafe",
+    "hiragana": "カフェ",
+    "romaji": "kafe"
+  },
+  {
+    "english": "park",
+    "hiragana": "こうえん",
+    "romaji": "kouen"
+  },
+  {
+    "english": "library",
+    "hiragana": "としょかん",
+    "romaji": "toshokan"
+  },
+  {
+    "english": "university",
+    "hiragana": "だいがく",
+    "romaji": "daigaku"
+  },
+  {
+    "english": "office",
+    "hiragana": "じむしょ",
+    "romaji": "jimusho"
+  },
+  {
+    "english": "market",
+    "hiragana": "いちば",
+    "romaji": "ichiba"
+  },
+  {
+    "english": "hospital",
+    "hiragana": "びょういん",
+    "romaji": "byouin"
+  },
+  {
+    "english": "clinic",
+    "hiragana": "クリニック",
+    "romaji": "kurinikku"
+  },
+  {
+    "english": "pharmacy",
+    "hiragana": "やっきょく",
+    "romaji": "yakkyoku"
+  },
+  {
+    "english": "police station",
+    "hiragana": "けいさつしょ",
+    "romaji": "keisatsusho"
+  },
+  {
+    "english": "post office",
+    "hiragana": "ゆうびんきょく",
+    "romaji": "yuubinkyoku"
+  },
+  {
+    "english": "closet",
+    "hiragana": "おしいれ",
+    "romaji": "oshiire"
+  },
+  {
+    "english": "fence",
+    "hiragana": "さく",
+    "romaji": "saku"
+  },
+  {
+    "english": "gate",
+    "hiragana": "もん",
+    "romaji": "mon"
+  },
+  {
+    "english": "chimney",
+    "hiragana": "えんとつ",
+    "romaji": "entotsu"
+  },
+  {
+    "english": "roof",
+    "hiragana": "やね",
+    "romaji": "yane"
+  },
+  {
+    "english": "basement",
+    "hiragana": "ちかしつ",
+    "romaji": "chikashitsu"
+  },
+  {
+    "english": "attic",
+    "hiragana": "やねうら",
+    "romaji": "yaneura"
+  },
+  {
+    "english": "balcony",
+    "hiragana": "バルコニー",
+    "romaji": "barukonii"
+  },
+  {
+    "english": "ceiling",
+    "hiragana": "てんじょう",
+    "romaji": "tenjou"
+  },
+  {
+    "english": "floor",
+    "hiragana": "ゆか",
+    "romaji": "yuka"
+  },
+  {
+    "english": "wall",
+    "hiragana": "かべ",
+    "romaji": "kabe"
   }
 ]

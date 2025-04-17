@@ -1,0 +1,127 @@
+[
+  {
+    "english": "quiet",
+    "hiragana": "しずか",
+    "romaji": "shizuka"
+  },
+  {
+    "english": "clean",
+    "hiragana": "きれい",
+    "romaji": "kirei"
+  },
+  {
+    "english": "dirty",
+    "hiragana": "きたない",
+    "romaji": "kitanai"
+  },
+  {
+    "english": "busy",
+    "hiragana": "いそがしい",
+    "romaji": "isogashii"
+  },
+  {
+    "english": "free (time)",
+    "hiragana": "ひま",
+    "romaji": "hima"
+  },
+  {
+    "english": "famous",
+    "hiragana": "ゆうめい",
+    "romaji": "yuumei"
+  },
+  {
+    "english": "dangerous",
+    "hiragana": "あぶない",
+    "romaji": "abunai"
+  },
+  {
+    "english": "safe",
+    "hiragana": "あんぜん",
+    "romaji": "anzen"
+  },
+  {
+    "english": "happy",
+    "hiragana": "うれしい",
+    "romaji": "ureshii"
+  },
+  {
+    "english": "sad",
+    "hiragana": "かなしい",
+    "romaji": "kanashii"
+  },
+  {
+    "english": "tall",
+    "hiragana": "せがたかい",
+    "romaji": "segatakai"
+  },
+  {
+    "english": "short (height)",
+    "hiragana": "せがひくい",
+    "romaji": "segahikui"
+  },
+  {
+    "english": "long",
+    "hiragana": "ながい",
+    "romaji": "nagai"
+  },
+  {
+    "english": "short (length)",
+    "hiragana": "みじかい",
+    "romaji": "mijikai"
+  },
+  {
+    "english": "tasty",
+    "hiragana": "おいしい",
+    "romaji": "oishii"
+  },
+  {
+    "english": "disgusting",
+    "hiragana": "まずい",
+    "romaji": "mazui"
+  },
+  {
+    "english": "strong",
+    "hiragana": "つよい",
+    "romaji": "tsuyoi"
+  },
+  {
+    "english": "weak",
+    "hiragana": "よわい",
+    "romaji": "yowai"
+  },
+  {
+    "english": "fun",
+    "hiragana": "たのしい",
+    "romaji": "tanoshii"
+  },
+  {
+    "english": "tired",
+    "hiragana": "つかれた",
+    "romaji": "tsukareta"
+  },
+  {
+    "english": "important",
+    "hiragana": "たいせつ",
+    "romaji": "taisetsu"
+  },
+  {
+    "english": "correct",
+    "hiragana": "ただしい",
+    "romaji": "tadashii"
+  },
+  {
+    "english": "wrong",
+    "hiragana": "まちがっている",
+    "romaji": "machigatteiru"
+  },
+  {
+    "english": "delicious",
+    "hiragana": "うまい",
+    "romaji": "umai"
+  },
+  {
+    "english": "thin (objects)",
+    "hiragana": "ほそい",
+    "romaji": "hosoi"
+  }
+]

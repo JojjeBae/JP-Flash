@@ -1,0 +1,112 @@
+[
+  {
+    "english": "clean (person)",
+    "hiragana": "せいけつ",
+    "romaji": "seiketsu"
+  },
+  {
+    "english": "messy",
+    "hiragana": "ちらかっている",
+    "romaji": "chirakatteiru"
+  },
+  {
+    "english": "quiet (person)",
+    "hiragana": "おとなしい",
+    "romaji": "otonashii"
+  },
+  {
+    "english": "talkative",
+    "hiragana": "おしゃべり",
+    "romaji": "oshaberi"
+  },
+  {
+    "english": "clumsy",
+    "hiragana": "ぶきよう",
+    "romaji": "bukiyou"
+  },
+  {
+    "english": "honest",
+    "hiragana": "しょうじき",
+    "romaji": "shoujiki"
+  },
+  {
+    "english": "lazy",
+    "hiragana": "なまけもの",
+    "romaji": "namakemono"
+  },
+  {
+    "english": "energetic",
+    "hiragana": "げんき",
+    "romaji": "genki"
+  },
+  {
+    "english": "calm",
+    "hiragana": "おだやか",
+    "romaji": "odayaka"
+  },
+  {
+    "english": "loyal",
+    "hiragana": "ちゅうじつ",
+    "romaji": "chuujitsu"
+  },
+  {
+    "english": "independent",
+    "hiragana": "じりつ",
+    "romaji": "jiritsu"
+  },
+  {
+    "english": "silly",
+    "hiragana": "ばかげた",
+    "romaji": "bakageta"
+  },
+  {
+    "english": "serious",
+    "hiragana": "まじめ",
+    "romaji": "majime"
+  },
+  {
+    "english": "thoughtful",
+    "hiragana": "おもいやりがある",
+    "romaji": "omoiyarigaaru"
+  },
+  {
+    "english": "creative",
+    "hiragana": "そうぞうてき",
+    "romaji": "souzouteki"
+  },
+  {
+    "english": "respectful",
+    "hiragana": "けいごをつかう",
+    "romaji": "keigo wo tsukau"
+  },
+  {
+    "english": "loose",
+    "hiragana": "ゆるい",
+    "romaji": "yurui"
+  },
+  {
+    "english": "tight",
+    "hiragana": "きつい",
+    "romaji": "kitsui"
+  },
+  {
+    "english": "soft",
+    "hiragana": "やわらかい",
+    "romaji": "yawarakai"
+  },
+  {
+    "english": "hard",
+    "hiragana": "かたい",
+    "romaji": "katai"
+  },
+  {
+    "english": "wet",
+    "hiragana": "ぬれている",
+    "romaji": "nureteiru"
+  },
+  {
+    "english": "dry",
+    "hiragana": "かわいている",
+    "romaji": "kawaiteiru"
+  }
+]

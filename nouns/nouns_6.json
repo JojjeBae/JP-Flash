@@ -123,30 +123,5 @@
     "english": "basement",
     "hiragana": "ちかしつ",
     "romaji": "chikashitsu"
-  },
-  {
-    "english": "attic",
-    "hiragana": "やねうら",
-    "romaji": "yaneura"
-  },
-  {
-    "english": "balcony",
-    "hiragana": "バルコニー",
-    "romaji": "barukonii"
-  },
-  {
-    "english": "ceiling",
-    "hiragana": "てんじょう",
-    "romaji": "tenjou"
-  },
-  {
-    "english": "floor",
-    "hiragana": "ゆか",
-    "romaji": "yuka"
-  },
-  {
-    "english": "wall",
-    "hiragana": "かべ",
-    "romaji": "kabe"
   }
 ]

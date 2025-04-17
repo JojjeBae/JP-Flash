@@ -179,6 +179,10 @@ function startKanaPractice(type) {
       document.getElementById("kanaOptions").classList.add("hidden");
       document.getElementById("kanaPanel").classList.remove("hidden");
       showKanaPrompt();
+      const kanaInput = document.getElementById("kanaAnswer");
+      kanaInput.addEventListener("focus", () => scrollToPanel("kanaPanel"));
+      kanaInput.focus();
+      scrollToPanel("kanaPanel");
     });
 }
 function showKanaPrompt() {
@@ -214,6 +218,10 @@ function startInputMode() {
       document.getElementById("subcategorySelect").classList.add("hidden");
       document.getElementById("inputPanel").classList.remove("hidden");
       showInputPrompt();
+      const inputField = document.getElementById("inputAnswer");
+      inputField.addEventListener("focus", () => scrollToPanel("inputPanel"));
+      inputField.focus();
+      scrollToPanel("inputPanel");
     });
 }
 function showInputPrompt() {
@@ -276,6 +284,13 @@ function saveScore(file, score, total) {
   localStorage.setItem(`jpflash_score_${name}`, JSON.stringify({ score, total, date: new Date().toISOString() }));
 }
 function scrollToPanel(panelId) {
+  const panel = document.getElementById(panelId);
+  if (panel) {
+    panel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
+  function scrollToPanel(panelId) {
   const panel = document.getElementById(panelId);
   if (panel) {
     panel.scrollIntoView({ behavior: 'smooth', block: 'center' });

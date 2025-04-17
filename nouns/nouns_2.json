@@ -1,0 +1,127 @@
+[
+  {
+    "english": "bed",
+    "hiragana": "ベッド",
+    "romaji": "beddo"
+  },
+  {
+    "english": "pillow",
+    "hiragana": "まくら",
+    "romaji": "makura"
+  },
+  {
+    "english": "blanket",
+    "hiragana": "もうふ",
+    "romaji": "moufu"
+  },
+  {
+    "english": "car",
+    "hiragana": "くるま",
+    "romaji": "kuruma"
+  },
+  {
+    "english": "bus",
+    "hiragana": "バス",
+    "romaji": "basu"
+  },
+  {
+    "english": "train",
+    "hiragana": "でんしゃ",
+    "romaji": "densha"
+  },
+  {
+    "english": "station",
+    "hiragana": "えき",
+    "romaji": "eki"
+  },
+  {
+    "english": "airport",
+    "hiragana": "くうこう",
+    "romaji": "kuukou"
+  },
+  {
+    "english": "bicycle",
+    "hiragana": "じてんしゃ",
+    "romaji": "jitensha"
+  },
+  {
+    "english": "ticket",
+    "hiragana": "きっぷ",
+    "romaji": "kippu"
+  },
+  {
+    "english": "map",
+    "hiragana": "ちず",
+    "romaji": "chizu"
+  },
+  {
+    "english": "city",
+    "hiragana": "まち",
+    "romaji": "machi"
+  },
+  {
+    "english": "country",
+    "hiragana": "くに",
+    "romaji": "kuni"
+  },
+  {
+    "english": "shop",
+    "hiragana": "みせ",
+    "romaji": "mise"
+  },
+  {
+    "english": "restaurant",
+    "hiragana": "レストラン",
+    "romaji": "resutoran"
+  },
+  {
+    "english": "hotel",
+    "hiragana": "ホテル",
+    "romaji": "hoteru"
+  },
+  {
+    "english": "food",
+    "hiragana": "たべもの",
+    "romaji": "tabemono"
+  },
+  {
+    "english": "drink",
+    "hiragana": "のみもの",
+    "romaji": "nomimono"
+  },
+  {
+    "english": "water",
+    "hiragana": "みず",
+    "romaji": "mizu"
+  },
+  {
+    "english": "tea",
+    "hiragana": "おちゃ",
+    "romaji": "ocha"
+  },
+  {
+    "english": "coffee",
+    "hiragana": "コーヒー",
+    "romaji": "koohii"
+  },
+  {
+    "english": "beer",
+    "hiragana": "ビール",
+    "romaji": "biiru"
+  },
+  {
+    "english": "meat",
+    "hiragana": "にく",
+    "romaji": "niku"
+  },
+  {
+    "english": "fish",
+    "hiragana": "さかな",
+    "romaji": "sakana"
+  },
+  {
+    "english": "rice",
+    "hiragana": "ごはん",
+    "romaji": "gohan"
+  }
+]

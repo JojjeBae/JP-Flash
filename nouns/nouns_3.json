@@ -1,0 +1,127 @@
+[
+  {
+    "english": "fruit",
+    "hiragana": "くだもの",
+    "romaji": "kudamono"
+  },
+  {
+    "english": "vegetable",
+    "hiragana": "やさい",
+    "romaji": "yasai"
+  },
+  {
+    "english": "breakfast",
+    "hiragana": "あさごはん",
+    "romaji": "asagohan"
+  },
+  {
+    "english": "lunch",
+    "hiragana": "ひるごはん",
+    "romaji": "hirugohan"
+  },
+  {
+    "english": "dinner",
+    "hiragana": "ばんごはん",
+    "romaji": "bangohan"
+  },
+  {
+    "english": "weather",
+    "hiragana": "てんき",
+    "romaji": "tenki"
+  },
+  {
+    "english": "sun",
+    "hiragana": "たいよう",
+    "romaji": "taiyou"
+  },
+  {
+    "english": "rain",
+    "hiragana": "あめ",
+    "romaji": "ame"
+  },
+  {
+    "english": "snow",
+    "hiragana": "ゆき",
+    "romaji": "yuki"
+  },
+  {
+    "english": "wind",
+    "hiragana": "かぜ",
+    "romaji": "kaze"
+  },
+  {
+    "english": "cloud",
+    "hiragana": "くも",
+    "romaji": "kumo"
+  },
+  {
+    "english": "sky",
+    "hiragana": "そら",
+    "romaji": "sora"
+  },
+  {
+    "english": "mountain",
+    "hiragana": "やま",
+    "romaji": "yama"
+  },
+  {
+    "english": "river",
+    "hiragana": "かわ",
+    "romaji": "kawa"
+  },
+  {
+    "english": "sea",
+    "hiragana": "うみ",
+    "romaji": "umi"
+  },
+  {
+    "english": "tree",
+    "hiragana": "き",
+    "romaji": "ki"
+  },
+  {
+    "english": "flower",
+    "hiragana": "はな",
+    "romaji": "hana"
+  },
+  {
+    "english": "animal",
+    "hiragana": "どうぶつ",
+    "romaji": "doubutsu"
+  },
+  {
+    "english": "dog",
+    "hiragana": "いぬ",
+    "romaji": "inu"
+  },
+  {
+    "english": "cat",
+    "hiragana": "ねこ",
+    "romaji": "neko"
+  },
+  {
+    "english": "bird",
+    "hiragana": "とり",
+    "romaji": "tori"
+  },
+  {
+    "english": "fish (live)",
+    "hiragana": "うお",
+    "romaji": "uo"
+  },
+  {
+    "english": "clock",
+    "hiragana": "とけい",
+    "romaji": "tokei"
+  },
+  {
+    "english": "camera",
+    "hiragana": "カメラ",
+    "romaji": "kamera"
+  },
+  {
+    "english": "computer",
+    "hiragana": "コンピュータ",
+    "romaji": "konpyuuta"
+  }
+]

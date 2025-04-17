@@ -283,12 +283,6 @@ function saveScore(file, score, total) {
   const name = file.split('/').pop().replace('.json', '');
   localStorage.setItem(`jpflash_score_${name}`, JSON.stringify({ score, total, date: new Date().toISOString() }));
 }
-function scrollToPanel(panelId) {
-  const panel = document.getElementById(panelId);
-  if (panel) {
-    panel.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  }
-}
 
 function scrollToPanel(panelId, offset = 80) {
   const panel = document.getElementById(panelId);

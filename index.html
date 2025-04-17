@@ -181,8 +181,8 @@ function startKanaPractice(type) {
       showKanaPrompt();
       const kanaInput = document.getElementById("kanaAnswer");
       kanaInput.addEventListener("focus", () => scrollToPanel("kanaPanel"));
+      scrollToPanel("kanaPanel", 100);
       kanaInput.focus();
-      scrollToPanel("kanaPanel");
     });
 }
 function showKanaPrompt() {
@@ -220,8 +220,8 @@ function startInputMode() {
       showInputPrompt();
       const inputField = document.getElementById("inputAnswer");
       inputField.addEventListener("focus", () => scrollToPanel("inputPanel"));
+      scrollToPanel("inputPanel", 100);
       inputField.focus();
-      scrollToPanel("inputPanel");
     });
 }
 function showInputPrompt() {
@@ -290,10 +290,13 @@ function scrollToPanel(panelId) {
   }
 }
 
-  function scrollToPanel(panelId) {
+function scrollToPanel(panelId, offset = 80) {
   const panel = document.getElementById(panelId);
   if (panel) {
-    panel.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    const rect = panel.getBoundingClientRect();
+    const scrollY = window.scrollY || window.pageYOffset;
+    const top = rect.top + scrollY - offset;
+    window.scrollTo({ top: top, behavior: 'smooth' });
   }
 }
 

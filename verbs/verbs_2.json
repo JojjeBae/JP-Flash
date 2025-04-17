@@ -1,0 +1,152 @@
+[
+  {
+    "english": "to swim",
+    "hiragana": "およぐ",
+    "romaji": "oyogu",
+    "formal": "oyogimasu"
+  },
+  {
+    "english": "to enter",
+    "hiragana": "はいる",
+    "romaji": "hairu",
+    "formal": "hairimasu"
+  },
+  {
+    "english": "to leave",
+    "hiragana": "でる",
+    "romaji": "deru",
+    "formal": "demasu"
+  },
+  {
+    "english": "to live",
+    "hiragana": "すむ",
+    "romaji": "sumu",
+    "formal": "sumimasu"
+  },
+  {
+    "english": "to begin",
+    "hiragana": "はじめる",
+    "romaji": "hajimeru",
+    "formal": "hajimemasu"
+  },
+  {
+    "english": "to end",
+    "hiragana": "おわる",
+    "romaji": "owaru",
+    "formal": "owarimasu"
+  },
+  {
+    "english": "to win",
+    "hiragana": "かつ",
+    "romaji": "katsu",
+    "formal": "kachimasu"
+  },
+  {
+    "english": "to lose",
+    "hiragana": "まける",
+    "romaji": "makeru",
+    "formal": "makemasu"
+  },
+  {
+    "english": "to change",
+    "hiragana": "かえる",
+    "romaji": "kaeru",
+    "formal": "kaemasu"
+  },
+  {
+    "english": "to understand",
+    "hiragana": "わかる",
+    "romaji": "wakaru",
+    "formal": "wakarimasu"
+  },
+  {
+    "english": "to borrow",
+    "hiragana": "かりる",
+    "romaji": "kariru",
+    "formal": "karimasu"
+  },
+  {
+    "english": "to lend",
+    "hiragana": "かす",
+    "romaji": "kasu",
+    "formal": "kashimasu"
+  },
+  {
+    "english": "to cry",
+    "hiragana": "なく",
+    "romaji": "naku",
+    "formal": "nakimasu"
+  },
+  {
+    "english": "to laugh",
+    "hiragana": "わらう",
+    "romaji": "warau",
+    "formal": "waraimasu"
+  },
+  {
+    "english": "to forget",
+    "hiragana": "わすれる",
+    "romaji": "wasureru",
+    "formal": "wasuremasu"
+  },
+  {
+    "english": "to remember",
+    "hiragana": "おぼえる",
+    "romaji": "oboeru",
+    "formal": "oboemasu"
+  },
+  {
+    "english": "to pay",
+    "hiragana": "はらう",
+    "romaji": "harau",
+    "formal": "haraimasu"
+  },
+  {
+    "english": "to think",
+    "hiragana": "おもう",
+    "romaji": "omou",
+    "formal": "omoimasu"
+  },
+  {
+    "english": "to need",
+    "hiragana": "いる",
+    "romaji": "iru",
+    "formal": "irimasu"
+  },
+  {
+    "english": "to turn on",
+    "hiragana": "つける",
+    "romaji": "tsukeru",
+    "formal": "tsukemasu"
+  },
+  {
+    "english": "to turn off",
+    "hiragana": "けす",
+    "romaji": "kesu",
+    "formal": "keshimasu"
+  },
+  {
+    "english": "to throw away",
+    "hiragana": "すてる",
+    "romaji": "suteru",
+    "formal": "sutemasu"
+  },
+  {
+    "english": "to pull",
+    "hiragana": "ひく",
+    "romaji": "hiku",
+    "formal": "hikimasu"
+  },
+  {
+    "english": "to push",
+    "hiragana": "おす",
+    "romaji": "osu",
+    "formal": "oshimasu"
+  },
+  {
+    "english": "to call",
+    "hiragana": "よぶ",
+    "romaji": "yobu",
+    "formal": "yobimasu"
+  }
+]

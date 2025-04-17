@@ -1,157 +1,280 @@
-
 <!DOCTYPE html>
 <html lang="en" class="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JP Flash (Final)</title>
+  <title>JP Flash</title>
   <script>
-    tailwind = { darkMode: 'class' };
+    tailwind = {{ config: { darkMode: 'class' } }}
   </script>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hidden { display: none; }
+    .flip-card { perspective: 1000px; width: 100%; height: 200px; }
+    .flip-card-inner {
+      position: relative; width: 100%; height: 100%;
+      transition: transform 0.6s; transform-style: preserve-3d;
+    }
+    .flip .flip-card-inner { transform: rotateY(180deg); }
+    .flip-card-front, .flip-card-back {
+      position: absolute; width: 100%; height: 100%;
+      backface-visibility: hidden; border-radius: 1rem; padding: 1.5rem;
+      display: flex; justify-content: center; align-items: center; flex-direction: column;
+    }
+    .flip-card-front { background-color: #e5e7eb; color: #111827; }
+    .flip-card-back { background-color: #334155; color: white; transform: rotateY(180deg); }
+    .dark .flip-card-front { background-color: #334155; color: white; }
+    .dark .flip-card-back { background-color: #334166; }
+  </style>
 </head>
-<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-4">
-  <div class="max-w-xl mx-auto space-y-4">
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg w-full max-w-md text-center space-y-6">
     <div class="flex justify-between items-center">
-      <h1 class="text-2xl font-bold">JP Flash</h1>
+      <h1 class="text-xl font-bold">JP Flash</h1>
       <div class="flex gap-2">
-        <button onclick="goHome()" class="text-xl">🏠</button>
-        <button onclick="toggleDarkMode()" id="darkToggle" class="text-xl">🌙</button>
+        <button onclick="goHome()">🏠</button>
+        <button onclick="toggleDarkMode()" id="darkToggle">🌙</button>
       </div>
     </div>
-    <div id="mainPanel">Loading...</div>
+
+    <div id="mainMenu" class="space-y-4">
+      <p class="text-lg font-medium">What do you want to practice?</p>
+      <div class="flex flex-wrap justify-center gap-2">
+        <button onclick="selectCategory('verbs')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Verbs</button>
+        <button onclick="selectCategory('nouns')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Nouns</button>
+        <button onclick="selectCategory('adjectives')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Adjectives</button>
+        <button onclick="selectCategory('counters')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Counters</button>
+        <button onclick="selectCategory('kana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Kana</button>
+      </div>
+    </div>
+
+    <div id="subcategorySelect" class="hidden space-y-4">
+      <p class="text-lg font-medium">Select a Subcategory</p>
+      <select id="subcategoryDropdown" class="w-full p-2 rounded dark:bg-gray-700 dark:text-white bg-gray-200 text-black">
+        <option value="">-- Select a subcategory --</option>
+      </select>
+      <button onclick="loadSelectedSubcategory()" class="px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600">Flashcard Mode</button>
+      <button onclick="startInputMode()" class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Input Mode</button>
+    </div>
+
+    <div id="kanaOptions" class="hidden space-y-4">
+      <p class="text-lg font-medium">Select Kana Type</p>
+      <div class="flex flex-wrap justify-center gap-2">
+        <button onclick="startKanaPractice('hiragana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Hiragana</button>
+        <button onclick="startKanaPractice('katakana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Katakana</button>
+      </div>
+    </div>
+
+    <div id="flashcardPanel" class="hidden space-y-4">
+      <div class="flip-card" onclick="flipCard()">
+        <div class="flip-card-inner" id="cardInner">
+          <div class="flip-card-front" id="cardFront"></div>
+          <div class="flip-card-back" id="cardBack"></div>
+        </div>
+      </div>
+      <button onclick="nextCard()" class="px-6 py-2 bg-purple-500 text-white rounded hover:bg-purple-600">Next</button>
+    </div>
+
+    <div id="kanaPanel" class="hidden space-y-4">
+      <div id="kanaPrompt" class="text-4xl font-bold"></div>
+      <input id="kanaAnswer" class="w-full p-3 border rounded-xl text-lg text-gray-900 dark:text-white dark:bg-gray-800 border-gray-300 dark:border-gray-600" placeholder="Type romaji..." />
+      <div id="kanaFeedback" class="text-base font-medium min-h-[1.5rem]"></div>
+      <button onclick="submitKanaAnswer()" class="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow">Submit</button>
+    </div>
+
+    <div id="inputPanel" class="hidden space-y-4">
+      <div id="inputPrompt" class="text-xl font-semibold"></div>
+      <input id="inputAnswer" class="w-full p-3 border rounded-xl text-lg dark:text-white dark:bg-gray-800 text-black border-gray-300 dark:border-gray-600" placeholder="Type in romaji..." />
+      <div id="inputFeedback" class="text-base font-medium min-h-[1.5rem]"></div>
+      <button onclick="submitInputAnswer()" class="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow">Submit</button>
+      <div id="inputScore" class="text-sm text-gray-500"></div>
+      <div class="flex justify-center gap-4">
+        <button onclick="restartInputMode()" id="restartBtn" class="hidden px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600">Retry All</button>
+        <button onclick="retryWrongAnswers()" id="retryWrongBtn" class="hidden px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">Retry Incorrect</button>
+      </div>
+    </div>
   </div>
 
 <script>
-let currentCards = [], currentIndex = 0, flipped = false;
-let mode = "flashcard", group = "", file = "", score = { correct: 0, total: 0 };
-let isInputMode = false;
-
-// UI generation (simplified from saved base)
-document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("mainPanel").innerHTML = `
-    <p class="text-lg font-medium">Select a Category</p>
-    <select id="categoryDropdown" class="w-full p-2 rounded bg-gray-200 dark:bg-gray-700 text-black dark:text-white mt-2">
-      <option value="">-- Select Category --</option>
-      <option value="verbs">Verbs</option>
-      <option value="nouns">Nouns</option>
-      <option value="adjectives">Adjectives</option>
-      <option value="counters">Counters</option>
-      <option value="kana">Kana</option>
-      <option value="kanji">Kanji</option>
-    </select>
-    <div id="subcategoryWrapper" class="mt-4 hidden">
-      <p class="text-lg font-medium">Select a Subcategory</p>
-      <select id="subcategoryDropdown" class="w-full p-2 rounded bg-gray-200 dark:bg-gray-700 text-black dark:text-white mt-2"></select>
-    </div>
-    <div id="modeButtons" class="hidden mt-4 flex gap-2 justify-center">
-      <button onclick="startMode('flashcard')" class="btn bg-purple-600">Flashcard</button>
-      <button onclick="startMode('input')" class="btn bg-blue-600">Input</button>
-    </div>
-    <div id="practicePanel" class="hidden mt-6 space-y-4">
-      <div id="prompt" class="text-xl font-semibold p-4 rounded-xl bg-gray-200 dark:bg-gray-700 min-h-[5rem] cursor-pointer text-center" onclick="flipCard()">...</div>
-      <div id="inputSection" class="hidden">
-        <input id="userInput" class="w-full p-2 rounded text-black" placeholder="Type your answer..." />
-        <button onclick="submitAnswer()" class="btn bg-blue-600 w-full mt-2">Submit</button>
-        <div id="feedback" class="min-h-[1.5rem] text-center"></div>
-        <div id="scoreDisplay" class="text-sm text-center mt-1"></div>
-      </div>
-      <button onclick="nextCard()" class="btn w-full bg-purple-600">Next</button>
-    </div>
-  `;
-
-  document.getElementById("categoryDropdown").addEventListener("change", onCategoryChange);
-});
+let cards = [], kanaList = [], current = 0, flipped = false;
+let currentCategory = "", subcategoryMap = {};
+let inputScore = 0, inputTotal = 0, incorrectCards = [], inputFile = "";
 
 function toggleDarkMode() {
-  const root = document.documentElement;
-  const toggle = document.getElementById("darkToggle");
-  const isDark = root.classList.toggle("dark");
-  toggle.textContent = isDark ? "🌙" : "☀️";
+  document.documentElement.classList.toggle("dark");
+  document.getElementById("darkToggle").textContent = document.documentElement.classList.contains("dark") ? "🌙" : "☀️";
 }
-
 function goHome() {
-  location.reload();
+  document.getElementById("mainMenu").classList.remove("hidden");
+  document.getElementById("subcategorySelect").classList.add("hidden");
+  document.getElementById("kanaOptions").classList.add("hidden");
+  document.getElementById("flashcardPanel").classList.add("hidden");
+  document.getElementById("kanaPanel").classList.add("hidden");
+  document.getElementById("inputPanel").classList.add("hidden");
 }
-
-function onCategoryChange() {
-  group = document.getElementById("categoryDropdown").value;
-  fetch("subcategory_index.json").then(r => r.json()).then(data => {
-    const subs = data[group] || [];
-    const subSelect = document.getElementById("subcategoryDropdown");
-    subSelect.innerHTML = subs.map(s => `<option value="${s}">${s.replace('.json','').replace(/_/g,' ')}</option>`).join('');
-    document.getElementById("subcategoryWrapper").classList.remove("hidden");
-    document.getElementById("modeButtons").classList.remove("hidden");
-  });
+function selectCategory(category) {
+  currentCategory = category;
+  document.getElementById("mainMenu").classList.add("hidden");
+  if (category === "kana") {
+    document.getElementById("kanaOptions").classList.remove("hidden");
+    return;
+  }
+  fetch("subcategory_index.json")
+    .then(res => res.json())
+    .then(index => {
+      const dropdown = document.getElementById("subcategoryDropdown");
+      dropdown.innerHTML = '<option value="">-- Select a subcategory --</option>';
+      if (index[category]) {
+        index[category].forEach(name => {
+          const option = document.createElement("option");
+          option.value = `${category}/${name}.json`;
+          option.text = name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+          dropdown.appendChild(option);
+        });
+      }
+      document.getElementById("subcategorySelect").classList.remove("hidden");
+    });
 }
-
-function startMode(selectedMode) {
-  mode = selectedMode;
-  isInputMode = mode === "input";
-  score.correct = 0;
-  score.total = 0;
-  currentIndex = 0;
-  file = document.getElementById("subcategoryDropdown").value;
-
-  fetch(`${group}/${file}`).then(res => res.json()).then(data => {
-    currentCards = data.sort(() => Math.random() - 0.5);
-    document.getElementById("practicePanel").classList.remove("hidden");
-    updateCard();
-  });
+function loadSelectedSubcategory() {
+  const dropdown = document.getElementById("subcategoryDropdown");
+  const file = dropdown.value;
+  if (!file) return;
+  fetch(file)
+    .then(res => res.json())
+    .then(data => {
+      cards = data.sort(() => Math.random() - 0.5);
+      current = 0;
+      flipped = false;
+      updateCardUI(true);
+      document.getElementById("subcategorySelect").classList.add("hidden");
+      document.getElementById("flashcardPanel").classList.remove("hidden");
+    });
 }
-
-function updateCard() {
-  const word = currentCards[currentIndex];
-  document.getElementById("inputSection").classList.toggle("hidden", !isInputMode);
-  document.getElementById("feedback").textContent = "";
-  document.getElementById("scoreDisplay").textContent = `${score.correct} / ${score.total} correct`;
-  document.getElementById("userInput")?.focus();
-
-  document.getElementById("prompt").innerHTML = isInputMode
-    ? word.english
-    : flipped ? `${word.romaji}<br>${word.hiragana}` : word.english;
-}
-
 function flipCard() {
-  if (!isInputMode) {
-    flipped = !flipped;
-    updateCard();
-  }
+  flipped = !flipped;
+  updateCardUI();
 }
-
-function submitAnswer() {
-  const input = document.getElementById("userInput").value.trim().toLowerCase();
-  const correct = currentCards[currentIndex].romaji.toLowerCase();
-  score.total++;
-  if (input === correct) {
-    score.correct++;
-    document.getElementById("feedback").textContent = "✅ Correct!";
-    document.getElementById("feedback").className = "text-green-500 font-bold";
-  } else {
-    document.getElementById("feedback").textContent = `❌ Correct: ${correct}`;
-    document.getElementById("feedback").className = "text-red-500 font-bold";
-  }
-  updateCard();
+function updateCardUI(skipAnimation = false) {
+  const inner = document.getElementById("cardInner");
+  const front = document.getElementById("cardFront");
+  const back = document.getElementById("cardBack");
+  const v = cards[current];
+  front.textContent = v.english || "";
+  back.innerHTML = `${v.romaji || ""}<br>${v.formal || ""}<br>${v.hiragana || ""}`;
+  inner.style.transition = skipAnimation ? "none" : "";
+  document.querySelector(".flip-card").classList.toggle("flip", flipped);
+  if (skipAnimation) setTimeout(() => { inner.style.transition = ""; }, 20);
 }
-
 function nextCard() {
-  currentIndex = (currentIndex + 1) % currentCards.length;
+  current = (current + 1) % cards.length;
   flipped = false;
-  updateCard();
+  updateCardUI(true);
+}
+function startKanaPractice(type) {
+  fetch(`kana/${type}.json`)
+    .then(res => res.json())
+    .then(data => {
+      kanaList = data.sort(() => Math.random() - 0.5);
+      current = 0;
+      document.getElementById("kanaOptions").classList.add("hidden");
+      document.getElementById("kanaPanel").classList.remove("hidden");
+      showKanaPrompt();
+    });
+}
+function showKanaPrompt() {
+  document.getElementById("kanaPrompt").textContent = kanaList[current].kana;
+  document.getElementById("kanaAnswer").value = "";
+  document.getElementById("kanaFeedback").innerHTML = "";
+}
+function submitKanaAnswer() {
+  const input = document.getElementById("kanaAnswer").value.trim().toLowerCase();
+  const correct = kanaList[current].romaji;
+  const feedback = document.getElementById("kanaFeedback");
+  if (input === correct) {
+    feedback.innerHTML = "✅ Correct!";
+    feedback.className = "text-green-500 font-bold";
+    setTimeout(() => { current = (current + 1) % kanaList.length; showKanaPrompt(); }, 800);
+  } else {
+    feedback.innerHTML = `❌ Correct answer: ${correct}`;
+    feedback.className = "text-red-500 font-bold";
+  }
+}
+function startInputMode() {
+  const dropdown = document.getElementById("subcategoryDropdown");
+  inputFile = dropdown.value;
+  if (!inputFile) return;
+  fetch(inputFile)
+    .then(res => res.json())
+    .then(data => {
+      cards = data.sort(() => Math.random() - 0.5);
+      incorrectCards = [];
+      current = 0;
+      inputScore = 0;
+      inputTotal = cards.length;
+      document.getElementById("subcategorySelect").classList.add("hidden");
+      document.getElementById("inputPanel").classList.remove("hidden");
+      showInputPrompt();
+    });
+}
+function showInputPrompt() {
+  const v = cards[current];
+  document.getElementById("inputPrompt").textContent = v.english || "";
+  document.getElementById("inputAnswer").value = "";
+  document.getElementById("inputFeedback").innerHTML = "";
+  document.getElementById("inputScore").textContent = `Score: ${inputScore}/${current}`;
+}
+function submitInputAnswer() {
+  const v = cards[current];
+  const input = document.getElementById("inputAnswer").value.trim().toLowerCase();
+  const correct = v.romaji?.trim().toLowerCase() || "";
+  const feedback = document.getElementById("inputFeedback");
+
+  if (input === correct) {
+    feedback.innerHTML = "✅ Correct!";
+    feedback.className = "text-green-500 font-bold";
+    inputScore++;
+  } else {
+    feedback.innerHTML = `❌ Correct answer: ${correct}`;
+    feedback.className = "text-red-500 font-bold";
+    incorrectCards.push(v);
+  }
+
+  current++;
+
+  if (current < cards.length) {
+    setTimeout(() => showInputPrompt(), 1000);
+  } else {
+    feedback.innerHTML += `<br><br><strong>Final Score: ${inputScore}/${inputTotal}</strong>`;
+    document.getElementById("inputScore").textContent = "";
+    document.getElementById("restartBtn").classList.remove("hidden");
+    if (incorrectCards.length > 0) {
+      document.getElementById("retryWrongBtn").classList.remove("hidden");
+    }
+    saveScore(inputFile, inputScore, inputTotal);
+  }
+}
+function restartInputMode() {
+  current = 0;
+  inputScore = 0;
+  incorrectCards = [];
+  document.getElementById("restartBtn").classList.add("hidden");
+  document.getElementById("retryWrongBtn").classList.add("hidden");
+  showInputPrompt();
+}
+function retryWrongAnswers() {
+  cards = [...incorrectCards];
+  incorrectCards = [];
+  current = 0;
+  inputScore = 0;
+  inputTotal = cards.length;
+  document.getElementById("restartBtn").classList.add("hidden");
+  document.getElementById("retryWrongBtn").classList.add("hidden");
+  showInputPrompt();
+}
+function saveScore(file, score, total) {
+  const name = file.split('/').pop().replace('.json', '');
+  localStorage.setItem(`jpflash_score_${name}`, JSON.stringify({ score, total, date: new Date().toISOString() }));
 }
 </script>
-
-<style>
-.btn {
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  background-color: #8b5cf6;
-  color: white;
-  font-weight: 500;
-}
-.btn:hover {
-  background-color: #7c3aed;
-}
-</style>
 </body>
 </html>

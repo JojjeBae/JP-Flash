@@ -1,190 +1,157 @@
+
 <!DOCTYPE html>
 <html lang="en" class="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JP Flash</title>
-  <script>
-    tailwind = {{ config: { darkMode: 'class' } }}
-  </script>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .hidden { display: none; }
-    .flip-card { perspective: 1000px; width: 100%; height: 200px; }
-    .flip-card-inner {
-      position: relative; width: 100%; height: 100%;
-      transition: transform 0.6s; transform-style: preserve-3d;
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
     }
-    .flip .flip-card-inner { transform: rotateY(180deg); }
-    .flip-card-front, .flip-card-back {
-      position: absolute; width: 100%; height: 100%;
-      backface-visibility: hidden; border-radius: 1rem; padding: 1.5rem;
-      display: flex; justify-content: center; align-items: center; flex-direction: column;
-    }
-    .flip-card-front { background-color: #e5e7eb; color: #111827; }
-    .flip-card-back { background-color: #334155; color: white; transform: rotateY(180deg); }
-    .dark .flip-card-front { background-color: #334155; color: white; }
-    .dark .flip-card-back { background-color: #334166; }
-  </style>
+  </script>
 </head>
-<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white min-h-screen flex items-center justify-center p-4">
-  <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg w-full max-w-md text-center space-y-6">
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 min-h-screen p-4">
+  <div class="max-w-xl mx-auto space-y-4">
     <div class="flex justify-between items-center">
-      <h1 class="text-xl font-bold">JP Flash</h1>
-      <div class="flex gap-2">
-        <button onclick="goHome()">🏠</button>
-        <button onclick="toggleDarkMode()" id="darkToggle">🌙</button>
+      <h1 class="text-2xl font-bold">JP Flash</h1>
+      <button onclick="toggleDarkMode()" class="text-xl" id="darkToggle">🌙</button>
+    </div>
+
+    <div id="modeSelectPanel" class="space-y-4">
+      <p class="text-lg font-medium">Choose a mode</p>
+      <button onclick="startFlashcardMode()" class="w-full p-3 rounded bg-purple-600 text-white hover:bg-purple-700">Flashcard Mode</button>
+      <button onclick="startInputMode()" class="w-full p-3 rounded bg-blue-600 text-white hover:bg-blue-700">Input Mode</button>
+    </div>
+
+    <div id="flashcardPanel" class="hidden space-y-4 bg-white dark:bg-gray-800 p-4 rounded-xl shadow">
+      <div class="text-center font-semibold text-xl" id="cardFront">Flashcard front</div>
+      <div class="text-center hidden font-medium text-lg" id="cardBack">Flashcard back</div>
+      <div class="flex justify-center gap-4">
+        <button onclick="flipCard()" class="px-4 py-2 bg-gray-300 dark:bg-gray-600 rounded">Flip</button>
+        <button onclick="nextCard()" class="px-4 py-2 bg-purple-500 text-white rounded">Next</button>
       </div>
     </div>
 
-    <div id="mainMenu" class="space-y-4">
-      <p class="text-lg font-medium">What do you want to practice?</p>
-      <div class="flex flex-wrap justify-center gap-2">
-        <button onclick="selectCategory('verbs')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Verbs</button>
-        <button onclick="selectCategory('nouns')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Nouns</button>
-        <button onclick="selectCategory('adjectives')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Adjectives</button>
-        <button onclick="selectCategory('counters')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Counters</button>
-        <button onclick="selectCategory('kana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Kana</button>
+    <div id="inputPanel" class="hidden space-y-4 bg-white dark:bg-gray-800 p-4 rounded-xl shadow">
+      <div class="text-xl font-semibold" id="inputPrompt">Input Prompt</div>
+      <input id="userInput" class="w-full p-2 text-black rounded" placeholder="Type your answer..." />
+      <button onclick="submitAnswer()" class="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700">Submit</button>
+      <div id="feedback" class="text-sm min-h-[1.5rem]"></div>
+      <div class="text-right text-sm" id="scoreDisplay">0 / 0 correct</div>
+      <div class="flex justify-between text-xs text-gray-500">
+        <button onclick="toggleDirection()">Switch: <span id="directionLabel">EN → JP</span></button>
+        <button onclick="resetInputMode()">Restart</button>
       </div>
-    </div>
-
-    <div id="subcategorySelect" class="hidden space-y-4">
-      <p class="text-lg font-medium">Select a Subcategory</p>
-      <select id="subcategoryDropdown" class="w-full p-2 rounded dark:bg-gray-700 dark:text-white bg-gray-200 text-black">
-        <option value="">-- Select a subcategory --</option>
-      </select>
-      <button onclick="loadSelectedSubcategory()" class="px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600">Start</button>
-    </div>
-
-    <div id="kanaOptions" class="hidden space-y-4">
-      <p class="text-lg font-medium">Select Kana Type</p>
-      <div class="flex flex-wrap justify-center gap-2">
-        <button onclick="startKanaPractice('hiragana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Hiragana</button>
-        <button onclick="startKanaPractice('katakana')" class="px-4 py-2 bg-gray-300 dark:bg-gray-700 rounded">Katakana</button>
-      </div>
-    </div>
-
-    <div id="flashcardPanel" class="hidden space-y-4">
-      <div class="flip-card" onclick="flipCard()">
-        <div class="flip-card-inner" id="cardInner">
-          <div class="flip-card-front" id="cardFront"></div>
-          <div class="flip-card-back" id="cardBack"></div>
-        </div>
-      </div>
-      <button onclick="nextCard()" class="px-6 py-2 bg-purple-500 text-white rounded hover:bg-purple-600">Next</button>
-    </div>
-
-    <div id="kanaPanel" class="hidden space-y-4">
-      <div id="kanaPrompt" class="text-4xl font-bold"></div>
-      <input id="kanaAnswer" class="w-full p-3 border rounded-xl text-lg text-gray-900 dark:text-white dark:bg-gray-800 border-gray-300 dark:border-gray-600" placeholder="Type romaji..." />
-      <div id="kanaFeedback" class="text-base font-medium min-h-[1.5rem]"></div>
-      <button onclick="submitKanaAnswer()" class="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 shadow">Submit</button>
     </div>
   </div>
 
 <script>
-let cards = [], kanaList = [], current = 0, flipped = false;
-let currentCategory = "", subcategoryMap = {};
+let cards = [], currentIndex = 0, flipped = false;
+let inputMode = false, direction = 'en->jp', correct = 0, total = 0;
 
 function toggleDarkMode() {
-  document.documentElement.classList.toggle("dark");
-  document.getElementById("darkToggle").textContent = document.documentElement.classList.contains("dark") ? "🌙" : "☀️";
+  const root = document.documentElement;
+  const toggle = document.getElementById('darkToggle');
+  const isDark = root.classList.toggle('dark');
+  toggle.textContent = isDark ? "🌙" : "☀️";
 }
-function goHome() {
-  document.getElementById("mainMenu").classList.remove("hidden");
-  document.getElementById("subcategorySelect").classList.add("hidden");
-  document.getElementById("kanaOptions").classList.add("hidden");
-  document.getElementById("flashcardPanel").classList.add("hidden");
-  document.getElementById("kanaPanel").classList.add("hidden");
-}
-function selectCategory(category) {
-  currentCategory = category;
-  document.getElementById("mainMenu").classList.add("hidden");
 
-  if (category === "kana") {
-    document.getElementById("kanaOptions").classList.remove("hidden");
-    return;
-  }
+function loadCards() {
+  fetch('./words_verbs.json').then(res => res.json()).then(data => {
+    cards = shuffle(data);
+    currentIndex = 0;
+    flipped = false;
+    correct = 0;
+    total = 0;
+    inputMode ? showInputPrompt() : showFlashcard();
+  });
+}
 
-  fetch("subcategory_index.json")
-    .then(res => res.json())
-    .then(index => {
-      const dropdown = document.getElementById("subcategoryDropdown");
-      dropdown.innerHTML = '<option value="">-- Select a subcategory --</option>';
-      if (index[category]) {
-        index[category].forEach(name => {
-          const option = document.createElement("option");
-          option.value = `${category}/${name}.json`;
-          option.text = name.replace(/_/g, ' ').replace(/\w/g, c => c.toUpperCase());
-          dropdown.appendChild(option);
-        });
-      }
-      document.getElementById("subcategorySelect").classList.remove("hidden");
-    });
+function shuffle(arr) {
+  return [...arr].sort(() => Math.random() - 0.5);
 }
-function loadSelectedSubcategory() {
-  const dropdown = document.getElementById("subcategoryDropdown");
-  const file = dropdown.value;
-  if (!file) return;
-  fetch(file)
-    .then(res => res.json())
-    .then(data => {
-      cards = data.sort(() => Math.random() - 0.5);
-      current = 0;
-      flipped = false;
-      updateCardUI(true);
-      document.getElementById("subcategorySelect").classList.add("hidden");
-      document.getElementById("flashcardPanel").classList.remove("hidden");
-    });
+
+function startFlashcardMode() {
+  inputMode = false;
+  document.getElementById('modeSelectPanel').classList.add('hidden');
+  document.getElementById('flashcardPanel').classList.remove('hidden');
+  document.getElementById('inputPanel').classList.add('hidden');
+  loadCards();
 }
+
+function startInputMode() {
+  inputMode = true;
+  document.getElementById('modeSelectPanel').classList.add('hidden');
+  document.getElementById('flashcardPanel').classList.add('hidden');
+  document.getElementById('inputPanel').classList.remove('hidden');
+  loadCards();
+}
+
+function showFlashcard() {
+  const card = cards[currentIndex];
+  document.getElementById('cardFront').textContent = card.english;
+  document.getElementById('cardBack').textContent = `${card.romaji} (${card.hiragana})`;
+  document.getElementById('cardBack').classList.add('hidden');
+}
+
 function flipCard() {
-  flipped = !flipped;
-  updateCardUI();
+  const back = document.getElementById('cardBack');
+  back.classList.toggle('hidden');
 }
-function updateCardUI(skipAnimation = false) {
-  const inner = document.getElementById("cardInner");
-  const front = document.getElementById("cardFront");
-  const back = document.getElementById("cardBack");
-  const v = cards[current];
-  front.textContent = v.english || "";
-  back.innerHTML = `${v.romaji || ""}<br>${v.formal || ""}<br>${v.hiragana || ""}`;
-  inner.style.transition = skipAnimation ? "none" : "";
-  document.querySelector(".flip-card").classList.toggle("flip", flipped);
-  if (skipAnimation) setTimeout(() => { inner.style.transition = ""; }, 20);
-}
+
 function nextCard() {
-  current = (current + 1) % cards.length;
+  currentIndex = (currentIndex + 1) % cards.length;
   flipped = false;
-  updateCardUI(true);
+  showFlashcard();
 }
-function startKanaPractice(type) {
-  fetch(`kana/${type}.json`)
-    .then(res => res.json())
-    .then(data => {
-      kanaList = data.sort(() => Math.random() - 0.5);
-      current = 0;
-      document.getElementById("kanaOptions").classList.add("hidden");
-      document.getElementById("kanaPanel").classList.remove("hidden");
-      showKanaPrompt();
-    });
+
+function showInputPrompt() {
+  const card = cards[currentIndex];
+  document.getElementById('userInput').value = '';
+  document.getElementById('feedback').textContent = '';
+  document.getElementById('inputPrompt').textContent =
+    direction === 'en->jp' ? card.english : `${card.romaji} (${card.hiragana})`;
 }
-function showKanaPrompt() {
-  document.getElementById("kanaPrompt").textContent = kanaList[current].kana;
-  document.getElementById("kanaAnswer").value = "";
-  document.getElementById("kanaFeedback").innerHTML = "";
-}
-function submitKanaAnswer() {
-  const input = document.getElementById("kanaAnswer").value.trim().toLowerCase();
-  const correct = kanaList[current].romaji;
-  const feedback = document.getElementById("kanaFeedback");
-  if (input === correct) {
-    feedback.innerHTML = "✅ Correct!";
-    feedback.className = "text-green-500 font-bold";
-    setTimeout(() => { current = (current + 1) % kanaList.length; showKanaPrompt(); }, 800);
+
+function submitAnswer() {
+  const card = cards[currentIndex];
+  const input = document.getElementById('userInput').value.trim().toLowerCase();
+  const correctAns = direction === 'en->jp' ? card.romaji.toLowerCase() : card.english.toLowerCase();
+  total++;
+  if (input === correctAns) {
+    correct++;
+    document.getElementById('feedback').textContent = '✅ Correct!';
+    document.getElementById('feedback').className = 'text-green-500';
   } else {
-    feedback.innerHTML = `❌ Correct answer: ${correct}`;
-    feedback.className = "text-red-500 font-bold";
+    document.getElementById('feedback').textContent = `❌ Correct: ${correctAns}`;
+    document.getElementById('feedback').className = 'text-red-500';
   }
+  updateScore();
+  setTimeout(() => {
+    currentIndex = (currentIndex + 1) % cards.length;
+    showInputPrompt();
+  }, 1000);
+}
+
+function updateScore() {
+  document.getElementById('scoreDisplay').textContent = `${correct} / ${total} correct`;
+}
+
+function toggleDirection() {
+  direction = direction === 'en->jp' ? 'jp->en' : 'en->jp';
+  document.getElementById('directionLabel').textContent = direction === 'en->jp' ? 'EN → JP' : 'JP → EN';
+  resetInputMode();
+}
+
+function resetInputMode() {
+  cards = shuffle(cards);
+  currentIndex = 0;
+  correct = 0;
+  total = 0;
+  updateScore();
+  showInputPrompt();
 }
 </script>
 </body>

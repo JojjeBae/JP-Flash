@@ -181,7 +181,7 @@ function startKanaPractice(type) {
       showKanaPrompt();
       const kanaInput = document.getElementById("kanaAnswer");
       kanaInput.addEventListener("focus", () => scrollToPanel("kanaPanel", 300));
-      scrollToPanel("kanaPanel", 300);
+      scrollToPanel("kanaPanel", 100);
       kanaInput.focus();
     });
 }
@@ -220,7 +220,7 @@ function startInputMode() {
       showInputPrompt();
       const inputField = document.getElementById("inputAnswer");
       inputField.addEventListener("focus", () => scrollToPanel("inputPanel", 300));
-      scrollToPanel("inputPanel", 300);
+      scrollToPanel("inputPanel", 100);
       inputField.focus();
     });
 }

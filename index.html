@@ -180,9 +180,8 @@ function startKanaPractice(type) {
       document.getElementById("kanaPanel").classList.remove("hidden");
       showKanaPrompt();
       const kanaInput = document.getElementById("kanaAnswer");
-      kanaInput.addEventListener("focus", () => scrollToPanel("kanaPanel", 100));
-      scrollToPanel("kanaPanel", 100);
       kanaInput.focus();
+      scrollToPanel("kanaPanel", 120);
     });
 }
 function showKanaPrompt() {
@@ -219,9 +218,8 @@ function startInputMode() {
       document.getElementById("inputPanel").classList.remove("hidden");
       showInputPrompt();
       const inputField = document.getElementById("inputAnswer");
-      inputField.addEventListener("focus", () => scrollToPanel("inputPanel", 100));
-      scrollToPanel("inputPanel", 100);
       inputField.focus();
+      scrollToPanel("inputPanel", 120);
     });
 }
 function showInputPrompt() {
@@ -284,14 +282,13 @@ function saveScore(file, score, total) {
   localStorage.setItem(`jpflash_score_${name}`, JSON.stringify({ score, total, date: new Date().toISOString() }));
 }
 
-function scrollToPanel(panelId, offset = 80) {
-  const panel = document.getElementById(panelId);
-  if (panel) {
-    const rect = panel.getBoundingClientRect();
-    const scrollY = window.scrollY || window.pageYOffset;
-    const top = rect.top + scrollY - offset;
-    window.scrollTo({ top: top, behavior: 'smooth' });
-  }
+function scrollToPanel(panelId, offset = 100) {
+  setTimeout(() => {
+    const panel = document.getElementById(panelId);
+    if (!panel) return;
+    const top = panel.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: 'smooth' });
+  }, 300); // Delay to allow input focus/keyboard to settle
 }
   
 </script>

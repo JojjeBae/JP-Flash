@@ -293,20 +293,6 @@ function scrollToPanel(panelId, offset = 80) {
     window.scrollTo({ top: top, behavior: 'smooth' });
   }
 }
-
-// Scroll when input fields get focus
-document.addEventListener("DOMContentLoaded", () => {
-  const inputField = document.getElementById("inputAnswer");
-  const kanaField = document.getElementById("kanaAnswer");
-
-  if (inputField) {
-    inputField.addEventListener("focus", () => scrollToPanel("inputPanel"));
-  }
-
-  if (kanaField) {
-    kanaField.addEventListener("focus", () => scrollToPanel("kanaPanel"));
-  }
-});
   
 </script>
 </body>

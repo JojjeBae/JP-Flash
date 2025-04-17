@@ -1,0 +1,127 @@
+[
+  {
+    "english": "music",
+    "hiragana": "おんがく",
+    "romaji": "ongaku"
+  },
+  {
+    "english": "movie",
+    "hiragana": "えいが",
+    "romaji": "eiga"
+  },
+  {
+    "english": "game",
+    "hiragana": "ゲーム",
+    "romaji": "geemu"
+  },
+  {
+    "english": "language",
+    "hiragana": "ことば",
+    "romaji": "kotoba"
+  },
+  {
+    "english": "letter",
+    "hiragana": "てがみ",
+    "romaji": "tegami"
+  },
+  {
+    "english": "song",
+    "hiragana": "うた",
+    "romaji": "uta"
+  },
+  {
+    "english": "news",
+    "hiragana": "ニュース",
+    "romaji": "nyuusu"
+  },
+  {
+    "english": "magazine",
+    "hiragana": "ざっし",
+    "romaji": "zasshi"
+  },
+  {
+    "english": "newspaper",
+    "hiragana": "しんぶん",
+    "romaji": "shinbun"
+  },
+  {
+    "english": "story",
+    "hiragana": "ものがたり",
+    "romaji": "monogatari"
+  },
+  {
+    "english": "holiday",
+    "hiragana": "やすみ",
+    "romaji": "yasumi"
+  },
+  {
+    "english": "festival",
+    "hiragana": "まつり",
+    "romaji": "matsuri"
+  },
+  {
+    "english": "party",
+    "hiragana": "パーティー",
+    "romaji": "paatii"
+  },
+  {
+    "english": "sport",
+    "hiragana": "スポーツ",
+    "romaji": "supootsu"
+  },
+  {
+    "english": "exercise",
+    "hiragana": "うんどう",
+    "romaji": "undou"
+  },
+  {
+    "english": "homework",
+    "hiragana": "しゅくだい",
+    "romaji": "shukudai"
+  },
+  {
+    "english": "test",
+    "hiragana": "テスト",
+    "romaji": "tesuto"
+  },
+  {
+    "english": "question",
+    "hiragana": "しつもん",
+    "romaji": "shitsumon"
+  },
+  {
+    "english": "answer",
+    "hiragana": "こたえ",
+    "romaji": "kotae"
+  },
+  {
+    "english": "example",
+    "hiragana": "れい",
+    "romaji": "rei"
+  },
+  {
+    "english": "idea",
+    "hiragana": "アイデア",
+    "romaji": "aidea"
+  },
+  {
+    "english": "dream",
+    "hiragana": "ゆめ",
+    "romaji": "yume"
+  },
+  {
+    "english": "hope",
+    "hiragana": "きぼう",
+    "romaji": "kibou"
+  },
+  {
+    "english": "love",
+    "hiragana": "あい",
+    "romaji": "ai"
+  },
+  {
+    "english": "friendship",
+    "hiragana": "ゆうじょう",
+    "romaji": "yuujou"
+  }
+]

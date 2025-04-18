@@ -112,6 +112,12 @@ function goHome() {
   document.getElementById("kanaPanel").classList.add("hidden");
   document.getElementById("inputPanel").classList.add("hidden");
 }
+
+function padRight(str, length) {
+  const padLength = Math.max(length - str.length, 0);
+  return str + '\u00A0'.repeat(padLength);
+}
+  
 function selectCategory(category) {
   currentCategory = category;
   document.getElementById("mainMenu").classList.add("hidden");
@@ -129,8 +135,8 @@ function selectCategory(category) {
         const option = document.createElement("option");
         option.value = `${category}/${name}.json`;
         const displayName = name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-        const score = getStoredScore(name); // ⬅️ Add this line
-        option.text = `${displayName.padEnd(10, ' ')}${score}`; // ⬅️ Show score if any
+        const score = getStoredScore(name); 
+        option.text = `${displayName.padRight(displayName, 20)}${score}`;
         dropdown.appendChild(option);
       });
       }

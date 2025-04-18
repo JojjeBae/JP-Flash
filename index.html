@@ -130,7 +130,7 @@ function selectCategory(category) {
         option.value = `${category}/${name}.json`;
         const displayName = name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
         const score = getStoredScore(name); // ⬅️ Add this line
-        option.text = `${displayName.padEnd(40, ' ')}${score}`; // ⬅️ Show score if any
+        option.text = `${displayName.padEnd(10, ' ')}${score}`; // ⬅️ Show score if any
         dropdown.appendChild(option);
       });
       }

@@ -136,7 +136,7 @@ function selectCategory(category) {
         option.value = `${category}/${name}.json`;
         const displayName = name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
         const score = getStoredScore(name); 
-        option.text = `${padRight(displayName, 20)}${score}`;
+        option.text = `${padRight(displayName, 50)}${score}`;
         dropdown.appendChild(option);
       });
       }

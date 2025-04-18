@@ -126,11 +126,13 @@ function selectCategory(category) {
       dropdown.innerHTML = '<option value="">-- Select a subcategory --</option>';
       if (index[category]) {
         index[category].forEach(name => {
-          const option = document.createElement("option");
-          option.value = `${category}/${name}.json`;
-          option.text = name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-          dropdown.appendChild(option);
-        });
+        const option = document.createElement("option");
+        option.value = `${category}/${name}.json`;
+        const displayName = name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+        const score = getStoredScore(name); // ⬅️ Add this line
+        option.text = `${displayName}${score}`; // ⬅️ Show score if any
+        dropdown.appendChild(option);
+      });
       }
       document.getElementById("subcategorySelect").classList.remove("hidden");
     });
@@ -277,6 +279,18 @@ function retryWrongAnswers() {
   document.getElementById("retryWrongBtn").classList.add("hidden");
   showInputPrompt();
 }
+
+function getStoredScore(name) {
+  const saved = localStorage.getItem(`jpflash_score_${name}`);
+  if (!saved) return '';
+  try {
+    const { score, total } = JSON.parse(saved);
+    return ` (${score}/${total})`;
+  } catch (e) {
+    return '';
+  }
+} 
+  
 function saveScore(file, score, total) {
   const name = file.split('/').pop().replace('.json', '');
   localStorage.setItem(`jpflash_score_${name}`, JSON.stringify({ score, total, date: new Date().toISOString() }));

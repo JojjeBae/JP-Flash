@@ -256,7 +256,7 @@ function submitInputAnswer() {
   current++;
 
   if (current < cards.length) {
-    setTimeout(() => showInputPrompt(), 2000);
+    setTimeout(() => showInputPrompt(), 1500);
   } else {
     feedback.innerHTML += `<br><br><strong>Final Score: ${inputScore}/${inputTotal}</strong>`;
     document.getElementById("inputScore").textContent = "";

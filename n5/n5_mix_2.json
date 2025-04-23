@@ -137,4 +137,41 @@
     "kana": "ひる",
     "romaji": "hiru",
     "english": "noon / daytime",
-    "type": "noun
+    "type": "noun"
+  },
+  {
+    "kanji": "死ぬ",
+    "kana": "しぬ",
+    "romaji": "shinu",
+    "english": "to die",
+    "type": "verb"
+  },
+  {
+    "kanji": "歩く",
+    "kana": "あるく",
+    "romaji": "aruku",
+    "english": "to walk",
+    "type": "verb"
+  },
+  {
+    "kanji": "寒い",
+    "kana": "さむい",
+    "romaji": "samui",
+    "english": "cold (weather)",
+    "type": "adjective"
+  },
+  {
+    "kanji": "暑い",
+    "kana": "あつい",
+    "romaji": "atsui",
+    "english": "hot (weather)",
+    "type": "adjective"
+  },
+  {
+    "kanji": "映画",
+    "kana": "えいが",
+    "romaji": "eiga",
+    "english": "movie",
+    "type": "noun"
+  }
+]

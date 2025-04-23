@@ -180,7 +180,7 @@ function updateCardUI(skipAnimation = false) {
   const back = document.getElementById("cardBack");
   const v = cards[current];
   front.textContent = v.english || "";
-  back.innerHTML = `${v.romaji || ""}<br>${v.formal || ""}<br>${v.hiragana || ""}`;
+  back.innerHTML = `${v.hiragana || v.kana || ""}<br>${v.romaji || ""}<br>${v.formal || ""}`;
   inner.style.transition = skipAnimation ? "none" : "";
   document.querySelector(".flip-card").classList.toggle("flip", flipped);
   if (skipAnimation) setTimeout(() => { inner.style.transition = ""; }, 20);

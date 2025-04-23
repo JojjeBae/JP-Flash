@@ -1,0 +1,140 @@
+[
+  {
+    "kanji": "学校",
+    "kana": "がっこう",
+    "romaji": "gakkou",
+    "english": "school",
+    "type": "noun"
+  },
+  {
+    "kanji": "駅",
+    "kana": "えき",
+    "romaji": "eki",
+    "english": "station",
+    "type": "noun"
+  },
+  {
+    "kanji": "行う",
+    "kana": "おこなう",
+    "romaji": "okonau",
+    "english": "to perform / to carry out",
+    "type": "verb"
+  },
+  {
+    "kanji": "読む",
+    "kana": "よむ",
+    "romaji": "yomu",
+    "english": "to read",
+    "type": "verb"
+  },
+  {
+    "kanji": "黒い",
+    "kana": "くろい",
+    "romaji": "kuroi",
+    "english": "black",
+    "type": "adjective"
+  },
+  {
+    "kanji": "白い",
+    "kana": "しろい",
+    "romaji": "shiroi",
+    "english": "white",
+    "type": "adjective"
+  },
+  {
+    "kanji": "母",
+    "kana": "はは",
+    "romaji": "haha",
+    "english": "mother",
+    "type": "noun"
+  },
+  {
+    "kanji": "父",
+    "kana": "ちち",
+    "romaji": "chichi",
+    "english": "father",
+    "type": "noun"
+  },
+  {
+    "kanji": "乗る",
+    "kana": "のる",
+    "romaji": "noru",
+    "english": "to ride",
+    "type": "verb"
+  },
+  {
+    "kanji": "作る",
+    "kana": "つくる",
+    "romaji": "tsukuru",
+    "english": "to make",
+    "type": "verb"
+  },
+  {
+    "kanji": "安い",
+    "kana": "やすい",
+    "romaji": "yasui",
+    "english": "cheap",
+    "type": "adjective"
+  },
+  {
+    "kanji": "古い",
+    "kana": "ふるい",
+    "romaji": "furui",
+    "english": "old (not person)",
+    "type": "adjective"
+  },
+  {
+    "kanji": "子供",
+    "kana": "こども",
+    "romaji": "kodomo",
+    "english": "child",
+    "type": "noun"
+  },
+  {
+    "kanji": "部屋",
+    "kana": "へや",
+    "romaji": "heya",
+    "english": "room",
+    "type": "noun"
+  },
+  {
+    "kanji": "働く",
+    "kana": "はたらく",
+    "romaji": "hataraku",
+    "english": "to work",
+    "type": "verb"
+  },
+  {
+    "kanji": "立つ",
+    "kana": "たつ",
+    "romaji": "tatsu",
+    "english": "to stand",
+    "type": "verb"
+  },
+  {
+    "kanji": "面白い",
+    "kana": "おもしろい",
+    "romaji": "omoshiroi",
+    "english": "interesting / funny",
+    "type": "adjective"
+  },
+  {
+    "kanji": "静か",
+    "kana": "しずか",
+    "romaji": "shizuka",
+    "english": "quiet",
+    "type": "adjective"
+  },
+  {
+    "kanji": "夜",
+    "kana": "よる",
+    "romaji": "yoru",
+    "english": "night",
+    "type": "noun"
+  },
+  {
+    "kanji": "昼",
+    "kana": "ひる",
+    "romaji": "hiru",
+    "english": "noon / daytime",
+    "type": "noun

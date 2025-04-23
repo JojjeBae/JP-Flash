@@ -28,5 +28,8 @@
     "counters_native",
     "counters_common",
     "counters_days_months"
+  ],
+  "n5": [
+    "n5_mix_1"
   ]
 }

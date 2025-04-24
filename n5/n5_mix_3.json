@@ -1,0 +1,177 @@
+[
+  {
+    "kanji": "朝",
+    "kana": "あさ",
+    "romaji": "asa",
+    "english": "morning",
+    "type": "noun"
+  },
+  {
+    "kanji": "晩",
+    "kana": "ばん",
+    "romaji": "ban",
+    "english": "evening",
+    "type": "noun"
+  },
+  {
+    "kanji": "入る",
+    "kana": "はいる",
+    "romaji": "hairu",
+    "english": "to enter",
+    "type": "verb"
+  },
+  {
+    "kanji": "出る",
+    "kana": "でる",
+    "romaji": "deru",
+    "english": "to exit / to leave",
+    "type": "verb"
+  },
+  {
+    "kanji": "楽しい",
+    "kana": "たのしい",
+    "romaji": "tanoshii",
+    "english": "fun / enjoyable",
+    "type": "adjective"
+  },
+  {
+    "kanji": "難しい",
+    "kana": "むずかしい",
+    "romaji": "muzukashii",
+    "english": "difficult",
+    "type": "adjective"
+  },
+  {
+    "kanji": "手",
+    "kana": "て",
+    "romaji": "te",
+    "english": "hand",
+    "type": "noun"
+  },
+  {
+    "kanji": "足",
+    "kana": "あし",
+    "romaji": "ashi",
+    "english": "foot / leg",
+    "type": "noun"
+  },
+  {
+    "kanji": "使う",
+    "kana": "つかう",
+    "romaji": "tsukau",
+    "english": "to use",
+    "type": "verb"
+  },
+  {
+    "kanji": "待つ",
+    "kana": "まつ",
+    "romaji": "matsu",
+    "english": "to wait",
+    "type": "verb"
+  },
+  {
+    "kanji": "短い",
+    "kana": "みじかい",
+    "romaji": "mijikai",
+    "english": "short",
+    "type": "adjective"
+  },
+  {
+    "kanji": "長い",
+    "kana": "ながい",
+    "romaji": "nagai",
+    "english": "long",
+    "type": "adjective"
+  },
+  {
+    "kanji": "兄",
+    "kana": "あに",
+    "romaji": "ani",
+    "english": "older brother",
+    "type": "noun"
+  },
+  {
+    "kanji": "姉",
+    "kana": "あね",
+    "romaji": "ane",
+    "english": "older sister",
+    "type": "noun"
+  },
+  {
+    "kanji": "泳ぐ",
+    "kana": "およぐ",
+    "romaji": "oyogu",
+    "english": "to swim",
+    "type": "verb"
+  },
+  {
+    "kanji": "住む",
+    "kana": "すむ",
+    "romaji": "sumu",
+    "english": "to live (reside)",
+    "type": "verb"
+  },
+  {
+    "kanji": "遅い",
+    "kana": "おそい",
+    "romaji": "osoi",
+    "english": "late / slow",
+    "type": "adjective"
+  },
+  {
+    "kanji": "痛い",
+    "kana": "いたい",
+    "romaji": "itai",
+    "english": "painful / it hurts",
+    "type": "adjective"
+  },
+  {
+    "kanji": "顔",
+    "kana": "かお",
+    "romaji": "kao",
+    "english": "face",
+    "type": "noun"
+  },
+  {
+    "kanji": "口",
+    "kana": "くち",
+    "romaji": "kuchi",
+    "english": "mouth",
+    "type": "noun"
+  },
+  {
+    "kanji": "教える",
+    "kana": "おしえる",
+    "romaji": "oshieru",
+    "english": "to teach / to tell",
+    "type": "verb"
+  },
+  {
+    "kanji": "開ける",
+    "kana": "あける",
+    "romaji": "akeru",
+    "english": "to open",
+    "type": "verb"
+  },
+  {
+    "kanji": "強い",
+    "kana": "つよい",
+    "romaji": "tsuyoi",
+    "english": "strong",
+    "type": "adjective"
+  },
+  {
+    "kanji": "弱い",
+    "kana": "よわい",
+    "romaji": "yowai",
+    "english": "weak",
+    "type": "adjective"
+  },
+  {
+    "kanji": "山",
+    "kana": "やま",
+    "romaji": "yama",
+    "english": "mountain",
+    "type": "noun"
+  }
+]

@@ -253,7 +253,7 @@ function showInputPrompt() {
 function submitInputAnswer() {
   const v = cards[current];
   const input = document.getElementById("inputAnswer").value.trim().toLowerCase();
-  const correct = v.romaji?.trim().toLowerCase() || "";
+  const correct = v.romaji?.trim().toLowerCase() || v.kana?.trim() || v.hiragana?.trim();
   const feedback = document.getElementById("inputFeedback");
 
   if (input === correct) {

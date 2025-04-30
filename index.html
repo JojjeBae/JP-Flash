@@ -253,7 +253,8 @@ function showInputPrompt() {
 function submitInputAnswer() {
   const v = cards[current];
   const input = document.getElementById("inputAnswer").value.trim().toLowerCase();
-  const correct = v.romaji?.trim().toLowerCase() || v.kana?.trim() || v.hiragana?.trim();
+  const correct = v.romaji?.trim().toLowerCase() || "";
+  const correctKana = v.kana?.trim() || "";
   const feedback = document.getElementById("inputFeedback");
 
   if (input === correct) {
@@ -261,7 +262,7 @@ function submitInputAnswer() {
     feedback.className = "text-green-500 font-bold";
     inputScore++;
   } else {
-    feedback.innerHTML = `❌ Correct answer: ${correct}`;
+    feedback.innerHTML = `❌ Correct answer: ${correct} / ${correctKana}`;
     feedback.className = "text-red-500 font-bold";
     incorrectCards.push(v);
   }

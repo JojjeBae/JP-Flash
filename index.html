@@ -257,7 +257,7 @@ function submitInputAnswer() {
   const correctKana = v.kana?.trim() || "";
   const feedback = document.getElementById("inputFeedback");
 
-  if (input === correct) {
+  if (input === correct || input === correctKana) {
     feedback.innerHTML = "✅ Correct!";
     feedback.className = "text-green-500 font-bold";
     inputScore++;

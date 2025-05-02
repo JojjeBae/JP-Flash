@@ -2,313 +2,313 @@
   {
     "kanji": "日",
     "english": "sun, day",
-    "hiragana": "にち",
+    "kana": "にち",
     "romaji": "nichi"
   },
   {
     "kanji": "一",
     "english": "one",
-    "hiragana": "いち",
+    "kana": "いち",
     "romaji": "ichi"
   },
   {
     "kanji": "国",
     "english": "country",
-    "hiragana": "くに",
+    "kana": "くに",
     "romaji": "kuni"
   },
   {
     "kanji": "人",
     "english": "person",
-    "hiragana": "ひと",
+    "kana": "ひと",
     "romaji": "hito"
   },
   {
     "kanji": "年",
     "english": "year",
-    "hiragana": "とし",
+    "kana": "とし",
     "romaji": "toshi"
   },
   {
     "kanji": "大",
     "english": "big",
-    "hiragana": "おおきい",
+    "kana": "おおきい",
     "romaji": "ookii"
   },
   {
     "kanji": "十",
     "english": "ten",
-    "hiragana": "じゅう",
+    "kana": "じゅう",
     "romaji": "juu"
   },
   {
     "kanji": "二",
     "english": "two",
-    "hiragana": "に",
+    "kana": "に",
     "romaji": "ni"
   },
   {
     "kanji": "本",
     "english": "book, origin",
-    "hiragana": "ほん",
+    "kana": "ほん",
     "romaji": "hon"
   },
   {
     "kanji": "中",
     "english": "inside, middle",
-    "hiragana": "なか",
+    "kana": "なか",
     "romaji": "naka"
   },
   {
     "kanji": "長",
     "english": "long, leader",
-    "hiragana": "ながい",
+    "kana": "ながい",
     "romaji": "nagai"
   },
   {
     "kanji": "出",
     "english": "exit, go out",
-    "hiragana": "でる",
+    "kana": "でる",
     "romaji": "deru"
   },
   {
     "kanji": "三",
     "english": "three",
-    "hiragana": "さん",
+    "kana": "さん",
     "romaji": "san"
   },
   {
     "kanji": "時",
     "english": "time, hour",
-    "hiragana": "じ",
+    "kana": "じ",
     "romaji": "ji"
   },
   {
     "kanji": "行",
     "english": "go",
-    "hiragana": "いく",
+    "kana": "いく",
     "romaji": "iku"
   },
   {
     "kanji": "見",
     "english": "see",
-    "hiragana": "みる",
+    "kana": "みる",
     "romaji": "miru"
   },
   {
     "kanji": "月",
     "english": "moon, month",
-    "hiragana": "つき",
+    "kana": "つき",
     "romaji": "tsuki"
   },
   {
     "kanji": "後",
     "english": "after, behind",
-    "hiragana": "あと",
+    "kana": "あと",
     "romaji": "ato"
   },
   {
     "kanji": "前",
     "english": "before, in front",
-    "hiragana": "まえ",
+    "kana": "まえ",
     "romaji": "mae"
   },
   {
     "kanji": "生",
     "english": "life, birth",
-    "hiragana": "せい",
+    "kana": "せい",
     "romaji": "sei"
   },
   {
     "kanji": "五",
     "english": "five",
-    "hiragana": "ご",
+    "kana": "ご",
     "romaji": "go"
   },
   {
     "kanji": "間",
     "english": "interval, space",
-    "hiragana": "あいだ",
+    "kana": "あいだ",
     "romaji": "aida"
   },
   {
     "kanji": "上",
     "english": "up",
-    "hiragana": "うえ",
+    "kana": "うえ",
     "romaji": "ue"
   },
   {
     "kanji": "東",
     "english": "east",
-    "hiragana": "ひがし",
+    "kana": "ひがし",
     "romaji": "higashi"
   },
   {
     "kanji": "四",
     "english": "four",
-    "hiragana": "し",
+    "kana": "し",
     "romaji": "shi"
   },
   {
     "kanji": "今",
     "english": "now",
-    "hiragana": "いま",
+    "kana": "いま",
     "romaji": "ima"
   },
   {
     "kanji": "金",
     "english": "money, gold",
-    "hiragana": "かね",
+    "kana": "かね",
     "romaji": "kane"
   },
   {
     "kanji": "九",
     "english": "nine",
-    "hiragana": "きゅう",
+    "kana": "きゅう",
     "romaji": "kyuu"
   },
   {
     "kanji": "入",
     "english": "enter",
-    "hiragana": "はいる",
+    "kana": "はいる",
     "romaji": "hairu"
   },
   {
     "kanji": "学",
     "english": "study, learning",
-    "hiragana": "がく",
+    "kana": "がく",
     "romaji": "gaku"
   },
   {
     "kanji": "高",
     "english": "tall, expensive",
-    "hiragana": "たかい",
+    "kana": "たかい",
     "romaji": "takai"
   },
   {
     "kanji": "円",
     "english": "yen, circle",
-    "hiragana": "えん",
+    "kana": "えん",
     "romaji": "en"
   },
   {
     "kanji": "子",
     "english": "child",
-    "hiragana": "こ",
+    "kana": "こ",
     "romaji": "ko"
   },
   {
     "kanji": "外",
     "english": "outside",
-    "hiragana": "そと",
+    "kana": "そと",
     "romaji": "soto"
   },
   {
     "kanji": "八",
     "english": "eight",
-    "hiragana": "はち",
+    "kana": "はち",
     "romaji": "hachi"
   },
   {
     "kanji": "六",
     "english": "six",
-    "hiragana": "ろく",
+    "kana": "ろく",
     "romaji": "roku"
   },
   {
     "kanji": "下",
     "english": "down",
-    "hiragana": "した",
+    "kana": "した",
     "romaji": "shita"
   },
   {
     "kanji": "来",
     "english": "come",
-    "hiragana": "くる",
+    "kana": "くる",
     "romaji": "kuru"
   },
   {
     "kanji": "気",
     "english": "spirit, air",
-    "hiragana": "き",
+    "kana": "き",
     "romaji": "ki"
   },
   {
     "kanji": "小",
     "english": "small",
-    "hiragana": "ちいさい",
+    "kana": "ちいさい",
     "romaji": "chiisai"
   },
   {
     "kanji": "七",
     "english": "seven",
-    "hiragana": "しち",
+    "kana": "しち",
     "romaji": "shichi"
   },
   {
     "kanji": "山",
     "english": "mountain",
-    "hiragana": "やま",
+    "kana": "やま",
     "romaji": "yama"
   },
   {
     "kanji": "話",
     "english": "talk, story",
-    "hiragana": "はなし",
+    "kana": "はなし",
     "romaji": "hanashi"
   },
   {
     "kanji": "女",
     "english": "woman",
-    "hiragana": "おんな",
+    "kana": "おんな",
     "romaji": "onna"
   },
   {
     "kanji": "北",
     "english": "north",
-    "hiragana": "きた",
+    "kana": "きた",
     "romaji": "kita"
   },
   {
     "kanji": "午",
     "english": "noon",
-    "hiragana": "ご",
+    "kana": "ご",
     "romaji": "go"
   },
   {
     "kanji": "百",
     "english": "hundred",
-    "hiragana": "ひゃく",
+    "kana": "ひゃく",
     "romaji": "hyaku"
   },
   {
     "kanji": "書",
     "english": "write",
-    "hiragana": "かく",
+    "kana": "かく",
     "romaji": "kaku"
   },
   {
     "kanji": "先",
     "english": "previous",
-    "hiragana": "さき",
+    "kana": "さき",
     "romaji": "saki"
   },
   {
     "kanji": "名",
     "english": "name",
-    "hiragana": "なまえ",
+    "kana": "なまえ",
     "romaji": "namae"
   },
   {
     "kanji": "川",
     "english": "river",
-    "hiragana": "かわ",
+    "kana": "かわ",
     "romaji": "kawa"
   },
   {
     "kanji": "千",
     "english": "thousand",
-    "hiragana": "せん",
+    "kana": "せん",
     "romaji": "sen"
   }
 ]

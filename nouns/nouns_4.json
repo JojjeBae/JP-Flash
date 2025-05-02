@@ -1,127 +1,127 @@
 [
   {
     "english": "music",
-    "hiragana": "おんがく",
+    "kana": "おんがく",
     "romaji": "ongaku"
   },
   {
     "english": "movie",
-    "hiragana": "えいが",
+    "kana": "えいが",
     "romaji": "eiga"
   },
   {
     "english": "game",
-    "hiragana": "ゲーム",
+    "kana": "ゲーム",
     "romaji": "geemu"
   },
   {
     "english": "language",
-    "hiragana": "ことば",
+    "kana": "ことば",
     "romaji": "kotoba"
   },
   {
     "english": "letter",
-    "hiragana": "てがみ",
+    "kana": "てがみ",
     "romaji": "tegami"
   },
   {
     "english": "song",
-    "hiragana": "うた",
+    "kana": "うた",
     "romaji": "uta"
   },
   {
     "english": "news",
-    "hiragana": "ニュース",
+    "kana": "ニュース",
     "romaji": "nyuusu"
   },
   {
     "english": "magazine",
-    "hiragana": "ざっし",
+    "kana": "ざっし",
     "romaji": "zasshi"
   },
   {
     "english": "newspaper",
-    "hiragana": "しんぶん",
+    "kana": "しんぶん",
     "romaji": "shinbun"
   },
   {
     "english": "story",
-    "hiragana": "ものがたり",
+    "kana": "ものがたり",
     "romaji": "monogatari"
   },
   {
     "english": "holiday",
-    "hiragana": "やすみ",
+    "kana": "やすみ",
     "romaji": "yasumi"
   },
   {
     "english": "festival",
-    "hiragana": "まつり",
+    "kana": "まつり",
     "romaji": "matsuri"
   },
   {
     "english": "party",
-    "hiragana": "パーティー",
+    "kana": "パーティー",
     "romaji": "paatii"
   },
   {
     "english": "sport",
-    "hiragana": "スポーツ",
+    "kana": "スポーツ",
     "romaji": "supootsu"
   },
   {
     "english": "exercise",
-    "hiragana": "うんどう",
+    "kana": "うんどう",
     "romaji": "undou"
   },
   {
     "english": "homework",
-    "hiragana": "しゅくだい",
+    "kana": "しゅくだい",
     "romaji": "shukudai"
   },
   {
     "english": "test",
-    "hiragana": "テスト",
+    "kana": "テスト",
     "romaji": "tesuto"
   },
   {
     "english": "question",
-    "hiragana": "しつもん",
+    "kana": "しつもん",
     "romaji": "shitsumon"
   },
   {
     "english": "answer",
-    "hiragana": "こたえ",
+    "kana": "こたえ",
     "romaji": "kotae"
   },
   {
     "english": "example",
-    "hiragana": "れい",
+    "kana": "れい",
     "romaji": "rei"
   },
   {
     "english": "idea",
-    "hiragana": "アイデア",
+    "kana": "アイデア",
     "romaji": "aidea"
   },
   {
     "english": "dream",
-    "hiragana": "ゆめ",
+    "kana": "ゆめ",
     "romaji": "yume"
   },
   {
     "english": "hope",
-    "hiragana": "きぼう",
+    "kana": "きぼう",
     "romaji": "kibou"
   },
   {
     "english": "love",
-    "hiragana": "あい",
+    "kana": "あい",
     "romaji": "ai"
   },
   {
     "english": "friendship",
-    "hiragana": "ゆうじょう",
+    "kana": "ゆうじょう",
     "romaji": "yuujou"
   }
 ]

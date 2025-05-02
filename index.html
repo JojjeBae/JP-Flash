@@ -276,7 +276,9 @@ function submitInputAnswer() {
     if (input === correct || input === correctKana) {
       setTimeout(() => showInputPrompt(), 800);
     } else {
-      document.addEventListener('click', advanceOnClick);
+      setTimeout(() => {
+        document.addEventListener('click', advanceOnClick);
+      }, 100);
     }
   } else {
     feedback.innerHTML += `<br><br><strong>Final Score: ${inputScore}/${inputTotal}</strong>`;

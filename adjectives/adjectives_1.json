@@ -1,127 +1,127 @@
 [
   {
     "english": "big",
-    "hiragana": "おおきい",
+    "kana": "おおきい",
     "romaji": "ookii"
   },
   {
     "english": "small",
-    "hiragana": "ちいさい",
+    "kana": "ちいさい",
     "romaji": "chiisai"
   },
   {
     "english": "new",
-    "hiragana": "あたらしい",
+    "kana": "あたらしい",
     "romaji": "atarashii"
   },
   {
     "english": "old",
-    "hiragana": "ふるい",
+    "kana": "ふるい",
     "romaji": "furui"
   },
   {
     "english": "good",
-    "hiragana": "いい",
+    "kana": "いい",
     "romaji": "ii"
   },
   {
     "english": "bad",
-    "hiragana": "わるい",
+    "kana": "わるい",
     "romaji": "warui"
   },
   {
     "english": "hot (weather)",
-    "hiragana": "あつい",
+    "kana": "あつい",
     "romaji": "atsui"
   },
   {
     "english": "cold (weather)",
-    "hiragana": "さむい",
+    "kana": "さむい",
     "romaji": "samui"
   },
   {
     "english": "cold (things)",
-    "hiragana": "つめたい",
+    "kana": "つめたい",
     "romaji": "tsumetai"
   },
   {
     "english": "warm",
-    "hiragana": "あたたかい",
+    "kana": "あたたかい",
     "romaji": "atatakai"
   },
   {
     "english": "cool",
-    "hiragana": "すずしい",
+    "kana": "すずしい",
     "romaji": "suzushii"
   },
   {
     "english": "easy",
-    "hiragana": "かんたん",
+    "kana": "かんたん",
     "romaji": "kantan"
   },
   {
     "english": "difficult",
-    "hiragana": "むずかしい",
+    "kana": "むずかしい",
     "romaji": "muzukashii"
   },
   {
     "english": "interesting",
-    "hiragana": "おもしろい",
+    "kana": "おもしろい",
     "romaji": "omoshiroi"
   },
   {
     "english": "boring",
-    "hiragana": "つまらない",
+    "kana": "つまらない",
     "romaji": "tsumaranai"
   },
   {
     "english": "beautiful",
-    "hiragana": "うつくしい",
+    "kana": "うつくしい",
     "romaji": "utsukushii"
   },
   {
     "english": "cute",
-    "hiragana": "かわいい",
+    "kana": "かわいい",
     "romaji": "kawaii"
   },
   {
     "english": "kind",
-    "hiragana": "やさしい",
+    "kana": "やさしい",
     "romaji": "yasashii"
   },
   {
     "english": "fast",
-    "hiragana": "はやい",
+    "kana": "はやい",
     "romaji": "hayai"
   },
   {
     "english": "slow",
-    "hiragana": "おそい",
+    "kana": "おそい",
     "romaji": "osoi"
   },
   {
     "english": "expensive",
-    "hiragana": "たかい",
+    "kana": "たかい",
     "romaji": "takai"
   },
   {
     "english": "cheap",
-    "hiragana": "やすい",
+    "kana": "やすい",
     "romaji": "yasui"
   },
   {
     "english": "bright",
-    "hiragana": "あかるい",
+    "kana": "あかるい",
     "romaji": "akarui"
   },
   {
     "english": "dark",
-    "hiragana": "くらい",
+    "kana": "くらい",
     "romaji": "kurai"
   },
   {
     "english": "noisy",
-    "hiragana": "うるさい",
+    "kana": "うるさい",
     "romaji": "urusai"
   }
 ]

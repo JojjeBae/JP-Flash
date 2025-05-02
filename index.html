@@ -267,7 +267,7 @@ function submitInputAnswer() {
     feedback.className = "text-green-500 font-bold";
     inputScore++;
   } else {
-    feedback.innerHTML = `❌ Correct answer: <br/> <font size="1.7rem">${correct} / ${correctKana}</font> `;
+    feedback.innerHTML = `❌ Correct answer: <br/> ${correct} / ${correctKana}`;
     feedback.className = "text-red-500 font-bold";
     incorrectCards.push(v);
   }

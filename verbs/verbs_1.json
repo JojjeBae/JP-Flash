@@ -1,151 +1,151 @@
 [
   {
     "english": "to eat",
-    "hiragana": "たべる",
+    "kana": "たべる",
     "romaji": "taberu",
     "formal": "tabemasu"
   },
   {
     "english": "to drink",
-    "hiragana": "のむ",
+    "kana": "のむ",
     "romaji": "nomu",
     "formal": "nomimasu"
   },
   {
     "english": "to go",
-    "hiragana": "いく",
+    "kana": "いく",
     "romaji": "iku",
     "formal": "ikimasu"
   },
   {
     "english": "to come",
-    "hiragana": "くる",
+    "kana": "くる",
     "romaji": "kuru",
     "formal": "kimasu"
   },
   {
     "english": "to see",
-    "hiragana": "みる",
+    "kana": "みる",
     "romaji": "miru",
     "formal": "mimasu"
   },
   {
     "english": "to do",
-    "hiragana": "する",
+    "kana": "する",
     "romaji": "suru",
     "formal": "shimasu"
   },
   {
     "english": "to speak",
-    "hiragana": "はなす",
+    "kana": "はなす",
     "romaji": "hanasu",
     "formal": "hanashimasu"
   },
   {
     "english": "to write",
-    "hiragana": "かく",
+    "kana": "かく",
     "romaji": "kaku",
     "formal": "kakimasu"
   },
   {
     "english": "to read",
-    "hiragana": "よむ",
+    "kana": "よむ",
     "romaji": "yomu",
     "formal": "yomimasu"
   },
   {
     "english": "to listen",
-    "hiragana": "きく",
+    "kana": "きく",
     "romaji": "kiku",
     "formal": "kikimasu"
   },
   {
     "english": "to buy",
-    "hiragana": "かう",
+    "kana": "かう",
     "romaji": "kau",
     "formal": "kaimasu"
   },
   {
     "english": "to sell",
-    "hiragana": "うる",
+    "kana": "うる",
     "romaji": "uru",
     "formal": "urimasu"
   },
   {
     "english": "to wait",
-    "hiragana": "まつ",
+    "kana": "まつ",
     "romaji": "matsu",
     "formal": "machimasu"
   },
   {
     "english": "to stand",
-    "hiragana": "たつ",
+    "kana": "たつ",
     "romaji": "tatsu",
     "formal": "tachimasu"
   },
   {
     "english": "to sit",
-    "hiragana": "すわる",
+    "kana": "すわる",
     "romaji": "suwaru",
     "formal": "suwarimasu"
   },
   {
     "english": "to run",
-    "hiragana": "はしる",
+    "kana": "はしる",
     "romaji": "hashiru",
     "formal": "hashirimasu"
   },
   {
     "english": "to walk",
-    "hiragana": "あるく",
+    "kana": "あるく",
     "romaji": "aruku",
     "formal": "arukimasu"
   },
   {
     "english": "to sleep",
-    "hiragana": "ねる",
+    "kana": "ねる",
     "romaji": "neru",
     "formal": "nemasu"
   },
   {
     "english": "to wake up",
-    "hiragana": "おきる",
+    "kana": "おきる",
     "romaji": "okiru",
     "formal": "okimasu"
   },
   {
     "english": "to return",
-    "hiragana": "かえる",
+    "kana": "かえる",
     "romaji": "kaeru",
     "formal": "kaerimasu"
   },
   {
     "english": "to open",
-    "hiragana": "あける",
+    "kana": "あける",
     "romaji": "akeru",
     "formal": "akemasu"
   },
   {
     "english": "to close",
-    "hiragana": "しめる",
+    "kana": "しめる",
     "romaji": "shimeru",
     "formal": "shimemasu"
   },
   {
     "english": "to teach",
-    "hiragana": "おしえる",
+    "kana": "おしえる",
     "romaji": "oshieru",
     "formal": "oshiemasu"
   },
   {
     "english": "to learn",
-    "hiragana": "ならう",
+    "kana": "ならう",
     "romaji": "narau",
     "formal": "naraimasu"
   },
   {
     "english": "to help",
-    "hiragana": "たすける",
+    "kana": "たすける",
     "romaji": "tasukeru",
     "formal": "tasukemasu"
   }

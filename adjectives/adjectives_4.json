@@ -1,112 +1,112 @@
 [
   {
     "english": "clean (person)",
-    "hiragana": "せいけつ",
+    "kana": "せいけつ",
     "romaji": "seiketsu"
   },
   {
     "english": "messy",
-    "hiragana": "ちらかっている",
+    "kana": "ちらかっている",
     "romaji": "chirakatteiru"
   },
   {
     "english": "quiet (person)",
-    "hiragana": "おとなしい",
+    "kana": "おとなしい",
     "romaji": "otonashii"
   },
   {
     "english": "talkative",
-    "hiragana": "おしゃべり",
+    "kana": "おしゃべり",
     "romaji": "oshaberi"
   },
   {
     "english": "clumsy",
-    "hiragana": "ぶきよう",
+    "kana": "ぶきよう",
     "romaji": "bukiyou"
   },
   {
     "english": "honest",
-    "hiragana": "しょうじき",
+    "kana": "しょうじき",
     "romaji": "shoujiki"
   },
   {
     "english": "lazy",
-    "hiragana": "なまけもの",
+    "kana": "なまけもの",
     "romaji": "namakemono"
   },
   {
     "english": "energetic",
-    "hiragana": "げんき",
+    "kana": "げんき",
     "romaji": "genki"
   },
   {
     "english": "calm",
-    "hiragana": "おだやか",
+    "kana": "おだやか",
     "romaji": "odayaka"
   },
   {
     "english": "loyal",
-    "hiragana": "ちゅうじつ",
+    "kana": "ちゅうじつ",
     "romaji": "chuujitsu"
   },
   {
     "english": "independent",
-    "hiragana": "じりつ",
+    "kana": "じりつ",
     "romaji": "jiritsu"
   },
   {
     "english": "silly",
-    "hiragana": "ばかげた",
+    "kana": "ばかげた",
     "romaji": "bakageta"
   },
   {
     "english": "serious",
-    "hiragana": "まじめ",
+    "kana": "まじめ",
     "romaji": "majime"
   },
   {
     "english": "thoughtful",
-    "hiragana": "おもいやりがある",
+    "kana": "おもいやりがある",
     "romaji": "omoiyarigaaru"
   },
   {
     "english": "creative",
-    "hiragana": "そうぞうてき",
+    "kana": "そうぞうてき",
     "romaji": "souzouteki"
   },
   {
     "english": "respectful",
-    "hiragana": "けいごをつかう",
+    "kana": "けいごをつかう",
     "romaji": "keigo wo tsukau"
   },
   {
     "english": "loose",
-    "hiragana": "ゆるい",
+    "kana": "ゆるい",
     "romaji": "yurui"
   },
   {
     "english": "tight",
-    "hiragana": "きつい",
+    "kana": "きつい",
     "romaji": "kitsui"
   },
   {
     "english": "soft",
-    "hiragana": "やわらかい",
+    "kana": "やわらかい",
     "romaji": "yawarakai"
   },
   {
     "english": "hard",
-    "hiragana": "かたい",
+    "kana": "かたい",
     "romaji": "katai"
   },
   {
     "english": "wet",
-    "hiragana": "ぬれている",
+    "kana": "ぬれている",
     "romaji": "nureteiru"
   },
   {
     "english": "dry",
-    "hiragana": "かわいている",
+    "kana": "かわいている",
     "romaji": "kawaiteiru"
   }
 ]

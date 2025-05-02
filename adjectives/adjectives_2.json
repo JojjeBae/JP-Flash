@@ -1,127 +1,127 @@
 [
   {
     "english": "quiet",
-    "hiragana": "しずか",
+    "kana": "しずか",
     "romaji": "shizuka"
   },
   {
     "english": "clean",
-    "hiragana": "きれい",
+    "kana": "きれい",
     "romaji": "kirei"
   },
   {
     "english": "dirty",
-    "hiragana": "きたない",
+    "kana": "きたない",
     "romaji": "kitanai"
   },
   {
     "english": "busy",
-    "hiragana": "いそがしい",
+    "kana": "いそがしい",
     "romaji": "isogashii"
   },
   {
     "english": "free (time)",
-    "hiragana": "ひま",
+    "kana": "ひま",
     "romaji": "hima"
   },
   {
     "english": "famous",
-    "hiragana": "ゆうめい",
+    "kana": "ゆうめい",
     "romaji": "yuumei"
   },
   {
     "english": "dangerous",
-    "hiragana": "あぶない",
+    "kana": "あぶない",
     "romaji": "abunai"
   },
   {
     "english": "safe",
-    "hiragana": "あんぜん",
+    "kana": "あんぜん",
     "romaji": "anzen"
   },
   {
     "english": "happy",
-    "hiragana": "うれしい",
+    "kana": "うれしい",
     "romaji": "ureshii"
   },
   {
     "english": "sad",
-    "hiragana": "かなしい",
+    "kana": "かなしい",
     "romaji": "kanashii"
   },
   {
     "english": "tall",
-    "hiragana": "せがたかい",
+    "kana": "せがたかい",
     "romaji": "segatakai"
   },
   {
     "english": "short (height)",
-    "hiragana": "せがひくい",
+    "kana": "せがひくい",
     "romaji": "segahikui"
   },
   {
     "english": "long",
-    "hiragana": "ながい",
+    "kana": "ながい",
     "romaji": "nagai"
   },
   {
     "english": "short (length)",
-    "hiragana": "みじかい",
+    "kana": "みじかい",
     "romaji": "mijikai"
   },
   {
     "english": "tasty",
-    "hiragana": "おいしい",
+    "kana": "おいしい",
     "romaji": "oishii"
   },
   {
     "english": "disgusting",
-    "hiragana": "まずい",
+    "kana": "まずい",
     "romaji": "mazui"
   },
   {
     "english": "strong",
-    "hiragana": "つよい",
+    "kana": "つよい",
     "romaji": "tsuyoi"
   },
   {
     "english": "weak",
-    "hiragana": "よわい",
+    "kana": "よわい",
     "romaji": "yowai"
   },
   {
     "english": "fun",
-    "hiragana": "たのしい",
+    "kana": "たのしい",
     "romaji": "tanoshii"
   },
   {
     "english": "tired",
-    "hiragana": "つかれた",
+    "kana": "つかれた",
     "romaji": "tsukareta"
   },
   {
     "english": "important",
-    "hiragana": "たいせつ",
+    "kana": "たいせつ",
     "romaji": "taisetsu"
   },
   {
     "english": "correct",
-    "hiragana": "ただしい",
+    "kana": "ただしい",
     "romaji": "tadashii"
   },
   {
     "english": "wrong",
-    "hiragana": "まちがっている",
+    "kana": "まちがっている",
     "romaji": "machigatteiru"
   },
   {
     "english": "delicious",
-    "hiragana": "うまい",
+    "kana": "うまい",
     "romaji": "umai"
   },
   {
     "english": "thin (objects)",
-    "hiragana": "ほそい",
+    "kana": "ほそい",
     "romaji": "hosoi"
   }
 ]

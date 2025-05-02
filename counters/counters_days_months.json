@@ -1,97 +1,97 @@
 [
   {
     "english": "Sunday",
-    "hiragana": "にちようび",
+    "kana": "にちようび",
     "romaji": "nichiyoubi"
   },
   {
     "english": "Monday",
-    "hiragana": "げつようび",
+    "kana": "げつようび",
     "romaji": "getsuyoubi"
   },
   {
     "english": "Tuesday",
-    "hiragana": "かようび",
+    "kana": "かようび",
     "romaji": "kayoubi"
   },
   {
     "english": "Wednesday",
-    "hiragana": "すいようび",
+    "kana": "すいようび",
     "romaji": "suiyoubi"
   },
   {
     "english": "Thursday",
-    "hiragana": "もくようび",
+    "kana": "もくようび",
     "romaji": "mokuyoubi"
   },
   {
     "english": "Friday",
-    "hiragana": "きんようび",
+    "kana": "きんようび",
     "romaji": "kinyoubi"
   },
   {
     "english": "Saturday",
-    "hiragana": "どようび",
+    "kana": "どようび",
     "romaji": "doyoubi"
   },
   {
     "english": "January",
-    "hiragana": "いちがつ",
+    "kana": "いちがつ",
     "romaji": "ichigatsu"
   },
   {
     "english": "February",
-    "hiragana": "にがつ",
+    "kana": "にがつ",
     "romaji": "nigatsu"
   },
   {
     "english": "March",
-    "hiragana": "さんがつ",
+    "kana": "さんがつ",
     "romaji": "sangatsu"
   },
   {
     "english": "April",
-    "hiragana": "しがつ",
+    "kana": "しがつ",
     "romaji": "shigatsu"
   },
   {
     "english": "May",
-    "hiragana": "ごがつ",
+    "kana": "ごがつ",
     "romaji": "gogatsu"
   },
   {
     "english": "June",
-    "hiragana": "ろくがつ",
+    "kana": "ろくがつ",
     "romaji": "rokugatsu"
   },
   {
     "english": "July",
-    "hiragana": "しちがつ",
+    "kana": "しちがつ",
     "romaji": "shichigatsu"
   },
   {
     "english": "August",
-    "hiragana": "はちがつ",
+    "kana": "はちがつ",
     "romaji": "hachigatsu"
   },
   {
     "english": "September",
-    "hiragana": "くがつ",
+    "kana": "くがつ",
     "romaji": "kugatsu"
   },
   {
     "english": "October",
-    "hiragana": "じゅうがつ",
+    "kana": "じゅうがつ",
     "romaji": "juugatsu"
   },
   {
     "english": "November",
-    "hiragana": "じゅういちがつ",
+    "kana": "じゅういちがつ",
     "romaji": "juuichigatsu"
   },
   {
     "english": "December",
-    "hiragana": "じゅうにがつ",
+    "kana": "じゅうにがつ",
     "romaji": "juunigatsu"
   }
 ]

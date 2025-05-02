@@ -1,151 +1,151 @@
 [
   {
     "english": "to shine",
-    "hiragana": "かがやく",
+    "kana": "かがやく",
     "romaji": "kagayaku",
     "formal": "kagayakimasu"
   },
   {
     "english": "to fade",
-    "hiragana": "あせる",
+    "kana": "あせる",
     "romaji": "aseru",
     "formal": "asemasu"
   },
   {
     "english": "to wrap",
-    "hiragana": "つつむ",
+    "kana": "つつむ",
     "romaji": "tsutsumu",
     "formal": "tsutsumimasu"
   },
   {
     "english": "to plant",
-    "hiragana": "うえる",
+    "kana": "うえる",
     "romaji": "ueru",
     "formal": "uemasu"
   },
   {
     "english": "to slide",
-    "hiragana": "すべる",
+    "kana": "すべる",
     "romaji": "suberu",
     "formal": "suberimasu"
   },
   {
     "english": "to bite",
-    "hiragana": "かむ",
+    "kana": "かむ",
     "romaji": "kamu",
     "formal": "kamimasu"
   },
   {
     "english": "to scratch",
-    "hiragana": "ひっかく",
+    "kana": "ひっかく",
     "romaji": "hikkaku",
     "formal": "hikkakimasu"
   },
   {
     "english": "to erase",
-    "hiragana": "けす",
+    "kana": "けす",
     "romaji": "kesu",
     "formal": "keshimasu"
   },
   {
     "english": "to sneeze",
-    "hiragana": "くしゃみする",
+    "kana": "くしゃみする",
     "romaji": "kushami suru",
     "formal": "kushami shimasu"
   },
   {
     "english": "to nod off",
-    "hiragana": "うとうとする",
+    "kana": "うとうとする",
     "romaji": "utouto suru",
     "formal": "utouto shimasu"
   },
   {
     "english": "to climb",
-    "hiragana": "のぼる",
+    "kana": "のぼる",
     "romaji": "noboru",
     "formal": "noborimasu"
   },
   {
     "english": "to swim",
-    "hiragana": "およぐ",
+    "kana": "およぐ",
     "romaji": "oyogu",
     "formal": "oyogimasu"
   },
   {
     "english": "to whistle",
-    "hiragana": "くちぶえをふく",
+    "kana": "くちぶえをふく",
     "romaji": "kuchibue o fuku",
     "formal": "kuchibue o fukimasu"
   },
   {
     "english": "to dive",
-    "hiragana": "もぐる",
+    "kana": "もぐる",
     "romaji": "moguru",
     "formal": "mogurimasu"
   },
   {
     "english": "to knock",
-    "hiragana": "ノックする",
+    "kana": "ノックする",
     "romaji": "nokku suru",
     "formal": "nokku shimasu"
   },
   {
     "english": "to blow (wind)",
-    "hiragana": "ふく",
+    "kana": "ふく",
     "romaji": "fuku",
     "formal": "fukimasu"
   },
   {
     "english": "to ring",
-    "hiragana": "なる",
+    "kana": "なる",
     "romaji": "naru",
     "formal": "narimasu"
   },
   {
     "english": "to lean",
-    "hiragana": "かたむく",
+    "kana": "かたむく",
     "romaji": "katamuku",
     "formal": "katamukimasu"
   },
   {
     "english": "to dry",
-    "hiragana": "かわかす",
+    "kana": "かわかす",
     "romaji": "kawakasu",
     "formal": "kawakashimasu"
   },
   {
     "english": "to melt",
-    "hiragana": "とける",
+    "kana": "とける",
     "romaji": "tokeru",
     "formal": "tokemasu"
   },
   {
     "english": "to freeze",
-    "hiragana": "こおる",
+    "kana": "こおる",
     "romaji": "kooru",
     "formal": "koorimasu"
   },
   {
     "english": "to open (book)",
-    "hiragana": "ひらく",
+    "kana": "ひらく",
     "romaji": "hiraku",
     "formal": "hirakimasu"
   },
   {
     "english": "to pinch",
-    "hiragana": "つねる",
+    "kana": "つねる",
     "romaji": "tsuneru",
     "formal": "tsunemasu"
   },
   {
     "english": "to poke",
-    "hiragana": "つつく",
+    "kana": "つつく",
     "romaji": "tsutsuku",
     "formal": "tsutsukimasu"
   },
   {
     "english": "to tremble",
-    "hiragana": "ふるえる",
+    "kana": "ふるえる",
     "romaji": "furueru",
     "formal": "furuemasu"
   }

@@ -278,8 +278,7 @@ function submitInputAnswer() {
     if (input === correct || input === correctKana) {
       setTimeout(() => showInputPrompt(), 800);
     } else {
-      var btn = document.getElementById("submitInputBtn").
-      btn.disabled = true;
+      document.getElementById("submitInputBtn").classList.add("hidden");
       setTimeout(() => {
         document.addEventListener('click', advanceOnClick);
       }, 100);
@@ -297,8 +296,7 @@ function submitInputAnswer() {
 
 function advanceOnClick() {
   document.removeEventListener('click', advanceOnClick);
-  var btn = document.getElementById("submitInputBtn").
-  btn.disabled = false;
+  document.getElementById("submitInputBtn").classList.remove("hidden");
   showInputPrompt();
 }
   

@@ -273,7 +273,11 @@ function submitInputAnswer() {
   current++;
 
   if (current < cards.length) {
-    setTimeout(() => showInputPrompt(), 1500);
+    if (input === correct || input === correctKana) {
+      setTimeout(() => showInputPrompt(), 800);
+    } else {
+      document.addEventListener('click', advanceOnClick);
+    }
   } else {
     feedback.innerHTML += `<br><br><strong>Final Score: ${inputScore}/${inputTotal}</strong>`;
     document.getElementById("inputScore").textContent = "";
@@ -284,6 +288,12 @@ function submitInputAnswer() {
     saveScore(inputFile, inputScore, inputTotal);
   }
 }
+
+function advanceOnClick() {
+  document.removeEventListener('click', advanceOnClick);
+  showInputPrompt();
+}
+  
 function restartInputMode() {
   current = 0;
   inputScore = 0;

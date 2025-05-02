@@ -1,127 +1,127 @@
 [
   {
     "english": "person",
-    "hiragana": "ひと",
+    "kana": "ひと",
     "romaji": "hito"
   },
   {
     "english": "time",
-    "hiragana": "じかん",
+    "kana": "じかん",
     "romaji": "jikan"
   },
   {
     "english": "day",
-    "hiragana": "ひ",
+    "kana": "ひ",
     "romaji": "hi"
   },
   {
     "english": "year",
-    "hiragana": "とし",
+    "kana": "とし",
     "romaji": "toshi"
   },
   {
     "english": "thing",
-    "hiragana": "もの",
+    "kana": "もの",
     "romaji": "mono"
   },
   {
     "english": "child",
-    "hiragana": "こども",
+    "kana": "こども",
     "romaji": "kodomo"
   },
   {
     "english": "woman",
-    "hiragana": "おんな",
+    "kana": "おんな",
     "romaji": "onna"
   },
   {
     "english": "man",
-    "hiragana": "おとこ",
+    "kana": "おとこ",
     "romaji": "otoko"
   },
   {
     "english": "student",
-    "hiragana": "がくせい",
+    "kana": "がくせい",
     "romaji": "gakusei"
   },
   {
     "english": "teacher",
-    "hiragana": "せんせい",
+    "kana": "せんせい",
     "romaji": "sensei"
   },
   {
     "english": "school",
-    "hiragana": "がっこう",
+    "kana": "がっこう",
     "romaji": "gakkou"
   },
   {
     "english": "class",
-    "hiragana": "じゅぎょう",
+    "kana": "じゅぎょう",
     "romaji": "jugyou"
   },
   {
     "english": "book",
-    "hiragana": "ほん",
+    "kana": "ほん",
     "romaji": "hon"
   },
   {
     "english": "pen",
-    "hiragana": "ペン",
+    "kana": "ペン",
     "romaji": "pen"
   },
   {
     "english": "notebook",
-    "hiragana": "ノート",
+    "kana": "ノート",
     "romaji": "nooto"
   },
   {
     "english": "bag",
-    "hiragana": "かばん",
+    "kana": "かばん",
     "romaji": "kaban"
   },
   {
     "english": "chair",
-    "hiragana": "いす",
+    "kana": "いす",
     "romaji": "isu"
   },
   {
     "english": "desk",
-    "hiragana": "つくえ",
+    "kana": "つくえ",
     "romaji": "tsukue"
   },
   {
     "english": "window",
-    "hiragana": "まど",
+    "kana": "まど",
     "romaji": "mado"
   },
   {
     "english": "door",
-    "hiragana": "ドア",
+    "kana": "ドア",
     "romaji": "doa"
   },
   {
     "english": "house",
-    "hiragana": "いえ",
+    "kana": "いえ",
     "romaji": "ie"
   },
   {
     "english": "room",
-    "hiragana": "へや",
+    "kana": "へや",
     "romaji": "heya"
   },
   {
     "english": "kitchen",
-    "hiragana": "だいどころ",
+    "kana": "だいどころ",
     "romaji": "daidokoro"
   },
   {
     "english": "bathroom",
-    "hiragana": "おふろ",
+    "kana": "おふろ",
     "romaji": "ofuro"
   },
   {
     "english": "toilet",
-    "hiragana": "トイレ",
+    "kana": "トイレ",
     "romaji": "toire"
   }
 ]

@@ -1,151 +1,151 @@
 [
   {
     "english": "to swim",
-    "hiragana": "およぐ",
+    "kana": "およぐ",
     "romaji": "oyogu",
     "formal": "oyogimasu"
   },
   {
     "english": "to enter",
-    "hiragana": "はいる",
+    "kana": "はいる",
     "romaji": "hairu",
     "formal": "hairimasu"
   },
   {
     "english": "to leave",
-    "hiragana": "でる",
+    "kana": "でる",
     "romaji": "deru",
     "formal": "demasu"
   },
   {
     "english": "to live",
-    "hiragana": "すむ",
+    "kana": "すむ",
     "romaji": "sumu",
     "formal": "sumimasu"
   },
   {
     "english": "to begin",
-    "hiragana": "はじめる",
+    "kana": "はじめる",
     "romaji": "hajimeru",
     "formal": "hajimemasu"
   },
   {
     "english": "to end",
-    "hiragana": "おわる",
+    "kana": "おわる",
     "romaji": "owaru",
     "formal": "owarimasu"
   },
   {
     "english": "to win",
-    "hiragana": "かつ",
+    "kana": "かつ",
     "romaji": "katsu",
     "formal": "kachimasu"
   },
   {
     "english": "to lose",
-    "hiragana": "まける",
+    "kana": "まける",
     "romaji": "makeru",
     "formal": "makemasu"
   },
   {
     "english": "to change",
-    "hiragana": "かえる",
+    "kana": "かえる",
     "romaji": "kaeru",
     "formal": "kaemasu"
   },
   {
     "english": "to understand",
-    "hiragana": "わかる",
+    "kana": "わかる",
     "romaji": "wakaru",
     "formal": "wakarimasu"
   },
   {
     "english": "to borrow",
-    "hiragana": "かりる",
+    "kana": "かりる",
     "romaji": "kariru",
     "formal": "karimasu"
   },
   {
     "english": "to lend",
-    "hiragana": "かす",
+    "kana": "かす",
     "romaji": "kasu",
     "formal": "kashimasu"
   },
   {
     "english": "to cry",
-    "hiragana": "なく",
+    "kana": "なく",
     "romaji": "naku",
     "formal": "nakimasu"
   },
   {
     "english": "to laugh",
-    "hiragana": "わらう",
+    "kana": "わらう",
     "romaji": "warau",
     "formal": "waraimasu"
   },
   {
     "english": "to forget",
-    "hiragana": "わすれる",
+    "kana": "わすれる",
     "romaji": "wasureru",
     "formal": "wasuremasu"
   },
   {
     "english": "to remember",
-    "hiragana": "おぼえる",
+    "kana": "おぼえる",
     "romaji": "oboeru",
     "formal": "oboemasu"
   },
   {
     "english": "to pay",
-    "hiragana": "はらう",
+    "kana": "はらう",
     "romaji": "harau",
     "formal": "haraimasu"
   },
   {
     "english": "to think",
-    "hiragana": "おもう",
+    "kana": "おもう",
     "romaji": "omou",
     "formal": "omoimasu"
   },
   {
     "english": "to need",
-    "hiragana": "いる",
+    "kana": "いる",
     "romaji": "iru",
     "formal": "irimasu"
   },
   {
     "english": "to turn on",
-    "hiragana": "つける",
+    "kana": "つける",
     "romaji": "tsukeru",
     "formal": "tsukemasu"
   },
   {
     "english": "to turn off",
-    "hiragana": "けす",
+    "kana": "けす",
     "romaji": "kesu",
     "formal": "keshimasu"
   },
   {
     "english": "to throw away",
-    "hiragana": "すてる",
+    "kana": "すてる",
     "romaji": "suteru",
     "formal": "sutemasu"
   },
   {
     "english": "to pull",
-    "hiragana": "ひく",
+    "kana": "ひく",
     "romaji": "hiku",
     "formal": "hikimasu"
   },
   {
     "english": "to push",
-    "hiragana": "おす",
+    "kana": "おす",
     "romaji": "osu",
     "formal": "oshimasu"
   },
   {
     "english": "to call",
-    "hiragana": "よぶ",
+    "kana": "よぶ",
     "romaji": "yobu",
     "formal": "yobimasu"
   }

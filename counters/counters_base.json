@@ -1,502 +1,502 @@
 [
   {
     "english": "1",
-    "hiragana": "いち",
+    "kana": "いち",
     "romaji": "ichi"
   },
   {
     "english": "2",
-    "hiragana": "に",
+    "kana": "に",
     "romaji": "ni"
   },
   {
     "english": "3",
-    "hiragana": "さん",
+    "kana": "さん",
     "romaji": "san"
   },
   {
     "english": "4",
-    "hiragana": "よん",
+    "kana": "よん",
     "romaji": "yon"
   },
   {
     "english": "5",
-    "hiragana": "ご",
+    "kana": "ご",
     "romaji": "go"
   },
   {
     "english": "6",
-    "hiragana": "ろく",
+    "kana": "ろく",
     "romaji": "roku"
   },
   {
     "english": "7",
-    "hiragana": "なな",
+    "kana": "なな",
     "romaji": "nana"
   },
   {
     "english": "8",
-    "hiragana": "はち",
+    "kana": "はち",
     "romaji": "hachi"
   },
   {
     "english": "9",
-    "hiragana": "きゅう",
+    "kana": "きゅう",
     "romaji": "kyuu"
   },
   {
     "english": "10",
-    "hiragana": "じゅう",
+    "kana": "じゅう",
     "romaji": "juu"
   },
   {
     "english": "11",
-    "hiragana": "じゅういち",
+    "kana": "じゅういち",
     "romaji": "juuichi"
   },
   {
     "english": "12",
-    "hiragana": "じゅうに",
+    "kana": "じゅうに",
     "romaji": "juuni"
   },
   {
     "english": "13",
-    "hiragana": "じゅうさん",
+    "kana": "じゅうさん",
     "romaji": "juusan"
   },
   {
     "english": "14",
-    "hiragana": "じゅうよん",
+    "kana": "じゅうよん",
     "romaji": "juuyon"
   },
   {
     "english": "15",
-    "hiragana": "じゅうご",
+    "kana": "じゅうご",
     "romaji": "juugo"
   },
   {
     "english": "16",
-    "hiragana": "じゅうろく",
+    "kana": "じゅうろく",
     "romaji": "juuroku"
   },
   {
     "english": "17",
-    "hiragana": "じゅうなな",
+    "kana": "じゅうなな",
     "romaji": "juunana"
   },
   {
     "english": "18",
-    "hiragana": "じゅうはち",
+    "kana": "じゅうはち",
     "romaji": "juuhachi"
   },
   {
     "english": "19",
-    "hiragana": "じゅうきゅう",
+    "kana": "じゅうきゅう",
     "romaji": "juukyuu"
   },
   {
     "english": "20",
-    "hiragana": "にじゅう",
+    "kana": "にじゅう",
     "romaji": "nijuu"
   },
   {
     "english": "21",
-    "hiragana": "にじゅういち",
+    "kana": "にじゅういち",
     "romaji": "nijuuichi"
   },
   {
     "english": "22",
-    "hiragana": "にじゅうに",
+    "kana": "にじゅうに",
     "romaji": "nijuuni"
   },
   {
     "english": "23",
-    "hiragana": "にじゅうさん",
+    "kana": "にじゅうさん",
     "romaji": "nijuusan"
   },
   {
     "english": "24",
-    "hiragana": "にじゅうよん",
+    "kana": "にじゅうよん",
     "romaji": "nijuuyon"
   },
   {
     "english": "25",
-    "hiragana": "にじゅうご",
+    "kana": "にじゅうご",
     "romaji": "nijuugo"
   },
   {
     "english": "26",
-    "hiragana": "にじゅうろく",
+    "kana": "にじゅうろく",
     "romaji": "nijuuroku"
   },
   {
     "english": "27",
-    "hiragana": "にじゅうなな",
+    "kana": "にじゅうなな",
     "romaji": "nijuunana"
   },
   {
     "english": "28",
-    "hiragana": "にじゅうはち",
+    "kana": "にじゅうはち",
     "romaji": "nijuuhachi"
   },
   {
     "english": "29",
-    "hiragana": "にじゅうきゅう",
+    "kana": "にじゅうきゅう",
     "romaji": "nijuukyuu"
   },
   {
     "english": "30",
-    "hiragana": "さんじゅう",
+    "kana": "さんじゅう",
     "romaji": "sanjuu"
   },
   {
     "english": "31",
-    "hiragana": "さんじゅういち",
+    "kana": "さんじゅういち",
     "romaji": "sanjuuichi"
   },
   {
     "english": "32",
-    "hiragana": "さんじゅうに",
+    "kana": "さんじゅうに",
     "romaji": "sanjuuni"
   },
   {
     "english": "33",
-    "hiragana": "さんじゅうさん",
+    "kana": "さんじゅうさん",
     "romaji": "sanjuusan"
   },
   {
     "english": "34",
-    "hiragana": "さんじゅうよん",
+    "kana": "さんじゅうよん",
     "romaji": "sanjuuyon"
   },
   {
     "english": "35",
-    "hiragana": "さんじゅうご",
+    "kana": "さんじゅうご",
     "romaji": "sanjuugo"
   },
   {
     "english": "36",
-    "hiragana": "さんじゅうろく",
+    "kana": "さんじゅうろく",
     "romaji": "sanjuuroku"
   },
   {
     "english": "37",
-    "hiragana": "さんじゅうなな",
+    "kana": "さんじゅうなな",
     "romaji": "sanjuunana"
   },
   {
     "english": "38",
-    "hiragana": "さんじゅうはち",
+    "kana": "さんじゅうはち",
     "romaji": "sanjuuhachi"
   },
   {
     "english": "39",
-    "hiragana": "さんじゅうきゅう",
+    "kana": "さんじゅうきゅう",
     "romaji": "sanjuukyuu"
   },
   {
     "english": "40",
-    "hiragana": "よんじゅう",
+    "kana": "よんじゅう",
     "romaji": "yonjuu"
   },
   {
     "english": "41",
-    "hiragana": "よんじゅういち",
+    "kana": "よんじゅういち",
     "romaji": "yonjuuichi"
   },
   {
     "english": "42",
-    "hiragana": "よんじゅうに",
+    "kana": "よんじゅうに",
     "romaji": "yonjuuni"
   },
   {
     "english": "43",
-    "hiragana": "よんじゅうさん",
+    "kana": "よんじゅうさん",
     "romaji": "yonjuusan"
   },
   {
     "english": "44",
-    "hiragana": "よんじゅうよん",
+    "kana": "よんじゅうよん",
     "romaji": "yonjuuyon"
   },
   {
     "english": "45",
-    "hiragana": "よんじゅうご",
+    "kana": "よんじゅうご",
     "romaji": "yonjuugo"
   },
   {
     "english": "46",
-    "hiragana": "よんじゅうろく",
+    "kana": "よんじゅうろく",
     "romaji": "yonjuuroku"
   },
   {
     "english": "47",
-    "hiragana": "よんじゅうなな",
+    "kana": "よんじゅうなな",
     "romaji": "yonjuunana"
   },
   {
     "english": "48",
-    "hiragana": "よんじゅうはち",
+    "kana": "よんじゅうはち",
     "romaji": "yonjuuhachi"
   },
   {
     "english": "49",
-    "hiragana": "よんじゅうきゅう",
+    "kana": "よんじゅうきゅう",
     "romaji": "yonjuukyuu"
   },
   {
     "english": "50",
-    "hiragana": "ごじゅう",
+    "kana": "ごじゅう",
     "romaji": "gojuu"
   },
   {
     "english": "51",
-    "hiragana": "ごじゅういち",
+    "kana": "ごじゅういち",
     "romaji": "gojuuichi"
   },
   {
     "english": "52",
-    "hiragana": "ごじゅうに",
+    "kana": "ごじゅうに",
     "romaji": "gojuuni"
   },
   {
     "english": "53",
-    "hiragana": "ごじゅうさん",
+    "kana": "ごじゅうさん",
     "romaji": "gojuusan"
   },
   {
     "english": "54",
-    "hiragana": "ごじゅうよん",
+    "kana": "ごじゅうよん",
     "romaji": "gojuuyon"
   },
   {
     "english": "55",
-    "hiragana": "ごじゅうご",
+    "kana": "ごじゅうご",
     "romaji": "gojuugo"
   },
   {
     "english": "56",
-    "hiragana": "ごじゅうろく",
+    "kana": "ごじゅうろく",
     "romaji": "gojuuroku"
   },
   {
     "english": "57",
-    "hiragana": "ごじゅうなな",
+    "kana": "ごじゅうなな",
     "romaji": "gojuunana"
   },
   {
     "english": "58",
-    "hiragana": "ごじゅうはち",
+    "kana": "ごじゅうはち",
     "romaji": "gojuuhachi"
   },
   {
     "english": "59",
-    "hiragana": "ごじゅうきゅう",
+    "kana": "ごじゅうきゅう",
     "romaji": "gojuukyuu"
   },
   {
     "english": "60",
-    "hiragana": "ろくじゅう",
+    "kana": "ろくじゅう",
     "romaji": "rokujuu"
   },
   {
     "english": "61",
-    "hiragana": "ろくじゅういち",
+    "kana": "ろくじゅういち",
     "romaji": "rokujuuichi"
   },
   {
     "english": "62",
-    "hiragana": "ろくじゅうに",
+    "kana": "ろくじゅうに",
     "romaji": "rokujuuni"
   },
   {
     "english": "63",
-    "hiragana": "ろくじゅうさん",
+    "kana": "ろくじゅうさん",
     "romaji": "rokujuusan"
   },
   {
     "english": "64",
-    "hiragana": "ろくじゅうよん",
+    "kana": "ろくじゅうよん",
     "romaji": "rokujuuyon"
   },
   {
     "english": "65",
-    "hiragana": "ろくじゅうご",
+    "kana": "ろくじゅうご",
     "romaji": "rokujuugo"
   },
   {
     "english": "66",
-    "hiragana": "ろくじゅうろく",
+    "kana": "ろくじゅうろく",
     "romaji": "rokujuuroku"
   },
   {
     "english": "67",
-    "hiragana": "ろくじゅうなな",
+    "kana": "ろくじゅうなな",
     "romaji": "rokujuunana"
   },
   {
     "english": "68",
-    "hiragana": "ろくじゅうはち",
+    "kana": "ろくじゅうはち",
     "romaji": "rokujuuhachi"
   },
   {
     "english": "69",
-    "hiragana": "ろくじゅうきゅう",
+    "kana": "ろくじゅうきゅう",
     "romaji": "rokujuukyuu"
   },
   {
     "english": "70",
-    "hiragana": "ななじゅう",
+    "kana": "ななじゅう",
     "romaji": "nanajuu"
   },
   {
     "english": "71",
-    "hiragana": "ななじゅういち",
+    "kana": "ななじゅういち",
     "romaji": "nanajuuichi"
   },
   {
     "english": "72",
-    "hiragana": "ななじゅうに",
+    "kana": "ななじゅうに",
     "romaji": "nanajuuni"
   },
   {
     "english": "73",
-    "hiragana": "ななじゅうさん",
+    "kana": "ななじゅうさん",
     "romaji": "nanajuusan"
   },
   {
     "english": "74",
-    "hiragana": "ななじゅうよん",
+    "kana": "ななじゅうよん",
     "romaji": "nanajuuyon"
   },
   {
     "english": "75",
-    "hiragana": "ななじゅうご",
+    "kana": "ななじゅうご",
     "romaji": "nanajuugo"
   },
   {
     "english": "76",
-    "hiragana": "ななじゅうろく",
+    "kana": "ななじゅうろく",
     "romaji": "nanajuuroku"
   },
   {
     "english": "77",
-    "hiragana": "ななじゅうなな",
+    "kana": "ななじゅうなな",
     "romaji": "nanajuunana"
   },
   {
     "english": "78",
-    "hiragana": "ななじゅうはち",
+    "kana": "ななじゅうはち",
     "romaji": "nanajuuhachi"
   },
   {
     "english": "79",
-    "hiragana": "ななじゅうきゅう",
+    "kana": "ななじゅうきゅう",
     "romaji": "nanajuukyuu"
   },
   {
     "english": "80",
-    "hiragana": "はちじゅう",
+    "kana": "はちじゅう",
     "romaji": "hachijuu"
   },
   {
     "english": "81",
-    "hiragana": "はちじゅういち",
+    "kana": "はちじゅういち",
     "romaji": "hachijuuichi"
   },
   {
     "english": "82",
-    "hiragana": "はちじゅうに",
+    "kana": "はちじゅうに",
     "romaji": "hachijuuni"
   },
   {
     "english": "83",
-    "hiragana": "はちじゅうさん",
+    "kana": "はちじゅうさん",
     "romaji": "hachijuusan"
   },
   {
     "english": "84",
-    "hiragana": "はちじゅうよん",
+    "kana": "はちじゅうよん",
     "romaji": "hachijuuyon"
   },
   {
     "english": "85",
-    "hiragana": "はちじゅうご",
+    "kana": "はちじゅうご",
     "romaji": "hachijuugo"
   },
   {
     "english": "86",
-    "hiragana": "はちじゅうろく",
+    "kana": "はちじゅうろく",
     "romaji": "hachijuuroku"
   },
   {
     "english": "87",
-    "hiragana": "はちじゅうなな",
+    "kana": "はちじゅうなな",
     "romaji": "hachijuunana"
   },
   {
     "english": "88",
-    "hiragana": "はちじゅうはち",
+    "kana": "はちじゅうはち",
     "romaji": "hachijuuhachi"
   },
   {
     "english": "89",
-    "hiragana": "はちじゅうきゅう",
+    "kana": "はちじゅうきゅう",
     "romaji": "hachijuukyuu"
   },
   {
     "english": "90",
-    "hiragana": "きゅうじゅう",
+    "kana": "きゅうじゅう",
     "romaji": "kyuujuu"
   },
   {
     "english": "91",
-    "hiragana": "きゅうじゅういち",
+    "kana": "きゅうじゅういち",
     "romaji": "kyuujuuichi"
   },
   {
     "english": "92",
-    "hiragana": "きゅうじゅうに",
+    "kana": "きゅうじゅうに",
     "romaji": "kyuujuuni"
   },
   {
     "english": "93",
-    "hiragana": "きゅうじゅうさん",
+    "kana": "きゅうじゅうさん",
     "romaji": "kyuujuusan"
   },
   {
     "english": "94",
-    "hiragana": "きゅうじゅうよん",
+    "kana": "きゅうじゅうよん",
     "romaji": "kyuujuuyon"
   },
   {
     "english": "95",
-    "hiragana": "きゅうじゅうご",
+    "kana": "きゅうじゅうご",
     "romaji": "kyuujuugo"
   },
   {
     "english": "96",
-    "hiragana": "きゅうじゅうろく",
+    "kana": "きゅうじゅうろく",
     "romaji": "kyuujuuroku"
   },
   {
     "english": "97",
-    "hiragana": "きゅうじゅうなな",
+    "kana": "きゅうじゅうなな",
     "romaji": "kyuujuunana"
   },
   {
     "english": "98",
-    "hiragana": "きゅうじゅうはち",
+    "kana": "きゅうじゅうはち",
     "romaji": "kyuujuuhachi"
   },
   {
     "english": "99",
-    "hiragana": "きゅうじゅうきゅう",
+    "kana": "きゅうじゅうきゅう",
     "romaji": "kyuujuukyuu"
   },
   {
     "english": "100",
-    "hiragana": "ひゃく",
+    "kana": "ひゃく",
     "romaji": "hyaku"
   }
 ]

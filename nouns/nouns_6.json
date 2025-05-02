@@ -1,127 +1,127 @@
 [
   {
     "english": "lake",
-    "hiragana": "みずうみ",
+    "kana": "みずうみ",
     "romaji": "mizuumi"
   },
   {
     "english": "forest",
-    "hiragana": "もり",
+    "kana": "もり",
     "romaji": "mori"
   },
   {
     "english": "island",
-    "hiragana": "しま",
+    "kana": "しま",
     "romaji": "shima"
   },
   {
     "english": "desert",
-    "hiragana": "さばく",
+    "kana": "さばく",
     "romaji": "sabaku"
   },
   {
     "english": "ocean",
-    "hiragana": "たいよう",
+    "kana": "たいよう",
     "romaji": "taiyou"
   },
   {
     "english": "beach",
-    "hiragana": "うみべ",
+    "kana": "うみべ",
     "romaji": "umibe"
   },
   {
     "english": "bridge",
-    "hiragana": "はし",
+    "kana": "はし",
     "romaji": "hashi"
   },
   {
     "english": "road",
-    "hiragana": "みち",
+    "kana": "みち",
     "romaji": "michi"
   },
   {
     "english": "cafe",
-    "hiragana": "カフェ",
+    "kana": "カフェ",
     "romaji": "kafe"
   },
   {
     "english": "park",
-    "hiragana": "こうえん",
+    "kana": "こうえん",
     "romaji": "kouen"
   },
   {
     "english": "library",
-    "hiragana": "としょかん",
+    "kana": "としょかん",
     "romaji": "toshokan"
   },
   {
     "english": "university",
-    "hiragana": "だいがく",
+    "kana": "だいがく",
     "romaji": "daigaku"
   },
   {
     "english": "office",
-    "hiragana": "じむしょ",
+    "kana": "じむしょ",
     "romaji": "jimusho"
   },
   {
     "english": "market",
-    "hiragana": "いちば",
+    "kana": "いちば",
     "romaji": "ichiba"
   },
   {
     "english": "hospital",
-    "hiragana": "びょういん",
+    "kana": "びょういん",
     "romaji": "byouin"
   },
   {
     "english": "clinic",
-    "hiragana": "クリニック",
+    "kana": "クリニック",
     "romaji": "kurinikku"
   },
   {
     "english": "pharmacy",
-    "hiragana": "やっきょく",
+    "kana": "やっきょく",
     "romaji": "yakkyoku"
   },
   {
     "english": "police station",
-    "hiragana": "けいさつしょ",
+    "kana": "けいさつしょ",
     "romaji": "keisatsusho"
   },
   {
     "english": "post office",
-    "hiragana": "ゆうびんきょく",
+    "kana": "ゆうびんきょく",
     "romaji": "yuubinkyoku"
   },
   {
     "english": "closet",
-    "hiragana": "おしいれ",
+    "kana": "おしいれ",
     "romaji": "oshiire"
   },
   {
     "english": "fence",
-    "hiragana": "さく",
+    "kana": "さく",
     "romaji": "saku"
   },
   {
     "english": "gate",
-    "hiragana": "もん",
+    "kana": "もん",
     "romaji": "mon"
   },
   {
     "english": "chimney",
-    "hiragana": "えんとつ",
+    "kana": "えんとつ",
     "romaji": "entotsu"
   },
   {
     "english": "roof",
-    "hiragana": "やね",
+    "kana": "やね",
     "romaji": "yane"
   },
   {
     "english": "basement",
-    "hiragana": "ちかしつ",
+    "kana": "ちかしつ",
     "romaji": "chikashitsu"
   }
 ]

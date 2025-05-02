@@ -1,127 +1,127 @@
 [
   {
     "english": "greedy",
-    "hiragana": "よくばり",
+    "kana": "よくばり",
     "romaji": "yokubari"
   },
   {
     "english": "awkward",
-    "hiragana": "ぎこちない",
+    "kana": "ぎこちない",
     "romaji": "gikochinai"
   },
   {
     "english": "reliable",
-    "hiragana": "たよれる",
+    "kana": "たよれる",
     "romaji": "tayo reru"
   },
   {
     "english": "generous",
-    "hiragana": "おおらか",
+    "kana": "おおらか",
     "romaji": "ooraka"
   },
   {
     "english": "sharp",
-    "hiragana": "するどい",
+    "kana": "するどい",
     "romaji": "surudoi"
   },
   {
     "english": "blunt",
-    "hiragana": "にぶい",
+    "kana": "にぶい",
     "romaji": "nibui"
   },
   {
     "english": "wealthy",
-    "hiragana": "ゆうふく",
+    "kana": "ゆうふく",
     "romaji": "yuufuku"
   },
   {
     "english": "poor",
-    "hiragana": "びんぼう",
+    "kana": "びんぼう",
     "romaji": "binbou"
   },
   {
     "english": "polite",
-    "hiragana": "れいぎただしい",
+    "kana": "れいぎただしい",
     "romaji": "reigitadashii"
   },
   {
     "english": "rude",
-    "hiragana": "しつれい",
+    "kana": "しつれい",
     "romaji": "shitsurei"
   },
   {
     "english": "grumpy",
-    "hiragana": "ふきげん",
+    "kana": "ふきげん",
     "romaji": "fukigen"
   },
   {
     "english": "cheerful",
-    "hiragana": "あかるい",
+    "kana": "あかるい",
     "romaji": "akaruii"
   },
   {
     "english": "arrogant",
-    "hiragana": "じまんたらしい",
+    "kana": "じまんたらしい",
     "romaji": "jimantarashii"
   },
   {
     "english": "modest",
-    "hiragana": "けんきょ",
+    "kana": "けんきょ",
     "romaji": "kenkyo"
   },
   {
     "english": "tall (object)",
-    "hiragana": "たかい",
+    "kana": "たかい",
     "romaji": "takaii"
   },
   {
     "english": "short (object)",
-    "hiragana": "ひくい",
+    "kana": "ひくい",
     "romaji": "hikui"
   },
   {
     "english": "graceful",
-    "hiragana": "ゆうが",
+    "kana": "ゆうが",
     "romaji": "yuuga"
   },
   {
     "english": "wild",
-    "hiragana": "やせい",
+    "kana": "やせい",
     "romaji": "yasei"
   },
   {
     "english": "tame",
-    "hiragana": "おとなしい",
+    "kana": "おとなしい",
     "romaji": "otonashii"
   },
   {
     "english": "salty",
-    "hiragana": "しょっぱい",
+    "kana": "しょっぱい",
     "romaji": "shoppai"
   },
   {
     "english": "spicy",
-    "hiragana": "からい",
+    "kana": "からい",
     "romaji": "karai"
   },
   {
     "english": "bitter",
-    "hiragana": "にがい",
+    "kana": "にがい",
     "romaji": "nigai"
   },
   {
     "english": "sour",
-    "hiragana": "すっぱい",
+    "kana": "すっぱい",
     "romaji": "suppai"
   },
   {
     "english": "sweet",
-    "hiragana": "あまい",
+    "kana": "あまい",
     "romaji": "amai"
   },
   {
     "english": "noisy (person)",
-    "hiragana": "さわがしい",
+    "kana": "さわがしい",
     "romaji": "sawagashii"
   }
 ]

@@ -1,127 +1,127 @@
 [
   {
     "english": "fat (objects)",
-    "hiragana": "ふとい",
+    "kana": "ふとい",
     "romaji": "futoi"
   },
   {
     "english": "thin (person)",
-    "hiragana": "やせている",
+    "kana": "やせている",
     "romaji": "yaseteiru"
   },
   {
     "english": "fat (person)",
-    "hiragana": "ふとっている",
+    "kana": "ふとっている",
     "romaji": "futotteiru"
   },
   {
     "english": "sleepy",
-    "hiragana": "ねむい",
+    "kana": "ねむい",
     "romaji": "nemui"
   },
   {
     "english": "bright (personality)",
-    "hiragana": "めいるい",
+    "kana": "めいるい",
     "romaji": "meirui"
   },
   {
     "english": "narrow",
-    "hiragana": "せまい",
+    "kana": "せまい",
     "romaji": "semai"
   },
   {
     "english": "wide",
-    "hiragana": "ひろい",
+    "kana": "ひろい",
     "romaji": "hiroi"
   },
   {
     "english": "early",
-    "hiragana": "はやい",
+    "kana": "はやい",
     "romaji": "hayai"
   },
   {
     "english": "late",
-    "hiragana": "おそい",
+    "kana": "おそい",
     "romaji": "osoi"
   },
   {
     "english": "necessary",
-    "hiragana": "ひつよう",
+    "kana": "ひつよう",
     "romaji": "hitsuyou"
   },
   {
     "english": "weird",
-    "hiragana": "へん",
+    "kana": "へん",
     "romaji": "hen"
   },
   {
     "english": "cold-hearted",
-    "hiragana": "つめたい",
+    "kana": "つめたい",
     "romaji": "tsumetai"
   },
   {
     "english": "helpful",
-    "hiragana": "たすかる",
+    "kana": "たすかる",
     "romaji": "tasukaru"
   },
   {
     "english": "smart",
-    "hiragana": "かしこい",
+    "kana": "かしこい",
     "romaji": "kashikoi"
   },
   {
     "english": "stupid",
-    "hiragana": "ばか",
+    "kana": "ばか",
     "romaji": "baka"
   },
   {
     "english": "friendly",
-    "hiragana": "しんせつ",
+    "kana": "しんせつ",
     "romaji": "shinsetsu"
   },
   {
     "english": "angry",
-    "hiragana": "おこっている",
+    "kana": "おこっている",
     "romaji": "okotteiru"
   },
   {
     "english": "scary",
-    "hiragana": "こわい",
+    "kana": "こわい",
     "romaji": "kowai"
   },
   {
     "english": "strong-willed",
-    "hiragana": "つよき",
+    "kana": "つよき",
     "romaji": "tsuyoki"
   },
   {
     "english": "jealous",
-    "hiragana": "しっとぶかい",
+    "kana": "しっとぶかい",
     "romaji": "shittobukai"
   },
   {
     "english": "shy",
-    "hiragana": "はずかしがりや",
+    "kana": "はずかしがりや",
     "romaji": "hazukashigariya"
   },
   {
     "english": "busy (crowded)",
-    "hiragana": "こんでいる",
+    "kana": "こんでいる",
     "romaji": "kondeiru"
   },
   {
     "english": "hungry",
-    "hiragana": "おなかがすいた",
+    "kana": "おなかがすいた",
     "romaji": "onakagasuita"
   },
   {
     "english": "full",
-    "hiragana": "おなかいっぱい",
+    "kana": "おなかいっぱい",
     "romaji": "onakaippai"
   },
   {
     "english": "sleepy",
-    "hiragana": "ねむい",
+    "kana": "ねむい",
     "romaji": "nemui"
   }
 ]

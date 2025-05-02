@@ -1,151 +1,151 @@
 [
   {
     "english": "to cut",
-    "hiragana": "きる",
+    "kana": "きる",
     "romaji": "kiru",
     "formal": "kirimasu"
   },
   {
     "english": "to draw",
-    "hiragana": "かく",
+    "kana": "かく",
     "romaji": "kaku",
     "formal": "kakimasu"
   },
   {
     "english": "to climb",
-    "hiragana": "のぼる",
+    "kana": "のぼる",
     "romaji": "noboru",
     "formal": "noborimasu"
   },
   {
     "english": "to fall",
-    "hiragana": "おちる",
+    "kana": "おちる",
     "romaji": "ochiru",
     "formal": "ochimasu"
   },
   {
     "english": "to rain",
-    "hiragana": "あめがふる",
+    "kana": "あめがふる",
     "romaji": "ame ga furu",
     "formal": "ame ga furimasu"
   },
   {
     "english": "to snow",
-    "hiragana": "ゆきがふる",
+    "kana": "ゆきがふる",
     "romaji": "yuki ga furu",
     "formal": "yuki ga furimasu"
   },
   {
     "english": "to begin",
-    "hiragana": "はじまる",
+    "kana": "はじまる",
     "romaji": "hajimaru",
     "formal": "hajimarimasu"
   },
   {
     "english": "to finish",
-    "hiragana": "おえる",
+    "kana": "おえる",
     "romaji": "oeru",
     "formal": "oemasu"
   },
   {
     "english": "to translate",
-    "hiragana": "ほんやくする",
+    "kana": "ほんやくする",
     "romaji": "honyaku suru",
     "formal": "honyaku shimasu"
   },
   {
     "english": "to interpret",
-    "hiragana": "つうやくする",
+    "kana": "つうやくする",
     "romaji": "tsuuyaku suru",
     "formal": "tsuuyaku shimasu"
   },
   {
     "english": "to deliver",
-    "hiragana": "とどける",
+    "kana": "とどける",
     "romaji": "todokeru",
     "formal": "todokemasu"
   },
   {
     "english": "to learn (acquire)",
-    "hiragana": "みにつける",
+    "kana": "みにつける",
     "romaji": "minitsukeru",
     "formal": "minitsukemasu"
   },
   {
     "english": "to meet",
-    "hiragana": "あう",
+    "kana": "あう",
     "romaji": "au",
     "formal": "aimasu"
   },
   {
     "english": "to be",
-    "hiragana": "いる",
+    "kana": "いる",
     "romaji": "iru",
     "formal": "imasu"
   },
   {
     "english": "to exist",
-    "hiragana": "ある",
+    "kana": "ある",
     "romaji": "aru",
     "formal": "arimasu"
   },
   {
     "english": "to die",
-    "hiragana": "しぬ",
+    "kana": "しぬ",
     "romaji": "shinu",
     "formal": "shinimasu"
   },
   {
     "english": "to stay",
-    "hiragana": "とまる",
+    "kana": "とまる",
     "romaji": "tomaru",
     "formal": "tomarimasu"
   },
   {
     "english": "to wake someone",
-    "hiragana": "おこす",
+    "kana": "おこす",
     "romaji": "okosu",
     "formal": "okoshimasu"
   },
   {
     "english": "to bathe",
-    "hiragana": "あびる",
+    "kana": "あびる",
     "romaji": "abiru",
     "formal": "abimasu"
   },
   {
     "english": "to exercise",
-    "hiragana": "うんどうする",
+    "kana": "うんどうする",
     "romaji": "undou suru",
     "formal": "undou shimasu"
   },
   {
     "english": "to call (phone)",
-    "hiragana": "でんわする",
+    "kana": "でんわする",
     "romaji": "denwa suru",
     "formal": "denwa shimasu"
   },
   {
     "english": "to study",
-    "hiragana": "べんきょうする",
+    "kana": "べんきょうする",
     "romaji": "benkyou suru",
     "formal": "benkyou shimasu"
   },
   {
     "english": "to be able to",
-    "hiragana": "できる",
+    "kana": "できる",
     "romaji": "dekiru",
     "formal": "dekimasu"
   },
   {
     "english": "to fix",
-    "hiragana": "なおす",
+    "kana": "なおす",
     "romaji": "naosu",
     "formal": "naoshimasu"
   },
   {
     "english": "to repair",
-    "hiragana": "しゅうりする",
+    "kana": "しゅうりする",
     "romaji": "shuuri suru",
     "formal": "shuuri shimasu"
   }

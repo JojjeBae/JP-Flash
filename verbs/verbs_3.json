@@ -1,151 +1,151 @@
 [
   {
     "english": "to give",
-    "hiragana": "あげる",
+    "kana": "あげる",
     "romaji": "ageru",
     "formal": "agemasu"
   },
   {
     "english": "to receive",
-    "hiragana": "もらう",
+    "kana": "もらう",
     "romaji": "morau",
     "formal": "moraimasu"
   },
   {
     "english": "to get angry",
-    "hiragana": "おこる",
+    "kana": "おこる",
     "romaji": "okoru",
     "formal": "okorimasu"
   },
   {
     "english": "to smile",
-    "hiragana": "ほほえむ",
+    "kana": "ほほえむ",
     "romaji": "hohoemu",
     "formal": "hohoemimasu"
   },
   {
     "english": "to send",
-    "hiragana": "おくる",
+    "kana": "おくる",
     "romaji": "okuru",
     "formal": "okurimasu"
   },
   {
     "english": "to show",
-    "hiragana": "みせる",
+    "kana": "みせる",
     "romaji": "miseru",
     "formal": "misemasu"
   },
   {
     "english": "to bring",
-    "hiragana": "もってくる",
+    "kana": "もってくる",
     "romaji": "mottekuru",
     "formal": "mottekimasu"
   },
   {
     "english": "to return (something)",
-    "hiragana": "かえす",
+    "kana": "かえす",
     "romaji": "kaesu",
     "formal": "kaeshimasu"
   },
   {
     "english": "to wear",
-    "hiragana": "きる",
+    "kana": "きる",
     "romaji": "kiru",
     "formal": "kimasu"
   },
   {
     "english": "to take off (clothes)",
-    "hiragana": "ぬぐ",
+    "kana": "ぬぐ",
     "romaji": "nugu",
     "formal": "nugimasu"
   },
   {
     "english": "to sing",
-    "hiragana": "うたう",
+    "kana": "うたう",
     "romaji": "utau",
     "formal": "utaimasu"
   },
   {
     "english": "to dance",
-    "hiragana": "おどる",
+    "kana": "おどる",
     "romaji": "odoru",
     "formal": "odorimasu"
   },
   {
     "english": "to practice",
-    "hiragana": "れんしゅうする",
+    "kana": "れんしゅうする",
     "romaji": "renshuu suru",
     "formal": "renshuu shimasu"
   },
   {
     "english": "to clean",
-    "hiragana": "そうじする",
+    "kana": "そうじする",
     "romaji": "souji suru",
     "formal": "souji shimasu"
   },
   {
     "english": "to explain",
-    "hiragana": "せつめいする",
+    "kana": "せつめいする",
     "romaji": "setsumei suru",
     "formal": "setsumei shimasu"
   },
   {
     "english": "to try",
-    "hiragana": "ためす",
+    "kana": "ためす",
     "romaji": "tamesu",
     "formal": "tameshimasu"
   },
   {
     "english": "to wait for",
-    "hiragana": "まつ",
+    "kana": "まつ",
     "romaji": "matsu",
     "formal": "machimasu"
   },
   {
     "english": "to apologize",
-    "hiragana": "あやまる",
+    "kana": "あやまる",
     "romaji": "ayamaru",
     "formal": "ayamarimasu"
   },
   {
     "english": "to ask",
-    "hiragana": "たずねる",
+    "kana": "たずねる",
     "romaji": "tazuneru",
     "formal": "tazunemasu"
   },
   {
     "english": "to search",
-    "hiragana": "さがす",
+    "kana": "さがす",
     "romaji": "sagasu",
     "formal": "sagashimasu"
   },
   {
     "english": "to believe",
-    "hiragana": "しんじる",
+    "kana": "しんじる",
     "romaji": "shinjiru",
     "formal": "shinjimasu"
   },
   {
     "english": "to love",
-    "hiragana": "あいする",
+    "kana": "あいする",
     "romaji": "ai suru",
     "formal": "ai shimasu"
   },
   {
     "english": "to hate",
-    "hiragana": "きらう",
+    "kana": "きらう",
     "romaji": "kirau",
     "formal": "kiraimasu"
   },
   {
     "english": "to invite",
-    "hiragana": "さそう",
+    "kana": "さそう",
     "romaji": "sasou",
     "formal": "sashimasu"
   },
   {
     "english": "to carry",
-    "hiragana": "はこぶ",
+    "kana": "はこぶ",
     "romaji": "hakobu",
     "formal": "hakobimasu"
   }

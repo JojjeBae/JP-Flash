@@ -190,7 +190,7 @@ function updateCardUI(skipAnimation = false) {
   const back = document.getElementById("cardBack");
   const v = cards[current];
   front.textContent = v.english || "";
-  if (${v.kanjiandkana}.length === 0) {
+  if (v.kanjiandkana.length === 0) {
     back.innerHTML = `${v.kana || ""}<br>${v.romaji || ""}`;
   } else {
     back.innerHTML = `${v.kana || ""}<br>${v.kanjiandkana || ""}<br>${v.romaji || ""}`;

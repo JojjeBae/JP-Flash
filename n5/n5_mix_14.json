@@ -100,7 +100,7 @@
   {
     "kanjiandkana": "ネクタイ",
     "english": "tie, necktie",
-    "kana": "",
+    "kana": "ネクタイ",
     "romaji": "nekutai",
     "level": 5
   },
@@ -135,7 +135,7 @@
   {
     "kanjiandkana": "あなた",
     "english": "you",
-    "kana": "",
+    "kana": "あなた",
     "romaji": "anata",
     "level": 5
   },
@@ -170,7 +170,7 @@
   {
     "kanjiandkana": "あまり",
     "english": "not very",
-    "kana": "",
+    "kana": "あまり",
     "romaji": "amari",
     "level": 5
   }

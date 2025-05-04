@@ -2,7 +2,7 @@
   {
     "kanjiandkana": "ページ",
     "english": "page",
-    "kana": "",
+    "kana": "ページ",
     "romaji": "pēji",
     "level": 5
   },
@@ -37,14 +37,14 @@
   {
     "kanjiandkana": "エレベーター",
     "english": "elevator",
-    "kana": "",
+    "kana": "エレベーター",
     "romaji": "erebētā",
     "level": 5
   },
   {
     "kanjiandkana": "たぶん",
     "english": "probably",
-    "kana": "",
+    "kana": "たぶん",
     "romaji": "tabun",
     "level": 5
   },
@@ -93,14 +93,14 @@
   {
     "kanjiandkana": "きれい",
     "english": "pretty, clean",
-    "kana": "",
+    "kana": "きれい",
     "romaji": "kirei",
     "level": 5
   },
   {
     "kanjiandkana": "どうぞ",
     "english": "please",
-    "kana": "",
+    "kana": "どうぞ",
     "romaji": "dōzo",
     "level": 5
   },
@@ -170,7 +170,7 @@
   {
     "kanjiandkana": "ほか",
     "english": "other, the rest",
-    "kana": "",
+    "kana": "ほか",
     "romaji": "hoka",
     "level": 5
   }

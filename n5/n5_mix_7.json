@@ -2,7 +2,7 @@
   {
     "kanjiandkana": "ちゃわん",
     "english": "rice bowl",
-    "kana": "",
+    "kana": "ちゃわん",
     "romaji": "chawan",
     "level": 5
   },
@@ -86,7 +86,7 @@
   {
     "kanjiandkana": "キロ / キログラム",
     "english": "kilogram",
-    "kana": "",
+    "kana": "キロ / キログラム",
     "romaji": "kiro / kiroguramu",
     "level": 5
   },
@@ -107,7 +107,7 @@
   {
     "kanjiandkana": "デパート",
     "english": "department store",
-    "kana": "",
+    "kana": "デパート",
     "romaji": "depāto",
     "level": 5
   },
@@ -135,7 +135,7 @@
   {
     "kanjiandkana": "はい",
     "english": "yes",
-    "kana": "",
+    "kana": "はい",
     "romaji": "hai",
     "level": 5
   },
@@ -156,7 +156,7 @@
   {
     "kanjiandkana": "なぜ",
     "english": "why",
-    "kana": "",
+    "kana": "なぜ",
     "romaji": "naze",
     "level": 5
   },
@@ -170,7 +170,7 @@
   {
     "kanjiandkana": "いいえ",
     "english": "no",
-    "kana": "",
+    "kana": "いいえ",
     "romaji": "iie",
     "level": 5
   }

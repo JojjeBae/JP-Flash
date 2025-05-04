@@ -44,14 +44,14 @@
   {
     "kanjiandkana": "ペン",
     "english": "pen",
-    "kana": "",
+    "kana": "ペン",
     "romaji": "pen",
     "level": 5
   },
   {
     "kanjiandkana": "ニュース",
     "english": "news",
-    "kana": "",
+    "kana": "ニュース",
     "romaji": "nyūsu",
     "level": 5
   },
@@ -65,7 +65,7 @@
   {
     "kanjiandkana": "フォーク",
     "english": "fork",
-    "kana": "",
+    "kana": "フォーク",
     "romaji": "fōku",
     "level": 5
   },
@@ -79,7 +79,7 @@
   {
     "kanjiandkana": "フィルム",
     "english": "roll of film",
-    "kana": "",
+    "kana": "フィルム",
     "romaji": "firumu",
     "level": 5
   },
@@ -128,7 +128,7 @@
   {
     "kanjiandkana": "ポケット",
     "english": "pocket",
-    "kana": "",
+    "kana": "ポケット",
     "romaji": "poketto",
     "level": 5
   },
@@ -142,7 +142,7 @@
   {
     "kanjiandkana": "はし",
     "english": "chopsticks",
-    "kana": "",
+    "kana": "はし",
     "romaji": "hashi",
     "level": 5
   },

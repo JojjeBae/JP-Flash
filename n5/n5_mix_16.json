@@ -30,7 +30,7 @@
   {
     "kanjiandkana": "この",
     "english": "this",
-    "kana": "",
+    "kana": "この",
     "romaji": "kono",
     "level": 5
   },
@@ -58,7 +58,7 @@
   {
     "kanjiandkana": "ホテル",
     "english": "hotel",
-    "kana": "",
+    "kana": "ホテル",
     "romaji": "hoteru",
     "level": 5
   },
@@ -100,21 +100,21 @@
   {
     "kanjiandkana": "りっぱ",
     "english": "splendid",
-    "kana": "",
+    "kana": "りっぱ",
     "romaji": "rippa",
     "level": 5
   },
   {
     "kanjiandkana": "つまらない",
     "english": "boring",
-    "kana": "",
+    "kana": "つまらない",
     "romaji": "tsumaranai",
     "level": 5
   },
   {
     "kanjiandkana": "よく",
     "english": "often, well",
-    "kana": "",
+    "kana": "よく",
     "romaji": "yoku",
     "level": 5
   },
@@ -142,7 +142,7 @@
   {
     "kanjiandkana": "みんな",
     "english": "everyone",
-    "kana": "",
+    "kana": "みんな",
     "romaji": "minna",
     "level": 5
   },

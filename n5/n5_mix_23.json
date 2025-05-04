@@ -2,7 +2,7 @@
   {
     "kanjiandkana": "ナイフ",
     "english": "knife",
-    "kana": "",
+    "kana": "ナイフ",
     "romaji": "naifu",
     "level": 5
   },
@@ -37,7 +37,7 @@
   {
     "kanjiandkana": "ちょうど",
     "english": "exactly",
-    "kana": "",
+    "kana": "ちょうど",
     "romaji": "chōdo",
     "level": 5
   },
@@ -51,7 +51,7 @@
   {
     "kanjiandkana": "ポスト",
     "english": "post",
-    "kana": "",
+    "kana": "ポスト",
     "romaji": "posuto",
     "level": 5
   },
@@ -65,14 +65,14 @@
   {
     "kanjiandkana": "メートル",
     "english": "metre",
-    "kana": "",
+    "kana": "メートル",
     "romaji": "mētoru",
     "level": 5
   },
   {
     "kanjiandkana": "パン",
     "english": "bread",
-    "kana": "",
+    "kana": "パン",
     "romaji": "pan",
     "level": 5
   },
@@ -121,14 +121,14 @@
   {
     "kanjiandkana": "これ",
     "english": "this",
-    "kana": "",
+    "kana": "これ",
     "romaji": "kore",
     "level": 5
   },
   {
     "kanjiandkana": "アパート",
     "english": "apartment",
-    "kana": "",
+    "kana": "アパート",
     "romaji": "apāto",
     "level": 5
   },
@@ -142,7 +142,7 @@
   {
     "kanjiandkana": "ここ",
     "english": "here",
-    "kana": "",
+    "kana": "ここ",
     "romaji": "koko",
     "level": 5
   },
@@ -156,21 +156,21 @@
   {
     "kanjiandkana": "タクシー",
     "english": "taxi",
-    "kana": "",
+    "kana": "タクシー",
     "romaji": "takushī",
     "level": 5
   },
   {
     "kanjiandkana": "では",
     "english": "with that...",
-    "kana": "",
+    "kana": "では",
     "romaji": "deha",
     "level": 5
   },
   {
     "kanjiandkana": "しょうゆ",
     "english": "soy sauce",
-    "kana": "",
+    "kana": "しょうゆ",
     "romaji": "shōyu",
     "level": 5
   }

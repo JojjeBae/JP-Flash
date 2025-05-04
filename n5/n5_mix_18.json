@@ -9,14 +9,14 @@
   {
     "kanjiandkana": "バター",
     "english": "butter",
-    "kana": "",
+    "kana": "バター",
     "romaji": "batā",
     "level": 5
   },
   {
     "kanjiandkana": "もっと",
     "english": "more",
-    "kana": "",
+    "kana": "もっと",
     "romaji": "motto",
     "level": 5
   },
@@ -30,7 +30,7 @@
   {
     "kanjiandkana": "など",
     "english": "et cetera",
-    "kana": "",
+    "kana": "など",
     "romaji": "nado",
     "level": 5
   },
@@ -44,7 +44,7 @@
   {
     "kanjiandkana": "やる",
     "english": "to do",
-    "kana": "",
+    "kana": "やる",
     "romaji": "yaru",
     "level": 5
   },
@@ -93,7 +93,7 @@
   {
     "kanjiandkana": "シャワー",
     "english": "shower",
-    "kana": "",
+    "kana": "シャワー",
     "romaji": "shawā",
     "level": 5
   },
@@ -128,7 +128,7 @@
   {
     "kanjiandkana": "いす",
     "english": "chair",
-    "kana": "",
+    "kana": "いす",
     "romaji": "isu",
     "level": 5
   },
@@ -163,14 +163,14 @@
   {
     "kanjiandkana": "あれ",
     "english": "that",
-    "kana": "",
+    "kana": "あれ",
     "romaji": "are",
     "level": 5
   },
   {
     "kanjiandkana": "グラム",
     "english": "gram",
-    "kana": "",
+    "kana": "グラム",
     "romaji": "guramu",
     "level": 5
   }

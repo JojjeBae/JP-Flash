@@ -30,7 +30,7 @@
   {
     "kanjiandkana": "コップ",
     "english": "a glass",
-    "kana": "",
+    "kana": "コップ",
     "romaji": "koppu",
     "level": 5
   },
@@ -65,7 +65,7 @@
   {
     "kanjiandkana": "それから",
     "english": "after that",
-    "kana": "",
+    "kana": "それから",
     "romaji": "sorekara",
     "level": 5
   },
@@ -86,21 +86,21 @@
   {
     "kanjiandkana": "パーティー",
     "english": "party",
-    "kana": "",
+    "kana": "パーティー",
     "romaji": "pātī",
     "level": 5
   },
   {
     "kanjiandkana": "あちら",
     "english": "there",
-    "kana": "",
+    "kana": "あちら",
     "romaji": "achira",
     "level": 5
   },
   {
     "kanjiandkana": "スカート",
     "english": "skirt",
-    "kana": "",
+    "kana": "スカート",
     "romaji": "sukāto",
     "level": 5
   },
@@ -114,7 +114,7 @@
   {
     "kanjiandkana": "ボタン",
     "english": "button",
-    "kana": "",
+    "kana": "ボタン",
     "romaji": "botan",
     "level": 5
   },
@@ -135,14 +135,14 @@
   {
     "kanjiandkana": "いかが",
     "english": "how",
-    "kana": "",
+    "kana": "いかが",
     "romaji": "ikaga",
     "level": 5
   },
   {
     "kanjiandkana": "ストーブ",
     "english": "heater",
-    "kana": "",
+    "kana": "ストーブ",
     "romaji": "sutōbu",
     "level": 5
   },
@@ -163,14 +163,14 @@
   {
     "kanjiandkana": "さあ",
     "english": "well…",
-    "kana": "",
+    "kana": "さあ",
     "romaji": "saa",
     "level": 5
   },
   {
     "kanjiandkana": "あそこ",
     "english": "over there",
-    "kana": "",
+    "kana": "あそこ",
     "romaji": "asoko",
     "level": 5
   }

@@ -16,7 +16,7 @@
   {
     "kanjiandkana": "できる",
     "english": "to be able to",
-    "kana": "",
+    "kana": "できる",
     "romaji": "dekiru",
     "level": 5
   },
@@ -30,7 +30,7 @@
   {
     "kanjiandkana": "する",
     "english": "to do",
-    "kana": "",
+    "kana": "する",
     "romaji": "suru",
     "level": 5
   },
@@ -72,14 +72,14 @@
   {
     "kanjiandkana": "ある",
     "english": "to be, to have (used for inanimate objects)",
-    "kana": "",
+    "kana": "ある",
     "romaji": "aru",
     "level": 5
   },
   {
     "kanjiandkana": "ベッド",
     "english": "bed",
-    "kana": "",
+    "kana": "ベッド",
     "romaji": "beddo",
     "level": 5
   },
@@ -93,7 +93,7 @@
   {
     "kanjiandkana": "いくつ",
     "english": "how many?, how old?",
-    "kana": "",
+    "kana": "いくつ",
     "romaji": "ikutsu",
     "level": 5
   },
@@ -121,14 +121,14 @@
   {
     "kanjiandkana": "おいしい",
     "english": "delicious",
-    "kana": "",
+    "kana": "おいしい",
     "romaji": "oishii",
     "level": 5
   },
   {
     "kanjiandkana": "ペット",
     "english": "pet",
-    "kana": "",
+    "kana": "ペット",
     "romaji": "petto",
     "level": 5
   },
@@ -156,7 +156,7 @@
   {
     "kanjiandkana": "おもしろい",
     "english": "interesting",
-    "kana": "",
+    "kana": "おもしろい",
     "romaji": "omoshiroi",
     "level": 5
   },

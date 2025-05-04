@@ -2,7 +2,7 @@
   {
     "kanjiandkana": "ください",
     "english": "please",
-    "kana": "",
+    "kana": "ください",
     "romaji": "kudasai",
     "level": 5
   },
@@ -79,14 +79,14 @@
   {
     "kanjiandkana": "どちら",
     "english": "which of two",
-    "kana": "",
+    "kana": "どちら",
     "romaji": "dochira",
     "level": 5
   },
   {
     "kanjiandkana": "プール",
     "english": "swimming pool",
-    "kana": "",
+    "kana": "プール",
     "romaji": "pūru",
     "level": 5
   },
@@ -149,7 +149,7 @@
   {
     "kanjiandkana": "かぎ",
     "english": "key",
-    "kana": "",
+    "kana": "かぎ",
     "romaji": "kagi",
     "level": 5
   },

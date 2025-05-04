@@ -44,14 +44,14 @@
   {
     "kanjiandkana": "ペン",
     "english": "pen",
-    "kana": "",
+    "kana": "ペン",
     "romaji": "pen",
     "level": 5
   },
   {
     "kanjiandkana": "ニュース",
     "english": "news",
-    "kana": "",
+    "kana": "ニュース",
     "romaji": "nyūsu",
     "level": 5
   },
@@ -65,7 +65,7 @@
   {
     "kanjiandkana": "フォーク",
     "english": "fork",
-    "kana": "",
+    "kana": "フォーク",
     "romaji": "fōku",
     "level": 5
   },
@@ -79,7 +79,7 @@
   {
     "kanjiandkana": "フィルム",
     "english": "roll of film",
-    "kana": "",
+    "kana": "フィルム",
     "romaji": "firumu",
     "level": 5
   },
@@ -128,7 +128,7 @@
   {
     "kanjiandkana": "ポケット",
     "english": "pocket",
-    "kana": "",
+    "kana": "ポケット",
     "romaji": "poketto",
     "level": 5
   },
@@ -142,7 +142,7 @@
   {
     "kanjiandkana": "はし",
     "english": "chopsticks",
-    "kana": "",
+    "kana": "はし",
     "romaji": "hashi",
     "level": 5
   },
@@ -205,7 +205,7 @@
   {
     "kanjiandkana": "たいへん",
     "english": "very",
-    "kana": "",
+    "kana": "たいへん",
     "romaji": "taihen",
     "level": 5
   },
@@ -247,7 +247,7 @@
   {
     "kanjiandkana": "あびる",
     "english": "to bathe, to shower",
-    "kana": "",
+    "kana": "あびる",
     "romaji": "abiru",
     "level": 5
   },
@@ -289,7 +289,7 @@
   {
     "kanjiandkana": "テープレコーダー",
     "english": "tape recorder",
-    "kana": "",
+    "kana": "テープレコーダー",
     "romaji": "tēpurekōdā",
     "level": 5
   },
@@ -352,7 +352,7 @@
   {
     "kanjiandkana": "カメラ",
     "english": "camera",
-    "kana": "",
+    "kana": "カメラ",
     "romaji": "kamera",
     "level": 5
   },
@@ -513,7 +513,7 @@
   {
     "kanjiandkana": "コート",
     "english": "coat, tennis court",
-    "kana": "",
+    "kana": "コート",
     "romaji": "kōto",
     "level": 5
   },
@@ -534,14 +534,14 @@
   {
     "kanjiandkana": "こっち",
     "english": "this person or way",
-    "kana": "",
+    "kana": "こっち",
     "romaji": "kotchi",
     "level": 5
   },
   {
     "kanjiandkana": "スプーン",
     "english": "spoon",
-    "kana": "",
+    "kana": "スプーン",
     "romaji": "supūn",
     "level": 5
   },
@@ -562,7 +562,7 @@
   {
     "kanjiandkana": "いい / よい",
     "english": "good",
-    "kana": "",
+    "kana": "いい / よい",
     "romaji": "ii / yoi",
     "level": 5
   },
@@ -590,7 +590,7 @@
   {
     "kanjiandkana": "どう",
     "english": "how, in what way",
-    "kana": "",
+    "kana": "どう",
     "romaji": "dō",
     "level": 5
   },
@@ -604,14 +604,14 @@
   {
     "kanjiandkana": "バス",
     "english": "bus",
-    "kana": "",
+    "kana": "バス",
     "romaji": "basu",
     "level": 5
   },
   {
     "kanjiandkana": "クラス",
     "english": "class",
-    "kana": "",
+    "kana": "クラス",
     "romaji": "kurasu",
     "level": 5
   },
@@ -625,21 +625,21 @@
   {
     "kanjiandkana": "スポーツ",
     "english": "sport",
-    "kana": "",
+    "kana": "スポーツ",
     "romaji": "supōtsu",
     "level": 5
   },
   {
     "kanjiandkana": "どっち",
     "english": "which",
-    "kana": "",
+    "kana": "どっち",
     "romaji": "dotchi",
     "level": 5
   },
   {
     "kanjiandkana": "そば",
     "english": "near, beside",
-    "kana": "",
+    "kana": "そば",
     "romaji": "soba",
     "level": 5
   },
@@ -653,7 +653,7 @@
   {
     "kanjiandkana": "どうして",
     "english": "for what reason",
-    "kana": "",
+    "kana": "どうして",
     "romaji": "dōshite",
     "level": 5
   },
@@ -709,7 +709,7 @@
   {
     "kanjiandkana": "カレー",
     "english": "curry",
-    "kana": "",
+    "kana": "カレー",
     "romaji": "karē",
     "level": 5
   },
@@ -772,7 +772,7 @@
   {
     "kanjiandkana": "いつも",
     "english": "always",
-    "kana": "",
+    "kana": "いつも",
     "romaji": "itsumo",
     "level": 5
   },
@@ -793,14 +793,14 @@
   {
     "kanjiandkana": "なる",
     "english": "to become",
-    "kana": "",
+    "kana": "なる",
     "romaji": "naru",
     "level": 5
   },
   {
     "kanjiandkana": "まっすぐ",
     "english": "straight ahead, direct",
-    "kana": "",
+    "kana": "まっすぐ",
     "romaji": "massugu",
     "level": 5
   },
@@ -835,7 +835,7 @@
   {
     "kanjiandkana": "シャツ",
     "english": "shirt",
-    "kana": "",
+    "kana": "シャツ",
     "romaji": "shatsu",
     "level": 5
   },
@@ -863,7 +863,7 @@
   {
     "kanjiandkana": "スリッパ",
     "english": "slippers",
-    "kana": "",
+    "kana": "スリッパ",
     "romaji": "surippa",
     "level": 5
   },
@@ -877,7 +877,7 @@
   {
     "kanjiandkana": "ページ",
     "english": "page",
-    "kana": "",
+    "kana": "ページ",
     "romaji": "pēji",
     "level": 5
   },
@@ -912,14 +912,14 @@
   {
     "kanjiandkana": "エレベーター",
     "english": "elevator",
-    "kana": "",
+    "kana": "エレベーター",
     "romaji": "erebētā",
     "level": 5
   },
   {
     "kanjiandkana": "たぶん",
     "english": "probably",
-    "kana": "",
+    "kana": "たぶん",
     "romaji": "tabun",
     "level": 5
   },
@@ -968,14 +968,14 @@
   {
     "kanjiandkana": "きれい",
     "english": "pretty, clean",
-    "kana": "",
+    "kana": "きれい",
     "romaji": "kirei",
     "level": 5
   },
   {
     "kanjiandkana": "どうぞ",
     "english": "please",
-    "kana": "",
+    "kana": "どうぞ",
     "romaji": "dōzo",
     "level": 5
   },
@@ -1045,14 +1045,14 @@
   {
     "kanjiandkana": "ほか",
     "english": "other, the rest",
-    "kana": "",
+    "kana": "ほか",
     "romaji": "hoka",
     "level": 5
   },
   {
     "kanjiandkana": "ちゃわん",
     "english": "rice bowl",
-    "kana": "",
+    "kana": "ちゃわん",
     "romaji": "chawan",
     "level": 5
   },
@@ -1136,7 +1136,7 @@
   {
     "kanjiandkana": "キロ / キログラム",
     "english": "kilogram",
-    "kana": "",
+    "kana": "キロ / キログラム",
     "romaji": "kiro / kiroguramu",
     "level": 5
   },
@@ -1157,7 +1157,7 @@
   {
     "kanjiandkana": "デパート",
     "english": "department store",
-    "kana": "",
+    "kana": "デパート",
     "romaji": "depāto",
     "level": 5
   },
@@ -1185,7 +1185,7 @@
   {
     "kanjiandkana": "はい",
     "english": "yes",
-    "kana": "",
+    "kana": "はい",
     "romaji": "hai",
     "level": 5
   },
@@ -1206,7 +1206,7 @@
   {
     "kanjiandkana": "なぜ",
     "english": "why",
-    "kana": "",
+    "kana": "なぜ",
     "romaji": "naze",
     "level": 5
   },
@@ -1220,7 +1220,7 @@
   {
     "kanjiandkana": "いいえ",
     "english": "no",
-    "kana": "",
+    "kana": "いいえ",
     "romaji": "iie",
     "level": 5
   },
@@ -1248,7 +1248,7 @@
   {
     "kanjiandkana": "ふろ",
     "english": "bath",
-    "kana": "",
+    "kana": "ふろ",
     "romaji": "furo",
     "level": 5
   },
@@ -1262,7 +1262,7 @@
   {
     "kanjiandkana": "レストラン",
     "english": "restaurant",
-    "kana": "",
+    "kana": "レストラン",
     "romaji": "resutoran",
     "level": 5
   },
@@ -1276,7 +1276,7 @@
   {
     "kanjiandkana": "かわいい",
     "english": "cute",
-    "kana": "",
+    "kana": "かわいい",
     "romaji": "kawaii",
     "level": 5
   },
@@ -1297,7 +1297,7 @@
   {
     "kanjiandkana": "いちばん",
     "english": "best, first",
-    "kana": "",
+    "kana": "いちばん",
     "romaji": "ichiban",
     "level": 5
   },
@@ -1318,7 +1318,7 @@
   {
     "kanjiandkana": "テレビ",
     "english": "television",
-    "kana": "",
+    "kana": "テレビ",
     "romaji": "terebi",
     "level": 5
   },
@@ -1339,7 +1339,7 @@
   {
     "kanjiandkana": "セーター",
     "english": "sweater, jumper",
-    "kana": "",
+    "kana": "セーター",
     "romaji": "sētā",
     "level": 5
   },
@@ -1353,14 +1353,14 @@
   {
     "kanjiandkana": "ラジカセ / ラジオカセット",
     "english": "radio cassette player",
-    "kana": "",
+    "kana": "ラジカセ / ラジオカセット",
     "romaji": "rajikase / rajiokasetto",
     "level": 5
   },
   {
     "kanjiandkana": "つける",
     "english": "to turn on",
-    "kana": "",
+    "kana": "つける",
     "romaji": "tsukeru",
     "level": 5
   },
@@ -1381,7 +1381,7 @@
   {
     "kanjiandkana": "いくら",
     "english": "how much?",
-    "kana": "",
+    "kana": "いくら",
     "romaji": "ikura",
     "level": 5
   },
@@ -1423,14 +1423,14 @@
   {
     "kanjiandkana": "そうして / そして",
     "english": "and",
-    "kana": "",
+    "kana": "そうして / そして",
     "romaji": "sōshite / soshite",
     "level": 5
   },
   {
     "kanjiandkana": "どうも",
     "english": "thanks",
-    "kana": "",
+    "kana": "どうも",
     "romaji": "dōmo",
     "level": 5
   },
@@ -1507,7 +1507,7 @@
   {
     "kanjiandkana": "おまわりさん",
     "english": "friendly term for policeman",
-    "kana": "",
+    "kana": "おまわりさん",
     "romaji": "omawarisan",
     "level": 5
   },
@@ -1542,7 +1542,7 @@
   {
     "kanjiandkana": "どれ",
     "english": "which (of three or more)",
-    "kana": "",
+    "kana": "どれ",
     "romaji": "dore",
     "level": 5
   },
@@ -1584,14 +1584,14 @@
   {
     "kanjiandkana": "はく",
     "english": "to wear, to put on trousers",
-    "kana": "",
+    "kana": "はく",
     "romaji": "haku",
     "level": 5
   },
   {
     "kanjiandkana": "だんだん",
     "english": "gradually",
-    "kana": "",
+    "kana": "だんだん",
     "romaji": "dandan",
     "level": 5
   },
@@ -1605,14 +1605,14 @@
   {
     "kanjiandkana": "ノート",
     "english": "notebook, exercise book",
-    "kana": "",
+    "kana": "ノート",
     "romaji": "nōto",
     "level": 5
   },
   {
     "kanjiandkana": "また",
     "english": "again, and",
-    "kana": "",
+    "kana": "また",
     "romaji": "mata",
     "level": 5
   },
@@ -1626,7 +1626,7 @@
   {
     "kanjiandkana": "とても",
     "english": "very",
-    "kana": "",
+    "kana": "とても",
     "romaji": "totemo",
     "level": 5
   },
@@ -1710,7 +1710,7 @@
   {
     "kanjiandkana": "かける",
     "english": "to call by phone",
-    "kana": "",
+    "kana": "かける",
     "romaji": "kakeru",
     "level": 5
   },
@@ -1745,21 +1745,21 @@
   {
     "kanjiandkana": "ゼロ",
     "english": "zero",
-    "kana": "",
+    "kana": "ゼロ",
     "romaji": "zero",
     "level": 5
   },
   {
     "kanjiandkana": "いろいろ",
     "english": "various",
-    "kana": "",
+    "kana": "いろいろ",
     "romaji": "iroiro",
     "level": 5
   },
   {
     "kanjiandkana": "もう",
     "english": "already",
-    "kana": "",
+    "kana": "もう",
     "romaji": "mō",
     "level": 5
   },
@@ -1794,7 +1794,7 @@
   {
     "kanjiandkana": "そこ",
     "english": "that place",
-    "kana": "",
+    "kana": "そこ",
     "romaji": "soko",
     "level": 5
   },
@@ -1808,7 +1808,7 @@
   {
     "kanjiandkana": "どの",
     "english": "which",
-    "kana": "",
+    "kana": "どの",
     "romaji": "dono",
     "level": 5
   },
@@ -1822,7 +1822,7 @@
   {
     "kanjiandkana": "それでは",
     "english": "in that situation",
-    "kana": "",
+    "kana": "それでは",
     "romaji": "soredeha",
     "level": 5
   },
@@ -1913,7 +1913,7 @@
   {
     "kanjiandkana": "ほんとう",
     "english": "truth",
-    "kana": "",
+    "kana": "ほんとう",
     "romaji": "hontō",
     "level": 5
   },
@@ -1941,7 +1941,7 @@
   {
     "kanjiandkana": "まずい",
     "english": "unpleasant",
-    "kana": "",
+    "kana": "まずい",
     "romaji": "mazui",
     "level": 5
   },
@@ -1976,7 +1976,7 @@
   {
     "kanjiandkana": "キロ / キロメートル",
     "english": "kilometre",
-    "kana": "",
+    "kana": "キロ / キロメートル",
     "romaji": "kiro / kiromētoru",
     "level": 5
   },
@@ -1997,7 +1997,7 @@
   {
     "kanjiandkana": "ゆっくりと",
     "english": "slowly",
-    "kana": "",
+    "kana": "ゆっくりと",
     "romaji": "yukkurito",
     "level": 5
   },
@@ -2102,7 +2102,7 @@
   {
     "kanjiandkana": "ください",
     "english": "please",
-    "kana": "",
+    "kana": "ください",
     "romaji": "kudasai",
     "level": 5
   },
@@ -2179,14 +2179,14 @@
   {
     "kanjiandkana": "どちら",
     "english": "which of two",
-    "kana": "",
+    "kana": "どちら",
     "romaji": "dochira",
     "level": 5
   },
   {
     "kanjiandkana": "プール",
     "english": "swimming pool",
-    "kana": "",
+    "kana": "プール",
     "romaji": "pūru",
     "level": 5
   },
@@ -2249,7 +2249,7 @@
   {
     "kanjiandkana": "かぎ",
     "english": "key",
-    "kana": "",
+    "kana": "かぎ",
     "romaji": "kagi",
     "level": 5
   },
@@ -2375,7 +2375,7 @@
   {
     "kanjiandkana": "ネクタイ",
     "english": "tie, necktie",
-    "kana": "",
+    "kana": "ネクタイ",
     "romaji": "nekutai",
     "level": 5
   },
@@ -2410,7 +2410,7 @@
   {
     "kanjiandkana": "あなた",
     "english": "you",
-    "kana": "",
+    "kana": "あなた",
     "romaji": "anata",
     "level": 5
   },
@@ -2445,7 +2445,7 @@
   {
     "kanjiandkana": "あまり",
     "english": "not very",
-    "kana": "",
+    "kana": "あまり",
     "romaji": "amari",
     "level": 5
   },
@@ -2529,21 +2529,21 @@
   {
     "kanjiandkana": "トイレ",
     "english": "toilet",
-    "kana": "",
+    "kana": "トイレ",
     "romaji": "toire",
     "level": 5
   },
   {
     "kanjiandkana": "おなか",
     "english": "stomach",
-    "kana": "",
+    "kana": "おなか",
     "romaji": "onaka",
     "level": 5
   },
   {
     "kanjiandkana": "どこ",
     "english": "where",
-    "kana": "",
+    "kana": "どこ",
     "romaji": "doko",
     "level": 5
   },
@@ -2599,7 +2599,7 @@
   {
     "kanjiandkana": "テープ",
     "english": "tape",
-    "kana": "",
+    "kana": "テープ",
     "romaji": "tēpu",
     "level": 5
   },
@@ -2613,7 +2613,7 @@
   {
     "kanjiandkana": "じゃ / じゃあ",
     "english": "well then…",
-    "kana": "",
+    "kana": "じゃ / じゃあ",
     "romaji": "ja / jaa",
     "level": 5
   },
@@ -2655,7 +2655,7 @@
   {
     "kanjiandkana": "この",
     "english": "this",
-    "kana": "",
+    "kana": "この",
     "romaji": "kono",
     "level": 5
   },
@@ -2683,7 +2683,7 @@
   {
     "kanjiandkana": "ホテル",
     "english": "hotel",
-    "kana": "",
+    "kana": "ホテル",
     "romaji": "hoteru",
     "level": 5
   },
@@ -2725,21 +2725,21 @@
   {
     "kanjiandkana": "りっぱ",
     "english": "splendid",
-    "kana": "",
+    "kana": "りっぱ",
     "romaji": "rippa",
     "level": 5
   },
   {
     "kanjiandkana": "つまらない",
     "english": "boring",
-    "kana": "",
+    "kana": "つまらない",
     "romaji": "tsumaranai",
     "level": 5
   },
   {
     "kanjiandkana": "よく",
     "english": "often, well",
-    "kana": "",
+    "kana": "よく",
     "romaji": "yoku",
     "level": 5
   },
@@ -2767,7 +2767,7 @@
   {
     "kanjiandkana": "みんな",
     "english": "everyone",
-    "kana": "",
+    "kana": "みんな",
     "romaji": "minna",
     "level": 5
   },
@@ -2802,14 +2802,14 @@
   {
     "kanjiandkana": "かかる",
     "english": "to take time or money",
-    "kana": "",
+    "kana": "かかる",
     "romaji": "kakaru",
     "level": 5
   },
   {
     "kanjiandkana": "でも",
     "english": "but",
-    "kana": "",
+    "kana": "でも",
     "romaji": "demo",
     "level": 5
   },
@@ -2830,7 +2830,7 @@
   {
     "kanjiandkana": "あっち",
     "english": "over there",
-    "kana": "",
+    "kana": "あっち",
     "romaji": "atchi",
     "level": 5
   },
@@ -2858,14 +2858,14 @@
   {
     "kanjiandkana": "かばん",
     "english": "bag, basket",
-    "kana": "",
+    "kana": "かばん",
     "romaji": "kaban",
     "level": 5
   },
   {
     "kanjiandkana": "マッチ",
     "english": "match",
-    "kana": "",
+    "kana": "マッチ",
     "romaji": "matchi",
     "level": 5
   },
@@ -2907,7 +2907,7 @@
   {
     "kanjiandkana": "おばあさん",
     "english": "grandmother, female senior-citizen",
-    "kana": "",
+    "kana": "おばあさん",
     "romaji": "obaasan",
     "level": 5
   },
@@ -2921,7 +2921,7 @@
   {
     "kanjiandkana": "ワイシャツ",
     "english": "business shirt",
-    "kana": "",
+    "kana": "ワイシャツ",
     "romaji": "waishatsu",
     "level": 5
   },
@@ -2935,28 +2935,28 @@
   {
     "kanjiandkana": "ラジオ",
     "english": "radio",
-    "kana": "",
+    "kana": "ラジオ",
     "romaji": "rajio",
     "level": 5
   },
   {
     "kanjiandkana": "すぐに",
     "english": "instantly",
-    "kana": "",
+    "kana": "すぐに",
     "romaji": "suguni",
     "level": 5
   },
   {
     "kanjiandkana": "ハンカチ",
     "english": "handkerchief",
-    "kana": "",
+    "kana": "ハンカチ",
     "romaji": "hankachi",
     "level": 5
   },
   {
     "kanjiandkana": "いつ",
     "english": "when",
-    "kana": "",
+    "kana": "いつ",
     "romaji": "itsu",
     "level": 5
   },
@@ -2984,14 +2984,14 @@
   {
     "kanjiandkana": "バター",
     "english": "butter",
-    "kana": "",
+    "kana": "バター",
     "romaji": "batā",
     "level": 5
   },
   {
     "kanjiandkana": "もっと",
     "english": "more",
-    "kana": "",
+    "kana": "もっと",
     "romaji": "motto",
     "level": 5
   },
@@ -3005,7 +3005,7 @@
   {
     "kanjiandkana": "など",
     "english": "et cetera",
-    "kana": "",
+    "kana": "など",
     "romaji": "nado",
     "level": 5
   },
@@ -3019,7 +3019,7 @@
   {
     "kanjiandkana": "やる",
     "english": "to do",
-    "kana": "",
+    "kana": "やる",
     "romaji": "yaru",
     "level": 5
   },
@@ -3068,7 +3068,7 @@
   {
     "kanjiandkana": "シャワー",
     "english": "shower",
-    "kana": "",
+    "kana": "シャワー",
     "romaji": "shawā",
     "level": 5
   },
@@ -3103,7 +3103,7 @@
   {
     "kanjiandkana": "いす",
     "english": "chair",
-    "kana": "",
+    "kana": "いす",
     "romaji": "isu",
     "level": 5
   },
@@ -3138,14 +3138,14 @@
   {
     "kanjiandkana": "あれ",
     "english": "that",
-    "kana": "",
+    "kana": "あれ",
     "romaji": "are",
     "level": 5
   },
   {
     "kanjiandkana": "グラム",
     "english": "gram",
-    "kana": "",
+    "kana": "グラム",
     "romaji": "guramu",
     "level": 5
   },
@@ -3187,7 +3187,7 @@
   {
     "kanjiandkana": "しかし",
     "english": "however",
-    "kana": "",
+    "kana": "しかし",
     "romaji": "shikashi",
     "level": 5
   },
@@ -3215,7 +3215,7 @@
   {
     "kanjiandkana": "ズボン",
     "english": "trousers",
-    "kana": "",
+    "kana": "ズボン",
     "romaji": "zubon",
     "level": 5
   },
@@ -3229,28 +3229,28 @@
   {
     "kanjiandkana": "そっち",
     "english": "over there",
-    "kana": "",
+    "kana": "そっち",
     "romaji": "sotchi",
     "level": 5
   },
   {
     "kanjiandkana": "たて",
     "english": "length, height",
-    "kana": "",
+    "kana": "たて",
     "romaji": "tate",
     "level": 5
   },
   {
     "kanjiandkana": "カップ",
     "english": "cup",
-    "kana": "",
+    "kana": "カップ",
     "romaji": "kappu",
     "level": 5
   },
   {
     "kanjiandkana": "あの",
     "english": "that over there",
-    "kana": "",
+    "kana": "あの",
     "romaji": "ano",
     "level": 5
   },
@@ -3278,7 +3278,7 @@
   {
     "kanjiandkana": "ええ",
     "english": "yes",
-    "kana": "",
+    "kana": "ええ",
     "romaji": "ee",
     "level": 5
   },
@@ -3320,7 +3320,7 @@
   {
     "kanjiandkana": "カレンダー",
     "english": "calendar",
-    "kana": "",
+    "kana": "カレンダー",
     "romaji": "karendā",
     "level": 5
   },
@@ -3341,7 +3341,7 @@
   {
     "kanjiandkana": "できる",
     "english": "to be able to",
-    "kana": "",
+    "kana": "できる",
     "romaji": "dekiru",
     "level": 5
   },
@@ -3355,7 +3355,7 @@
   {
     "kanjiandkana": "する",
     "english": "to do",
-    "kana": "",
+    "kana": "する",
     "romaji": "suru",
     "level": 5
   },
@@ -3397,14 +3397,14 @@
   {
     "kanjiandkana": "ある",
     "english": "to be, to have (used for inanimate objects)",
-    "kana": "",
+    "kana": "ある",
     "romaji": "aru",
     "level": 5
   },
   {
     "kanjiandkana": "ベッド",
     "english": "bed",
-    "kana": "",
+    "kana": "ベッド",
     "romaji": "beddo",
     "level": 5
   },
@@ -3418,7 +3418,7 @@
   {
     "kanjiandkana": "いくつ",
     "english": "how many?, how old?",
-    "kana": "",
+    "kana": "いくつ",
     "romaji": "ikutsu",
     "level": 5
   },
@@ -3446,14 +3446,14 @@
   {
     "kanjiandkana": "おいしい",
     "english": "delicious",
-    "kana": "",
+    "kana": "おいしい",
     "romaji": "oishii",
     "level": 5
   },
   {
     "kanjiandkana": "ペット",
     "english": "pet",
-    "kana": "",
+    "kana": "ペット",
     "romaji": "petto",
     "level": 5
   },
@@ -3481,7 +3481,7 @@
   {
     "kanjiandkana": "おもしろい",
     "english": "interesting",
-    "kana": "",
+    "kana": "おもしろい",
     "romaji": "omoshiroi",
     "level": 5
   },
@@ -3663,7 +3663,7 @@
   {
     "kanjiandkana": "ボールペン",
     "english": "ball-point pen",
-    "kana": "",
+    "kana": "ボールペン",
     "romaji": "bōrupen",
     "level": 5
   },
@@ -3691,14 +3691,14 @@
   {
     "kanjiandkana": "レコード",
     "english": "record",
-    "kana": "",
+    "kana": "レコード",
     "romaji": "rekōdo",
     "level": 5
   },
   {
     "kanjiandkana": "コーヒー",
     "english": "coffee",
-    "kana": "",
+    "kana": "コーヒー",
     "romaji": "kōhī",
     "level": 5
   },
@@ -3719,7 +3719,7 @@
   {
     "kanjiandkana": "その",
     "english": "that",
-    "kana": "",
+    "kana": "その",
     "romaji": "sono",
     "level": 5
   },
@@ -3733,7 +3733,7 @@
   {
     "kanjiandkana": "ちょっと",
     "english": "somewhat",
-    "kana": "",
+    "kana": "ちょっと",
     "romaji": "chotto",
     "level": 5
   },
@@ -3761,7 +3761,7 @@
   {
     "kanjiandkana": "あさって",
     "english": "day after tomorrow",
-    "kana": "",
+    "kana": "あさって",
     "romaji": "asatte",
     "level": 5
   },
@@ -3796,14 +3796,14 @@
   {
     "kanjiandkana": "テーブル",
     "english": "table",
-    "kana": "",
+    "kana": "テーブル",
     "romaji": "tēburu",
     "level": 5
   },
   {
     "kanjiandkana": "コピーする",
     "english": "to copy",
-    "kana": "",
+    "kana": "コピーする",
     "romaji": "kopīsuru",
     "level": 5
   },
@@ -3817,21 +3817,21 @@
   {
     "kanjiandkana": "こんな",
     "english": "such",
-    "kana": "",
+    "kana": "こんな",
     "romaji": "konna",
     "level": 5
   },
   {
     "kanjiandkana": "たくさん",
     "english": "many",
-    "kana": "",
+    "kana": "たくさん",
     "romaji": "takusan",
     "level": 5
   },
   {
     "kanjiandkana": "ドア",
     "english": "Western style door",
-    "kana": "",
+    "kana": "ドア",
     "romaji": "doa",
     "level": 5
   },
@@ -3852,7 +3852,7 @@
   {
     "kanjiandkana": "ナイフ",
     "english": "knife",
-    "kana": "",
+    "kana": "ナイフ",
     "romaji": "naifu",
     "level": 5
   },
@@ -3887,7 +3887,7 @@
   {
     "kanjiandkana": "ちょうど",
     "english": "exactly",
-    "kana": "",
+    "kana": "ちょうど",
     "romaji": "chōdo",
     "level": 5
   },
@@ -3901,7 +3901,7 @@
   {
     "kanjiandkana": "ポスト",
     "english": "post",
-    "kana": "",
+    "kana": "ポスト",
     "romaji": "posuto",
     "level": 5
   },
@@ -3915,14 +3915,14 @@
   {
     "kanjiandkana": "メートル",
     "english": "metre",
-    "kana": "",
+    "kana": "メートル",
     "romaji": "mētoru",
     "level": 5
   },
   {
     "kanjiandkana": "パン",
     "english": "bread",
-    "kana": "",
+    "kana": "パン",
     "romaji": "pan",
     "level": 5
   },
@@ -3971,14 +3971,14 @@
   {
     "kanjiandkana": "これ",
     "english": "this",
-    "kana": "",
+    "kana": "これ",
     "romaji": "kore",
     "level": 5
   },
   {
     "kanjiandkana": "アパート",
     "english": "apartment",
-    "kana": "",
+    "kana": "アパート",
     "romaji": "apāto",
     "level": 5
   },
@@ -3992,7 +3992,7 @@
   {
     "kanjiandkana": "ここ",
     "english": "here",
-    "kana": "",
+    "kana": "ここ",
     "romaji": "koko",
     "level": 5
   },
@@ -4006,21 +4006,21 @@
   {
     "kanjiandkana": "タクシー",
     "english": "taxi",
-    "kana": "",
+    "kana": "タクシー",
     "romaji": "takushī",
     "level": 5
   },
   {
     "kanjiandkana": "では",
     "english": "with that...",
-    "kana": "",
+    "kana": "では",
     "romaji": "deha",
     "level": 5
   },
   {
     "kanjiandkana": "しょうゆ",
     "english": "soy sauce",
-    "kana": "",
+    "kana": "しょうゆ",
     "romaji": "shōyu",
     "level": 5
   },
@@ -4076,7 +4076,7 @@
   {
     "kanjiandkana": "ギター",
     "english": "guitar",
-    "kana": "",
+    "kana": "ギター",
     "romaji": "gitā",
     "level": 5
   },
@@ -4181,7 +4181,7 @@
   {
     "kanjiandkana": "より、ほう",
     "english": "Used for comparison.",
-    "kana": "",
+    "kana": "より、ほう",
     "romaji": "yori,hō",
     "level": 5
   },
@@ -4230,7 +4230,7 @@
   {
     "kanjiandkana": "コップ",
     "english": "a glass",
-    "kana": "",
+    "kana": "コップ",
     "romaji": "koppu",
     "level": 5
   },
@@ -4265,7 +4265,7 @@
   {
     "kanjiandkana": "それから",
     "english": "after that",
-    "kana": "",
+    "kana": "それから",
     "romaji": "sorekara",
     "level": 5
   },
@@ -4286,21 +4286,21 @@
   {
     "kanjiandkana": "パーティー",
     "english": "party",
-    "kana": "",
+    "kana": "パーティー",
     "romaji": "pātī",
     "level": 5
   },
   {
     "kanjiandkana": "あちら",
     "english": "there",
-    "kana": "",
+    "kana": "あちら",
     "romaji": "achira",
     "level": 5
   },
   {
     "kanjiandkana": "スカート",
     "english": "skirt",
-    "kana": "",
+    "kana": "スカート",
     "romaji": "sukāto",
     "level": 5
   },
@@ -4314,7 +4314,7 @@
   {
     "kanjiandkana": "ボタン",
     "english": "button",
-    "kana": "",
+    "kana": "ボタン",
     "romaji": "botan",
     "level": 5
   },
@@ -4335,14 +4335,14 @@
   {
     "kanjiandkana": "いかが",
     "english": "how",
-    "kana": "",
+    "kana": "いかが",
     "romaji": "ikaga",
     "level": 5
   },
   {
     "kanjiandkana": "ストーブ",
     "english": "heater",
-    "kana": "",
+    "kana": "ストーブ",
     "romaji": "sutōbu",
     "level": 5
   },
@@ -4363,14 +4363,14 @@
   {
     "kanjiandkana": "さあ",
     "english": "well…",
-    "kana": "",
+    "kana": "さあ",
     "romaji": "saa",
     "level": 5
   },
   {
     "kanjiandkana": "あそこ",
     "english": "over there",
-    "kana": "",
+    "kana": "あそこ",
     "romaji": "asoko",
     "level": 5
   },
@@ -4391,7 +4391,7 @@
   {
     "kanjiandkana": "まだ",
     "english": "yet, still",
-    "kana": "",
+    "kana": "まだ",
     "romaji": "mada",
     "level": 5
   },
@@ -4419,7 +4419,7 @@
   {
     "kanjiandkana": "それ",
     "english": "that",
-    "kana": "",
+    "kana": "それ",
     "romaji": "sore",
     "level": 5
   },
@@ -4433,7 +4433,7 @@
   {
     "kanjiandkana": "どなた",
     "english": "who",
-    "kana": "",
+    "kana": "どなた",
     "romaji": "donata",
     "level": 5
   },
@@ -4461,7 +4461,7 @@
   {
     "kanjiandkana": "そちら",
     "english": "over there",
-    "kana": "",
+    "kana": "そちら",
     "romaji": "sochira",
     "level": 5
   },
@@ -4545,7 +4545,7 @@
   {
     "kanjiandkana": "こちら",
     "english": "this person or way",
-    "kana": "",
+    "kana": "こちら",
     "romaji": "kochira",
     "level": 5
   },
@@ -4587,7 +4587,7 @@
   {
     "kanjiandkana": "テスト",
     "english": "test",
-    "kana": "",
+    "kana": "テスト",
     "romaji": "tesuto",
     "level": 5
   },
@@ -4601,7 +4601,7 @@
   {
     "kanjiandkana": "たばこ",
     "english": "tobacco, cigarettes",
-    "kana": "",
+    "kana": "たばこ",
     "romaji": "tabako",
     "level": 5
   },
@@ -4622,7 +4622,7 @@
   {
     "kanjiandkana": "せっけん",
     "english": "economy",
-    "kana": "",
+    "kana": "せっけん",
     "romaji": "sekken",
     "level": 5
   },

@@ -1,28 +1,4 @@
-{
-  "verbs": [
-    "verbs_1",
-    "verbs_2",
-    "verbs_3",
-    "verbs_4",
-    "verbs_5",
-    "verbs_6"
-  ],
-  "nouns": [
-    "nouns_1",
-    "nouns_2",
-    "nouns_3",
-    "nouns_4",
-    "nouns_5",
-    "nouns_6"
-  ],
-  "adjectives": [
-    "adjectives_1",
-    "adjectives_2",
-    "adjectives_3",
-    "adjectives_4",
-    "adjectives_5",
-    "adjectives_6"
-  ],
+{  
   "counters": [
     "counters_base",
     "counters_native",

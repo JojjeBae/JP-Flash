@@ -186,7 +186,11 @@ function updateCardUI(skipAnimation = false) {
   const back = document.getElementById("cardBack");
   const v = cards[current];
   front.textContent = v.english || "";
-  back.innerHTML = `${v.hiragana || v.kana || ""}<br>${v.romaji || ""}<br>${v.formal || ""}`;
+  if (${v.kanjiandkana}.length === 0) {
+    back.innerHTML = `${v.kana || ""}<br>${v.romaji || ""}`;
+  } else {
+    back.innerHTML = `${v.kana || ""}<br>${v.kanjiandkana || ""}<br>${v.romaji || ""}`;
+  }
   inner.style.transition = skipAnimation ? "none" : "";
   document.querySelector(".flip-card").classList.toggle("flip", flipped);
   if (skipAnimation) setTimeout(() => { inner.style.transition = ""; }, 20);

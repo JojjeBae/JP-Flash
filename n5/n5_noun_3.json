@@ -3,150 +3,150 @@
     "kanjiandkana": "天気",
     "kana": "てんき",
     "english": "weather",
-    "romanji": "tenki"
+    "romaji": "tenki"
   },
   {
     "kanjiandkana": "雨",
     "kana": "あめ",
     "english": "rain",
-    "romanji": "ame"
+    "romaji": "ame"
   },
   {
     "kanjiandkana": "雪",
     "kana": "ゆき",
     "english": "snow",
-    "romanji": "yuki"
+    "romaji": "yuki"
   },
   {
     "kanjiandkana": "風",
     "kana": "かぜ",
     "english": "wind",
-    "romanji": "kaze"
+    "romaji": "kaze"
   },
   {
     "kanjiandkana": "空",
     "kana": "そら",
     "english": "sky",
-    "romanji": "sora"
+    "romaji": "sora"
   },
   {
     "kanjiandkana": "海",
     "kana": "うみ",
     "english": "sea",
-    "romanji": "umi"
+    "romaji": "umi"
   },
   {
     "kanjiandkana": "山",
     "kana": "やま",
     "english": "mountain",
-    "romanji": "yama"
+    "romaji": "yama"
   },
   {
     "kanjiandkana": "川",
     "kana": "かわ",
     "english": "river",
-    "romanji": "kawa"
+    "romaji": "kawa"
   },
   {
     "kanjiandkana": "森",
     "kana": "もり",
     "english": "forest",
-    "romanji": "mori"
+    "romaji": "mori"
   },
   {
     "kanjiandkana": "花",
     "kana": "はな",
     "english": "flower",
-    "romanji": "hana"
+    "romaji": "hana"
   },
   {
     "kanjiandkana": "木",
     "kana": "き",
     "english": "tree",
-    "romanji": "ki"
+    "romaji": "ki"
   },
   {
     "kanjiandkana": "草",
     "kana": "くさ",
     "english": "grass",
-    "romanji": "kusa"
+    "romaji": "kusa"
   },
   {
     "kanjiandkana": "石",
     "kana": "いし",
     "english": "stone",
-    "romanji": "ishi"
+    "romaji": "ishi"
   },
   {
     "kanjiandkana": "土",
     "kana": "つち",
     "english": "soil",
-    "romanji": "tsuchi"
+    "romaji": "tsuchi"
   },
   {
     "kanjiandkana": "火",
     "kana": "ひ",
     "english": "fire",
-    "romanji": "hi"
+    "romaji": "hi"
   },
   {
     "kanjiandkana": "水",
     "kana": "みず",
     "english": "water",
-    "romanji": "mizu"
+    "romaji": "mizu"
   },
   {
     "kanjiandkana": "金",
     "kana": "きん",
     "english": "gold",
-    "romanji": "kin"
+    "romaji": "kin"
   },
   {
     "kanjiandkana": "土曜日",
     "kana": "どようび",
     "english": "Saturday",
-    "romanji": "doyoubi"
+    "romaji": "doyoubi"
   },
   {
     "kanjiandkana": "日曜日",
     "kana": "にちようび",
     "english": "Sunday",
-    "romanji": "nichiyoubi"
+    "romaji": "nichiyoubi"
   },
   {
     "kanjiandkana": "月曜日",
     "kana": "げつようび",
     "english": "Monday",
-    "romanji": "getsuyoubi"
+    "romaji": "getsuyoubi"
   },
   {
     "kanjiandkana": "火曜日",
     "kana": "かようび",
     "english": "Tuesday",
-    "romanji": "kayoubi"
+    "romaji": "kayoubi"
   },
   {
     "kanjiandkana": "水曜日",
     "kana": "すいようび",
     "english": "Wednesday",
-    "romanji": "suiyoubi"
+    "romaji": "suiyoubi"
   },
   {
     "kanjiandkana": "木曜日",
     "kana": "もくようび",
     "english": "Thursday",
-    "romanji": "mokuyoubi"
+    "romaji": "mokuyoubi"
   },
   {
     "kanjiandkana": "金曜日",
     "kana": "きんようび",
     "english": "Friday",
-    "romanji": "kinyoubi"
+    "romaji": "kinyoubi"
   },
   {
     "kanjiandkana": "朝",
     "kana": "あさ",
     "english": "morning",
-    "romanji": "asa"
+    "romaji": "asa"
   }
 ]

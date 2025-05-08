@@ -1,0 +1,152 @@
+[
+  {
+    "kanjiandkana": "世界",
+    "kana": "せかい",
+    "english": "world",
+    "romanji": "sekai"
+  },
+  {
+    "kanjiandkana": "国",
+    "kana": "くに",
+    "english": "country",
+    "romanji": "kuni"
+  },
+  {
+    "kanjiandkana": "都市",
+    "kana": "とし",
+    "english": "city",
+    "romanji": "toshi"
+  },
+  {
+    "kanjiandkana": "村",
+    "kana": "むら",
+    "english": "village",
+    "romanji": "mura"
+  },
+  {
+    "kanjiandkana": "町",
+    "kana": "まち",
+    "english": "town",
+    "romanji": "machi"
+  },
+  {
+    "kanjiandkana": "場所",
+    "kana": "ばしょ",
+    "english": "place",
+    "romanji": "basho"
+  },
+  {
+    "kanjiandkana": "空港",
+    "kana": "くうこう",
+    "english": "airport",
+    "romanji": "kuukou"
+  },
+  {
+    "kanjiandkana": "港",
+    "kana": "みなと",
+    "english": "port",
+    "romanji": "minato"
+  },
+  {
+    "kanjiandkana": "住所",
+    "kana": "じゅうしょ",
+    "english": "address",
+    "romanji": "juusho"
+  },
+  {
+    "kanjiandkana": "地図",
+    "kana": "ちず",
+    "english": "map",
+    "romanji": "chizu"
+  },
+  {
+    "kanjiandkana": "国籍",
+    "kana": "こくせき",
+    "english": "nationality",
+    "romanji": "kokuseki"
+  },
+  {
+    "kanjiandkana": "言語",
+    "kana": "げんご",
+    "english": "language",
+    "romanji": "gengo"
+  },
+  {
+    "kanjiandkana": "文化",
+    "kana": "ぶんか",
+    "english": "culture",
+    "romanji": "bunka"
+  },
+  {
+    "kanjiandkana": "宗教",
+    "kana": "しゅうきょう",
+    "english": "religion",
+    "romanji": "shuukyou"
+  },
+  {
+    "kanjiandkana": "歴史",
+    "kana": "れきし",
+    "english": "history",
+    "romanji": "rekishi"
+  },
+  {
+    "kanjiandkana": "未来",
+    "kana": "みらい",
+    "english": "future",
+    "romanji": "mirai"
+  },
+  {
+    "kanjiandkana": "過去",
+    "kana": "かこ",
+    "english": "past",
+    "romanji": "kako"
+  },
+  {
+    "kanjiandkana": "現在",
+    "kana": "げんざい",
+    "english": "present",
+    "romanji": "genzai"
+  },
+  {
+    "kanjiandkana": "夢",
+    "kana": "ゆめ",
+    "english": "dream",
+    "romanji": "yume"
+  },
+  {
+    "kanjiandkana": "希望",
+    "kana": "きぼう",
+    "english": "hope",
+    "romanji": "kibou"
+  },
+  {
+    "kanjiandkana": "愛",
+    "kana": "あい",
+    "english": "love",
+    "romanji": "ai"
+  },
+  {
+    "kanjiandkana": "友情",
+    "kana": "ゆうじょう",
+    "english": "friendship",
+    "romanji": "yuujou"
+  },
+  {
+    "kanjiandkana": "感情",
+    "kana": "かんじょう",
+    "english": "emotion",
+    "romanji": "kanjou"
+  },
+  {
+    "kanjiandkana": "考え",
+    "kana": "かんがえ",
+    "english": "thought, idea",
+    "romanji": "kangae"
+  },
+  {
+    "kanjiandkana": "意味",
+    "kana": "いみ",
+    "english": "meaning",
+    "romanji": "imi"
+  }
+]

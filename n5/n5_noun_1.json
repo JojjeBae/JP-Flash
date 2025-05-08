@@ -3,150 +3,150 @@
     "kanjiandkana": "人",
     "kana": "ひと",
     "english": "person",
-    "romanji": "hito"
+    "romaji": "hito"
   },
   {
     "kanjiandkana": "時間",
     "kana": "じかん",
     "english": "time",
-    "romanji": "jikan"
+    "romaji": "jikan"
   },
   {
     "kanjiandkana": "日",
     "kana": "ひ",
     "english": "day, sun",
-    "romanji": "hi"
+    "romaji": "hi"
   },
   {
     "kanjiandkana": "年",
     "kana": "とし",
     "english": "year",
-    "romanji": "toshi"
+    "romaji": "toshi"
   },
   {
     "kanjiandkana": "名前",
     "kana": "なまえ",
     "english": "name",
-    "romanji": "namae"
+    "romaji": "namae"
   },
   {
     "kanjiandkana": "学生",
     "kana": "がくせい",
     "english": "student",
-    "romanji": "gakusei"
+    "romaji": "gakusei"
   },
   {
     "kanjiandkana": "先生",
     "kana": "せんせい",
     "english": "teacher",
-    "romanji": "sensei"
+    "romaji": "sensei"
   },
   {
     "kanjiandkana": "学校",
     "kana": "がっこう",
     "english": "school",
-    "romanji": "gakkou"
+    "romaji": "gakkou"
   },
   {
     "kanjiandkana": "友達",
     "kana": "ともだち",
     "english": "friend",
-    "romanji": "tomodachi"
+    "romaji": "tomodachi"
   },
   {
     "kanjiandkana": "家族",
     "kana": "かぞく",
     "english": "family",
-    "romanji": "kazoku"
+    "romaji": "kazoku"
   },
   {
     "kanjiandkana": "父",
     "kana": "ちち",
     "english": "father",
-    "romanji": "chichi"
+    "romaji": "chichi"
   },
   {
     "kanjiandkana": "母",
     "kana": "はは",
     "english": "mother",
-    "romanji": "haha"
+    "romaji": "haha"
   },
   {
     "kanjiandkana": "兄",
     "kana": "あに",
     "english": "older brother",
-    "romanji": "ani"
+    "romaji": "ani"
   },
   {
     "kanjiandkana": "姉",
     "kana": "あね",
     "english": "older sister",
-    "romanji": "ane"
+    "romaji": "ane"
   },
   {
     "kanjiandkana": "弟",
     "kana": "おとうと",
     "english": "younger brother",
-    "romanji": "otouto"
+    "romaji": "otouto"
   },
   {
     "kanjiandkana": "妹",
     "kana": "いもうと",
     "english": "younger sister",
-    "romanji": "imouto"
+    "romaji": "imouto"
   },
   {
     "kanjiandkana": "犬",
     "kana": "いぬ",
     "english": "dog",
-    "romanji": "inu"
+    "romaji": "inu"
   },
   {
     "kanjiandkana": "猫",
     "kana": "ねこ",
     "english": "cat",
-    "romanji": "neko"
+    "romaji": "neko"
   },
   {
     "kanjiandkana": "車",
     "kana": "くるま",
     "english": "car",
-    "romanji": "kuruma"
+    "romaji": "kuruma"
   },
   {
     "kanjiandkana": "電車",
     "kana": "でんしゃ",
     "english": "train",
-    "romanji": "densha"
+    "romaji": "densha"
   },
   {
     "kanjiandkana": "自転車",
     "kana": "じてんしゃ",
     "english": "bicycle",
-    "romanji": "jitensha"
+    "romaji": "jitensha"
   },
   {
     "kanjiandkana": "駅",
     "kana": "えき",
     "english": "station",
-    "romanji": "eki"
+    "romaji": "eki"
   },
   {
     "kanjiandkana": "道",
     "kana": "みち",
     "english": "road, street",
-    "romanji": "michi"
+    "romaji": "michi"
   },
   {
     "kanjiandkana": "店",
     "kana": "みせ",
     "english": "shop",
-    "romanji": "mise"
+    "romaji": "mise"
   },
   {
     "kanjiandkana": "本",
     "kana": "ほん",
     "english": "book",
-    "romanji": "hon"
+    "romaji": "hon"
   }
 ]

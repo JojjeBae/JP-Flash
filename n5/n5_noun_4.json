@@ -1,0 +1,152 @@
+[
+  {
+    "kanjiandkana": "昼",
+    "kana": "ひる",
+    "english": "noon",
+    "romanji": "hiru"
+  },
+  {
+    "kanjiandkana": "夜",
+    "kana": "よる",
+    "english": "night",
+    "romanji": "yoru"
+  },
+  {
+    "kanjiandkana": "今",
+    "kana": "いま",
+    "english": "now",
+    "romanji": "ima"
+  },
+  {
+    "kanjiandkana": "昨日",
+    "kana": "きのう",
+    "english": "yesterday",
+    "romanji": "kinou"
+  },
+  {
+    "kanjiandkana": "今日",
+    "kana": "きょう",
+    "english": "today",
+    "romanji": "kyou"
+  },
+  {
+    "kanjiandkana": "明日",
+    "kana": "あした",
+    "english": "tomorrow",
+    "romanji": "ashita"
+  },
+  {
+    "kanjiandkana": "週",
+    "kana": "しゅう",
+    "english": "week",
+    "romanji": "shuu"
+  },
+  {
+    "kanjiandkana": "月",
+    "kana": "つき",
+    "english": "month, moon",
+    "romanji": "tsuki"
+  },
+  {
+    "kanjiandkana": "春",
+    "kana": "はる",
+    "english": "spring",
+    "romanji": "haru"
+  },
+  {
+    "kanjiandkana": "夏",
+    "kana": "なつ",
+    "english": "summer",
+    "romanji": "natsu"
+  },
+  {
+    "kanjiandkana": "秋",
+    "kana": "あき",
+    "english": "autumn",
+    "romanji": "aki"
+  },
+  {
+    "kanjiandkana": "冬",
+    "kana": "ふゆ",
+    "english": "winter",
+    "romanji": "fuyu"
+  },
+  {
+    "kanjiandkana": "色",
+    "kana": "いろ",
+    "english": "color",
+    "romanji": "iro"
+  },
+  {
+    "kanjiandkana": "赤",
+    "kana": "あか",
+    "english": "red",
+    "romanji": "aka"
+  },
+  {
+    "kanjiandkana": "青",
+    "kana": "あお",
+    "english": "blue",
+    "romanji": "ao"
+  },
+  {
+    "kanjiandkana": "白",
+    "kana": "しろ",
+    "english": "white",
+    "romanji": "shiro"
+  },
+  {
+    "kanjiandkana": "黒",
+    "kana": "くろ",
+    "english": "black",
+    "romanji": "kuro"
+  },
+  {
+    "kanjiandkana": "緑",
+    "kana": "みどり",
+    "english": "green",
+    "romanji": "midori"
+  },
+  {
+    "kanjiandkana": "黄色",
+    "kana": "きいろ",
+    "english": "yellow",
+    "romanji": "kiiro"
+  },
+  {
+    "kanjiandkana": "形",
+    "kana": "かたち",
+    "english": "shape",
+    "romanji": "katachi"
+  },
+  {
+    "kanjiandkana": "円",
+    "kana": "えん",
+    "english": "yen, circle",
+    "romanji": "en"
+  },
+  {
+    "kanjiandkana": "四角",
+    "kana": "しかく",
+    "english": "square",
+    "romanji": "shikaku"
+  },
+  {
+    "kanjiandkana": "三角",
+    "kana": "さんかく",
+    "english": "triangle",
+    "romanji": "sankaku"
+  },
+  {
+    "kanjiandkana": "大きさ",
+    "kana": "おおきさ",
+    "english": "size",
+    "romanji": "ookisa"
+  },
+  {
+    "kanjiandkana": "高さ",
+    "kana": "たかさ",
+    "english": "height",
+    "romanji": "takasa"
+  }
+]

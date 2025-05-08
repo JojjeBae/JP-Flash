@@ -1,0 +1,152 @@
+[
+  {
+    "kanjiandkana": "雑誌",
+    "kana": "ざっし",
+    "english": "magazine",
+    "romanji": "zasshi"
+  },
+  {
+    "kanjiandkana": "新聞",
+    "kana": "しんぶん",
+    "english": "newspaper",
+    "romanji": "shinbun"
+  },
+  {
+    "kanjiandkana": "手紙",
+    "kana": "てがみ",
+    "english": "letter",
+    "romanji": "tegami"
+  },
+  {
+    "kanjiandkana": "電話",
+    "kana": "でんわ",
+    "english": "telephone",
+    "romanji": "denwa"
+  },
+  {
+    "kanjiandkana": "パソコン",
+    "kana": "ぱそこん",
+    "english": "computer",
+    "romanji": "pasokon"
+  },
+  {
+    "kanjiandkana": "机",
+    "kana": "つくえ",
+    "english": "desk",
+    "romanji": "tsukue"
+  },
+  {
+    "kanjiandkana": "椅子",
+    "kana": "いす",
+    "english": "chair",
+    "romanji": "isu"
+  },
+  {
+    "kanjiandkana": "部屋",
+    "kana": "へや",
+    "english": "room",
+    "romanji": "heya"
+  },
+  {
+    "kanjiandkana": "窓",
+    "kana": "まど",
+    "english": "window",
+    "romanji": "mado"
+  },
+  {
+    "kanjiandkana": "扉",
+    "kana": "とびら",
+    "english": "door",
+    "romanji": "tobira"
+  },
+  {
+    "kanjiandkana": "鍵",
+    "kana": "かぎ",
+    "english": "key",
+    "romanji": "kagi"
+  },
+  {
+    "kanjiandkana": "財布",
+    "kana": "さいふ",
+    "english": "wallet",
+    "romanji": "saifu"
+  },
+  {
+    "kanjiandkana": "お金",
+    "kana": "おかね",
+    "english": "money",
+    "romanji": "okane"
+  },
+  {
+    "kanjiandkana": "銀行",
+    "kana": "ぎんこう",
+    "english": "bank",
+    "romanji": "ginkou"
+  },
+  {
+    "kanjiandkana": "病院",
+    "kana": "びょういん",
+    "english": "hospital",
+    "romanji": "byouin"
+  },
+  {
+    "kanjiandkana": "薬",
+    "kana": "くすり",
+    "english": "medicine",
+    "romanji": "kusuri"
+  },
+  {
+    "kanjiandkana": "体",
+    "kana": "からだ",
+    "english": "body",
+    "romanji": "karada"
+  },
+  {
+    "kanjiandkana": "頭",
+    "kana": "あたま",
+    "english": "head",
+    "romanji": "atama"
+  },
+  {
+    "kanjiandkana": "顔",
+    "kana": "かお",
+    "english": "face",
+    "romanji": "kao"
+  },
+  {
+    "kanjiandkana": "手",
+    "kana": "て",
+    "english": "hand",
+    "romanji": "te"
+  },
+  {
+    "kanjiandkana": "足",
+    "kana": "あし",
+    "english": "foot, leg",
+    "romanji": "ashi"
+  },
+  {
+    "kanjiandkana": "目",
+    "kana": "め",
+    "english": "eye",
+    "romanji": "me"
+  },
+  {
+    "kanjiandkana": "耳",
+    "kana": "みみ",
+    "english": "ear",
+    "romanji": "mimi"
+  },
+  {
+    "kanjiandkana": "口",
+    "kana": "くち",
+    "english": "mouth",
+    "romanji": "kuchi"
+  },
+  {
+    "kanjiandkana": "鼻",
+    "kana": "はな",
+    "english": "nose",
+    "romanji": "hana"
+  }
+]

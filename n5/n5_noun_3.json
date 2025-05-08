@@ -1,0 +1,152 @@
+[
+  {
+    "kanjiandkana": "天気",
+    "kana": "てんき",
+    "english": "weather",
+    "romanji": "tenki"
+  },
+  {
+    "kanjiandkana": "雨",
+    "kana": "あめ",
+    "english": "rain",
+    "romanji": "ame"
+  },
+  {
+    "kanjiandkana": "雪",
+    "kana": "ゆき",
+    "english": "snow",
+    "romanji": "yuki"
+  },
+  {
+    "kanjiandkana": "風",
+    "kana": "かぜ",
+    "english": "wind",
+    "romanji": "kaze"
+  },
+  {
+    "kanjiandkana": "空",
+    "kana": "そら",
+    "english": "sky",
+    "romanji": "sora"
+  },
+  {
+    "kanjiandkana": "海",
+    "kana": "うみ",
+    "english": "sea",
+    "romanji": "umi"
+  },
+  {
+    "kanjiandkana": "山",
+    "kana": "やま",
+    "english": "mountain",
+    "romanji": "yama"
+  },
+  {
+    "kanjiandkana": "川",
+    "kana": "かわ",
+    "english": "river",
+    "romanji": "kawa"
+  },
+  {
+    "kanjiandkana": "森",
+    "kana": "もり",
+    "english": "forest",
+    "romanji": "mori"
+  },
+  {
+    "kanjiandkana": "花",
+    "kana": "はな",
+    "english": "flower",
+    "romanji": "hana"
+  },
+  {
+    "kanjiandkana": "木",
+    "kana": "き",
+    "english": "tree",
+    "romanji": "ki"
+  },
+  {
+    "kanjiandkana": "草",
+    "kana": "くさ",
+    "english": "grass",
+    "romanji": "kusa"
+  },
+  {
+    "kanjiandkana": "石",
+    "kana": "いし",
+    "english": "stone",
+    "romanji": "ishi"
+  },
+  {
+    "kanjiandkana": "土",
+    "kana": "つち",
+    "english": "soil",
+    "romanji": "tsuchi"
+  },
+  {
+    "kanjiandkana": "火",
+    "kana": "ひ",
+    "english": "fire",
+    "romanji": "hi"
+  },
+  {
+    "kanjiandkana": "水",
+    "kana": "みず",
+    "english": "water",
+    "romanji": "mizu"
+  },
+  {
+    "kanjiandkana": "金",
+    "kana": "きん",
+    "english": "gold",
+    "romanji": "kin"
+  },
+  {
+    "kanjiandkana": "土曜日",
+    "kana": "どようび",
+    "english": "Saturday",
+    "romanji": "doyoubi"
+  },
+  {
+    "kanjiandkana": "日曜日",
+    "kana": "にちようび",
+    "english": "Sunday",
+    "romanji": "nichiyoubi"
+  },
+  {
+    "kanjiandkana": "月曜日",
+    "kana": "げつようび",
+    "english": "Monday",
+    "romanji": "getsuyoubi"
+  },
+  {
+    "kanjiandkana": "火曜日",
+    "kana": "かようび",
+    "english": "Tuesday",
+    "romanji": "kayoubi"
+  },
+  {
+    "kanjiandkana": "水曜日",
+    "kana": "すいようび",
+    "english": "Wednesday",
+    "romanji": "suiyoubi"
+  },
+  {
+    "kanjiandkana": "木曜日",
+    "kana": "もくようび",
+    "english": "Thursday",
+    "romanji": "mokuyoubi"
+  },
+  {
+    "kanjiandkana": "金曜日",
+    "kana": "きんようび",
+    "english": "Friday",
+    "romanji": "kinyoubi"
+  },
+  {
+    "kanjiandkana": "朝",
+    "kana": "あさ",
+    "english": "morning",
+    "romanji": "asa"
+  }
+]

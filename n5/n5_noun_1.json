@@ -1,0 +1,152 @@
+[
+  {
+    "kanjiandkana": "人",
+    "kana": "ひと",
+    "english": "person",
+    "romanji": "hito"
+  },
+  {
+    "kanjiandkana": "時間",
+    "kana": "じかん",
+    "english": "time",
+    "romanji": "jikan"
+  },
+  {
+    "kanjiandkana": "日",
+    "kana": "ひ",
+    "english": "day, sun",
+    "romanji": "hi"
+  },
+  {
+    "kanjiandkana": "年",
+    "kana": "とし",
+    "english": "year",
+    "romanji": "toshi"
+  },
+  {
+    "kanjiandkana": "名前",
+    "kana": "なまえ",
+    "english": "name",
+    "romanji": "namae"
+  },
+  {
+    "kanjiandkana": "学生",
+    "kana": "がくせい",
+    "english": "student",
+    "romanji": "gakusei"
+  },
+  {
+    "kanjiandkana": "先生",
+    "kana": "せんせい",
+    "english": "teacher",
+    "romanji": "sensei"
+  },
+  {
+    "kanjiandkana": "学校",
+    "kana": "がっこう",
+    "english": "school",
+    "romanji": "gakkou"
+  },
+  {
+    "kanjiandkana": "友達",
+    "kana": "ともだち",
+    "english": "friend",
+    "romanji": "tomodachi"
+  },
+  {
+    "kanjiandkana": "家族",
+    "kana": "かぞく",
+    "english": "family",
+    "romanji": "kazoku"
+  },
+  {
+    "kanjiandkana": "父",
+    "kana": "ちち",
+    "english": "father",
+    "romanji": "chichi"
+  },
+  {
+    "kanjiandkana": "母",
+    "kana": "はは",
+    "english": "mother",
+    "romanji": "haha"
+  },
+  {
+    "kanjiandkana": "兄",
+    "kana": "あに",
+    "english": "older brother",
+    "romanji": "ani"
+  },
+  {
+    "kanjiandkana": "姉",
+    "kana": "あね",
+    "english": "older sister",
+    "romanji": "ane"
+  },
+  {
+    "kanjiandkana": "弟",
+    "kana": "おとうと",
+    "english": "younger brother",
+    "romanji": "otouto"
+  },
+  {
+    "kanjiandkana": "妹",
+    "kana": "いもうと",
+    "english": "younger sister",
+    "romanji": "imouto"
+  },
+  {
+    "kanjiandkana": "犬",
+    "kana": "いぬ",
+    "english": "dog",
+    "romanji": "inu"
+  },
+  {
+    "kanjiandkana": "猫",
+    "kana": "ねこ",
+    "english": "cat",
+    "romanji": "neko"
+  },
+  {
+    "kanjiandkana": "車",
+    "kana": "くるま",
+    "english": "car",
+    "romanji": "kuruma"
+  },
+  {
+    "kanjiandkana": "電車",
+    "kana": "でんしゃ",
+    "english": "train",
+    "romanji": "densha"
+  },
+  {
+    "kanjiandkana": "自転車",
+    "kana": "じてんしゃ",
+    "english": "bicycle",
+    "romanji": "jitensha"
+  },
+  {
+    "kanjiandkana": "駅",
+    "kana": "えき",
+    "english": "station",
+    "romanji": "eki"
+  },
+  {
+    "kanjiandkana": "道",
+    "kana": "みち",
+    "english": "road, street",
+    "romanji": "michi"
+  },
+  {
+    "kanjiandkana": "店",
+    "kana": "みせ",
+    "english": "shop",
+    "romanji": "mise"
+  },
+  {
+    "kanjiandkana": "本",
+    "kana": "ほん",
+    "english": "book",
+    "romanji": "hon"
+  }
+]

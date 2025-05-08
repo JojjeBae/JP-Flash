@@ -1,0 +1,152 @@
+[
+  {
+    "kanjiandkana": "大きい",
+    "kana": "おおきい",
+    "english": "big",
+    "romanji": "ookii"
+  },
+  {
+    "kanjiandkana": "小さい",
+    "kana": "ちいさい",
+    "english": "small",
+    "romanji": "chiisai"
+  },
+  {
+    "kanjiandkana": "長い",
+    "kana": "ながい",
+    "english": "long",
+    "romanji": "nagai"
+  },
+  {
+    "kanjiandkana": "短い",
+    "kana": "みじかい",
+    "english": "short",
+    "romanji": "mijikai"
+  },
+  {
+    "kanjiandkana": "高い",
+    "kana": "たかい",
+    "english": "tall, expensive",
+    "romanji": "takai"
+  },
+  {
+    "kanjiandkana": "低い",
+    "kana": "ひくい",
+    "english": "low",
+    "romanji": "hikui"
+  },
+  {
+    "kanjiandkana": "広い",
+    "kana": "ひろい",
+    "english": "spacious",
+    "romanji": "hiroi"
+  },
+  {
+    "kanjiandkana": "狭い",
+    "kana": "せまい",
+    "english": "narrow",
+    "romanji": "semai"
+  },
+  {
+    "kanjiandkana": "新しい",
+    "kana": "あたらしい",
+    "english": "new",
+    "romanji": "atarashii"
+  },
+  {
+    "kanjiandkana": "古い",
+    "kana": "ふるい",
+    "english": "old",
+    "romanji": "furui"
+  },
+  {
+    "kanjiandkana": "良い",
+    "kana": "いい",
+    "english": "good",
+    "romanji": "ii"
+  },
+  {
+    "kanjiandkana": "悪い",
+    "kana": "わるい",
+    "english": "bad",
+    "romanji": "warui"
+  },
+  {
+    "kanjiandkana": "暑い",
+    "kana": "あつい",
+    "english": "hot (weather)",
+    "romanji": "atsui"
+  },
+  {
+    "kanjiandkana": "寒い",
+    "kana": "さむい",
+    "english": "cold (weather)",
+    "romanji": "samui"
+  },
+  {
+    "kanjiandkana": "熱い",
+    "kana": "あつい",
+    "english": "hot (things)",
+    "romanji": "atsui"
+  },
+  {
+    "kanjiandkana": "冷たい",
+    "kana": "つめたい",
+    "english": "cold (things)",
+    "romanji": "tsumetai"
+  },
+  {
+    "kanjiandkana": "暖かい",
+    "kana": "あたたかい",
+    "english": "warm",
+    "romanji": "atatakai"
+  },
+  {
+    "kanjiandkana": "涼しい",
+    "kana": "すずしい",
+    "english": "cool (weather)",
+    "romanji": "suzushii"
+  },
+  {
+    "kanjiandkana": "明るい",
+    "kana": "あかるい",
+    "english": "bright",
+    "romanji": "akarui"
+  },
+  {
+    "kanjiandkana": "暗い",
+    "kana": "くらい",
+    "english": "dark",
+    "romanji": "kurai"
+  },
+  {
+    "kanjiandkana": "うるさい",
+    "kana": "うるさい",
+    "english": "noisy",
+    "romanji": "urusai"
+  },
+  {
+    "kanjiandkana": "静か",
+    "kana": "しずか",
+    "english": "quiet",
+    "romanji": "shizuka"
+  },
+  {
+    "kanjiandkana": "忙しい",
+    "kana": "いそがしい",
+    "english": "busy",
+    "romanji": "isogashii"
+  },
+  {
+    "kanjiandkana": "暇",
+    "kana": "ひま",
+    "english": "free (time)",
+    "romanji": "hima"
+  },
+  {
+    "kanjiandkana": "楽しい",
+    "kana": "たのしい",
+    "english": "fun",
+    "romanji": "tanoshii"
+  }
+]

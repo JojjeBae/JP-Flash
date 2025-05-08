@@ -1,0 +1,152 @@
+[
+  {
+    "kanjiandkana": "笑う",
+    "kana": "わらう",
+    "english": "to laugh",
+    "romanji": "warau"
+  },
+  {
+    "kanjiandkana": "怒る",
+    "kana": "おこる",
+    "english": "to get angry",
+    "romanji": "okoru"
+  },
+  {
+    "kanjiandkana": "喜ぶ",
+    "kana": "よろこぶ",
+    "english": "to be happy",
+    "romanji": "yorokobu"
+  },
+  {
+    "kanjiandkana": "愛する",
+    "kana": "あいする",
+    "english": "to love",
+    "romanji": "aisuru"
+  },
+  {
+    "kanjiandkana": "思い出す",
+    "kana": "おもいだす",
+    "english": "to remember",
+    "romanji": "omoidasu"
+  },
+  {
+    "kanjiandkana": "忘れる",
+    "kana": "わすれる",
+    "english": "to forget",
+    "romanji": "wasureru"
+  },
+  {
+    "kanjiandkana": "教える",
+    "kana": "おしえる",
+    "english": "to teach, tell",
+    "romanji": "oshieru"
+  },
+  {
+    "kanjiandkana": "習う",
+    "kana": "ならう",
+    "english": "to learn",
+    "romanji": "narau"
+  },
+  {
+    "kanjiandkana": "練習する",
+    "kana": "れんしゅうする",
+    "english": "to practice",
+    "romanji": "renshuu suru"
+  },
+  {
+    "kanjiandkana": "試す",
+    "kana": "ためす",
+    "english": "to try",
+    "romanji": "tamesu"
+  },
+  {
+    "kanjiandkana": "始まる",
+    "kana": "はじまる",
+    "english": "to start (intransitive)",
+    "romanji": "hajimaru"
+  },
+  {
+    "kanjiandkana": "続ける",
+    "kana": "つづける",
+    "english": "to continue",
+    "romanji": "tsuzukeru"
+  },
+  {
+    "kanjiandkana": "止める",
+    "kana": "とめる",
+    "english": "to stop (something)",
+    "romanji": "tomeru"
+  },
+  {
+    "kanjiandkana": "止まる",
+    "kana": "とまる",
+    "english": "to stop (intransitive)",
+    "romanji": "tomaru"
+  },
+  {
+    "kanjiandkana": "借りる",
+    "kana": "かりる",
+    "english": "to borrow",
+    "romanji": "kariru"
+  },
+  {
+    "kanjiandkana": "貸す",
+    "kana": "かす",
+    "english": "to lend",
+    "romanji": "kasu"
+  },
+  {
+    "kanjiandkana": "変える",
+    "kana": "かえる",
+    "english": "to change (transitive)",
+    "romanji": "kaeru"
+  },
+  {
+    "kanjiandkana": "変わる",
+    "kana": "かわる",
+    "english": "to change (intransitive)",
+    "romanji": "kawaru"
+  },
+  {
+    "kanjiandkana": "要る",
+    "kana": "いる",
+    "english": "to need",
+    "romanji": "iru"
+  },
+  {
+    "kanjiandkana": "着る",
+    "kana": "きる",
+    "english": "to wear (upper body)",
+    "romanji": "kiru"
+  },
+  {
+    "kanjiandkana": "脱ぐ",
+    "kana": "ぬぐ",
+    "english": "to take off (clothes)",
+    "romanji": "nugu"
+  },
+  {
+    "kanjiandkana": "洗う",
+    "kana": "あらう",
+    "english": "to wash",
+    "romanji": "arau"
+  },
+  {
+    "kanjiandkana": "掃除する",
+    "kana": "そうじする",
+    "english": "to clean",
+    "romanji": "souji suru"
+  },
+  {
+    "kanjiandkana": "切る",
+    "kana": "きる",
+    "english": "to cut",
+    "romanji": "kiru"
+  },
+  {
+    "kanjiandkana": "開く",
+    "kana": "ひらく",
+    "english": "to open (books, events)",
+    "romanji": "hiraku"
+  }
+]

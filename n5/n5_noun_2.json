@@ -3,150 +3,150 @@
     "kanjiandkana": "雑誌",
     "kana": "ざっし",
     "english": "magazine",
-    "romanji": "zasshi"
+    "romaji": "zasshi"
   },
   {
     "kanjiandkana": "新聞",
     "kana": "しんぶん",
     "english": "newspaper",
-    "romanji": "shinbun"
+    "romaji": "shinbun"
   },
   {
     "kanjiandkana": "手紙",
     "kana": "てがみ",
     "english": "letter",
-    "romanji": "tegami"
+    "romaji": "tegami"
   },
   {
     "kanjiandkana": "電話",
     "kana": "でんわ",
     "english": "telephone",
-    "romanji": "denwa"
+    "romaji": "denwa"
   },
   {
     "kanjiandkana": "パソコン",
     "kana": "ぱそこん",
     "english": "computer",
-    "romanji": "pasokon"
+    "romaji": "pasokon"
   },
   {
     "kanjiandkana": "机",
     "kana": "つくえ",
     "english": "desk",
-    "romanji": "tsukue"
+    "romaji": "tsukue"
   },
   {
     "kanjiandkana": "椅子",
     "kana": "いす",
     "english": "chair",
-    "romanji": "isu"
+    "romaji": "isu"
   },
   {
     "kanjiandkana": "部屋",
     "kana": "へや",
     "english": "room",
-    "romanji": "heya"
+    "romaji": "heya"
   },
   {
     "kanjiandkana": "窓",
     "kana": "まど",
     "english": "window",
-    "romanji": "mado"
+    "romaji": "mado"
   },
   {
     "kanjiandkana": "扉",
     "kana": "とびら",
     "english": "door",
-    "romanji": "tobira"
+    "romaji": "tobira"
   },
   {
     "kanjiandkana": "鍵",
     "kana": "かぎ",
     "english": "key",
-    "romanji": "kagi"
+    "romaji": "kagi"
   },
   {
     "kanjiandkana": "財布",
     "kana": "さいふ",
     "english": "wallet",
-    "romanji": "saifu"
+    "romaji": "saifu"
   },
   {
     "kanjiandkana": "お金",
     "kana": "おかね",
     "english": "money",
-    "romanji": "okane"
+    "romaji": "okane"
   },
   {
     "kanjiandkana": "銀行",
     "kana": "ぎんこう",
     "english": "bank",
-    "romanji": "ginkou"
+    "romaji": "ginkou"
   },
   {
     "kanjiandkana": "病院",
     "kana": "びょういん",
     "english": "hospital",
-    "romanji": "byouin"
+    "romaji": "byouin"
   },
   {
     "kanjiandkana": "薬",
     "kana": "くすり",
     "english": "medicine",
-    "romanji": "kusuri"
+    "romaji": "kusuri"
   },
   {
     "kanjiandkana": "体",
     "kana": "からだ",
     "english": "body",
-    "romanji": "karada"
+    "romaji": "karada"
   },
   {
     "kanjiandkana": "頭",
     "kana": "あたま",
     "english": "head",
-    "romanji": "atama"
+    "romaji": "atama"
   },
   {
     "kanjiandkana": "顔",
     "kana": "かお",
     "english": "face",
-    "romanji": "kao"
+    "romaji": "kao"
   },
   {
     "kanjiandkana": "手",
     "kana": "て",
     "english": "hand",
-    "romanji": "te"
+    "romaji": "te"
   },
   {
     "kanjiandkana": "足",
     "kana": "あし",
     "english": "foot, leg",
-    "romanji": "ashi"
+    "romaji": "ashi"
   },
   {
     "kanjiandkana": "目",
     "kana": "め",
     "english": "eye",
-    "romanji": "me"
+    "romaji": "me"
   },
   {
     "kanjiandkana": "耳",
     "kana": "みみ",
     "english": "ear",
-    "romanji": "mimi"
+    "romaji": "mimi"
   },
   {
     "kanjiandkana": "口",
     "kana": "くち",
     "english": "mouth",
-    "romanji": "kuchi"
+    "romaji": "kuchi"
   },
   {
     "kanjiandkana": "鼻",
     "kana": "はな",
     "english": "nose",
-    "romanji": "hana"
+    "romaji": "hana"
   }
 ]

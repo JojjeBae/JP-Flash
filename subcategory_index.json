@@ -1,4 +1,7 @@
 {  
+  "core": [
+    "2k_core",   
+  ],
   "counters": [
     "counters_base",
     "counters_native",

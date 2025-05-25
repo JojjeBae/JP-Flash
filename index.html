@@ -188,7 +188,11 @@ function updateCardUI(skipAnimation = false) {
   const back = document.getElementById("cardBack");
   const v = cards[current];
   front.textContent = v.english || "";
-  back.innerHTML = `<p style="font-size: 20px; ${v.kana || ""}<br>${v.kanjiandkana || ""}<br>${v.romaji || ""}</p>`;
+  back.innerHTML = `
+  <span style="font-size: 24px;">${v.kana || ""}</span><br>
+  <span style="font-size: 20px;">${v.kanjiandkana || ""}</span><br>
+  <span style="font-size: 16px;">${v.romaji || ""}</span>
+`;
   inner.style.transition = skipAnimation ? "none" : "";
   document.querySelector(".flip-card").classList.toggle("flip", flipped);
   if (skipAnimation) setTimeout(() => { inner.style.transition = ""; }, 20);

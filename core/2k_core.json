@@ -46,14 +46,14 @@
     "kana": "みっつ",
     "furigana": "三[みっ]つ",
     "wordgroup": "Noun",
-    "romaji": "mitsu"
+    "romaji": "mittsu"
   },
   {
     "english": "four (things)",
     "kana": "よっつ",
     "furigana": "四[よっ]つ",
     "wordgroup": "Noun",
-    "romaji": "yotsu"
+    "romaji": "yottsu"
   },
   {
     "english": "four",
@@ -95,7 +95,7 @@
     "kana": "むっつ",
     "furigana": "六[むっ]つ",
     "wordgroup": "Noun",
-    "romaji": "mutsu"
+    "romaji": "muttsu"
   },
   {
     "english": "six",
@@ -130,7 +130,7 @@
     "kana": "やっつ",
     "furigana": "八[やっ]つ",
     "wordgroup": "Noun",
-    "romaji": "yatsu"
+    "romaji": "yattsu"
   },
   {
     "english": "become",
@@ -144,7 +144,7 @@
     "kana": "きゅう",
     "furigana": "九[きゅう]",
     "wordgroup": "Noun",
-    "romaji": "kiu"
+    "romaji": "kyuu"
   },
   {
     "english": "nine (things)",
@@ -158,14 +158,14 @@
     "kana": "じゅう",
     "furigana": "十[じゅう]",
     "wordgroup": "Noun",
-    "romaji": "jiu"
+    "romaji": "juu"
   },
   {
     "english": "hundred",
     "kana": "ひゃく",
     "furigana": "百[ひゃく]",
     "wordgroup": "Noun",
-    "romaji": "hiku"
+    "romaji": "hyaku"
   },
   {
     "english": "thousand",
@@ -235,7 +235,7 @@
     "kana": "みっか",
     "furigana": "三日[みっか]",
     "wordgroup": "Noun",
-    "romaji": "mika"
+    "romaji": "mikka"
   },
   {
     "english": "five days, 5th of the month",
@@ -305,7 +305,7 @@
     "kana": "よっか",
     "furigana": "四日[よっか]",
     "wordgroup": "Noun",
-    "romaji": "yoka"
+    "romaji": "yokka"
   },
   {
     "english": "moon",
@@ -396,7 +396,7 @@
     "kana": "しゅう",
     "furigana": "週[しゅう]",
     "wordgroup": "Noun",
-    "romaji": "shiu"
+    "romaji": "shuu"
   },
   {
     "english": "year, age",
@@ -452,7 +452,7 @@
     "kana": "きょう",
     "furigana": "今日[きょう]",
     "wordgroup": "Noun",
-    "romaji": "kiu"
+    "romaji": "kyou"
   },
   {
     "english": "this month",
@@ -466,7 +466,7 @@
     "kana": "こんしゅう",
     "furigana": "今週[こんしゅう]",
     "wordgroup": "Noun",
-    "romaji": "konshiu"
+    "romaji": "konshuu"
   },
   {
     "english": "come",
@@ -718,7 +718,7 @@
     "kana": "じょうず",
     "furigana": "上手[じょうず]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "jiuzu"
+    "romaji": "jouzu"
   },
   {
     "english": "hand",
@@ -1047,7 +1047,7 @@
     "kana": "もっと",
     "furigana": "もっと",
     "wordgroup": "Adverb",
-    "romaji": "moto"
+    "romaji": "motto"
   },
   {
     "english": "find (something)",
@@ -1152,7 +1152,7 @@
     "kana": "でんしゃ",
     "furigana": "電車[でんしゃ]",
     "wordgroup": "Noun",
-    "romaji": "denshi"
+    "romaji": "densha"
   },
   {
     "english": "railway station",
@@ -1642,7 +1642,7 @@
     "kana": "がっこう",
     "furigana": "学校[がっこう]",
     "wordgroup": "Noun",
-    "romaji": "gakou"
+    "romaji": "gakkou"
   },
   {
     "english": "high school student",
@@ -1663,7 +1663,7 @@
     "kana": "べんきょう",
     "furigana": "勉強[べんきょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "benkiu"
+    "romaji": "benkyou"
   },
   {
     "english": "strong",
@@ -1817,7 +1817,7 @@
     "kana": "しゃべる",
     "furigana": "喋る[しゃべる]",
     "wordgroup": "Verb",
-    "romaji": "shiberu"
+    "romaji": "shaberu"
   },
   {
     "english": "move (が)",
@@ -1894,7 +1894,7 @@
     "kana": "きょねん",
     "furigana": "去年[きょねん]",
     "wordgroup": "Noun",
-    "romaji": "kinen"
+    "romaji": "kyonen"
   },
   {
     "english": "paper",
@@ -1943,7 +1943,7 @@
     "kana": "ちゃいろ",
     "furigana": "茶色[ちゃいろ]",
     "wordgroup": "Noun",
-    "romaji": "chiiro"
+    "romaji": "chairo"
   },
   {
     "english": "at once, soon",
@@ -2006,7 +2006,7 @@
     "kana": "としょかん",
     "furigana": "図書館[としょかん]",
     "wordgroup": "Noun",
-    "romaji": "toshikan"
+    "romaji": "toshokan"
   },
   {
     "english": "stay overnight",
@@ -2146,7 +2146,7 @@
     "kana": "かのじょ",
     "furigana": "彼女[かのじょ]",
     "wordgroup": "Pronoun",
-    "romaji": "kanoji"
+    "romaji": "kanojo"
   },
   {
     "english": "he, one's boyfriend",
@@ -2160,7 +2160,7 @@
     "kana": "けっこん",
     "furigana": "結婚[けっこん]",
     "wordgroup": "Verbal Noun",
-    "romaji": "kekon"
+    "romaji": "kekkon"
   },
   {
     "english": "meeting",
@@ -2174,7 +2174,7 @@
     "kana": "じてんしゃ",
     "furigana": "自転車[じてんしゃ]",
     "wordgroup": "Noun",
-    "romaji": "jitenshi"
+    "romaji": "jitensha"
   },
   {
     "english": "self, oneself",
@@ -2188,7 +2188,7 @@
     "kana": "ごしゅじん",
     "furigana": "ご 主人[しゅじん]",
     "wordgroup": "Noun",
-    "romaji": "goshijin"
+    "romaji": "goshujin"
   },
   {
     "english": "answer, reply",
@@ -2209,7 +2209,7 @@
     "kana": "びょうき",
     "furigana": "病気[びょうき]",
     "wordgroup": "Verbal Noun",
-    "romaji": "biuki"
+    "romaji": "byouki"
   },
   {
     "english": "die",
@@ -2244,7 +2244,7 @@
     "kana": "いっぱい",
     "furigana": "一杯[いっぱい]",
     "wordgroup": "Adverb",
-    "romaji": "ipai"
+    "romaji": "ippai"
   },
   {
     "english": "fly",
@@ -2279,7 +2279,7 @@
     "kana": "にっき",
     "furigana": "日記[にっき]",
     "wordgroup": "Noun",
-    "romaji": "niki"
+    "romaji": "nikki"
   },
   {
     "english": "neck",
@@ -2412,7 +2412,7 @@
     "kana": "いっしょに",
     "furigana": "一緒[いっしょ]に",
     "wordgroup": "Adverb",
-    "romaji": "ishini"
+    "romaji": "isshoni"
   },
   {
     "english": "green, foliage",
@@ -2433,7 +2433,7 @@
     "kana": "りゅうがくせい",
     "furigana": "留学生[りゅうがくせい]",
     "wordgroup": "Noun",
-    "romaji": "riugakusei"
+    "romaji": "ryuugakusei"
   },
   {
     "english": "return, turn back",
@@ -2517,7 +2517,7 @@
     "kana": "こっち",
     "furigana": "こっち",
     "wordgroup": "Pronoun",
-    "romaji": "kochi"
+    "romaji": "kocchi"
   },
   {
     "english": "spicy, salty",
@@ -2538,7 +2538,7 @@
     "kana": "おっと",
     "furigana": "夫[おっと]",
     "wordgroup": "Noun",
-    "romaji": "oto"
+    "romaji": "otto"
   },
   {
     "english": "wife",
@@ -2573,7 +2573,7 @@
     "kana": "すっぱい",
     "furigana": "酸[す]っぱい",
     "wordgroup": "Adjective",
-    "romaji": "supai"
+    "romaji": "suppai"
   },
   {
     "english": "word, language",
@@ -2650,7 +2650,7 @@
     "kana": "じゅぎょう",
     "furigana": "授業[じゅぎょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "jigiu"
+    "romaji": "jugyou"
   },
   {
     "english": "over there",
@@ -2762,7 +2762,7 @@
     "kana": "だいじょうぶ",
     "furigana": "大丈夫[だいじょうぶ]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "daijiubu"
+    "romaji": "daijoubu"
   },
   {
     "english": "cold (illness)",
@@ -2881,7 +2881,7 @@
     "kana": "じゅうぶん",
     "furigana": "十分[じゅうぶん]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "jiubun"
+    "romaji": "juubun"
   },
   {
     "english": "amount, part, share",
@@ -2951,7 +2951,7 @@
     "kana": "せんしゅう",
     "furigana": "先週[せんしゅう]",
     "wordgroup": "Noun",
-    "romaji": "senshiu"
+    "romaji": "senshuu"
   },
   {
     "english": "until now, so far",
@@ -2972,7 +2972,7 @@
     "kana": "らいしゅう",
     "furigana": "来週[らいしゅう]",
     "wordgroup": "Noun",
-    "romaji": "raishiu"
+    "romaji": "raishuu"
   },
   {
     "english": "robot",
@@ -3042,7 +3042,7 @@
     "kana": "しょうねん",
     "furigana": "少年[しょうねん]",
     "wordgroup": "Noun",
-    "romaji": "shiunen"
+    "romaji": "shounen"
   },
   {
     "english": "personal computer",
@@ -3063,7 +3063,7 @@
     "kana": "しょうしょう",
     "furigana": "少々[しょうしょう]",
     "wordgroup": "Adverb",
-    "romaji": "shiushiu"
+    "romaji": "shoushou"
   },
   {
     "english": "many, much",
@@ -3175,7 +3175,7 @@
     "kana": "いっぽう",
     "furigana": "一方[いっぽう]",
     "wordgroup": "Noun",
-    "romaji": "ipou"
+    "romaji": "ippou"
   },
   {
     "english": "person (polite)",
@@ -3245,7 +3245,7 @@
     "kana": "きゅうじつ",
     "furigana": "休日[きゅうじつ]",
     "wordgroup": "Noun",
-    "romaji": "kiujitsu"
+    "romaji": "kyuujitsu"
   },
   {
     "english": "rest, holiday, absence",
@@ -3273,7 +3273,7 @@
     "kana": "きょうりょく",
     "furigana": "協力[きょうりょく]",
     "wordgroup": "Verbal Noun",
-    "romaji": "kiuriku"
+    "romaji": "kyouryoku"
   },
   {
     "english": "population",
@@ -3441,7 +3441,7 @@
     "kana": "まいしゅう",
     "furigana": "毎週[まいしゅう]",
     "wordgroup": "Noun",
-    "romaji": "maishiu"
+    "romaji": "maishuu"
   },
   {
     "english": "every month",
@@ -3532,7 +3532,7 @@
     "kana": "たっする",
     "furigana": "達[たっ]する",
     "wordgroup": "Verb",
-    "romaji": "tasuru"
+    "romaji": "tassuru"
   },
   {
     "english": "group",
@@ -3560,7 +3560,7 @@
     "kana": "きゃく",
     "furigana": "客[きゃく]",
     "wordgroup": "Noun",
-    "romaji": "kiku"
+    "romaji": "kyaku"
   },
   {
     "english": "air, atmosphere",
@@ -3679,7 +3679,7 @@
     "kana": "はっきり",
     "furigana": "はっきり",
     "wordgroup": "Adverb",
-    "romaji": "hakiri"
+    "romaji": "hakkiri"
   },
   {
     "english": "the year before last",
@@ -3847,7 +3847,7 @@
     "kana": "さいしょ",
     "furigana": "最初[さいしょ]",
     "wordgroup": "Noun",
-    "romaji": "saishi"
+    "romaji": "saisho"
   },
   {
     "english": "sport",
@@ -3896,7 +3896,7 @@
     "kana": "あさって",
     "furigana": "明後日[あさって]",
     "wordgroup": "Noun",
-    "romaji": "asate"
+    "romaji": "asatte"
   },
   {
     "english": "cattle, cow",
@@ -4029,28 +4029,28 @@
     "kana": "やっと",
     "furigana": "やっと",
     "wordgroup": "Adverb",
-    "romaji": "yato"
+    "romaji": "yatto"
   },
   {
     "english": "lunch (formal)",
     "kana": "ちゅうしょく",
     "furigana": "昼食[ちゅうしょく]",
     "wordgroup": "Noun",
-    "romaji": "chiushiku"
+    "romaji": "chuushoku"
   },
   {
     "english": "breakfast (formal)",
     "kana": "ちょうしょく",
     "furigana": "朝食[ちょうしょく]",
     "wordgroup": "Noun",
-    "romaji": "chiushiku"
+    "romaji": "choushoku"
   },
   {
     "english": "supper (polite)",
     "kana": "ゆうしょく",
     "furigana": "夕食[ゆうしょく]",
     "wordgroup": "Noun",
-    "romaji": "yuushiku"
+    "romaji": "yuushoku"
   },
   {
     "english": "evening meal, supper (かたい)",
@@ -4099,7 +4099,7 @@
     "kana": "ずっと",
     "furigana": "ずっと",
     "wordgroup": "Adverb",
-    "romaji": "zuto"
+    "romaji": "zutto"
   },
   {
     "english": "reading, judgment, foresight",
@@ -4246,21 +4246,21 @@
     "kana": "かいしゃ",
     "furigana": "会社[かいしゃ]",
     "wordgroup": "Noun",
-    "romaji": "kaishi"
+    "romaji": "kaisha"
   },
   {
     "english": "society",
     "kana": "しゃかい",
     "furigana": "社会[しゃかい]",
     "wordgroup": "Noun",
-    "romaji": "shikai"
+    "romaji": "shakai"
   },
   {
     "english": "staff member, employee",
     "kana": "しゃいん",
     "furigana": "社員[しゃいん]",
     "wordgroup": "Noun",
-    "romaji": "shiin"
+    "romaji": "shain"
   },
   {
     "english": "way, method",
@@ -4281,7 +4281,7 @@
     "kana": "しょくじ",
     "furigana": "食事[しょくじ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "shikuji"
+    "romaji": "shokuji"
   },
   {
     "english": "fire (emergency)",
@@ -4323,7 +4323,7 @@
     "kana": "こうじょう",
     "furigana": "工場[こうじょう]",
     "wordgroup": "Noun",
-    "romaji": "koujiu"
+    "romaji": "koujou"
   },
   {
     "english": "telephone, phone call",
@@ -4407,7 +4407,7 @@
     "kana": "しゃどう",
     "furigana": "車道[しゃどう]",
     "wordgroup": "Noun",
-    "romaji": "shidou"
+    "romaji": "shadou"
   },
   {
     "english": "truck, lorry",
@@ -4547,7 +4547,7 @@
     "kana": "しゃちょう",
     "furigana": "社長[しゃちょう]",
     "wordgroup": "Noun",
-    "romaji": "shichiu"
+    "romaji": "shachou"
   },
   {
     "english": "course, class, route",
@@ -4561,7 +4561,7 @@
     "kana": "かいちょう",
     "furigana": "会長[かいちょう]",
     "wordgroup": "Noun",
-    "romaji": "kaichiu"
+    "romaji": "kaichou"
   },
   {
     "english": "length",
@@ -4575,14 +4575,14 @@
     "kana": "ちょうなん",
     "furigana": "長男[ちょうなん]",
     "wordgroup": "Noun",
-    "romaji": "chiunan"
+    "romaji": "chounan"
   },
   {
     "english": "eldest daughter",
     "kana": "ちょうじょ",
     "furigana": "長女[ちょうじょ]",
     "wordgroup": "Noun",
-    "romaji": "chiuji"
+    "romaji": "choujo"
   },
   {
     "english": "apartment, flat",
@@ -4617,7 +4617,7 @@
     "kana": "まったく",
     "furigana": "全[まった]く",
     "wordgroup": "Adverb",
-    "romaji": "mataku"
+    "romaji": "mattaku"
   },
   {
     "english": "record",
@@ -4680,7 +4680,7 @@
     "kana": "こっかい",
     "furigana": "国会[こっかい]",
     "wordgroup": "Noun",
-    "romaji": "kokai"
+    "romaji": "kokkai"
   },
   {
     "english": "return to one's country",
@@ -4750,7 +4750,7 @@
     "kana": "あかちゃん",
     "furigana": "赤[あか]ちゃん",
     "wordgroup": "Noun",
-    "romaji": "akachin"
+    "romaji": "akachan"
   },
   {
     "english": "red",
@@ -4792,7 +4792,7 @@
     "kana": "ぎゅうにく",
     "furigana": "牛肉[ぎゅうにく]",
     "wordgroup": "Noun",
-    "romaji": "giuniku"
+    "romaji": "gyuuniku"
   },
   {
     "english": "page",
@@ -4876,21 +4876,21 @@
     "kana": "ちゃ",
     "furigana": "茶[ちゃ]",
     "wordgroup": "Noun",
-    "romaji": "chi"
+    "romaji": "cha"
   },
   {
     "english": "tea (polite)",
     "kana": "おちゃ",
     "furigana": "お 茶[ちゃ]",
     "wordgroup": "Noun",
-    "romaji": "ochi"
+    "romaji": "ocha"
   },
   {
     "english": "rice bowl, tea cup",
     "kana": "ちゃわん",
     "furigana": "茶[ちゃ]わん",
     "wordgroup": "Noun",
-    "romaji": "chiwan"
+    "romaji": "chawan"
   },
   {
     "english": "taste, flavor",
@@ -4918,14 +4918,14 @@
     "kana": "しゅうまつ",
     "furigana": "週末[しゅうまつ]",
     "wordgroup": "Noun",
-    "romaji": "shiumatsu"
+    "romaji": "shuumatsu"
   },
   {
     "english": "cooking;<br>handling, management",
     "kana": "りょうり",
     "furigana": "料理[りょうり]",
     "wordgroup": "Verbal Noun",
-    "romaji": "riuri"
+    "romaji": "ryouri"
   },
   {
     "english": "unreasonable, impossible, forced",
@@ -5051,7 +5051,7 @@
     "kana": "しょうひん",
     "furigana": "商品[しょうひん]",
     "wordgroup": "Noun",
-    "romaji": "shiuhin"
+    "romaji": "shouhin"
   },
   {
     "english": "work of art, piece",
@@ -5079,7 +5079,7 @@
     "kana": "ゆっくり",
     "furigana": "ゆっくり",
     "wordgroup": "Adverb",
-    "romaji": "yukuri"
+    "romaji": "yukkuri"
   },
   {
     "english": "stage, step",
@@ -5247,7 +5247,7 @@
     "kana": "じじょう",
     "furigana": "事情[じじょう]",
     "wordgroup": "Noun",
-    "romaji": "jijiu"
+    "romaji": "jijou"
   },
   {
     "english": "hit, bump into に",
@@ -5261,7 +5261,7 @@
     "kana": "じょうほう",
     "furigana": "情報[じょうほう]",
     "wordgroup": "Noun",
-    "romaji": "jiuhou"
+    "romaji": "jouhou"
   },
   {
     "english": "report",
@@ -5303,7 +5303,7 @@
     "kana": "ちゅうしん",
     "furigana": "中心[ちゅうしん]",
     "wordgroup": "Noun",
-    "romaji": "chiushin"
+    "romaji": "chuushin"
   },
   {
     "english": "peace of mind, relief",
@@ -5366,7 +5366,7 @@
     "kana": "のうりょく",
     "furigana": "能力[のうりょく]",
     "wordgroup": "Noun",
-    "romaji": "nouriku"
+    "romaji": "nouryoku"
   },
   {
     "english": "possible, potential",
@@ -5415,7 +5415,7 @@
     "kana": "ゆうびんきょく",
     "furigana": "郵便局[ゆうびんきょく]",
     "wordgroup": "Noun",
-    "romaji": "yuubinkiku"
+    "romaji": "yuubinkyoku"
   },
   {
     "english": "police box",
@@ -5450,14 +5450,14 @@
     "kana": "ばしょ",
     "furigana": "場所[ばしょ]",
     "wordgroup": "Noun",
-    "romaji": "bashi"
+    "romaji": "basho"
   },
   {
     "english": "neighborhood",
     "kana": "きんじょ",
     "furigana": "近所[きんじょ]",
     "wordgroup": "Noun",
-    "romaji": "kinji"
+    "romaji": "kinjo"
   },
   {
     "english": "wine",
@@ -5478,14 +5478,14 @@
     "kana": "じゅうしょ",
     "furigana": "住所[じゅうしょ]",
     "wordgroup": "Noun",
-    "romaji": "jiushi"
+    "romaji": "juusho"
   },
   {
     "english": "bathroom, lavatory",
     "kana": "べんじょ",
     "furigana": "便所[べんじょ]",
     "wordgroup": "Noun",
-    "romaji": "benji"
+    "romaji": "benjo"
   },
   {
     "english": "famous",
@@ -5506,7 +5506,7 @@
     "kana": "みょうじ",
     "furigana": "名字[みょうじ]",
     "wordgroup": "Noun",
-    "romaji": "miuji"
+    "romaji": "myouji"
   },
   {
     "english": "full name",
@@ -5520,7 +5520,7 @@
     "kana": "かっこく",
     "furigana": "各国[かっこく]",
     "wordgroup": "Noun",
-    "romaji": "kakoku"
+    "romaji": "kakkoku"
   },
   {
     "english": "town, city quarter",
@@ -5737,7 +5737,7 @@
     "kana": "もっていく",
     "furigana": "持[も]って 行[い]く",
     "wordgroup": "Verb",
-    "romaji": "moteiku"
+    "romaji": "motteiku"
   },
   {
     "english": "not easily, not readily, by no means",
@@ -5751,7 +5751,7 @@
     "kana": "もってくる",
     "furigana": "持[も]って 来[く]る",
     "wordgroup": "Verb",
-    "romaji": "motekuru"
+    "romaji": "mottekuru"
   },
   {
     "english": "hit, strike",
@@ -5793,7 +5793,7 @@
     "kana": "じょせい",
     "furigana": "女性[じょせい]",
     "wordgroup": "Noun",
-    "romaji": "jisei"
+    "romaji": "josei"
   },
   {
     "english": "production",
@@ -5835,14 +5835,14 @@
     "kana": "ちゅうがく",
     "furigana": "中学[ちゅうがく]",
     "wordgroup": "Noun",
-    "romaji": "chiugaku"
+    "romaji": "chuugaku"
   },
   {
     "english": "admission to a school, starting school",
     "kana": "にゅうがく",
     "furigana": "入学[にゅうがく]",
     "wordgroup": "Verbal Noun",
-    "romaji": "niugaku"
+    "romaji": "nyuugaku"
   },
   {
     "english": "elevator",
@@ -5856,14 +5856,14 @@
     "kana": "ちゅうがくせい",
     "furigana": "中学生[ちゅうがくせい]",
     "wordgroup": "Noun",
-    "romaji": "chiugakusei"
+    "romaji": "chuugakusei"
   },
   {
     "english": "elementary school student",
     "kana": "しょうがくせい",
     "furigana": "小学生[しょうがくせい]",
     "wordgroup": "Noun",
-    "romaji": "shiugakusei"
+    "romaji": "shougakusei"
   },
   {
     "english": "field trip",
@@ -5898,21 +5898,21 @@
     "kana": "しょうがっこう",
     "furigana": "小学校[しょうがっこう]",
     "wordgroup": "Noun",
-    "romaji": "shiugakou"
+    "romaji": "shougakkou"
   },
   {
     "english": "middle school",
     "kana": "ちゅうがっこう",
     "furigana": "中学校[ちゅうがっこう]",
     "wordgroup": "Noun",
-    "romaji": "chiugakou"
+    "romaji": "chuugakkou"
   },
   {
     "english": "principal",
     "kana": "こうちょう",
     "furigana": "校長[こうちょう]",
     "wordgroup": "Noun",
-    "romaji": "kouchiu"
+    "romaji": "kouchou"
   },
   {
     "english": "bread",
@@ -5926,21 +5926,21 @@
     "kana": "きゅうこう",
     "furigana": "休校[きゅうこう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "kiukou"
+    "romaji": "kyuukou"
   },
   {
     "english": "church",
     "kana": "きょうかい",
     "furigana": "教会[きょうかい]",
     "wordgroup": "Noun",
-    "romaji": "kiukai"
+    "romaji": "kyoukai"
   },
   {
     "english": "education",
     "kana": "きょういく",
     "furigana": "教育[きょういく]",
     "wordgroup": "Verbal Noun",
-    "romaji": "kiuiku"
+    "romaji": "kyouiku"
   },
   {
     "english": "raise, bring up",
@@ -5954,7 +5954,7 @@
     "kana": "びっくりする",
     "furigana": "びっくりする",
     "wordgroup": "Verb",
-    "romaji": "bikurisuru"
+    "romaji": "bikkurisuru"
   },
   {
     "english": "grow, be raised",
@@ -6017,14 +6017,14 @@
     "kana": "れんしゅう",
     "furigana": "練習[れんしゅう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "renshiu"
+    "romaji": "renshuu"
   },
   {
     "english": "toy, plaything",
     "kana": "おもちゃ",
     "furigana": "おもちゃ",
     "wordgroup": "Noun",
-    "romaji": "omochi"
+    "romaji": "omocha"
   },
   {
     "english": "learn, practice",
@@ -6045,14 +6045,14 @@
     "kana": "しゅうかん",
     "furigana": "習慣[しゅうかん]",
     "wordgroup": "None",
-    "romaji": "shiukan"
+    "romaji": "shuukan"
   },
   {
     "english": "research, study",
     "kana": "けんきゅう",
     "furigana": "研究[けんきゅう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "kenkiu"
+    "romaji": "kenkyuu"
   },
   {
     "english": "gram",
@@ -6283,21 +6283,21 @@
     "kana": "きぎょう",
     "furigana": "企業[きぎょう]",
     "wordgroup": "Noun",
-    "romaji": "kigiu"
+    "romaji": "kigyou"
   },
   {
     "english": "work, operation",
     "kana": "さぎょう",
     "furigana": "作業[さぎょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "sagiu"
+    "romaji": "sagyou"
   },
   {
     "english": "industry",
     "kana": "さんぎょう",
     "furigana": "産業[さんぎょう]",
     "wordgroup": "Noun",
-    "romaji": "sangiu"
+    "romaji": "sangyou"
   },
   {
     "english": "you",
@@ -6311,14 +6311,14 @@
     "kana": "こうぎょう",
     "furigana": "工業[こうぎょう]",
     "wordgroup": "Noun",
-    "romaji": "kougiu"
+    "romaji": "kougyou"
   },
   {
     "english": "business, commerce",
     "kana": "しょうぎょう",
     "furigana": "商業[しょうぎょう]",
     "wordgroup": "Noun",
-    "romaji": "shiugiu"
+    "romaji": "shougyou"
   },
   {
     "english": "utilization, usage",
@@ -6346,14 +6346,14 @@
     "kana": "ぎじゅつ",
     "furigana": "技術[ぎじゅつ]",
     "wordgroup": "Noun",
-    "romaji": "gijitsu"
+    "romaji": "gijutsu"
   },
   {
     "english": "surgical operation",
     "kana": "しゅじゅつ",
     "furigana": "手術[しゅじゅつ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "shijitsu"
+    "romaji": "shujutsu"
   },
   {
     "english": "production, manufacture",
@@ -6388,14 +6388,14 @@
     "kana": "じゅうよう",
     "furigana": "重要[じゅうよう]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "jiuyou"
+    "romaji": "juuyou"
   },
   {
     "english": "requirement, demand",
     "kana": "ようきゅう",
     "furigana": "要求[ようきゅう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "youkiu"
+    "romaji": "youkyuu"
   },
   {
     "english": "alarm clock",
@@ -6591,21 +6591,21 @@
     "kana": "きゅうに",
     "furigana": "急[きゅう]に",
     "wordgroup": "Adverb",
-    "romaji": "kiuni"
+    "romaji": "kyuuni"
   },
   {
     "english": "urgent, sudden, steep",
     "kana": "きゅう",
     "furigana": "急[きゅう]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "kiu"
+    "romaji": "kyuu"
   },
   {
     "english": "express train, going in a hurry",
     "kana": "きゅうこう",
     "furigana": "急行[きゅうこう]",
     "wordgroup": "Noun",
-    "romaji": "kiukou"
+    "romaji": "kyuukou"
   },
   {
     "english": "run out, expire",
@@ -6626,7 +6626,7 @@
     "kana": "きって",
     "furigana": "切手[きって]",
     "wordgroup": "Noun",
-    "romaji": "kite"
+    "romaji": "kitte"
   },
   {
     "english": "be sold out, go out of stock",
@@ -6661,14 +6661,14 @@
     "kana": "きっぷ",
     "furigana": "切符[きっぷ]",
     "wordgroup": "Noun",
-    "romaji": "kipu"
+    "romaji": "kippu"
   },
   {
     "english": "entrance ticket",
     "kana": "にゅうじょうけん",
     "furigana": "入場券[にゅうじょうけん]",
     "wordgroup": "Noun",
-    "romaji": "niujiuken"
+    "romaji": "nyuujouken"
   },
   {
     "english": "rent (money)",
@@ -6717,7 +6717,7 @@
     "kana": "けってい",
     "furigana": "決定[けってい]",
     "wordgroup": "Verbal Noun",
-    "romaji": "ketei"
+    "romaji": "kettei"
   },
   {
     "english": "soon, slowly, gingerly",
@@ -6731,7 +6731,7 @@
     "kana": "いってい",
     "furigana": "一定[いってい]",
     "wordgroup": "Verbal Noun",
-    "romaji": "itei"
+    "romaji": "ittei"
   },
   {
     "english": "commuter pass",
@@ -6766,7 +6766,7 @@
     "kana": "よしゅう",
     "furigana": "予習[よしゅう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "yoshiu"
+    "romaji": "yoshuu"
   },
   {
     "english": "reservation, subscription, appointment",
@@ -6794,7 +6794,7 @@
     "kana": "めったに",
     "furigana": "めったに",
     "wordgroup": "Adverb",
-    "romaji": "metani"
+    "romaji": "mettani"
   },
   {
     "english": "awful, serious",
@@ -6822,7 +6822,7 @@
     "kana": "きょうか",
     "furigana": "強化[きょうか]",
     "wordgroup": "Verbal Noun",
-    "romaji": "kiuka"
+    "romaji": "kyouka"
   },
   {
     "english": "Christmas",
@@ -6997,7 +6997,7 @@
     "kana": "しゅっせき",
     "furigana": "出席[しゅっせき]",
     "wordgroup": "Verbal Noun",
-    "romaji": "shiseki"
+    "romaji": "shusseki"
   },
   {
     "english": "rubber, elastic",
@@ -7018,7 +7018,7 @@
     "kana": "けっせき",
     "furigana": "欠席[けっせき]",
     "wordgroup": "Verbal Noun",
-    "romaji": "keseki"
+    "romaji": "kesseki"
   },
   {
     "english": "second son",
@@ -7032,7 +7032,7 @@
     "kana": "じじょ",
     "furigana": "次女[じじょ]",
     "wordgroup": "Noun",
-    "romaji": "jiji"
+    "romaji": "jijo"
   },
   {
     "english": "guitar",
@@ -7060,7 +7060,7 @@
     "kana": "うんてんしゅ",
     "furigana": "運転手[うんてんしゅ]",
     "wordgroup": "Noun",
-    "romaji": "untenshi"
+    "romaji": "untenshu"
   },
   {
     "english": "tumble down, fall over",
@@ -7109,7 +7109,7 @@
     "kana": "やっぱり",
     "furigana": "やっぱり",
     "wordgroup": "Adverb",
-    "romaji": "yapari"
+    "romaji": "yappari"
   },
   {
     "english": "activity",
@@ -7228,7 +7228,7 @@
     "kana": "じっし",
     "furigana": "実施[じっし]",
     "wordgroup": "Verbal Noun",
-    "romaji": "jishi"
+    "romaji": "jisshi"
   },
   {
     "english": "fact, truth",
@@ -7242,7 +7242,7 @@
     "kana": "じっこう",
     "furigana": "実行[じっこう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "jikou"
+    "romaji": "jikkou"
   },
   {
     "english": "motorcycle",
@@ -7256,7 +7256,7 @@
     "kana": "じっけん",
     "furigana": "実験[じっけん]",
     "wordgroup": "Verbal Noun",
-    "romaji": "jiken"
+    "romaji": "jikken"
   },
   {
     "english": "passing, passage",
@@ -7305,7 +7305,7 @@
     "kana": "はっせい",
     "furigana": "発生[はっせい]",
     "wordgroup": "Verbal Noun",
-    "romaji": "hasei"
+    "romaji": "hassei"
   },
   {
     "english": "statement, remark",
@@ -7326,28 +7326,28 @@
     "kana": "はっけん",
     "furigana": "発見[はっけん]",
     "wordgroup": "Verbal Noun",
-    "romaji": "haken"
+    "romaji": "hakken"
   },
   {
     "english": "departure, starting",
     "kana": "しゅっぱつ",
     "furigana": "出発[しゅっぱつ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "shipatsu"
+    "romaji": "shuppatsu"
   },
   {
     "english": "depart, leave (for vehicles)",
     "kana": "はっしゃ",
     "furigana": "発車[はっしゃ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "hashi"
+    "romaji": "hassha"
   },
   {
     "english": "announcement",
     "kana": "はっぴょう",
     "furigana": "発表[はっぴょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "hapiu"
+    "romaji": "happyou"
   },
   {
     "english": "tight, difficult",
@@ -7361,14 +7361,14 @@
     "kana": "ひょうげん",
     "furigana": "表現[ひょうげん]",
     "wordgroup": "Verbal Noun",
-    "romaji": "hiugen"
+    "romaji": "hyougen"
   },
   {
     "english": "representative",
     "kana": "だいひょう",
     "furigana": "代表[だいひょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "daihiu"
+    "romaji": "daihyou"
   },
   {
     "english": "front side, face, outside",
@@ -7382,14 +7382,14 @@
     "kana": "ひょう",
     "furigana": "表[ひょう]",
     "wordgroup": "Noun",
-    "romaji": "hiu"
+    "romaji": "hyou"
   },
   {
     "english": "some time ago, only a moment ago",
     "kana": "さっき",
     "furigana": "さっき",
     "wordgroup": "Adverb",
-    "romaji": "saki"
+    "romaji": "sakki"
   },
   {
     "english": "letter",
@@ -7410,7 +7410,7 @@
     "kana": "ざっし",
     "furigana": "雑誌[ざっし]",
     "wordgroup": "Noun",
-    "romaji": "zashi"
+    "romaji": "zasshi"
   },
   {
     "english": "sound, noise",
@@ -7466,7 +7466,7 @@
     "kana": "かしゅ",
     "furigana": "歌手[かしゅ]",
     "wordgroup": "Noun",
-    "romaji": "kashi"
+    "romaji": "kashu"
   },
   {
     "english": "want&nbsp;(describing sb else)",
@@ -7522,7 +7522,7 @@
     "kana": "しゃしん",
     "furigana": "写真[しゃしん]",
     "wordgroup": "Noun",
-    "romaji": "shishin"
+    "romaji": "shashin"
   },
   {
     "english": "album",
@@ -7536,7 +7536,7 @@
     "kana": "まっか",
     "furigana": "真[ま]っ 赤[か]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "maka"
+    "romaji": "makka"
   },
   {
     "english": "serious, sober, earnest",
@@ -7557,7 +7557,7 @@
     "kana": "まっしろ",
     "furigana": "真[ま]っ 白[しろ]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "mashiro"
+    "romaji": "masshiro"
   },
   {
     "english": "skirt",
@@ -7571,21 +7571,21 @@
     "kana": "まっくら",
     "furigana": "真[ま]っ 暗[くら]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "makura"
+    "romaji": "makkura"
   },
   {
     "english": "deep-black, jet-black",
     "kana": "まっくろ",
     "furigana": "真[ま]っ 黒[くろ]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "makuro"
+    "romaji": "makkuro"
   },
   {
     "english": "deep-blue, pale (skin)",
     "kana": "まっさお",
     "furigana": "真[ま]っ 青[さお]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "masao"
+    "romaji": "massao"
   },
   {
     "english": "various",
@@ -7606,7 +7606,7 @@
     "kana": "にんぎょう",
     "furigana": "人形[にんぎょう]",
     "wordgroup": "Noun",
-    "romaji": "ningiu"
+    "romaji": "ningyou"
   },
   {
     "english": "shape, form",
@@ -7627,14 +7627,14 @@
     "kana": "しゅるい",
     "furigana": "種類[しゅるい]",
     "wordgroup": "Noun",
-    "romaji": "shirui"
+    "romaji": "shurui"
   },
   {
     "english": "chatter, talkative",
     "kana": "おしゃべり",
     "furigana": "おしゃべり",
     "wordgroup": "Verbal Noun",
-    "romaji": "oshiberi"
+    "romaji": "oshaberi"
   },
   {
     "english": "repair, cure, alter",
@@ -7648,14 +7648,14 @@
     "kana": "まっすぐ",
     "furigana": "真[ま]っ 直[す]ぐ",
     "wordgroup": "Adverb",
-    "romaji": "masugu"
+    "romaji": "massugu"
   },
   {
     "english": "directly",
     "kana": "ちょくせつ",
     "furigana": "直接[ちょくせつ]",
     "wordgroup": "Adverb",
-    "romaji": "chikusetsu"
+    "romaji": "chokusetsu"
   },
   {
     "english": "corner, edge, angle",
@@ -7669,7 +7669,7 @@
     "kana": "きっと",
     "furigana": "きっと",
     "wordgroup": "Adverb",
-    "romaji": "kito"
+    "romaji": "kitto"
   },
   {
     "english": "triangle",
@@ -7711,7 +7711,7 @@
     "kana": "きょく",
     "furigana": "曲[きょく]",
     "wordgroup": "Noun",
-    "romaji": "kiku"
+    "romaji": "kyoku"
   },
   {
     "english": "bend, curve",
@@ -7774,21 +7774,21 @@
     "kana": "おしゃれ",
     "furigana": "おしゃれ",
     "wordgroup": "Verbal Noun",
-    "romaji": "oshire"
+    "romaji": "oshare"
   },
   {
     "english": "more than,&nbsp;not less than",
     "kana": "いじょう",
     "furigana": "以上[いじょう]",
     "wordgroup": "Noun",
-    "romaji": "ijiu"
+    "romaji": "ijou"
   },
   {
     "english": "travel, trip",
     "kana": "りょこう",
     "furigana": "旅行[りょこう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "rikou"
+    "romaji": "ryokou"
   },
   {
     "english": "embassy",
@@ -7802,7 +7802,7 @@
     "kana": "りょかん",
     "furigana": "旅館[りょかん]",
     "wordgroup": "Noun",
-    "romaji": "rikan"
+    "romaji": "ryokan"
   },
   {
     "english": "juice, soft drink",
@@ -7823,7 +7823,7 @@
     "kana": "しゅくだい",
     "furigana": "宿題[しゅくだい]",
     "wordgroup": "Noun",
-    "romaji": "shikudai"
+    "romaji": "shukudai"
   },
   {
     "english": "lodge, give shelter",
@@ -7858,14 +7858,14 @@
     "kana": "きょうしつ",
     "furigana": "教室[きょうしつ]",
     "wordgroup": "Noun",
-    "romaji": "kiushitsu"
+    "romaji": "kyoushitsu"
   },
   {
     "english": "library room",
     "kana": "としょしつ",
     "furigana": "図書室[としょしつ]",
     "wordgroup": "Noun",
-    "romaji": "toshishitsu"
+    "romaji": "toshoshitsu"
   },
   {
     "english": "window, windowpane",
@@ -7956,14 +7956,14 @@
     "kana": "きょうだい",
     "furigana": "兄弟[きょうだい]",
     "wordgroup": "Noun",
-    "romaji": "kiudai"
+    "romaji": "kyoudai"
   },
   {
     "english": "business man",
     "kana": "ぎょうしゃ",
     "furigana": "業者[ぎょうしゃ]",
     "wordgroup": "Noun",
-    "romaji": "giushi"
+    "romaji": "gyousha"
   },
   {
     "english": "young person, youth",
@@ -7998,7 +7998,7 @@
     "kana": "けっか",
     "furigana": "結果[けっか]",
     "wordgroup": "Noun",
-    "romaji": "keka"
+    "romaji": "kekka"
   },
   {
     "english": "fruit",
@@ -8040,7 +8040,7 @@
     "kana": "じどうしゃ",
     "furigana": "自動車[じどうしゃ]",
     "wordgroup": "Noun",
-    "romaji": "jidoushi"
+    "romaji": "jidousha"
   },
   {
     "english": "nature",
@@ -8068,7 +8068,7 @@
     "kana": "じしゅう",
     "furigana": "自習[じしゅう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "jishiu"
+    "romaji": "jishuu"
   },
   {
     "english": "reason, cause",
@@ -8131,14 +8131,14 @@
     "kana": "じゅうみん",
     "furigana": "住民[じゅうみん]",
     "wordgroup": "Noun",
-    "romaji": "jiumin"
+    "romaji": "juumin"
   },
   {
     "english": "husband,&nbsp;the head of the house",
     "kana": "しゅじん",
     "furigana": "主人[しゅじん]",
     "wordgroup": "Noun",
-    "romaji": "shijin"
+    "romaji": "shujin"
   },
   {
     "english": "legislator",
@@ -8208,7 +8208,7 @@
     "kana": "とっきゅう",
     "furigana": "特急[とっきゅう]",
     "wordgroup": "Noun",
-    "romaji": "tokiu"
+    "romaji": "tokkyuu"
   },
   {
     "english": "special, extraordinary",
@@ -8243,7 +8243,7 @@
     "kana": "いっぱん",
     "furigana": "一般[いっぱん]",
     "wordgroup": "Noun",
-    "romaji": "ipan"
+    "romaji": "ippan"
   },
   {
     "english": "objective, purpose",
@@ -8292,7 +8292,7 @@
     "kana": "こうとうがっこう",
     "furigana": "高等学校[こうとうがっこう]",
     "wordgroup": "Noun",
-    "romaji": "koutougakou"
+    "romaji": "koutougakkou"
   },
   {
     "english": "pachinko (vertical pinball)",
@@ -8306,14 +8306,14 @@
     "kana": "びょういん",
     "furigana": "病院[びょういん]",
     "wordgroup": "Noun",
-    "romaji": "biuin"
+    "romaji": "byouin"
   },
   {
     "english": "be hospitalized",
     "kana": "にゅういん",
     "furigana": "入院[にゅういん]",
     "wordgroup": "Verbal Noun",
-    "romaji": "niuin"
+    "romaji": "nyuuin"
   },
   {
     "english": "graduate school",
@@ -8327,7 +8327,7 @@
     "kana": "いしゃ",
     "furigana": "医者[いしゃ]",
     "wordgroup": "Noun",
-    "romaji": "ishi"
+    "romaji": "isha"
   },
   {
     "english": "tangerine, mandarin orange",
@@ -8341,14 +8341,14 @@
     "kana": "おいしゃさん",
     "furigana": "お 医者[いしゃ]さん",
     "wordgroup": "Noun",
-    "romaji": "oishisan"
+    "romaji": "oishasan"
   },
   {
     "english": "dentist",
     "kana": "はいしゃ",
     "furigana": "歯医者[はいしゃ]",
     "wordgroup": "Noun",
-    "romaji": "haishi"
+    "romaji": "haisha"
   },
   {
     "english": "tooth, cog",
@@ -8383,7 +8383,7 @@
     "kana": "きょうかしょ",
     "furigana": "教科書[きょうかしょ]",
     "wordgroup": "Noun",
-    "romaji": "kiukashi"
+    "romaji": "kyoukasho"
   },
   {
     "english": "science",
@@ -8432,7 +8432,7 @@
     "kana": "よっぱらい",
     "furigana": "酔[よ]っ 払[ぱら]い",
     "wordgroup": "Noun",
-    "romaji": "yoparai"
+    "romaji": "yopparai"
   },
   {
     "english": "nylon",
@@ -8446,7 +8446,7 @@
     "kana": "よっぱらう",
     "furigana": "酔[よ]っ 払[ぱら]う",
     "wordgroup": "Verb",
-    "romaji": "yoparau"
+    "romaji": "yopparau"
   },
   {
     "english": "dangerous, uncertain",
@@ -8481,14 +8481,14 @@
     "kana": "ちゅうもく",
     "furigana": "注目[ちゅうもく]",
     "wordgroup": "Verbal Noun",
-    "romaji": "chiumoku"
+    "romaji": "chuumoku"
   },
   {
     "english": "order, request",
     "kana": "ちゅうもん",
     "furigana": "注文[ちゅうもん]",
     "wordgroup": "Verbal Noun",
-    "romaji": "chiumon"
+    "romaji": "chuumon"
   },
   {
     "english": "meaning, significance",
@@ -8516,7 +8516,7 @@
     "kana": "ちゅうい",
     "furigana": "注意[ちゅうい]",
     "wordgroup": "Verbal Noun",
-    "romaji": "chiui"
+    "romaji": "chuui"
   },
   {
     "english": "prepare, ready oneself",
@@ -8572,7 +8572,7 @@
     "kana": "ざいりょう",
     "furigana": "材料[ざいりょう]",
     "wordgroup": "Noun",
-    "romaji": "zairiu"
+    "romaji": "zairyou"
   },
   {
     "english": "channel",
@@ -8607,7 +8607,7 @@
     "kana": "きじゅん",
     "furigana": "基準[きじゅん]",
     "wordgroup": "Noun",
-    "romaji": "kijin"
+    "romaji": "kijun"
   },
   {
     "english": "boring, dull",
@@ -8628,14 +8628,14 @@
     "kana": "じゅんび",
     "furigana": "準備[じゅんび]",
     "wordgroup": "Verbal Noun",
-    "romaji": "jinbi"
+    "romaji": "junbi"
   },
   {
     "english": "design, plan",
     "kana": "せっけい",
     "furigana": "設計[せっけい]",
     "wordgroup": "Verbal Noun",
-    "romaji": "sekei"
+    "romaji": "sekkei"
   },
   {
     "english": "facilities, institution",
@@ -8670,7 +8670,7 @@
     "kana": "しょうせつ",
     "furigana": "小説[しょうせつ]",
     "wordgroup": "Noun",
-    "romaji": "shiusetsu"
+    "romaji": "shousetsu"
   },
   {
     "english": "opening (to the public)",
@@ -8726,14 +8726,14 @@
     "kana": "じっさい",
     "furigana": "実際[じっさい]",
     "wordgroup": "Adverb",
-    "romaji": "jisai"
+    "romaji": "jissai"
   },
   {
     "english": "airport, airfield",
     "kana": "ひこうじょう",
     "furigana": "飛行場[ひこうじょう]",
     "wordgroup": "Noun",
-    "romaji": "hikoujiu"
+    "romaji": "hikoujou"
   },
   {
     "english": "airmail",
@@ -8873,14 +8873,14 @@
     "kana": "しょうがつ",
     "furigana": "正月[しょうがつ]",
     "wordgroup": "Noun",
-    "romaji": "shiugatsu"
+    "romaji": "shougatsu"
   },
   {
     "english": "honest, upright",
     "kana": "しょうじき",
     "furigana": "正直[しょうじき]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "shiujiki"
+    "romaji": "shoujiki"
   },
   {
     "english": "differ",
@@ -8901,14 +8901,14 @@
     "kana": "つうじょう",
     "furigana": "通常[つうじょう]",
     "wordgroup": "Noun",
-    "romaji": "tsuujiu"
+    "romaji": "tsuujou"
   },
   {
     "english": "very, extremely",
     "kana": "ひじょうに",
     "furigana": "非常[ひじょう]に",
     "wordgroup": "Adverb",
-    "romaji": "hijiuni"
+    "romaji": "hijouni"
   },
   {
     "english": "search (for), examine",
@@ -8922,7 +8922,7 @@
     "kana": "きょうちょう",
     "furigana": "強調[きょうちょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "kiuchiu"
+    "romaji": "kyouchou"
   },
   {
     "english": "drive",
@@ -8943,14 +8943,14 @@
     "kana": "ちょうさ",
     "furigana": "調査[ちょうさ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "chiusa"
+    "romaji": "chousa"
   },
   {
     "english": "offer, provide",
     "kana": "ていきょう",
     "furigana": "提供[ていきょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "teikiu"
+    "romaji": "teikyou"
   },
   {
     "english": "proposition, proposal",
@@ -9041,7 +9041,7 @@
     "kana": "きしゃ",
     "furigana": "記者[きしゃ]",
     "wordgroup": "Noun",
-    "romaji": "kishi"
+    "romaji": "kisha"
   },
   {
     "english": "record, documentation",
@@ -9097,21 +9097,21 @@
     "kana": "じょうきょう",
     "furigana": "状況[じょうきょう]",
     "wordgroup": "Noun",
-    "romaji": "jiukiu"
+    "romaji": "joukyou"
   },
   {
     "english": "soundly (asleep)",
     "kana": "ぐっすり",
     "furigana": "ぐっすり",
     "wordgroup": "Adverb",
-    "romaji": "gusuri"
+    "romaji": "gussuri"
   },
   {
     "english": "state, appearance (of a thing)",
     "kana": "じょうたい",
     "furigana": "状態[じょうたい]",
     "wordgroup": "Noun",
-    "romaji": "jiutai"
+    "romaji": "joutai"
   },
   {
     "english": "get better,&nbsp;be cured",
@@ -9188,14 +9188,14 @@
     "kana": "せんしゅ",
     "furigana": "選手[せんしゅ]",
     "wordgroup": "Noun",
-    "romaji": "senshi"
+    "romaji": "senshu"
   },
   {
     "english": "election",
     "kana": "せんきょ",
     "furigana": "選挙[せんきょ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "senki"
+    "romaji": "senkyo"
   },
   {
     "english": "candidate, candidacy",
@@ -9216,14 +9216,14 @@
     "kana": "しゅしょう",
     "furigana": "首相[しゅしょう]",
     "wordgroup": "Noun",
-    "romaji": "shishiu"
+    "romaji": "shushou"
   },
   {
     "english": "capital",
     "kana": "しゅと",
     "furigana": "首都[しゅと]",
     "wordgroup": "Noun",
-    "romaji": "shito"
+    "romaji": "shuto"
   },
   {
     "english": "reform",
@@ -9335,7 +9335,7 @@
     "kana": "じしょ",
     "furigana": "辞書[じしょ]",
     "wordgroup": "Noun",
-    "romaji": "jishi"
+    "romaji": "jisho"
   },
   {
     "english": "commute",
@@ -9363,7 +9363,7 @@
     "kana": "じむしょ",
     "furigana": "事務所[じむしょ]",
     "wordgroup": "Noun",
-    "romaji": "jimushi"
+    "romaji": "jimusho"
   },
   {
     "english": "office",
@@ -9377,7 +9377,7 @@
     "kana": "じゅうらい",
     "furigana": "従来[じゅうらい]",
     "wordgroup": "Noun",
-    "romaji": "jiurai"
+    "romaji": "juurai"
   },
   {
     "english": "handbag",
@@ -9426,21 +9426,21 @@
     "kana": "きゅうりょう",
     "furigana": "給料[きゅうりょう]",
     "wordgroup": "Noun",
-    "romaji": "kiuriu"
+    "romaji": "kyuuryou"
   },
   {
     "english": "graduation",
     "kana": "そつぎょう",
     "furigana": "卒業[そつぎょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "sotsugiu"
+    "romaji": "sotsugyou"
   },
   {
     "english": "finding employment",
     "kana": "しゅうしょく",
     "furigana": "就職[しゅうしょく]",
     "wordgroup": "Verbal Noun",
-    "romaji": "shiushiku"
+    "romaji": "shuushoku"
   },
   {
     "english": "discharge from a hospital",
@@ -9468,7 +9468,7 @@
     "kana": "こうしょう",
     "furigana": "交渉[こうしょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "koushiu"
+    "romaji": "koushou"
   },
   {
     "english": "event, incident, case",
@@ -9482,7 +9482,7 @@
     "kana": "じょうけん",
     "furigana": "条件[じょうけん]",
     "wordgroup": "Noun",
-    "romaji": "jiuken"
+    "romaji": "jouken"
   },
   {
     "english": "air conditioning, cooler",
@@ -9545,14 +9545,14 @@
     "kana": "ひょうか",
     "furigana": "評価[ひょうか]",
     "wordgroup": "Verbal Noun",
-    "romaji": "hiuka"
+    "romaji": "hyouka"
   },
   {
     "english": "target, subject",
     "kana": "たいしょう",
     "furigana": "対象[たいしょう]",
     "wordgroup": "Noun",
-    "romaji": "taishiu"
+    "romaji": "taishou"
   },
   {
     "english": "salad",
@@ -9566,14 +9566,14 @@
     "kana": "こしょう",
     "furigana": "故障[こしょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "koshiu"
+    "romaji": "koshou"
   },
   {
     "english": "repair, mending",
     "kana": "しゅうり",
     "furigana": "修理[しゅうり]",
     "wordgroup": "Verbal Noun",
-    "romaji": "shiuri"
+    "romaji": "shuuri"
   },
   {
     "english": "change, transfer (trainなど)",
@@ -9657,7 +9657,7 @@
     "kana": "きゅうきゅうしゃ",
     "furigana": "救急車[きゅうきゅうしゃ]",
     "wordgroup": "Noun",
-    "romaji": "kiukiushi"
+    "romaji": "kyuukyuusha"
   },
   {
     "english": "ramen (Chinese noodles)",
@@ -9678,7 +9678,7 @@
     "kana": "りっぱ",
     "furigana": "立派[りっぱ]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "ripa"
+    "romaji": "rippa"
   },
   {
     "english": "police",
@@ -9748,7 +9748,7 @@
     "kana": "きょうそう",
     "furigana": "競争[きょうそう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "kiusou"
+    "romaji": "kyousou"
   },
   {
     "english": "be crowded, be congested",
@@ -9762,7 +9762,7 @@
     "kana": "だいとうりょう",
     "furigana": "大統領[だいとうりょう]",
     "wordgroup": "Noun",
-    "romaji": "daitouriu"
+    "romaji": "daitouryou"
   },
   {
     "english": "shower",
@@ -9888,7 +9888,7 @@
     "kana": "せんめんじょ",
     "furigana": "洗面所[せんめんじょ]",
     "wordgroup": "Noun",
-    "romaji": "senmenji"
+    "romaji": "senmenjo"
   },
   {
     "english": "oil",
@@ -10021,7 +10021,7 @@
     "kana": "えいきょう",
     "furigana": "影響[えいきょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "eikiu"
+    "romaji": "eikyou"
   },
   {
     "english": "shine, emit light",
@@ -10063,14 +10063,14 @@
     "kana": "ちきゅう",
     "furigana": "地球[ちきゅう]",
     "wordgroup": "Noun",
-    "romaji": "chikiu"
+    "romaji": "chikyuu"
   },
   {
     "english": "baseball",
     "kana": "やきゅう",
     "furigana": "野球[やきゅう]",
     "wordgroup": "Noun",
-    "romaji": "yakiu"
+    "romaji": "yakyuu"
   },
   {
     "english": "cloud",
@@ -10133,7 +10133,7 @@
     "kana": "じんじゃ",
     "furigana": "神社[じんじゃ]",
     "wordgroup": "Noun",
-    "romaji": "jinji"
+    "romaji": "jinja"
   },
   {
     "english": "secret, privacy",
@@ -10266,7 +10266,7 @@
     "kana": "ていしゃ",
     "furigana": "停車[ていしゃ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "teishi"
+    "romaji": "teisha"
   },
   {
     "english": "bus stop",
@@ -10280,7 +10280,7 @@
     "kana": "しゅうへん",
     "furigana": "周辺[しゅうへん]",
     "wordgroup": "Noun",
-    "romaji": "shiuhen"
+    "romaji": "shuuhen"
   },
   {
     "english": "neighboring house, next seat",
@@ -10406,7 +10406,7 @@
     "kana": "しょこく",
     "furigana": "諸国[しょこく]",
     "wordgroup": "Noun",
-    "romaji": "shikoku"
+    "romaji": "shokoku"
   },
   {
     "english": "green",
@@ -10427,7 +10427,7 @@
     "kana": "ゆにゅう",
     "furigana": "輸入[ゆにゅう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "yuniu"
+    "romaji": "yunyuu"
   },
   {
     "english": "ballpoint pen",
@@ -10441,7 +10441,7 @@
     "kana": "ゆしゅつ",
     "furigana": "輸出[ゆしゅつ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "yushitsu"
+    "romaji": "yushutsu"
   },
   {
     "english": "ring",
@@ -10462,7 +10462,7 @@
     "kana": "ふくしゅう",
     "furigana": "復習[ふくしゅう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "fukushiu"
+    "romaji": "fukushuu"
   },
   {
     "english": "watermelon",
@@ -10483,14 +10483,14 @@
     "kana": "りゅうがく",
     "furigana": "留学[りゅうがく]",
     "wordgroup": "Verbal Noun",
-    "romaji": "riugaku"
+    "romaji": "ryuugaku"
   },
   {
     "english": "stop, station",
     "kana": "ていりゅうじょ",
     "furigana": "停留所[ていりゅうじょ]",
     "wordgroup": "Noun",
-    "romaji": "teiriuji"
+    "romaji": "teiryuujo"
   },
   {
     "english": "registered mail",
@@ -10525,7 +10525,7 @@
     "kana": "じゅうたく",
     "furigana": "住宅[じゅうたく]",
     "wordgroup": "Noun",
-    "romaji": "jiutaku"
+    "romaji": "juutaku"
   },
   {
     "english": "one's house, one's home",
@@ -10574,7 +10574,7 @@
     "kana": "どっち",
     "furigana": "どっち",
     "wordgroup": "Noun",
-    "romaji": "dochi"
+    "romaji": "docchi"
   },
   {
     "english": "free time, spare time",
@@ -10588,21 +10588,21 @@
     "kana": "しゅみ",
     "furigana": "趣味[しゅみ]",
     "wordgroup": "Noun",
-    "romaji": "shimi"
+    "romaji": "shumi"
   },
   {
     "english": "both",
     "kana": "りょうほう",
     "furigana": "両方[りょうほう]",
     "wordgroup": "Noun",
-    "romaji": "riuhou"
+    "romaji": "ryouhou"
   },
   {
     "english": "exchanging currency, break (a 1万 note)",
     "kana": "りょうがえ",
     "furigana": "両替[りょうがえ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "riugae"
+    "romaji": "ryougae"
   },
   {
     "english": "basketball",
@@ -10616,7 +10616,7 @@
     "kana": "りょうしん",
     "furigana": "両親[りょうしん]",
     "wordgroup": "Noun",
-    "romaji": "riushin"
+    "romaji": "ryoushin"
   },
   {
     "english": "one-way",
@@ -10693,14 +10693,14 @@
     "kana": "しゅうかんし",
     "furigana": "週刊誌[しゅうかんし]",
     "wordgroup": "Noun",
-    "romaji": "shiukanshi"
+    "romaji": "shuukanshi"
   },
   {
     "english": "morning edition",
     "kana": "ちょうかん",
     "furigana": "朝刊[ちょうかん]",
     "wordgroup": "Noun",
-    "romaji": "chiukan"
+    "romaji": "choukan"
   },
   {
     "english": "evening edition",
@@ -11050,7 +11050,7 @@
     "kana": "のうぎょう",
     "furigana": "農業[のうぎょう]",
     "wordgroup": "Noun",
-    "romaji": "nougiu"
+    "romaji": "nougyou"
   },
   {
     "english": "thick, concentrated, dark-colored",
@@ -11113,7 +11113,7 @@
     "kana": "ひっこす",
     "furigana": "引[ひ]っ 越[こ]す",
     "wordgroup": "Verb",
-    "romaji": "hikosu"
+    "romaji": "hikkosu"
   },
   {
     "english": "go over, go across, go beyond",
@@ -11127,7 +11127,7 @@
     "kana": "ひっこし",
     "furigana": "引[ひ]っ 越[こ]し",
     "wordgroup": "Verbal Noun",
-    "romaji": "hikoshi"
+    "romaji": "hikkoshi"
   },
   {
     "english": "cassette tape",
@@ -11148,7 +11148,7 @@
     "kana": "じょうしょう",
     "furigana": "上昇[じょうしょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "jiushiu"
+    "romaji": "joushou"
   },
   {
     "english": "ticket barrier",
@@ -11190,7 +11190,7 @@
     "kana": "ちゅうしゃ",
     "furigana": "注射[ちゅうしゃ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "chiushi"
+    "romaji": "chuusha"
   },
   {
     "english": "degree, extent",
@@ -11218,14 +11218,14 @@
     "kana": "どうにゅう",
     "furigana": "導入[どうにゅう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "douniu"
+    "romaji": "dounyuu"
   },
   {
     "english": "<!--anki-->effort,&nbsp;endeavor",
     "kana": "どりょく",
     "furigana": "努力[どりょく]",
     "wordgroup": "Verbal Noun",
-    "romaji": "doriku"
+    "romaji": "doryoku"
   },
   {
     "english": "get angry, scold",
@@ -11260,14 +11260,14 @@
     "kana": "しょり",
     "furigana": "処理[しょり]",
     "wordgroup": "Verbal Noun",
-    "romaji": "shiri"
+    "romaji": "shori"
   },
   {
     "english": "introduction, presentation",
     "kana": "しょうかい",
     "furigana": "紹介[しょうかい]",
     "wordgroup": "Verbal Noun",
-    "romaji": "shiukai"
+    "romaji": "shoukai"
   },
   {
     "english": "slippers",
@@ -11288,7 +11288,7 @@
     "kana": "しょうたい",
     "furigana": "招待[しょうたい]",
     "wordgroup": "Verbal Noun",
-    "romaji": "shiutai"
+    "romaji": "shoutai"
   },
   {
     "english": "husband and wife, married couple",
@@ -11386,14 +11386,14 @@
     "kana": "たんじょうび",
     "furigana": "誕生日[たんじょうび]",
     "wordgroup": "Noun",
-    "romaji": "tanjiubi"
+    "romaji": "tanjoubi"
   },
   {
     "english": "holiday, festival day",
     "kana": "しゅくじつ",
     "furigana": "祝日[しゅくじつ]",
     "wordgroup": "Noun",
-    "romaji": "shikujitsu"
+    "romaji": "shukujitsu"
   },
   {
     "english": "celebrate",
@@ -11470,7 +11470,7 @@
     "kana": "かんじゃ",
     "furigana": "患者[かんじゃ]",
     "wordgroup": "Noun",
-    "romaji": "kanji"
+    "romaji": "kanja"
   },
   {
     "english": "express (opinion), state, mention",
@@ -11491,7 +11491,7 @@
     "kana": "うったえる",
     "furigana": "訴[うった]える",
     "wordgroup": "Verb",
-    "romaji": "utaeru"
+    "romaji": "uttaeru"
   },
   {
     "english": "hesitate, get lost, be unable to decide",
@@ -11561,7 +11561,7 @@
     "kana": "ちょきん",
     "furigana": "貯金[ちょきん]",
     "wordgroup": "Verbal Noun",
-    "romaji": "chikin"
+    "romaji": "chokin"
   },
   {
     "english": "deposit, entrust",
@@ -11813,7 +11813,7 @@
     "kana": "ふきゅう",
     "furigana": "普及[ふきゅう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "fukiu"
+    "romaji": "fukyuu"
   },
   {
     "english": "stomach",
@@ -11953,7 +11953,7 @@
     "kana": "さらいしゅう",
     "furigana": "再来週[さらいしゅう]",
     "wordgroup": "Noun",
-    "romaji": "saraishiu"
+    "romaji": "saraishuu"
   },
   {
     "english": "broadcasting",
@@ -12023,7 +12023,7 @@
     "kana": "びじゅつかん",
     "furigana": "美術館[びじゅつかん]",
     "wordgroup": "Noun",
-    "romaji": "bijitsukan"
+    "romaji": "bijutsukan"
   },
   {
     "english": "beautiful woman",
@@ -12065,7 +12065,7 @@
     "kana": "とくちょう",
     "furigana": "特徴[とくちょう]",
     "wordgroup": "Noun",
-    "romaji": "tokuchiu"
+    "romaji": "tokuchou"
   },
   {
     "english": "forgive, permit",
@@ -12086,21 +12086,21 @@
     "kana": "めんきょしょう",
     "furigana": "免許証[めんきょしょう]",
     "wordgroup": "Noun",
-    "romaji": "menkishiu"
+    "romaji": "menkyoshou"
   },
   {
     "english": "teacher, instructor",
     "kana": "きょうし",
     "furigana": "教師[きょうし]",
     "wordgroup": "Noun",
-    "romaji": "kiushi"
+    "romaji": "kyoushi"
   },
   {
     "english": "professor",
     "kana": "きょうじゅ",
     "furigana": "教授[きょうじゅ]",
     "wordgroup": "Noun",
-    "romaji": "kiuji"
+    "romaji": "kyouju"
   },
   {
     "english": "convey, tell (sb) that, let (sb) know",
@@ -12149,7 +12149,7 @@
     "kana": "そっち",
     "furigana": "そっち",
     "wordgroup": "Noun",
-    "romaji": "sochi"
+    "romaji": "socchi"
   },
   {
     "english": "egg",
@@ -12177,7 +12177,7 @@
     "kana": "ちゅうしゃじょう",
     "furigana": "駐車場[ちゅうしゃじょう]",
     "wordgroup": "Noun",
-    "romaji": "chiushijiu"
+    "romaji": "chuushajou"
   },
   {
     "english": "table tennis, ping pong",
@@ -12261,7 +12261,7 @@
     "kana": "じゅうどう",
     "furigana": "柔道[じゅうどう]",
     "wordgroup": "Noun",
-    "romaji": "jiudou"
+    "romaji": "juudou"
   },
   {
     "english": "soft",
@@ -12282,7 +12282,7 @@
     "kana": "しゅちょう",
     "furigana": "主張[しゅちょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "shichiu"
+    "romaji": "shuchou"
   },
   {
     "english": "raincoat",
@@ -12296,7 +12296,7 @@
     "kana": "ひっぱる",
     "furigana": "引[ひ]っ 張[ぱ]る",
     "wordgroup": "Verb",
-    "romaji": "hiparu"
+    "romaji": "hipparu"
   },
   {
     "english": "come to the end of (street), run into (st)",
@@ -12366,14 +12366,14 @@
     "kana": "ぜったいに",
     "furigana": "絶対[ぜったい]に",
     "wordgroup": "Adverb",
-    "romaji": "zetaini"
+    "romaji": "zettaini"
   },
   {
     "english": "fire truck",
     "kana": "しょうぼうしゃ",
     "furigana": "消防車[しょうぼうしゃ]",
     "wordgroup": "Noun",
-    "romaji": "shiuboushi"
+    "romaji": "shoubousha"
   },
   {
     "english": "dislike, have a dislike for",
@@ -12604,7 +12604,7 @@
     "kana": "あっち",
     "furigana": "あっち",
     "wordgroup": "Noun",
-    "romaji": "achi"
+    "romaji": "acchi"
   },
   {
     "english": "washing machine",
@@ -12632,7 +12632,7 @@
     "kana": "きっさてん",
     "furigana": "喫茶店[きっさてん]",
     "wordgroup": "Noun",
-    "romaji": "kisaten"
+    "romaji": "kissaten"
   },
   {
     "english": "like that",
@@ -12653,21 +12653,21 @@
     "kana": "いっしょうけんめい",
     "furigana": "一生懸命[いっしょうけんめい]",
     "wordgroup": "Adverb",
-    "romaji": "ishiukenmei"
+    "romaji": "isshoukenmei"
   },
   {
     "english": "<div>break (from work, study, etc.)</div>",
     "kana": "きゅうけい",
     "furigana": "休憩[きゅうけい]",
     "wordgroup": "Verbal Noun",
-    "romaji": "kiukei"
+    "romaji": "kyuukei"
   },
   {
     "english": "ceiling",
     "kana": "てんじょう",
     "furigana": "天井[てんじょう]",
     "wordgroup": "Noun",
-    "romaji": "tenjiu"
+    "romaji": "tenjou"
   },
   {
     "english": "mischief, prank",
@@ -12681,14 +12681,14 @@
     "kana": "なっとう",
     "furigana": "納豆[なっとう]",
     "wordgroup": "Noun",
-    "romaji": "natou"
+    "romaji": "nattou"
   },
   {
     "english": "makeup, put on makeup",
     "kana": "けしょう",
     "furigana": "化粧[けしょう]",
     "wordgroup": "Verbal Noun",
-    "romaji": "keshiu"
+    "romaji": "keshou"
   },
   {
     "english": "field, farm, garden",
@@ -13010,14 +13010,14 @@
     "kana": "てちょう",
     "furigana": "手帳[てちょう]",
     "wordgroup": "Noun",
-    "romaji": "techiu"
+    "romaji": "techou"
   },
   {
     "english": "telephone book",
     "kana": "でんわちょう",
     "furigana": "電話帳[でんわちょう]",
     "wordgroup": "Noun",
-    "romaji": "denwachiu"
+    "romaji": "denwachou"
   },
   {
     "english": "potato",
@@ -13031,7 +13031,7 @@
     "kana": "ぎゅうにゅう",
     "furigana": "牛乳[ぎゅうにゅう]",
     "wordgroup": "Noun",
-    "romaji": "giuniu"
+    "romaji": "gyuunyuu"
   },
   {
     "english": "entrance, doorway",
@@ -13108,7 +13108,7 @@
     "kana": "はくしゅ",
     "furigana": "拍手[はくしゅ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "hakushi"
+    "romaji": "hakushu"
   },
   {
     "english": "cleaning",
@@ -13129,7 +13129,7 @@
     "kana": "ちょうど",
     "furigana": "ちょうど",
     "wordgroup": "Adverb",
-    "romaji": "chiudo"
+    "romaji": "choudo"
   },
   {
     "english": "vacuum cleaner",
@@ -13150,7 +13150,7 @@
     "kana": "あくしゅ",
     "furigana": "握手[あくしゅ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "akushi"
+    "romaji": "akushu"
   },
   {
     "english": "welcome, go to meet",
@@ -13164,7 +13164,7 @@
     "kana": "ちょっと",
     "furigana": "ちょっと",
     "wordgroup": "Adverb",
-    "romaji": "chito"
+    "romaji": "chotto"
   },
   {
     "english": "policeman",
@@ -13192,7 +13192,7 @@
     "kana": "じょうだん",
     "furigana": "冗談[じょうだん]",
     "wordgroup": "Noun",
-    "romaji": "jiudan"
+    "romaji": "joudan"
   },
   {
     "english": "be on, switched on",
@@ -13318,7 +13318,7 @@
     "kana": "しょうぼうしょ",
     "furigana": "消防署[しょうぼうしょ]",
     "wordgroup": "Noun",
-    "romaji": "shiuboushi"
+    "romaji": "shoubousho"
   },
   {
     "english": "inquire, search for",
@@ -13528,7 +13528,7 @@
     "kana": "しょくどう",
     "furigana": "食堂[しょくどう]",
     "wordgroup": "Noun",
-    "romaji": "shikudou"
+    "romaji": "shokudou"
   },
   {
     "english": "cat, feline",
@@ -13542,7 +13542,7 @@
     "kana": "ぶんしょう",
     "furigana": "文章[ぶんしょう]",
     "wordgroup": "Noun",
-    "romaji": "bunshiu"
+    "romaji": "bunshou"
   },
   {
     "english": "kettle",
@@ -13556,7 +13556,7 @@
     "kana": "じょうぶ",
     "furigana": "丈夫[じょうぶ]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "jiubu"
+    "romaji": "joubu"
   },
   {
     "english": "again, also, or",
@@ -13605,7 +13605,7 @@
     "kana": "じゃま",
     "furigana": "邪魔[じゃま]",
     "wordgroup": "Adjectival Noun",
-    "romaji": "jima"
+    "romaji": "jama"
   },
   {
     "english": "remedy for a cold",
@@ -13640,7 +13640,7 @@
     "kana": "しょうわ",
     "furigana": "昭和[しょうわ]",
     "wordgroup": "Noun",
-    "romaji": "shiuwa"
+    "romaji": "shouwa"
   },
   {
     "english": "purple",
@@ -13661,7 +13661,7 @@
     "kana": "こうちゃ",
     "furigana": "紅茶[こうちゃ]",
     "wordgroup": "Noun",
-    "romaji": "kouchi"
+    "romaji": "koucha"
   },
   {
     "english": "rainy season",
@@ -13703,7 +13703,7 @@
     "kana": "えんりょ",
     "furigana": "遠慮[えんりょ]",
     "wordgroup": "Verbal Noun",
-    "romaji": "enri"
+    "romaji": "enryo"
   },
   {
     "english": "scold, tell off, reprimand",
@@ -13724,14 +13724,14 @@
     "kana": "おじょうさん",
     "furigana": "おじょうさん",
     "wordgroup": "Noun",
-    "romaji": "ojiusan"
+    "romaji": "ojousan"
   },
   {
     "english": "New Year's card",
     "kana": "ねんがじょう",
     "furigana": "年賀状[ねんがじょう]",
     "wordgroup": "Noun",
-    "romaji": "nengajiu"
+    "romaji": "nengajou"
   },
   {
     "english": "lively, exciting",
@@ -13962,7 +13962,7 @@
     "kana": "しょうゆ",
     "furigana": "醤油[しょうゆ]",
     "wordgroup": "Noun",
-    "romaji": "shiuyu"
+    "romaji": "shouyu"
   },
   {
     "english": "scissors",
@@ -13997,7 +13997,7 @@
     "kana": "せっけん",
     "furigana": "石鹸[せっけん]",
     "wordgroup": "Noun",
-    "romaji": "seken"
+    "romaji": "sekken"
   },
   {
     "english": "difference",
@@ -14046,6 +14046,6 @@
     "kana": "ちょうだい",
     "furigana": "頂戴[ちょうだい]",
     "wordgroup": "Verbal Noun",
-    "romaji": "chiudai"
+    "romaji": "choudai"
   }
 ]

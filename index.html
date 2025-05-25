@@ -189,7 +189,7 @@ function updateCardUI(skipAnimation = false) {
   const v = cards[current];
   front.textContent = v.english || "";
   back.innerHTML = `
-  <span style="font-size: 22px;">${v.kanjiandkana || ""}</span><br>
+  <span style="font-size: 22px;">${v.kanjiandkana || ""}</span>
   <span style="font-size: 22px;">${v.kana || ""}</span><br>
   <span style="font-size: 11px;">${v.romaji || ""}</span>
 `;

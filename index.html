@@ -81,7 +81,6 @@
       <div class="flex flex-wrap justify-center gap-2">
         <!-- <button onclick="selectCategory('counters')" class="default-button px-4 py-2 rounded">Counters</button> -->
         <!-- <button onclick="selectCategory('kana')" class="default-button px-4 py-2 rounded">Kana</button> -->
-        <button onclick="selectCategory('core')" class="default-button px-4 py-2 rounded">2k Core</button>
         <button onclick="selectCategory('n5')" class="default-button px-4 py-2 rounded">N5</button>
         <button onclick="selectCategory('n4')" class="default-button px-4 py-2 rounded">N4</button>
         <button onclick="selectCategory('n3')" class="default-button px-4 py-2 rounded">N3</button>
@@ -188,12 +187,11 @@
 
     const LESSON_SIZE = 20;
     const ALL_WORDS_FILE = {
-      core: "core/2k_core.json",
-      n5: "n5/n5_all.json",
-      n4: "n4/n4_all.json",
-      n3: "n3/n3_all.json",
-      n2: "n2/n2_all.json",
-      n1: "n1/n1_all.json"
+      n5: "word files/n5.json",
+      n4: "word files/n4.json",
+      n3: "word files/n3.json",
+      n2: "word files/n2.json",
+      n1: "word files/n1.json"
     };
 
     let settings = { direction: "en-jp", showKanji: true, showKana: true, showRomaji: true, kanjiPractice: false };
@@ -313,7 +311,7 @@
       const lessons = getLessons(category);
       const learned = getLearnedSet(category);
 
-      const title = category === "core" ? "2K Core" : category.toUpperCase();
+      const title = category.toUpperCase();
       document.getElementById("lessonBoardTitle").textContent = `${title} Progress`;
 
       const totalLearned = words.filter(w => learned.has(w._idx)).length;

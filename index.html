@@ -37,13 +37,12 @@
   .dark .flip-card-back { background-color: #334155; color: white; }
   .lesson-complete { background-color: #86efac; color: #111827; }
   .dark .lesson-complete { background-color: #15803d; color: #f0fdf4; }
-  .got-it-button { background-color: #22c55e; color: #f5f5f5; }
-  .got-it-button:hover { background-color: #16a34a; }
 </style>
 </head>
 <body class="body-main min-h-screen flex items-center justify-center p-4">
   <div class="overlay p-6 rounded-xl shadow-lg w-full max-w-md text-center space-y-6">
     <div class="flex justify-between items-center">
+      <button onclick="openSettings()" title="Settings">⚙️</button>
       <h1 class="text-xl font-bold">Study Japanese</h1>
       <div class="flex gap-2">
         <button onclick="goHome()">🏠</button>
@@ -90,10 +89,11 @@
           <div class="flip-card-back" id="cardBack"></div>
         </div>
       </div>
-      <div class="flex justify-center gap-3">
-        <button onclick="nextCard()" class="px-6 py-2 bg-purple-500 text-white rounded hover:bg-purple-600">Next</button>
-        <button onclick="markGotIt()" class="got-it-button px-6 py-2 rounded">Got it! ✓</button>
-      </div>
+      <label class="flex items-center justify-center gap-2 text-sm font-medium cursor-pointer select-none">
+        <input type="checkbox" id="learnedToggle" onchange="toggleLearned()" class="w-5 h-5 accent-green-500">
+        <span>Mark as learned</span>
+      </label>
+      <button onclick="nextCard()" class="px-6 py-2 bg-purple-500 text-white rounded hover:bg-purple-600">Next</button>
       <button onclick="backToLessons()" class="text-sm underline text-gray-500 hover:text-gray-700">← Back to Lessons</button>
     </div>
 
@@ -105,10 +105,61 @@
     </div>
   </div>
 
+  <div id="settingsOverlay" class="hidden fixed inset-0 bg-black/40 flex items-center justify-center z-50 p-4" onclick="closeSettingsOnBackdrop(event)">
+    <div class="overlay p-6 rounded-xl shadow-lg w-full max-w-sm text-left space-y-5" onclick="event.stopPropagation()">
+      <div class="flex justify-between items-center">
+        <h2 class="text-lg font-bold">Settings</h2>
+        <button onclick="closeSettings()">✕</button>
+      </div>
+
+      <div>
+        <p class="font-medium mb-2">Study Direction</p>
+        <div class="flex flex-col gap-2 text-sm">
+          <label class="flex items-center gap-2">
+            <input type="radio" name="direction" value="en-jp" onchange="updateSettings()">
+            English → Japanese
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="radio" name="direction" value="jp-en" onchange="updateSettings()">
+            Japanese → English
+          </label>
+        </div>
+      </div>
+
+      <div>
+        <p class="font-medium mb-2">Japanese Text Display</p>
+        <div class="flex flex-col gap-2 text-sm">
+          <label class="flex items-center gap-2">
+            <input type="checkbox" id="showKanji" onchange="updateSettings()">
+            Kanji + Kana
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="checkbox" id="showKana" onchange="updateSettings()">
+            Kana
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="checkbox" id="showRomaji" onchange="updateSettings()">
+            Romaji
+          </label>
+        </div>
+      </div>
+
+      <div>
+        <p class="font-medium mb-2">Kanji Practice Mode</p>
+        <label class="flex items-center gap-2 text-sm">
+          <input type="checkbox" id="kanjiPractice" onchange="updateSettings()">
+          Hide reading behind a reveal button
+        </label>
+        <p class="text-xs text-gray-500 mt-1">Shows Kanji + Kana first; tap to reveal Kana (and Romaji, if enabled).</p>
+      </div>
+    </div>
+  </div>
+
   <script>
     let cards = [], kanaList = [], current = 0, flipped = false;
     let currentCategory = "";
     let categoryWordsCache = {}; // category -> full word list with stable _idx attached
+    let kanjiRevealed = false; // whether the reading has been revealed for the current card in Kanji Practice Mode
 
     const LESSON_SIZE = 20;
     const ALL_WORDS_FILE = {
@@ -119,6 +170,51 @@
       n2: "n2/n2_all.json",
       n1: "n1/n1_all.json"
     };
+
+    let settings = { direction: "en-jp", showKanji: true, showKana: true, showRomaji: true, kanjiPractice: false };
+
+    function loadSettings() {
+      try {
+        const raw = localStorage.getItem("jpflash_settings");
+        if (raw) settings = { ...settings, ...JSON.parse(raw) };
+      } catch (e) {}
+    }
+
+    function saveSettings() {
+      localStorage.setItem("jpflash_settings", JSON.stringify(settings));
+    }
+
+    function openSettings() {
+      document.querySelector(`input[name="direction"][value="${settings.direction}"]`).checked = true;
+      document.getElementById("showKanji").checked = settings.showKanji;
+      document.getElementById("showKana").checked = settings.showKana;
+      document.getElementById("showRomaji").checked = settings.showRomaji;
+      document.getElementById("kanjiPractice").checked = settings.kanjiPractice;
+      document.getElementById("settingsOverlay").classList.remove("hidden");
+    }
+
+    function closeSettings() {
+      document.getElementById("settingsOverlay").classList.add("hidden");
+    }
+
+    function closeSettingsOnBackdrop(e) {
+      if (e.target.id === "settingsOverlay") closeSettings();
+    }
+
+    function updateSettings() {
+      settings.direction = document.querySelector('input[name="direction"]:checked').value;
+      settings.showKanji = document.getElementById("showKanji").checked;
+      settings.showKana = document.getElementById("showKana").checked;
+      settings.showRomaji = document.getElementById("showRomaji").checked;
+      settings.kanjiPractice = document.getElementById("kanjiPractice").checked;
+      saveSettings();
+      kanjiRevealed = false;
+      if (cards.length && !document.getElementById("flashcardPanel").classList.contains("hidden")) {
+        updateCardUI(true);
+      }
+    }
+
+    loadSettings();
 
     function toggleDarkMode() {
       document.documentElement.classList.toggle("dark");
@@ -220,17 +316,23 @@
       cards = [...lesson].sort(() => Math.random() - 0.5);
       current = 0;
       flipped = false;
+      kanjiRevealed = false;
       updateCardUI(true);
       document.getElementById("lessonBoard").classList.add("hidden");
       document.getElementById("flashcardPanel").classList.remove("hidden");
     }
 
-    function markGotIt() {
+    function toggleLearned() {
       const v = cards[current];
       const learned = getLearnedSet(currentCategory);
-      learned.add(v._idx);
+      const checked = document.getElementById("learnedToggle").checked;
+      if (checked) {
+        learned.add(v._idx);
+      } else {
+        learned.delete(v._idx);
+      }
       saveLearnedSet(currentCategory, learned);
-      nextCard();
+      updateLessonProgressLabel();
     }
 
     function backToLessons() {
@@ -250,18 +352,55 @@
       updateCardUI();
     }
 
+    function toggleKanjiReading(e) {
+      e.stopPropagation();
+      kanjiRevealed = !kanjiRevealed;
+      updateCardUI(true);
+    }
+
+    function buildJapaneseHTML(v) {
+      const hasKanjiLine = settings.showKanji && v.kanjiandkana;
+      const readingParts = [];
+      if (settings.showKana && v.kana) {
+        readingParts.push(`<span style="font-size: 22px;">${v.kana}</span>`);
+      }
+      if (settings.showRomaji && v.romaji) {
+        readingParts.push(`<span style="font-size: 11px;">${v.romaji}</span>`);
+      }
+
+      if (settings.kanjiPractice && hasKanjiLine && readingParts.length > 0) {
+        const kanjiSpan = `<span style="font-size: 22px;">${v.kanjiandkana}</span>`;
+        const toggleBtn = `<button type="button" onclick="toggleKanjiReading(event)" class="default-button mt-1 px-3 py-1 text-xs rounded">${kanjiRevealed ? "Hide Reading" : "Show Reading"}</button>`;
+        return kanjiRevealed
+          ? [kanjiSpan, toggleBtn, ...readingParts].join("<br>")
+          : [kanjiSpan, toggleBtn].join("<br>");
+      }
+
+      const parts = [];
+      if (hasKanjiLine) parts.push(`<span style="font-size: 22px;">${v.kanjiandkana}</span>`);
+      parts.push(...readingParts);
+      return parts.join("<br>");
+    }
+
     function updateCardUI(skipAnimation = false) {
       const inner = document.getElementById("cardInner");
       const front = document.getElementById("cardFront");
       const back = document.getElementById("cardBack");
       const v = cards[current];
 
-      front.textContent = v.english || "";
-      back.innerHTML = `
-        <span style="font-size: 22px;">${v.kanjiandkana || ""}</span>
-        <span style="font-size: 22px;">${v.kana || ""}</span><br>
-        <span style="font-size: 11px;">${v.romaji || ""}</span>
-      `;
+      const englishHTML = v.english || "";
+      const japaneseHTML = buildJapaneseHTML(v);
+
+      if (settings.direction === "jp-en") {
+        front.innerHTML = japaneseHTML;
+        back.innerHTML = englishHTML;
+      } else {
+        front.innerHTML = englishHTML;
+        back.innerHTML = japaneseHTML;
+      }
+
+      const learned = getLearnedSet(currentCategory);
+      document.getElementById("learnedToggle").checked = learned.has(v._idx);
 
       inner.style.transition = skipAnimation ? "none" : "";
       document.querySelector(".flip-card").classList.toggle("flip", flipped);
@@ -272,6 +411,7 @@
     function nextCard() {
       current = (current + 1) % cards.length;
       flipped = false;
+      kanjiRevealed = false;
       updateCardUI(true);
     }
 

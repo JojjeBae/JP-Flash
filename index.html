@@ -99,7 +99,7 @@
       <p class="text-lg font-medium">What do you want to practice?</p>
       <div class="flex flex-wrap justify-center gap-2">
         <!-- <button onclick="selectCategory('counters')" class="default-button px-4 py-2 rounded">Counters</button> -->
-        <button onclick="selectCategory('kana')" class="default-button px-4 py-2 rounded">Kana</button> 
+        <button onclick="selectCategory('kana')" class="default-button px-4 py-2 rounded">Kana</button>
         <!-- <button onclick="selectCategory('core')" class="default-button px-4 py-2 rounded">2k Core</button> -->
         <button onclick="selectCategory('n5')" class="default-button px-4 py-2 rounded">N5</button>
         <button onclick="selectCategory('n4')" class="default-button px-4 py-2 rounded">N4</button>
@@ -458,35 +458,55 @@
       return parts.join("<br>");
     }
 
-    function buildReadingOnlyHTML(kana, romaji, mainSize, romajiSize) {
-      const parts = [];
-      if (settings.showKana && kana) parts.push(`<span style="font-size: ${mainSize}px;">${kana}</span>`);
-      if (settings.showRomaji && romaji) parts.push(`<span style="font-size: ${romajiSize}px;">${romaji}</span>`);
-      return parts.join("<br>");
+    // Builds {kanjiRow, kanaRow, romajiRow} for a single word, so the caller can
+    // decide layout (plain display vs. Kanji Practice Mode's hide/reveal split).
+    function buildRowsSingle(word, mainSize = 22, romajiSize = 11) {
+      const noDistinctKanji = !word.kanjiandkana || word.kanjiandkana === word.kana;
+      let kanjiRow = null, kanaRow = null, romajiRow = null;
+      if (noDistinctKanji) {
+        if ((settings.showKanji || settings.showKana) && word.kana) {
+          kanaRow = `<span style="font-size: ${mainSize}px;">${word.kana}</span>`;
+        }
+      } else {
+        if (settings.showKanji) kanjiRow = `<span style="font-size: ${mainSize}px;">${word.kanjiandkana}</span>`;
+        if (settings.showKana && word.kana) kanaRow = `<span style="font-size: ${mainSize}px;">${word.kana}</span>`;
+      }
+      if (settings.showRomaji && word.romaji) romajiRow = `<span style="font-size: ${romajiSize}px;">${word.romaji}</span>`;
+      return { kanjiRow, kanaRow, romajiRow, noDistinctKanji };
     }
 
-    function buildJapaneseHTML(v) {
-      const kanjiandkana = v.kanjiandkana, kana = v.kana;
-      const noDistinctKanji = !kanjiandkana || kanjiandkana === kana;
-
+    // Same, but pairs two forms (e.g. plain / polite) onto a single "A / B" row per tier.
+    function buildRowsPaired(wordA, wordB, mainSize = 20, romajiSize = 10) {
+      const noDistinctKanji = !wordA.kanjiandkana || wordA.kanjiandkana === wordA.kana;
+      let kanjiRow = null, kanaRow = null, romajiRow = null;
       if (noDistinctKanji) {
-        return buildTextBlockHTML(kanjiandkana, kana, v.romaji, 22, 11);
+        if (settings.showKanji || settings.showKana) {
+          kanaRow = `<span style="font-size: ${mainSize}px;">${wordA.kana} / ${wordB.kana}</span>`;
+        }
+      } else {
+        if (settings.showKanji) kanjiRow = `<span style="font-size: ${mainSize}px;">${wordA.kanjiandkana} / ${wordB.kanjiandkana}</span>`;
+        if (settings.showKana) kanaRow = `<span style="font-size: ${mainSize}px;">${wordA.kana} / ${wordB.kana}</span>`;
       }
+      if (settings.showRomaji) romajiRow = `<span style="font-size: ${romajiSize}px;">${wordA.romaji} / ${wordB.romaji}</span>`;
+      return { kanjiRow, kanaRow, romajiRow, noDistinctKanji };
+    }
 
-      const hasKanjiLine = settings.showKanji;
-      const readingHTML = buildReadingOnlyHTML(kana, v.romaji, 22, 11);
-      const hasReading = (settings.showKana && kana) || (settings.showRomaji && v.romaji);
-
-      const normalParts = [];
-      if (hasKanjiLine) normalParts.push(`<span style="font-size: 22px;">${kanjiandkana}</span>`);
-      if (readingHTML) normalParts.push(readingHTML);
+    // Renders a {kanjiRow, kanaRow, romajiRow} set, applying Kanji Practice Mode's
+    // blurred reveal panel whenever there's both a kanji row and something to hide behind it.
+    function renderWithKanjiPractice(rows) {
+      const { kanjiRow, kanaRow, romajiRow, noDistinctKanji } = rows;
+      const readingParts = [kanaRow, romajiRow].filter(Boolean);
+      const readingHTML = readingParts.join("<br>");
+      const normalParts = [kanjiRow, readingHTML].filter(Boolean);
       const normalHTML = normalParts.join("<br>");
 
-      if (settings.kanjiPractice && hasKanjiLine && hasReading && !kanjiRevealed) {
-        const kanjiSpan = `<span style="font-size: 22px;">${kanjiandkana}</span>`;
+      const hasKanjiLine = !!kanjiRow;
+      const hasReading = readingParts.length > 0;
+
+      if (!noDistinctKanji && settings.kanjiPractice && hasKanjiLine && hasReading && !kanjiRevealed) {
         return `
           <div class="kanji-practice-wrap">
-            <div class="kanji-top">${kanjiSpan}</div>
+            <div class="kanji-top">${kanjiRow}</div>
             <div class="kanji-bottom">
               <div class="kanji-reading">${readingHTML}</div>
               <div class="reveal-overlay" onclick="revealKanjiReading(event)">REVEAL</div>
@@ -498,18 +518,22 @@
       return normalHTML;
     }
 
+    function buildJapaneseHTML(v) {
+      return renderWithKanjiPractice(buildRowsSingle(v));
+    }
+
     function buildVerbAwareJapaneseHTML(v) {
-      if (v.wordType !== "verb" || !v.forms || settings.verbDefaultForms === "plain") {
+      if (v.wordType !== "verb" || !v.forms) {
         return buildJapaneseHTML(v);
       }
-      if (settings.verbDefaultForms === "plainPolite") {
-        const f = v.forms.plainPolite;
-        return buildTextBlockHTML(f.kanjiandkana, f.kana, f.romaji, 22, 11);
+      if (settings.verbDefaultForms === "plain") {
+        return renderWithKanjiPractice(buildRowsSingle(v.forms.plain));
       }
-      // both
-      const plainHTML = buildTextBlockHTML(v.forms.plain.kanjiandkana, v.forms.plain.kana, v.forms.plain.romaji, 20, 10);
-      const politeHTML = buildTextBlockHTML(v.forms.plainPolite.kanjiandkana, v.forms.plainPolite.kana, v.forms.plainPolite.romaji, 16, 9);
-      return `<div>${plainHTML}</div><div style="margin-top: 10px; opacity: 0.85;">${politeHTML}</div>`;
+      if (settings.verbDefaultForms === "plainPolite") {
+        return renderWithKanjiPractice(buildRowsSingle(v.forms.plainPolite));
+      }
+      // both: single "plain / polite" row per tier
+      return renderWithKanjiPractice(buildRowsPaired(v.forms.plain, v.forms.plainPolite));
     }
 
     const FORM_LABELS = [

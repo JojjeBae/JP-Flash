@@ -69,7 +69,7 @@
   <div class="overlay p-6 rounded-xl shadow-lg w-full max-w-md text-center space-y-6">
     <div class="flex justify-between items-center">
       <button onclick="openSettings()" title="Settings">⚙️</button>
-      <h1 class="text-xl font-bold"> </h1>
+      <h1 class="text-xl font-bold"></h1>
       <div class="flex gap-2">
         <button onclick="goHome()">🏠</button>
         <button onclick="toggleDarkMode()" id="darkToggle">☀️</button>
@@ -80,7 +80,8 @@
       <p class="text-lg font-medium">What do you want to practice?</p>
       <div class="flex flex-wrap justify-center gap-2">
         <!-- <button onclick="selectCategory('counters')" class="default-button px-4 py-2 rounded">Counters</button> -->
-        <button onclick="selectCategory('kana')" class="default-button px-4 py-2 rounded">Kana</button>
+        <button onclick="selectCategory('kana')" class="default-button px-4 py-2 rounded">Kana</button> 
+         <!-- <button onclick="selectCategory('core')" class="default-button px-4 py-2 rounded">2k Core</button> -->
         <button onclick="selectCategory('n5')" class="default-button px-4 py-2 rounded">N5</button>
         <button onclick="selectCategory('n4')" class="default-button px-4 py-2 rounded">N4</button>
         <button onclick="selectCategory('n3')" class="default-button px-4 py-2 rounded">N3</button>
@@ -187,6 +188,7 @@
 
     const LESSON_SIZE = 20;
     const ALL_WORDS_FILE = {
+      core: "core/2k_core.json",
       n5: "word files/n5.json",
       n4: "word files/n4.json",
       n3: "word files/n3.json",
@@ -311,7 +313,7 @@
       const lessons = getLessons(category);
       const learned = getLearnedSet(category);
 
-      const title = category.toUpperCase();
+      const title = category === "core" ? "2K Core" : category.toUpperCase();
       document.getElementById("lessonBoardTitle").textContent = `${title} Progress`;
 
       const totalLearned = words.filter(w => learned.has(w._idx)).length;
@@ -389,6 +391,20 @@
     }
 
     function buildJapaneseHTML(v) {
+      const noDistinctKanji = !v.kanjiandkana || v.kanjiandkana === v.kana;
+
+      // Words with no distinct kanji form (empty, or identical to the kana): just show the kana once.
+      if (noDistinctKanji) {
+        const parts = [];
+        if ((settings.showKanji || settings.showKana) && v.kana) {
+          parts.push(`<span style="font-size: 22px;">${v.kana}</span>`);
+        }
+        if (settings.showRomaji && v.romaji) {
+          parts.push(`<span style="font-size: 11px;">${v.romaji}</span>`);
+        }
+        return parts.join("<br>");
+      }
+
       const hasKanjiLine = settings.showKanji && v.kanjiandkana;
       const readingParts = [];
       if (settings.showKana && v.kana) {

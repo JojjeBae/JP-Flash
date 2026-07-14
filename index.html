@@ -541,9 +541,9 @@
       ["negative", "Negative"], ["negativePolite", "Neg. Polite"],
       ["past", "Past"], ["pastPolite", "Past Polite"],
       ["pastNegative", "Past Neg."], ["pastNegativePolite", "Past Neg. Polite"],
-      ["teForm", "Te-form"], ["potential", "Potential"],
-      ["potentialPolite", "Potential Polite"], ["volitional", "Volitional"],
-      ["volitionalPolite", "Vol. Polite"],
+      ["potential", "Potential"], ["potentialPolite", "Potential Polite"],
+      ["volitional", "Volitional"], ["volitionalPolite", "Vol. Polite"],
+      ["teForm", "Te-form"],
     ];
 
     function formCellHTML(label, formObj, fullWidth) {
@@ -556,7 +556,7 @@
     }
 
     function buildFormsGridHTML(forms) {
-      return FORM_LABELS.map(([key, label]) => formCellHTML(label, forms[key], key === "volitionalPolite")).join("");
+      return FORM_LABELS.map(([key, label]) => formCellHTML(label, forms[key], key === "teForm")).join("");
     }
 
     function updateFormsButtonVisibility(v) {

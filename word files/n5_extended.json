@@ -118,10 +118,30 @@
         "kana": "ひきました",
         "romaji": "hikimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "引かなかった",
+        "kana": "ひかなかった",
+        "romaji": "hikanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "引きませんでした",
+        "kana": "ひきませんでした",
+        "romaji": "hikimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "引いて",
         "kana": "ひいて",
         "romaji": "hiite"
+      },
+      "potential": {
+        "kanjiandkana": "引ける",
+        "kana": "ひける",
+        "romaji": "hikeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "引けます",
+        "kana": "ひけます",
+        "romaji": "hikemasu"
       },
       "volitional": {
         "kanjiandkana": "引こう",
@@ -182,10 +202,30 @@
         "kana": "みがきました",
         "romaji": "migakimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "磨かなかった",
+        "kana": "みがかなかった",
+        "romaji": "migakanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "磨きませんでした",
+        "kana": "みがきませんでした",
+        "romaji": "migakimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "磨いて",
         "kana": "みがいて",
         "romaji": "migaite"
+      },
+      "potential": {
+        "kanjiandkana": "磨ける",
+        "kana": "みがける",
+        "romaji": "migakeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "磨けます",
+        "kana": "みがけます",
+        "romaji": "migakemasu"
       },
       "volitional": {
         "kanjiandkana": "磨こう",
@@ -238,10 +278,30 @@
         "kana": "おしました",
         "romaji": "oshimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "押さなかった",
+        "kana": "おさなかった",
+        "romaji": "osanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "押しませんでした",
+        "kana": "おしませんでした",
+        "romaji": "oshimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "押して",
         "kana": "おして",
         "romaji": "oshite"
+      },
+      "potential": {
+        "kanjiandkana": "押せる",
+        "kana": "おせる",
+        "romaji": "oseru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "押せます",
+        "kana": "おせます",
+        "romaji": "osemasu"
       },
       "volitional": {
         "kanjiandkana": "押そう",
@@ -294,10 +354,30 @@
         "kana": "うりました",
         "romaji": "urimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "売らなかった",
+        "kana": "うらなかった",
+        "romaji": "uranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "売りませんでした",
+        "kana": "うりませんでした",
+        "romaji": "urimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "売って",
         "kana": "うって",
         "romaji": "utte"
+      },
+      "potential": {
+        "kanjiandkana": "売れる",
+        "kana": "うれる",
+        "romaji": "ureru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "売れます",
+        "kana": "うれます",
+        "romaji": "uremasu"
       },
       "volitional": {
         "kanjiandkana": "売ろう",
@@ -358,10 +438,30 @@
         "kana": "ならびました",
         "romaji": "narabimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "並ばなかった",
+        "kana": "ならばなかった",
+        "romaji": "narabanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "並びませんでした",
+        "kana": "ならびませんでした",
+        "romaji": "narabimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "並んで",
         "kana": "ならんで",
         "romaji": "narande"
+      },
+      "potential": {
+        "kanjiandkana": "並べる",
+        "kana": "ならべる",
+        "romaji": "naraberu"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "並べます",
+        "kana": "ならべます",
+        "romaji": "narabemasu"
       },
       "volitional": {
         "kanjiandkana": "並ぼう",
@@ -478,10 +578,30 @@
         "kana": "あそびました",
         "romaji": "asobimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "遊ばなかった",
+        "kana": "あそばなかった",
+        "romaji": "asobanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "遊びませんでした",
+        "kana": "あそびませんでした",
+        "romaji": "asobimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "遊んで",
         "kana": "あそんで",
         "romaji": "asonde"
+      },
+      "potential": {
+        "kanjiandkana": "遊べる",
+        "kana": "あそべる",
+        "romaji": "asoberu"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "遊べます",
+        "kana": "あそべます",
+        "romaji": "asobemasu"
       },
       "volitional": {
         "kanjiandkana": "遊ぼう",
@@ -534,10 +654,30 @@
         "kana": "とりました",
         "romaji": "torimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "取らなかった",
+        "kana": "とらなかった",
+        "romaji": "toranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "取りませんでした",
+        "kana": "とりませんでした",
+        "romaji": "torimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "取って",
         "kana": "とって",
         "romaji": "totte"
+      },
+      "potential": {
+        "kanjiandkana": "取れる",
+        "kana": "とれる",
+        "romaji": "toreru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "取れます",
+        "kana": "とれます",
+        "romaji": "toremasu"
       },
       "volitional": {
         "kanjiandkana": "取ろう",
@@ -598,10 +738,30 @@
         "kana": "しめました",
         "romaji": "shimemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "閉めなかった",
+        "kana": "しめなかった",
+        "romaji": "shimenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "閉めませんでした",
+        "kana": "しめませんでした",
+        "romaji": "shimemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "閉めて",
         "kana": "しめて",
         "romaji": "shimete"
+      },
+      "potential": {
+        "kanjiandkana": "閉められる",
+        "kana": "しめられる",
+        "romaji": "shimerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "閉められます",
+        "kana": "しめられます",
+        "romaji": "shimeraremasu"
       },
       "volitional": {
         "kanjiandkana": "閉めよう",
@@ -702,10 +862,30 @@
         "kana": "あびました",
         "romaji": "abimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "あびなかった",
+        "kana": "あびなかった",
+        "romaji": "abinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "あびませんでした",
+        "kana": "あびませんでした",
+        "romaji": "abimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "あびて",
         "kana": "あびて",
         "romaji": "abite"
+      },
+      "potential": {
+        "kanjiandkana": "あびられる",
+        "kana": "あびられる",
+        "romaji": "abirareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "あびられます",
+        "kana": "あびられます",
+        "romaji": "abiraremasu"
       },
       "volitional": {
         "kanjiandkana": "あびよう",
@@ -774,10 +954,30 @@
         "kana": "けしました",
         "romaji": "keshimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "消さなかった",
+        "kana": "けさなかった",
+        "romaji": "kesanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "消しませんでした",
+        "kana": "けしませんでした",
+        "romaji": "keshimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "消して",
         "kana": "けして",
         "romaji": "keshite"
+      },
+      "potential": {
+        "kanjiandkana": "消せる",
+        "kana": "けせる",
+        "romaji": "keseru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "消せます",
+        "kana": "けせます",
+        "romaji": "kesemasu"
       },
       "volitional": {
         "kanjiandkana": "消そう",
@@ -878,10 +1078,30 @@
         "kana": "すわりました",
         "romaji": "suwarimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "座らなかった",
+        "kana": "すわらなかった",
+        "romaji": "suwaranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "座りませんでした",
+        "kana": "すわりませんでした",
+        "romaji": "suwarimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "座って",
         "kana": "すわって",
         "romaji": "suwatte"
+      },
+      "potential": {
+        "kanjiandkana": "座れる",
+        "kana": "すわれる",
+        "romaji": "suwareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "座れます",
+        "kana": "すわれます",
+        "romaji": "suwaremasu"
       },
       "volitional": {
         "kanjiandkana": "座ろう",
@@ -982,10 +1202,30 @@
         "kana": "ちがいました",
         "romaji": "chigaimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "違わなかった",
+        "kana": "ちがわなかった",
+        "romaji": "chigawanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "違いませんでした",
+        "kana": "ちがいませんでした",
+        "romaji": "chigaimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "違って",
         "kana": "ちがって",
         "romaji": "chigatte"
+      },
+      "potential": {
+        "kanjiandkana": "違える",
+        "kana": "ちがえる",
+        "romaji": "chigaeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "違えます",
+        "kana": "ちがえます",
+        "romaji": "chigaemasu"
       },
       "volitional": {
         "kanjiandkana": "違おう",
@@ -1046,10 +1286,30 @@
         "kana": "わかりました",
         "romaji": "wakarimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "分からなかった",
+        "kana": "わからなかった",
+        "romaji": "wakaranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "分かりませんでした",
+        "kana": "わかりませんでした",
+        "romaji": "wakarimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "分かって",
         "kana": "わかって",
         "romaji": "wakatte"
+      },
+      "potential": {
+        "kanjiandkana": "分かれる",
+        "kana": "わかれる",
+        "romaji": "wakareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "分かれます",
+        "kana": "わかれます",
+        "romaji": "wakaremasu"
       },
       "volitional": {
         "kanjiandkana": "分かろう",
@@ -1102,10 +1362,30 @@
         "kana": "いいました",
         "romaji": "iimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "言わなかった",
+        "kana": "いわなかった",
+        "romaji": "iwanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "言いませんでした",
+        "kana": "いいませんでした",
+        "romaji": "iimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "言って",
         "kana": "いって",
         "romaji": "itte"
+      },
+      "potential": {
+        "kanjiandkana": "言える",
+        "kana": "いえる",
+        "romaji": "ieru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "言えます",
+        "kana": "いえます",
+        "romaji": "iemasu"
       },
       "volitional": {
         "kanjiandkana": "言おう",
@@ -1158,10 +1438,30 @@
         "kana": "のみました",
         "romaji": "nomimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "飲まなかった",
+        "kana": "のまなかった",
+        "romaji": "nomanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "飲みませんでした",
+        "kana": "のみませんでした",
+        "romaji": "nomimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "飲んで",
         "kana": "のんで",
         "romaji": "nonde"
+      },
+      "potential": {
+        "kanjiandkana": "飲める",
+        "kana": "のめる",
+        "romaji": "nomeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "飲めます",
+        "kana": "のめます",
+        "romaji": "nomemasu"
       },
       "volitional": {
         "kanjiandkana": "飲もう",
@@ -1214,10 +1514,30 @@
         "kana": "れんしゅうしました",
         "romaji": "renshūshimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "練習しなかった",
+        "kana": "れんしゅうしなかった",
+        "romaji": "renshūshinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "練習しませんでした",
+        "kana": "れんしゅうしませんでした",
+        "romaji": "renshūshimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "練習して",
         "kana": "れんしゅうして",
         "romaji": "renshūshite"
+      },
+      "potential": {
+        "kanjiandkana": "練習できる",
+        "kana": "れんしゅうできる",
+        "romaji": "renshūdekiru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "練習できます",
+        "kana": "れんしゅうできます",
+        "romaji": "renshūdekimasu"
       },
       "volitional": {
         "kanjiandkana": "練習しよう",
@@ -1294,10 +1614,30 @@
         "kana": "しまりました",
         "romaji": "shimarimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "閉まらなかった",
+        "kana": "しまらなかった",
+        "romaji": "shimaranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "閉まりませんでした",
+        "kana": "しまりませんでした",
+        "romaji": "shimarimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "閉まって",
         "kana": "しまって",
         "romaji": "shimatte"
+      },
+      "potential": {
+        "kanjiandkana": "閉まれる",
+        "kana": "しまれる",
+        "romaji": "shimareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "閉まれます",
+        "kana": "しまれます",
+        "romaji": "shimaremasu"
       },
       "volitional": {
         "kanjiandkana": "閉まろう",
@@ -1350,10 +1690,30 @@
         "kana": "ぬぎました",
         "romaji": "nugimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "脱がなかった",
+        "kana": "ぬがなかった",
+        "romaji": "nuganakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "脱ぎませんでした",
+        "kana": "ぬぎませんでした",
+        "romaji": "nugimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "脱いで",
         "kana": "ぬいで",
         "romaji": "nuide"
+      },
+      "potential": {
+        "kanjiandkana": "脱げる",
+        "kana": "ぬげる",
+        "romaji": "nugeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "脱げます",
+        "kana": "ぬげます",
+        "romaji": "nugemasu"
       },
       "volitional": {
         "kanjiandkana": "脱ごう",
@@ -1414,10 +1774,30 @@
         "kana": "のぼりました",
         "romaji": "noborimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "登らなかった",
+        "kana": "のぼらなかった",
+        "romaji": "noboranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "登りませんでした",
+        "kana": "のぼりませんでした",
+        "romaji": "noborimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "登って",
         "kana": "のぼって",
         "romaji": "nobotte"
+      },
+      "potential": {
+        "kanjiandkana": "登れる",
+        "kana": "のぼれる",
+        "romaji": "noboreru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "登れます",
+        "kana": "のぼれます",
+        "romaji": "noboremasu"
       },
       "volitional": {
         "kanjiandkana": "登ろう",
@@ -1550,10 +1930,30 @@
         "kana": "いりました",
         "romaji": "irimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "要らなかった",
+        "kana": "いらなかった",
+        "romaji": "iranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "要りませんでした",
+        "kana": "いりませんでした",
+        "romaji": "irimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "要って",
         "kana": "いって",
         "romaji": "itte"
+      },
+      "potential": {
+        "kanjiandkana": "要れる",
+        "kana": "いれる",
+        "romaji": "ireru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "要れます",
+        "kana": "いれます",
+        "romaji": "iremasu"
       },
       "volitional": {
         "kanjiandkana": "要ろう",
@@ -1654,10 +2054,30 @@
         "kana": "つとめました",
         "romaji": "tsutomemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "勤めなかった",
+        "kana": "つとめなかった",
+        "romaji": "tsutomenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "勤めませんでした",
+        "kana": "つとめませんでした",
+        "romaji": "tsutomemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "勤めて",
         "kana": "つとめて",
         "romaji": "tsutomete"
+      },
+      "potential": {
+        "kanjiandkana": "勤められる",
+        "kana": "つとめられる",
+        "romaji": "tsutomerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "勤められます",
+        "kana": "つとめられます",
+        "romaji": "tsutomeraremasu"
       },
       "volitional": {
         "kanjiandkana": "勤めよう",
@@ -1750,10 +2170,30 @@
         "kana": "さしました",
         "romaji": "sashimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "差さなかった",
+        "kana": "ささなかった",
+        "romaji": "sasanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "差しませんでした",
+        "kana": "さしませんでした",
+        "romaji": "sashimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "差して",
         "kana": "さして",
         "romaji": "sashite"
+      },
+      "potential": {
+        "kanjiandkana": "差せる",
+        "kana": "させる",
+        "romaji": "saseru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "差せます",
+        "kana": "させます",
+        "romaji": "sasemasu"
       },
       "volitional": {
         "kanjiandkana": "差そう",
@@ -1998,10 +2438,30 @@
         "kana": "なりました",
         "romaji": "narimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "ならなかった",
+        "kana": "ならなかった",
+        "romaji": "naranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "なりませんでした",
+        "kana": "なりませんでした",
+        "romaji": "narimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "なって",
         "kana": "なって",
         "romaji": "natte"
+      },
+      "potential": {
+        "kanjiandkana": "なれる",
+        "kana": "なれる",
+        "romaji": "nareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "なれます",
+        "kana": "なれます",
+        "romaji": "naremasu"
       },
       "volitional": {
         "kanjiandkana": "なろう",
@@ -2062,10 +2522,30 @@
         "kana": "つくりました",
         "romaji": "tsukurimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "作らなかった",
+        "kana": "つくらなかった",
+        "romaji": "tsukuranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "作りませんでした",
+        "kana": "つくりませんでした",
+        "romaji": "tsukurimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "作って",
         "kana": "つくって",
         "romaji": "tsukutte"
+      },
+      "potential": {
+        "kanjiandkana": "作れる",
+        "kana": "つくれる",
+        "romaji": "tsukureru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "作れます",
+        "kana": "つくれます",
+        "romaji": "tsukuremasu"
       },
       "volitional": {
         "kanjiandkana": "作ろう",
@@ -2166,10 +2646,30 @@
         "kana": "なくしました",
         "romaji": "nakushimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "無くさなかった",
+        "kana": "なくさなかった",
+        "romaji": "nakusanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "無くしませんでした",
+        "kana": "なくしませんでした",
+        "romaji": "nakushimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "無くして",
         "kana": "なくして",
         "romaji": "nakushite"
+      },
+      "potential": {
+        "kanjiandkana": "無くせる",
+        "kana": "なくせる",
+        "romaji": "nakuseru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "無くせます",
+        "kana": "なくせます",
+        "romaji": "nakusemasu"
       },
       "volitional": {
         "kanjiandkana": "無くそう",
@@ -2246,10 +2746,30 @@
         "kana": "くもりました",
         "romaji": "kumorimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "曇らなかった",
+        "kana": "くもらなかった",
+        "romaji": "kumoranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "曇りませんでした",
+        "kana": "くもりませんでした",
+        "romaji": "kumorimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "曇って",
         "kana": "くもって",
         "romaji": "kumotte"
+      },
+      "potential": {
+        "kanjiandkana": "曇れる",
+        "kana": "くもれる",
+        "romaji": "kumoreru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "曇れます",
+        "kana": "くもれます",
+        "romaji": "kumoremasu"
       },
       "volitional": {
         "kanjiandkana": "曇ろう",
@@ -2366,10 +2886,30 @@
         "kana": "とりました",
         "romaji": "torimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "撮らなかった",
+        "kana": "とらなかった",
+        "romaji": "toranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "撮りませんでした",
+        "kana": "とりませんでした",
+        "romaji": "torimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "撮って",
         "kana": "とって",
         "romaji": "totte"
+      },
+      "potential": {
+        "kanjiandkana": "撮れる",
+        "kana": "とれる",
+        "romaji": "toreru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "撮れます",
+        "kana": "とれます",
+        "romaji": "toremasu"
       },
       "volitional": {
         "kanjiandkana": "撮ろう",
@@ -2486,10 +3026,30 @@
         "kana": "おぼえました",
         "romaji": "oboemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "覚えなかった",
+        "kana": "おぼえなかった",
+        "romaji": "oboenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "覚えませんでした",
+        "kana": "おぼえませんでした",
+        "romaji": "oboemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "覚えて",
         "kana": "おぼえて",
         "romaji": "oboete"
+      },
+      "potential": {
+        "kanjiandkana": "覚えられる",
+        "kana": "おぼえられる",
+        "romaji": "oboerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "覚えられます",
+        "kana": "おぼえられます",
+        "romaji": "oboeraremasu"
       },
       "volitional": {
         "kanjiandkana": "覚えよう",
@@ -2558,10 +3118,30 @@
         "kana": "はじまりました",
         "romaji": "hajimarimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "始まらなかった",
+        "kana": "はじまらなかった",
+        "romaji": "hajimaranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "始まりませんでした",
+        "kana": "はじまりませんでした",
+        "romaji": "hajimarimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "始まって",
         "kana": "はじまって",
         "romaji": "hajimatte"
+      },
+      "potential": {
+        "kanjiandkana": "始まれる",
+        "kana": "はじまれる",
+        "romaji": "hajimareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "始まれます",
+        "kana": "はじまれます",
+        "romaji": "hajimaremasu"
       },
       "volitional": {
         "kanjiandkana": "始まろう",
@@ -2614,10 +3194,30 @@
         "kana": "こまりました",
         "romaji": "komarimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "困らなかった",
+        "kana": "こまらなかった",
+        "romaji": "komaranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "困りませんでした",
+        "kana": "こまりませんでした",
+        "romaji": "komarimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "困って",
         "kana": "こまって",
         "romaji": "komatte"
+      },
+      "potential": {
+        "kanjiandkana": "困れる",
+        "kana": "こまれる",
+        "romaji": "komareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "困れます",
+        "kana": "こまれます",
+        "romaji": "komaremasu"
       },
       "volitional": {
         "kanjiandkana": "困ろう",
@@ -2686,10 +3286,30 @@
         "kana": "つかれました",
         "romaji": "tsukaremashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "疲れなかった",
+        "kana": "つかれなかった",
+        "romaji": "tsukarenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "疲れませんでした",
+        "kana": "つかれませんでした",
+        "romaji": "tsukaremasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "疲れて",
         "kana": "つかれて",
         "romaji": "tsukarete"
+      },
+      "potential": {
+        "kanjiandkana": "疲れられる",
+        "kana": "つかれられる",
+        "romaji": "tsukarerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "疲れられます",
+        "kana": "つかれられます",
+        "romaji": "tsukareraremasu"
       },
       "volitional": {
         "kanjiandkana": "疲れよう",
@@ -2742,10 +3362,30 @@
         "kana": "そうじしました",
         "romaji": "sōjishimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "掃除しなかった",
+        "kana": "そうじしなかった",
+        "romaji": "sōjishinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "掃除しませんでした",
+        "kana": "そうじしませんでした",
+        "romaji": "sōjishimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "掃除して",
         "kana": "そうじして",
         "romaji": "sōjishite"
+      },
+      "potential": {
+        "kanjiandkana": "掃除できる",
+        "kana": "そうじできる",
+        "romaji": "sōjidekiru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "掃除できます",
+        "kana": "そうじできます",
+        "romaji": "sōjidekimasu"
       },
       "volitional": {
         "kanjiandkana": "掃除しよう",
@@ -2830,10 +3470,30 @@
         "kana": "しりました",
         "romaji": "shirimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "知らなかった",
+        "kana": "しらなかった",
+        "romaji": "shiranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "知りませんでした",
+        "kana": "しりませんでした",
+        "romaji": "shirimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "知って",
         "kana": "しって",
         "romaji": "shitte"
+      },
+      "potential": {
+        "kanjiandkana": "知れる",
+        "kana": "しれる",
+        "romaji": "shireru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "知れます",
+        "kana": "しれます",
+        "romaji": "shiremasu"
       },
       "volitional": {
         "kanjiandkana": "知ろう",
@@ -2886,10 +3546,30 @@
         "kana": "おしえました",
         "romaji": "oshiemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "教えなかった",
+        "kana": "おしえなかった",
+        "romaji": "oshienakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "教えませんでした",
+        "kana": "おしえませんでした",
+        "romaji": "oshiemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "教えて",
         "kana": "おしえて",
         "romaji": "oshiete"
+      },
+      "potential": {
+        "kanjiandkana": "教えられる",
+        "kana": "おしえられる",
+        "romaji": "oshierareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "教えられます",
+        "kana": "おしえられます",
+        "romaji": "oshieraremasu"
       },
       "volitional": {
         "kanjiandkana": "教えよう",
@@ -2950,10 +3630,30 @@
         "kana": "とびました",
         "romaji": "tobimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "飛ばなかった",
+        "kana": "とばなかった",
+        "romaji": "tobanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "飛びませんでした",
+        "kana": "とびませんでした",
+        "romaji": "tobimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "飛んで",
         "kana": "とんで",
         "romaji": "tonde"
+      },
+      "potential": {
+        "kanjiandkana": "飛べる",
+        "kana": "とべる",
+        "romaji": "toberu"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "飛べます",
+        "kana": "とべます",
+        "romaji": "tobemasu"
       },
       "volitional": {
         "kanjiandkana": "飛ぼう",
@@ -3062,10 +3762,30 @@
         "kana": "かえりました",
         "romaji": "kaerimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "帰らなかった",
+        "kana": "かえらなかった",
+        "romaji": "kaeranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "帰りませんでした",
+        "kana": "かえりませんでした",
+        "romaji": "kaerimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "帰って",
         "kana": "かえって",
         "romaji": "kaette"
+      },
+      "potential": {
+        "kanjiandkana": "帰れる",
+        "kana": "かえれる",
+        "romaji": "kaereru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "帰れます",
+        "kana": "かえれます",
+        "romaji": "kaeremasu"
       },
       "volitional": {
         "kanjiandkana": "帰ろう",
@@ -3182,10 +3902,30 @@
         "kana": "あげました",
         "romaji": "agemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "上げなかった",
+        "kana": "あげなかった",
+        "romaji": "agenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "上げませんでした",
+        "kana": "あげませんでした",
+        "romaji": "agemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "上げて",
         "kana": "あげて",
         "romaji": "agete"
+      },
+      "potential": {
+        "kanjiandkana": "上げられる",
+        "kana": "あげられる",
+        "romaji": "agerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "上げられます",
+        "kana": "あげられます",
+        "romaji": "ageraremasu"
       },
       "volitional": {
         "kanjiandkana": "上げよう",
@@ -3262,10 +4002,30 @@
         "kana": "だしました",
         "romaji": "dashimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "出さなかった",
+        "kana": "ださなかった",
+        "romaji": "dasanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "出しませんでした",
+        "kana": "だしませんでした",
+        "romaji": "dashimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "出して",
         "kana": "だして",
         "romaji": "dashite"
+      },
+      "potential": {
+        "kanjiandkana": "出せる",
+        "kana": "だせる",
+        "romaji": "daseru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "出せます",
+        "kana": "だせます",
+        "romaji": "dasemasu"
       },
       "volitional": {
         "kanjiandkana": "出そう",
@@ -3350,10 +4110,30 @@
         "kana": "さきました",
         "romaji": "sakimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "咲かなかった",
+        "kana": "さかなかった",
+        "romaji": "sakanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "咲きませんでした",
+        "kana": "さきませんでした",
+        "romaji": "sakimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "咲いて",
         "kana": "さいて",
         "romaji": "saite"
+      },
+      "potential": {
+        "kanjiandkana": "咲ける",
+        "kana": "さける",
+        "romaji": "sakeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "咲けます",
+        "kana": "さけます",
+        "romaji": "sakemasu"
       },
       "volitional": {
         "kanjiandkana": "咲こう",
@@ -3462,10 +4242,30 @@
         "kana": "つけました",
         "romaji": "tsukemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "つけなかった",
+        "kana": "つけなかった",
+        "romaji": "tsukenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "つけませんでした",
+        "kana": "つけませんでした",
+        "romaji": "tsukemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "つけて",
         "kana": "つけて",
         "romaji": "tsukete"
+      },
+      "potential": {
+        "kanjiandkana": "つけられる",
+        "kana": "つけられる",
+        "romaji": "tsukerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "つけられます",
+        "kana": "つけられます",
+        "romaji": "tsukeraremasu"
       },
       "volitional": {
         "kanjiandkana": "つけよう",
@@ -3550,10 +4350,30 @@
         "kana": "はいりました",
         "romaji": "hairimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "入らなかった",
+        "kana": "はいらなかった",
+        "romaji": "hairanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "入りませんでした",
+        "kana": "はいりませんでした",
+        "romaji": "hairimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "入って",
         "kana": "はいって",
         "romaji": "haitte"
+      },
+      "potential": {
+        "kanjiandkana": "入れる",
+        "kana": "はいれる",
+        "romaji": "haireru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "入れます",
+        "kana": "はいれます",
+        "romaji": "hairemasu"
       },
       "volitional": {
         "kanjiandkana": "入ろう",
@@ -3702,10 +4522,30 @@
         "kana": "うまれました",
         "romaji": "umaremashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "生まれなかった",
+        "kana": "うまれなかった",
+        "romaji": "umarenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "生まれませんでした",
+        "kana": "うまれませんでした",
+        "romaji": "umaremasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "生まれて",
         "kana": "うまれて",
         "romaji": "umarete"
+      },
+      "potential": {
+        "kanjiandkana": "生まれられる",
+        "kana": "うまれられる",
+        "romaji": "umarerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "生まれられます",
+        "kana": "うまれられます",
+        "romaji": "umareraremasu"
       },
       "volitional": {
         "kanjiandkana": "生まれよう",
@@ -3790,10 +4630,30 @@
         "kana": "はれました",
         "romaji": "haremashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "晴れなかった",
+        "kana": "はれなかった",
+        "romaji": "harenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "晴れませんでした",
+        "kana": "はれませんでした",
+        "romaji": "haremasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "晴れて",
         "kana": "はれて",
         "romaji": "harete"
+      },
+      "potential": {
+        "kanjiandkana": "晴れられる",
+        "kana": "はれられる",
+        "romaji": "harerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "晴れられます",
+        "kana": "はれられます",
+        "romaji": "hareraremasu"
       },
       "volitional": {
         "kanjiandkana": "晴れよう",
@@ -3870,10 +4730,30 @@
         "kana": "たちました",
         "romaji": "tachimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "立たなかった",
+        "kana": "たたなかった",
+        "romaji": "tatanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "立ちませんでした",
+        "kana": "たちませんでした",
+        "romaji": "tachimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "立って",
         "kana": "たって",
         "romaji": "tatte"
+      },
+      "potential": {
+        "kanjiandkana": "立てる",
+        "kana": "たてる",
+        "romaji": "tateru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "立てます",
+        "kana": "たてます",
+        "romaji": "tatemasu"
       },
       "volitional": {
         "kanjiandkana": "立とう",
@@ -3958,10 +4838,30 @@
         "kana": "はきました",
         "romaji": "hakimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "はかなかった",
+        "kana": "はかなかった",
+        "romaji": "hakanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "はきませんでした",
+        "kana": "はきませんでした",
+        "romaji": "hakimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "はいて",
         "kana": "はいて",
         "romaji": "haite"
+      },
+      "potential": {
+        "kanjiandkana": "はける",
+        "kana": "はける",
+        "romaji": "hakeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "はけます",
+        "kana": "はけます",
+        "romaji": "hakemasu"
       },
       "volitional": {
         "kanjiandkana": "はこう",
@@ -4086,10 +4986,30 @@
         "kana": "かりました",
         "romaji": "karimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "借りなかった",
+        "kana": "かりなかった",
+        "romaji": "karinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "借りませんでした",
+        "kana": "かりませんでした",
+        "romaji": "karimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "借りて",
         "kana": "かりて",
         "romaji": "karite"
+      },
+      "potential": {
+        "kanjiandkana": "借りられる",
+        "kana": "かりられる",
+        "romaji": "karirareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "借りられます",
+        "kana": "かりられます",
+        "romaji": "kariraremasu"
       },
       "volitional": {
         "kanjiandkana": "借りよう",
@@ -4150,10 +5070,30 @@
         "kana": "もちました",
         "romaji": "mochimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "持たなかった",
+        "kana": "もたなかった",
+        "romaji": "motanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "持ちませんでした",
+        "kana": "もちませんでした",
+        "romaji": "mochimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "持って",
         "kana": "もって",
         "romaji": "motte"
+      },
+      "potential": {
+        "kanjiandkana": "持てる",
+        "kana": "もてる",
+        "romaji": "moteru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "持てます",
+        "kana": "もてます",
+        "romaji": "motemasu"
       },
       "volitional": {
         "kanjiandkana": "持とう",
@@ -4238,10 +5178,30 @@
         "kana": "すみました",
         "romaji": "sumimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "住まなかった",
+        "kana": "すまなかった",
+        "romaji": "sumanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "住みませんでした",
+        "kana": "すみませんでした",
+        "romaji": "sumimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "住んで",
         "kana": "すんで",
         "romaji": "sunde"
+      },
+      "potential": {
+        "kanjiandkana": "住める",
+        "kana": "すめる",
+        "romaji": "sumeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "住めます",
+        "kana": "すめます",
+        "romaji": "sumemasu"
       },
       "volitional": {
         "kanjiandkana": "住もう",
@@ -4294,10 +5254,30 @@
         "kana": "かけました",
         "romaji": "kakemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "かけなかった",
+        "kana": "かけなかった",
+        "romaji": "kakenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "かけませんでした",
+        "kana": "かけませんでした",
+        "romaji": "kakemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "かけて",
         "kana": "かけて",
         "romaji": "kakete"
+      },
+      "potential": {
+        "kanjiandkana": "かけられる",
+        "kana": "かけられる",
+        "romaji": "kakerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "かけられます",
+        "kana": "かけられます",
+        "romaji": "kakeraremasu"
       },
       "volitional": {
         "kanjiandkana": "かけよう",
@@ -4358,10 +5338,30 @@
         "kana": "わすれました",
         "romaji": "wasuremashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "忘れなかった",
+        "kana": "わすれなかった",
+        "romaji": "wasurenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "忘れませんでした",
+        "kana": "わすれませんでした",
+        "romaji": "wasuremasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "忘れて",
         "kana": "わすれて",
         "romaji": "wasurete"
+      },
+      "potential": {
+        "kanjiandkana": "忘れられる",
+        "kana": "わすれられる",
+        "romaji": "wasurerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "忘れられます",
+        "kana": "わすれられます",
+        "romaji": "wasureraremasu"
       },
       "volitional": {
         "kanjiandkana": "忘れよう",
@@ -4454,10 +5454,30 @@
         "kana": "あいました",
         "romaji": "aimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "会わなかった",
+        "kana": "あわなかった",
+        "romaji": "awanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "会いませんでした",
+        "kana": "あいませんでした",
+        "romaji": "aimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "会って",
         "kana": "あって",
         "romaji": "atte"
+      },
+      "potential": {
+        "kanjiandkana": "会える",
+        "kana": "あえる",
+        "romaji": "aeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "会えます",
+        "kana": "あえます",
+        "romaji": "aemasu"
       },
       "volitional": {
         "kanjiandkana": "会おう",
@@ -4526,10 +5546,30 @@
         "kana": "きました",
         "romaji": "kimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "着なかった",
+        "kana": "きなかった",
+        "romaji": "kinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "着ませんでした",
+        "kana": "きませんでした",
+        "romaji": "kimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "着て",
         "kana": "きて",
         "romaji": "kite"
+      },
+      "potential": {
+        "kanjiandkana": "着られる",
+        "kana": "きられる",
+        "romaji": "kirareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "着られます",
+        "kana": "きられます",
+        "romaji": "kiraremasu"
       },
       "volitional": {
         "kanjiandkana": "着よう",
@@ -4590,10 +5630,30 @@
         "kana": "おわりました",
         "romaji": "owarimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "終らなかった",
+        "kana": "おわらなかった",
+        "romaji": "owaranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "終りませんでした",
+        "kana": "おわりませんでした",
+        "romaji": "owarimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "終って",
         "kana": "おわって",
         "romaji": "owatte"
+      },
+      "potential": {
+        "kanjiandkana": "終れる",
+        "kana": "おわれる",
+        "romaji": "owareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "終れます",
+        "kana": "おわれます",
+        "romaji": "owaremasu"
       },
       "volitional": {
         "kanjiandkana": "終ろう",
@@ -4654,10 +5714,30 @@
         "kana": "よみました",
         "romaji": "yomimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "読まなかった",
+        "kana": "よまなかった",
+        "romaji": "yomanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "読みませんでした",
+        "kana": "よみませんでした",
+        "romaji": "yomimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "読んで",
         "kana": "よんで",
         "romaji": "yonde"
+      },
+      "potential": {
+        "kanjiandkana": "読める",
+        "kana": "よめる",
+        "romaji": "yomeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "読めます",
+        "kana": "よめます",
+        "romaji": "yomemasu"
       },
       "volitional": {
         "kanjiandkana": "読もう",
@@ -4734,10 +5814,30 @@
         "kana": "とまりました",
         "romaji": "tomarimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "止まらなかった",
+        "kana": "とまらなかった",
+        "romaji": "tomaranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "止まりませんでした",
+        "kana": "とまりませんでした",
+        "romaji": "tomarimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "止まって",
         "kana": "とまって",
         "romaji": "tomatte"
+      },
+      "potential": {
+        "kanjiandkana": "止まれる",
+        "kana": "とまれる",
+        "romaji": "tomareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "止まれます",
+        "kana": "とまれます",
+        "romaji": "tomaremasu"
       },
       "volitional": {
         "kanjiandkana": "止まろう",
@@ -4790,10 +5890,30 @@
         "kana": "つきました",
         "romaji": "tsukimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "着かなかった",
+        "kana": "つかなかった",
+        "romaji": "tsukanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "着きませんでした",
+        "kana": "つきませんでした",
+        "romaji": "tsukimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "着いて",
         "kana": "ついて",
         "romaji": "tsuite"
+      },
+      "potential": {
+        "kanjiandkana": "着ける",
+        "kana": "つける",
+        "romaji": "tsukeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "着けます",
+        "kana": "つけます",
+        "romaji": "tsukemasu"
       },
       "volitional": {
         "kanjiandkana": "着こう",
@@ -4990,10 +6110,30 @@
         "kana": "よびました",
         "romaji": "yobimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "呼ばなかった",
+        "kana": "よばなかった",
+        "romaji": "yobanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "呼びませんでした",
+        "kana": "よびませんでした",
+        "romaji": "yobimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "呼んで",
         "kana": "よんで",
         "romaji": "yonde"
+      },
+      "potential": {
+        "kanjiandkana": "呼べる",
+        "kana": "よべる",
+        "romaji": "yoberu"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "呼べます",
+        "kana": "よべます",
+        "romaji": "yobemasu"
       },
       "volitional": {
         "kanjiandkana": "呼ぼう",
@@ -5102,10 +6242,30 @@
         "kana": "ふきました",
         "romaji": "fukimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "吹かなかった",
+        "kana": "ふかなかった",
+        "romaji": "fukanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "吹きませんでした",
+        "kana": "ふきませんでした",
+        "romaji": "fukimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "吹いて",
         "kana": "ふいて",
         "romaji": "fuite"
+      },
+      "potential": {
+        "kanjiandkana": "吹ける",
+        "kana": "ふける",
+        "romaji": "fukeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "吹けます",
+        "kana": "ふけます",
+        "romaji": "fukemasu"
       },
       "volitional": {
         "kanjiandkana": "吹こう",
@@ -5254,10 +6414,30 @@
         "kana": "ふりました",
         "romaji": "furimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "降らなかった",
+        "kana": "ふらなかった",
+        "romaji": "furanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "降りませんでした",
+        "kana": "ふりませんでした",
+        "romaji": "furimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "降って",
         "kana": "ふって",
         "romaji": "futte"
+      },
+      "potential": {
+        "kanjiandkana": "降れる",
+        "kana": "ふれる",
+        "romaji": "fureru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "降れます",
+        "kana": "ふれます",
+        "romaji": "furemasu"
       },
       "volitional": {
         "kanjiandkana": "降ろう",
@@ -5494,10 +6674,30 @@
         "kana": "すいました",
         "romaji": "simashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "吸わなかった",
+        "kana": "すわなかった",
+        "romaji": "swanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "吸いませんでした",
+        "kana": "すいませんでした",
+        "romaji": "simasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "吸って",
         "kana": "すって",
         "romaji": "stte"
+      },
+      "potential": {
+        "kanjiandkana": "吸える",
+        "kana": "すえる",
+        "romaji": "seru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "吸えます",
+        "kana": "すえます",
+        "romaji": "semasu"
       },
       "volitional": {
         "kanjiandkana": "吸おう",
@@ -5654,10 +6854,30 @@
         "kana": "のりました",
         "romaji": "norimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "乗らなかった",
+        "kana": "のらなかった",
+        "romaji": "noranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "乗りませんでした",
+        "kana": "のりませんでした",
+        "romaji": "norimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "乗って",
         "kana": "のって",
         "romaji": "notte"
+      },
+      "potential": {
+        "kanjiandkana": "乗れる",
+        "kana": "のれる",
+        "romaji": "noreru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "乗れます",
+        "kana": "のれます",
+        "romaji": "noremasu"
       },
       "volitional": {
         "kanjiandkana": "乗ろう",
@@ -5782,10 +7002,30 @@
         "kana": "いれました",
         "romaji": "iremashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "入れなかった",
+        "kana": "いれなかった",
+        "romaji": "irenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "入れませんでした",
+        "kana": "いれませんでした",
+        "romaji": "iremasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "入れて",
         "kana": "いれて",
         "romaji": "irete"
+      },
+      "potential": {
+        "kanjiandkana": "入れられる",
+        "kana": "いれられる",
+        "romaji": "irerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "入れられます",
+        "kana": "いれられます",
+        "romaji": "ireraremasu"
       },
       "volitional": {
         "kanjiandkana": "入れよう",
@@ -6014,10 +7254,30 @@
         "kana": "およぎました",
         "romaji": "oyogimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "泳がなかった",
+        "kana": "およがなかった",
+        "romaji": "oyoganakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "泳ぎませんでした",
+        "kana": "およぎませんでした",
+        "romaji": "oyogimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "泳いで",
         "kana": "およいで",
         "romaji": "oyoide"
+      },
+      "potential": {
+        "kanjiandkana": "泳げる",
+        "kana": "およげる",
+        "romaji": "oyogeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "泳げます",
+        "kana": "およげます",
+        "romaji": "oyogemasu"
       },
       "volitional": {
         "kanjiandkana": "泳ごう",
@@ -6102,10 +7362,30 @@
         "kana": "かきました",
         "romaji": "kakimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "書かなかった",
+        "kana": "かかなかった",
+        "romaji": "kakanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "書きませんでした",
+        "kana": "かきませんでした",
+        "romaji": "kakimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "書いて",
         "kana": "かいて",
         "romaji": "kaite"
+      },
+      "potential": {
+        "kanjiandkana": "書ける",
+        "kana": "かける",
+        "romaji": "kakeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "書けます",
+        "kana": "かけます",
+        "romaji": "kakemasu"
       },
       "volitional": {
         "kanjiandkana": "書こう",
@@ -6182,10 +7462,30 @@
         "kana": "おりました",
         "romaji": "orimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "降りなかった",
+        "kana": "おりなかった",
+        "romaji": "orinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "降りませんでした",
+        "kana": "おりませんでした",
+        "romaji": "orimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "降りて",
         "kana": "おりて",
         "romaji": "orite"
+      },
+      "potential": {
+        "kanjiandkana": "降りられる",
+        "kana": "おりられる",
+        "romaji": "orirareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "降りられます",
+        "kana": "おりられます",
+        "romaji": "oriraremasu"
       },
       "volitional": {
         "kanjiandkana": "降りよう",
@@ -6262,10 +7562,30 @@
         "kana": "はなしました",
         "romaji": "hanashimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "話さなかった",
+        "kana": "はなさなかった",
+        "romaji": "hanasanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "話しませんでした",
+        "kana": "はなしませんでした",
+        "romaji": "hanashimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "話して",
         "kana": "はなして",
         "romaji": "hanashite"
+      },
+      "potential": {
+        "kanjiandkana": "話せる",
+        "kana": "はなせる",
+        "romaji": "hanaseru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "話せます",
+        "kana": "はなせます",
+        "romaji": "hanasemasu"
       },
       "volitional": {
         "kanjiandkana": "話そう",
@@ -6358,10 +7678,30 @@
         "kana": "しにました",
         "romaji": "shinimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "死ななかった",
+        "kana": "しななかった",
+        "romaji": "shinanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "死にませんでした",
+        "kana": "しにませんでした",
+        "romaji": "shinimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "死んで",
         "kana": "しんで",
         "romaji": "shinde"
+      },
+      "potential": {
+        "kanjiandkana": "死ねる",
+        "kana": "しねる",
+        "romaji": "shineru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "死ねます",
+        "kana": "しねます",
+        "romaji": "shinemasu"
       },
       "volitional": {
         "kanjiandkana": "死のう",
@@ -6454,10 +7794,30 @@
         "kana": "かかりました",
         "romaji": "kakarimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "かからなかった",
+        "kana": "かからなかった",
+        "romaji": "kakaranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "かかりませんでした",
+        "kana": "かかりませんでした",
+        "romaji": "kakarimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "かかって",
         "kana": "かかって",
         "romaji": "kakatte"
+      },
+      "potential": {
+        "kanjiandkana": "かかれる",
+        "kana": "かかれる",
+        "romaji": "kakareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "かかれます",
+        "kana": "かかれます",
+        "romaji": "kakaremasu"
       },
       "volitional": {
         "kanjiandkana": "かかろう",
@@ -6542,10 +7902,30 @@
         "kana": "かいました",
         "romaji": "kaimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "買わなかった",
+        "kana": "かわなかった",
+        "romaji": "kawanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "買いませんでした",
+        "kana": "かいませんでした",
+        "romaji": "kaimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "買って",
         "kana": "かって",
         "romaji": "katte"
+      },
+      "potential": {
+        "kanjiandkana": "買える",
+        "kana": "かえる",
+        "romaji": "kaeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "買えます",
+        "kana": "かえます",
+        "romaji": "kaemasu"
       },
       "volitional": {
         "kanjiandkana": "買おう",
@@ -6598,10 +7978,30 @@
         "kana": "あきました",
         "romaji": "akimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "開かなかった",
+        "kana": "あかなかった",
+        "romaji": "akanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "開きませんでした",
+        "kana": "あきませんでした",
+        "romaji": "akimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "開いて",
         "kana": "あいて",
         "romaji": "aite"
+      },
+      "potential": {
+        "kanjiandkana": "開ける",
+        "kana": "あける",
+        "romaji": "akeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "開けます",
+        "kana": "あけます",
+        "romaji": "akemasu"
       },
       "volitional": {
         "kanjiandkana": "開こう",
@@ -6702,10 +8102,30 @@
         "kana": "あけました",
         "romaji": "akemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "開けなかった",
+        "kana": "あけなかった",
+        "romaji": "akenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "開けませんでした",
+        "kana": "あけませんでした",
+        "romaji": "akemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "開けて",
         "kana": "あけて",
         "romaji": "akete"
+      },
+      "potential": {
+        "kanjiandkana": "開けられる",
+        "kana": "あけられる",
+        "romaji": "akerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "開けられます",
+        "kana": "あけられます",
+        "romaji": "akeraremasu"
       },
       "volitional": {
         "kanjiandkana": "開けよう",
@@ -6894,10 +8314,30 @@
         "kana": "やりました",
         "romaji": "yarimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "やらなかった",
+        "kana": "やらなかった",
+        "romaji": "yaranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "やりませんでした",
+        "kana": "やりませんでした",
+        "romaji": "yarimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "やって",
         "kana": "やって",
         "romaji": "yatte"
+      },
+      "potential": {
+        "kanjiandkana": "やれる",
+        "kana": "やれる",
+        "romaji": "yareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "やれます",
+        "kana": "やれます",
+        "romaji": "yaremasu"
       },
       "volitional": {
         "kanjiandkana": "やろう",
@@ -7006,10 +8446,30 @@
         "kana": "さんぽしました",
         "romaji": "sanposhimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "散歩しなかった",
+        "kana": "さんぽしなかった",
+        "romaji": "sanposhinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "散歩しませんでした",
+        "kana": "さんぽしませんでした",
+        "romaji": "sanposhimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "散歩して",
         "kana": "さんぽして",
         "romaji": "sanposhite"
+      },
+      "potential": {
+        "kanjiandkana": "散歩できる",
+        "kana": "さんぽできる",
+        "romaji": "sanpodekiru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "散歩できます",
+        "kana": "さんぽできます",
+        "romaji": "sanpodekimasu"
       },
       "volitional": {
         "kanjiandkana": "散歩しよう",
@@ -7070,10 +8530,30 @@
         "kana": "きえました",
         "romaji": "kiemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "消えなかった",
+        "kana": "きえなかった",
+        "romaji": "kienakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "消えませんでした",
+        "kana": "きえませんでした",
+        "romaji": "kiemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "消えて",
         "kana": "きえて",
         "romaji": "kiete"
+      },
+      "potential": {
+        "kanjiandkana": "消えられる",
+        "kana": "きえられる",
+        "romaji": "kierareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "消えられます",
+        "kana": "きえられます",
+        "romaji": "kieraremasu"
       },
       "volitional": {
         "kanjiandkana": "消えよう",
@@ -7150,10 +8630,30 @@
         "kana": "きりました",
         "romaji": "kirimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "切らなかった",
+        "kana": "きらなかった",
+        "romaji": "kiranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "切りませんでした",
+        "kana": "きりませんでした",
+        "romaji": "kirimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "切って",
         "kana": "きって",
         "romaji": "kitte"
+      },
+      "potential": {
+        "kanjiandkana": "切れる",
+        "kana": "きれる",
+        "romaji": "kireru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "切れます",
+        "kana": "きれます",
+        "romaji": "kiremasu"
       },
       "volitional": {
         "kanjiandkana": "切ろう",
@@ -7214,10 +8714,30 @@
         "kana": "あらいました",
         "romaji": "araimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "洗わなかった",
+        "kana": "あらわなかった",
+        "romaji": "arawanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "洗いませんでした",
+        "kana": "あらいませんでした",
+        "romaji": "araimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "洗って",
         "kana": "あらって",
         "romaji": "aratte"
+      },
+      "potential": {
+        "kanjiandkana": "洗える",
+        "kana": "あらえる",
+        "romaji": "araeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "洗えます",
+        "kana": "あらえます",
+        "romaji": "araemasu"
       },
       "volitional": {
         "kanjiandkana": "洗おう",
@@ -7286,10 +8806,30 @@
         "kana": "ならいました",
         "romaji": "naraimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "習わなかった",
+        "kana": "ならわなかった",
+        "romaji": "narawanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "習いませんでした",
+        "kana": "ならいませんでした",
+        "romaji": "naraimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "習って",
         "kana": "ならって",
         "romaji": "naratte"
+      },
+      "potential": {
+        "kanjiandkana": "習える",
+        "kana": "ならえる",
+        "romaji": "naraeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "習えます",
+        "kana": "ならえます",
+        "romaji": "naraemasu"
       },
       "volitional": {
         "kanjiandkana": "習おう",
@@ -7366,10 +8906,30 @@
         "kana": "ならべました",
         "romaji": "narabemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "並べなかった",
+        "kana": "ならべなかった",
+        "romaji": "narabenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "並べませんでした",
+        "kana": "ならべませんでした",
+        "romaji": "narabemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "並べて",
         "kana": "ならべて",
         "romaji": "narabete"
+      },
+      "potential": {
+        "kanjiandkana": "並べられる",
+        "kana": "ならべられる",
+        "romaji": "naraberareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "並べられます",
+        "kana": "ならべられます",
+        "romaji": "naraberaremasu"
       },
       "volitional": {
         "kanjiandkana": "並べよう",
@@ -7446,10 +9006,30 @@
         "kana": "あるきました",
         "romaji": "arukimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "歩かなかった",
+        "kana": "あるかなかった",
+        "romaji": "arukanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "歩きませんでした",
+        "kana": "あるきませんでした",
+        "romaji": "arukimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "歩いて",
         "kana": "あるいて",
         "romaji": "aruite"
+      },
+      "potential": {
+        "kanjiandkana": "歩ける",
+        "kana": "あるける",
+        "romaji": "arukeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "歩けます",
+        "kana": "あるけます",
+        "romaji": "arukemasu"
       },
       "volitional": {
         "kanjiandkana": "歩こう",
@@ -7550,10 +9130,30 @@
         "kana": "たのみました",
         "romaji": "tanomimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "頼まなかった",
+        "kana": "たのまなかった",
+        "romaji": "tanomanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "頼みませんでした",
+        "kana": "たのみませんでした",
+        "romaji": "tanomimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "頼んで",
         "kana": "たのんで",
         "romaji": "tanonde"
+      },
+      "potential": {
+        "kanjiandkana": "頼める",
+        "kana": "たのめる",
+        "romaji": "tanomeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "頼めます",
+        "kana": "たのめます",
+        "romaji": "tanomemasu"
       },
       "volitional": {
         "kanjiandkana": "頼もう",
@@ -7654,10 +9254,30 @@
         "kana": "いました",
         "romaji": "imashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "居なかった",
+        "kana": "いなかった",
+        "romaji": "inakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "居ませんでした",
+        "kana": "いませんでした",
+        "romaji": "imasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "居て",
         "kana": "いて",
         "romaji": "ite"
+      },
+      "potential": {
+        "kanjiandkana": "居られる",
+        "kana": "いられる",
+        "romaji": "irareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "居られます",
+        "kana": "いられます",
+        "romaji": "iraremasu"
       },
       "volitional": {
         "kanjiandkana": "居よう",
@@ -7742,10 +9362,30 @@
         "kana": "できました",
         "romaji": "dekimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "できなかった",
+        "kana": "できなかった",
+        "romaji": "dekinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "できませんでした",
+        "kana": "できませんでした",
+        "romaji": "dekimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "できて",
         "kana": "できて",
         "romaji": "dekite"
+      },
+      "potential": {
+        "kanjiandkana": "できられる",
+        "kana": "できられる",
+        "romaji": "dekirareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "できられます",
+        "kana": "できられます",
+        "romaji": "dekiraremasu"
       },
       "volitional": {
         "kanjiandkana": "できよう",
@@ -7806,10 +9446,30 @@
         "kana": "しました",
         "romaji": "shimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "しなかった",
+        "kana": "しなかった",
+        "romaji": "shinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "しませんでした",
+        "kana": "しませんでした",
+        "romaji": "shimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "して",
         "kana": "して",
         "romaji": "shite"
+      },
+      "potential": {
+        "kanjiandkana": "できる",
+        "kana": "できる",
+        "romaji": "dekiru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "できます",
+        "kana": "できます",
+        "romaji": "dekimasu"
       },
       "volitional": {
         "kanjiandkana": "しよう",
@@ -7878,10 +9538,30 @@
         "kana": "わたしました",
         "romaji": "watashimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "渡さなかった",
+        "kana": "わたさなかった",
+        "romaji": "watasanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "渡しませんでした",
+        "kana": "わたしませんでした",
+        "romaji": "watashimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "渡して",
         "kana": "わたして",
         "romaji": "watashite"
+      },
+      "potential": {
+        "kanjiandkana": "渡せる",
+        "kana": "わたせる",
+        "romaji": "wataseru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "渡せます",
+        "kana": "わたせます",
+        "romaji": "watasemasu"
       },
       "volitional": {
         "kanjiandkana": "渡そう",
@@ -7949,6 +9629,16 @@
         "kanjiandkana": "ありました",
         "kana": "ありました",
         "romaji": "arimashita"
+      },
+      "pastNegative": {
+        "kanjiandkana": "なかった",
+        "kana": "なかった",
+        "romaji": "nakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "ありませんでした",
+        "kana": "ありませんでした",
+        "romaji": "arimasendeshita"
       },
       "teForm": {
         "kanjiandkana": "あって",
@@ -8086,10 +9776,30 @@
         "kana": "きました",
         "romaji": "kimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "来なかった",
+        "kana": "こなかった",
+        "romaji": "konakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "来ませんでした",
+        "kana": "きませんでした",
+        "romaji": "kimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "来て",
         "kana": "きて",
         "romaji": "kite"
+      },
+      "potential": {
+        "kanjiandkana": "来られる",
+        "kana": "こられる",
+        "romaji": "korareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "来られます",
+        "kana": "こられます",
+        "romaji": "koraremasu"
       },
       "volitional": {
         "kanjiandkana": "来よう",
@@ -8150,10 +9860,30 @@
         "kana": "かしました",
         "romaji": "kashimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "貸さなかった",
+        "kana": "かさなかった",
+        "romaji": "kasanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "貸しませんでした",
+        "kana": "かしませんでした",
+        "romaji": "kashimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "貸して",
         "kana": "かして",
         "romaji": "kashite"
+      },
+      "potential": {
+        "kanjiandkana": "貸せる",
+        "kana": "かせる",
+        "romaji": "kaseru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "貸せます",
+        "kana": "かせます",
+        "romaji": "kasemasu"
       },
       "volitional": {
         "kanjiandkana": "貸そう",
@@ -8286,10 +10016,30 @@
         "kana": "ひきました",
         "romaji": "hikimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "弾かなかった",
+        "kana": "ひかなかった",
+        "romaji": "hikanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "弾きませんでした",
+        "kana": "ひきませんでした",
+        "romaji": "hikimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "弾いて",
         "kana": "ひいて",
         "romaji": "hiite"
+      },
+      "potential": {
+        "kanjiandkana": "弾ける",
+        "kana": "ひける",
+        "romaji": "hikeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "弾けます",
+        "kana": "ひけます",
+        "romaji": "hikemasu"
       },
       "volitional": {
         "kanjiandkana": "弾こう",
@@ -8390,10 +10140,30 @@
         "kana": "みせました",
         "romaji": "misemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "見せなかった",
+        "kana": "みせなかった",
+        "romaji": "misenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "見せませんでした",
+        "kana": "みせませんでした",
+        "romaji": "misemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "見せて",
         "kana": "みせて",
         "romaji": "misete"
+      },
+      "potential": {
+        "kanjiandkana": "見せられる",
+        "kana": "みせられる",
+        "romaji": "miserareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "見せられます",
+        "kana": "みせられます",
+        "romaji": "miseraremasu"
       },
       "volitional": {
         "kanjiandkana": "見せよう",
@@ -8502,10 +10272,30 @@
         "kana": "べんきょうしました",
         "romaji": "benkyōshimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "勉強しなかった",
+        "kana": "べんきょうしなかった",
+        "romaji": "benkyōshinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "勉強しませんでした",
+        "kana": "べんきょうしませんでした",
+        "romaji": "benkyōshimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "勉強して",
         "kana": "べんきょうして",
         "romaji": "benkyōshite"
+      },
+      "potential": {
+        "kanjiandkana": "勉強できる",
+        "kana": "べんきょうできる",
+        "romaji": "benkyōdekiru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "勉強できます",
+        "kana": "べんきょうできます",
+        "romaji": "benkyōdekimasu"
       },
       "volitional": {
         "kanjiandkana": "勉強しよう",
@@ -8678,10 +10468,30 @@
         "kana": "こたえました",
         "romaji": "kotaemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "答えなかった",
+        "kana": "こたえなかった",
+        "romaji": "kotaenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "答えませんでした",
+        "kana": "こたえませんでした",
+        "romaji": "kotaemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "答えて",
         "kana": "こたえて",
         "romaji": "kotaete"
+      },
+      "potential": {
+        "kanjiandkana": "答えられる",
+        "kana": "こたえられる",
+        "romaji": "kotaerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "答えられます",
+        "kana": "こたえられます",
+        "romaji": "kotaeraremasu"
       },
       "volitional": {
         "kanjiandkana": "答えよう",
@@ -8750,10 +10560,30 @@
         "kana": "コピーしました",
         "romaji": "kopīshimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "コピーしなかった",
+        "kana": "コピーしなかった",
+        "romaji": "kopīshinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "コピーしませんでした",
+        "kana": "コピーしませんでした",
+        "romaji": "kopīshimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "コピーして",
         "kana": "コピーして",
         "romaji": "kopīshite"
+      },
+      "potential": {
+        "kanjiandkana": "コピーできる",
+        "kana": "コピーできる",
+        "romaji": "kopīdekiru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "コピーできます",
+        "kana": "コピーできます",
+        "romaji": "kopīdekimasu"
       },
       "volitional": {
         "kanjiandkana": "コピーしよう",
@@ -8806,10 +10636,30 @@
         "kana": "はたらきました",
         "romaji": "hatarakimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "働かなかった",
+        "kana": "はたらかなかった",
+        "romaji": "hatarakanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "働きませんでした",
+        "kana": "はたらきませんでした",
+        "romaji": "hatarakimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "働いて",
         "kana": "はたらいて",
         "romaji": "hataraite"
+      },
+      "potential": {
+        "kanjiandkana": "働ける",
+        "kana": "はたらける",
+        "romaji": "hatarakeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "働けます",
+        "kana": "はたらけます",
+        "romaji": "hatarakemasu"
       },
       "volitional": {
         "kanjiandkana": "働こう",
@@ -8886,10 +10736,30 @@
         "kana": "みました",
         "romaji": "mimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "見なかった",
+        "kana": "みなかった",
+        "romaji": "minakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "見ませんでした",
+        "kana": "みませんでした",
+        "romaji": "mimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "見て",
         "kana": "みて",
         "romaji": "mite"
+      },
+      "potential": {
+        "kanjiandkana": "見られる",
+        "kana": "みられる",
+        "romaji": "mirareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "見られます",
+        "kana": "みられます",
+        "romaji": "miraremasu"
       },
       "volitional": {
         "kanjiandkana": "見よう",
@@ -9054,10 +10924,30 @@
         "kana": "たべました",
         "romaji": "tabemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "食べなかった",
+        "kana": "たべなかった",
+        "romaji": "tabenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "食べませんでした",
+        "kana": "たべませんでした",
+        "romaji": "tabemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "食べて",
         "kana": "たべて",
         "romaji": "tabete"
+      },
+      "potential": {
+        "kanjiandkana": "食べられる",
+        "kana": "たべられる",
+        "romaji": "taberareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "食べられます",
+        "kana": "たべられます",
+        "romaji": "taberaremasu"
       },
       "volitional": {
         "kanjiandkana": "食べよう",
@@ -9214,10 +11104,30 @@
         "kana": "まちました",
         "romaji": "machimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "待たなかった",
+        "kana": "またなかった",
+        "romaji": "matanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "待ちませんでした",
+        "kana": "まちませんでした",
+        "romaji": "machimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "待って",
         "kana": "まって",
         "romaji": "matte"
+      },
+      "potential": {
+        "kanjiandkana": "待てる",
+        "kana": "まてる",
+        "romaji": "materu"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "待てます",
+        "kana": "まてます",
+        "romaji": "matemasu"
       },
       "volitional": {
         "kanjiandkana": "待とう",
@@ -9278,10 +11188,30 @@
         "kana": "いきました",
         "romaji": "ikimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "行かなかった",
+        "kana": "いかなかった",
+        "romaji": "ikanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "行きませんでした",
+        "kana": "いきませんでした",
+        "romaji": "ikimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "行って",
         "kana": "いって",
         "romaji": "itte"
+      },
+      "potential": {
+        "kanjiandkana": "行ける",
+        "kana": "いける",
+        "romaji": "ikeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "行けます",
+        "kana": "いけます",
+        "romaji": "ikemasu"
       },
       "volitional": {
         "kanjiandkana": "行こう",
@@ -9358,10 +11288,30 @@
         "kana": "ききました",
         "romaji": "kikimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "聞かなかった",
+        "kana": "きかなかった",
+        "romaji": "kikanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "聞きませんでした",
+        "kana": "ききませんでした",
+        "romaji": "kikimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "聞いて",
         "kana": "きいて",
         "romaji": "kiite"
+      },
+      "potential": {
+        "kanjiandkana": "聞ける",
+        "kana": "きける",
+        "romaji": "kikeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "聞けます",
+        "kana": "きけます",
+        "romaji": "kikemasu"
       },
       "volitional": {
         "kanjiandkana": "聞こう",
@@ -9414,10 +11364,30 @@
         "kana": "はしりました",
         "romaji": "hashirimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "走らなかった",
+        "kana": "はしらなかった",
+        "romaji": "hashiranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "走りませんでした",
+        "kana": "はしりませんでした",
+        "romaji": "hashirimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "走って",
         "kana": "はしって",
         "romaji": "hashitte"
+      },
+      "potential": {
+        "kanjiandkana": "走れる",
+        "kana": "はしれる",
+        "romaji": "hashireru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "走れます",
+        "kana": "はしれます",
+        "romaji": "hashiremasu"
       },
       "volitional": {
         "kanjiandkana": "走ろう",
@@ -9526,10 +11496,30 @@
         "kana": "でました",
         "romaji": "demashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "出なかった",
+        "kana": "でなかった",
+        "romaji": "denakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "出ませんでした",
+        "kana": "でませんでした",
+        "romaji": "demasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "出て",
         "kana": "でて",
         "romaji": "dete"
+      },
+      "potential": {
+        "kanjiandkana": "出られる",
+        "kana": "でられる",
+        "romaji": "derareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "出られます",
+        "kana": "でられます",
+        "romaji": "deraremasu"
       },
       "volitional": {
         "kanjiandkana": "出よう",
@@ -9646,10 +11636,30 @@
         "kana": "まがりました",
         "romaji": "magarimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "曲らなかった",
+        "kana": "まがらなかった",
+        "romaji": "magaranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "曲りませんでした",
+        "kana": "まがりませんでした",
+        "romaji": "magarimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "曲って",
         "kana": "まがって",
         "romaji": "magatte"
+      },
+      "potential": {
+        "kanjiandkana": "曲れる",
+        "kana": "まがれる",
+        "romaji": "magareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "曲れます",
+        "kana": "まがれます",
+        "romaji": "magaremasu"
       },
       "volitional": {
         "kanjiandkana": "曲ろう",
@@ -9734,10 +11744,30 @@
         "kana": "おきました",
         "romaji": "okimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "置かなかった",
+        "kana": "おかなかった",
+        "romaji": "okanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "置きませんでした",
+        "kana": "おきませんでした",
+        "romaji": "okimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "置いて",
         "kana": "おいて",
         "romaji": "oite"
+      },
+      "potential": {
+        "kanjiandkana": "置ける",
+        "kana": "おける",
+        "romaji": "okeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "置けます",
+        "kana": "おけます",
+        "romaji": "okemasu"
       },
       "volitional": {
         "kanjiandkana": "置こう",
@@ -9790,10 +11820,30 @@
         "kana": "わたりました",
         "romaji": "watarimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "渡らなかった",
+        "kana": "わたらなかった",
+        "romaji": "wataranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "渡りませんでした",
+        "kana": "わたりませんでした",
+        "romaji": "watarimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "渡って",
         "kana": "わたって",
         "romaji": "watatte"
+      },
+      "potential": {
+        "kanjiandkana": "渡れる",
+        "kana": "わたれる",
+        "romaji": "watareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "渡れます",
+        "kana": "わたれます",
+        "romaji": "wataremasu"
       },
       "volitional": {
         "kanjiandkana": "渡ろう",
@@ -9926,10 +11976,30 @@
         "kana": "かえしました",
         "romaji": "kaeshimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "返さなかった",
+        "kana": "かえさなかった",
+        "romaji": "kaesanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "返しませんでした",
+        "kana": "かえしませんでした",
+        "romaji": "kaeshimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "返して",
         "kana": "かえして",
         "romaji": "kaeshite"
+      },
+      "potential": {
+        "kanjiandkana": "返せる",
+        "kana": "かえせる",
+        "romaji": "kaeseru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "返せます",
+        "kana": "かえせます",
+        "romaji": "kaesemasu"
       },
       "volitional": {
         "kanjiandkana": "返そう",
@@ -10006,10 +12076,30 @@
         "kana": "おきました",
         "romaji": "okimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "起きなかった",
+        "kana": "おきなかった",
+        "romaji": "okinakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "起きませんでした",
+        "kana": "おきませんでした",
+        "romaji": "okimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "起きて",
         "kana": "おきて",
         "romaji": "okite"
+      },
+      "potential": {
+        "kanjiandkana": "起きられる",
+        "kana": "おきられる",
+        "romaji": "okirareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "起きられます",
+        "kana": "おきられます",
+        "romaji": "okiraremasu"
       },
       "volitional": {
         "kanjiandkana": "起きよう",
@@ -10102,10 +12192,30 @@
         "kana": "うたいました",
         "romaji": "utaimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "歌わなかった",
+        "kana": "うたわなかった",
+        "romaji": "utawanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "歌いませんでした",
+        "kana": "うたいませんでした",
+        "romaji": "utaimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "歌って",
         "kana": "うたって",
         "romaji": "utatte"
+      },
+      "potential": {
+        "kanjiandkana": "歌える",
+        "kana": "うたえる",
+        "romaji": "utaeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "歌えます",
+        "kana": "うたえます",
+        "romaji": "utaemasu"
       },
       "volitional": {
         "kanjiandkana": "歌おう",
@@ -10166,10 +12276,30 @@
         "kana": "ねました",
         "romaji": "nemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "寝なかった",
+        "kana": "ねなかった",
+        "romaji": "nenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "寝ませんでした",
+        "kana": "ねませんでした",
+        "romaji": "nemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "寝て",
         "kana": "ねて",
         "romaji": "nete"
+      },
+      "potential": {
+        "kanjiandkana": "寝られる",
+        "kana": "ねられる",
+        "romaji": "nerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "寝られます",
+        "kana": "ねられます",
+        "romaji": "neraremasu"
       },
       "volitional": {
         "kanjiandkana": "寝よう",
@@ -10278,10 +12408,30 @@
         "kana": "でかけました",
         "romaji": "dekakemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "出かけなかった",
+        "kana": "でかけなかった",
+        "romaji": "dekakenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "出かけませんでした",
+        "kana": "でかけませんでした",
+        "romaji": "dekakemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "出かけて",
         "kana": "でかけて",
         "romaji": "dekakete"
+      },
+      "potential": {
+        "kanjiandkana": "出かけられる",
+        "kana": "でかけられる",
+        "romaji": "dekakerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "出かけられます",
+        "kana": "でかけられます",
+        "romaji": "dekakeraremasu"
       },
       "volitional": {
         "kanjiandkana": "出かけよう",
@@ -10358,10 +12508,30 @@
         "kana": "しめました",
         "romaji": "shimemashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "締めなかった",
+        "kana": "しめなかった",
+        "romaji": "shimenakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "締めませんでした",
+        "kana": "しめませんでした",
+        "romaji": "shimemasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "締めて",
         "kana": "しめて",
         "romaji": "shimete"
+      },
+      "potential": {
+        "kanjiandkana": "締められる",
+        "kana": "しめられる",
+        "romaji": "shimerareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "締められます",
+        "kana": "しめられます",
+        "romaji": "shimeraremasu"
       },
       "volitional": {
         "kanjiandkana": "締めよう",
@@ -10494,10 +12664,30 @@
         "kana": "つかいました",
         "romaji": "tsukaimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "使わなかった",
+        "kana": "つかわなかった",
+        "romaji": "tsukawanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "使いませんでした",
+        "kana": "つかいませんでした",
+        "romaji": "tsukaimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "使って",
         "kana": "つかって",
         "romaji": "tsukatte"
+      },
+      "potential": {
+        "kanjiandkana": "使える",
+        "kana": "つかえる",
+        "romaji": "tsukaeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "使えます",
+        "kana": "つかえます",
+        "romaji": "tsukaemasu"
       },
       "volitional": {
         "kanjiandkana": "使おう",
@@ -10550,10 +12740,30 @@
         "kana": "やすみました",
         "romaji": "yasumimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "休まなかった",
+        "kana": "やすまなかった",
+        "romaji": "yasumanakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "休みませんでした",
+        "kana": "やすみませんでした",
+        "romaji": "yasumimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "休んで",
         "kana": "やすんで",
         "romaji": "yasunde"
+      },
+      "potential": {
+        "kanjiandkana": "休める",
+        "kana": "やすめる",
+        "romaji": "yasumeru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "休めます",
+        "kana": "やすめます",
+        "romaji": "yasumemasu"
       },
       "volitional": {
         "kanjiandkana": "休もう",
@@ -10614,10 +12824,30 @@
         "kana": "はりました",
         "romaji": "harimashita"
       },
+      "pastNegative": {
+        "kanjiandkana": "貼らなかった",
+        "kana": "はらなかった",
+        "romaji": "haranakatta"
+      },
+      "pastNegativePolite": {
+        "kanjiandkana": "貼りませんでした",
+        "kana": "はりませんでした",
+        "romaji": "harimasendeshita"
+      },
       "teForm": {
         "kanjiandkana": "貼って",
         "kana": "はって",
         "romaji": "hatte"
+      },
+      "potential": {
+        "kanjiandkana": "貼れる",
+        "kana": "はれる",
+        "romaji": "hareru"
+      },
+      "potentialPolite": {
+        "kanjiandkana": "貼れます",
+        "kana": "はれます",
+        "romaji": "haremasu"
       },
       "volitional": {
         "kanjiandkana": "貼ろう",

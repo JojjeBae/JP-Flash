@@ -63,6 +63,25 @@
     cursor: pointer;
   }
   .dark .reveal-overlay { background-color: rgba(0, 0, 0, 0.4); color: #f5f5f5; }
+
+  .verb-forms-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    text-align: left;
+  }
+  .verb-forms-grid .form-cell {
+    border-radius: 0.5rem;
+    padding: 6px 8px;
+    background-color: #ced6eb;
+    color: #111827;
+  }
+  .dark .verb-forms-grid .form-cell { background-color: #32435c; color: white; }
+  .verb-forms-grid .form-cell.full-width { grid-column: 1 / -1; }
+  .form-cell .form-label {
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.03em;
+    opacity: 0.65; margin-bottom: 2px;
+  }
 </style>
 </head>
 <body class="body-main min-h-screen flex items-center justify-center p-4">
@@ -81,7 +100,7 @@
       <div class="flex flex-wrap justify-center gap-2">
         <!-- <button onclick="selectCategory('counters')" class="default-button px-4 py-2 rounded">Counters</button> -->
         <button onclick="selectCategory('kana')" class="default-button px-4 py-2 rounded">Kana</button> 
-         <!-- <button onclick="selectCategory('core')" class="default-button px-4 py-2 rounded">2k Core</button> -->
+        <!-- <button onclick="selectCategory('core')" class="default-button px-4 py-2 rounded">2k Core</button> -->
         <button onclick="selectCategory('n5')" class="default-button px-4 py-2 rounded">N5</button>
         <button onclick="selectCategory('n4')" class="default-button px-4 py-2 rounded">N4</button>
         <button onclick="selectCategory('n3')" class="default-button px-4 py-2 rounded">N3</button>
@@ -115,6 +134,10 @@
           <div class="flip-card-back" id="cardBack"></div>
         </div>
       </div>
+      <div id="formsToggleWrap" class="hidden">
+        <button onclick="toggleFormsPanel()" id="formsToggleBtn" class="default-button text-sm px-4 py-1 rounded">Forms ▾</button>
+      </div>
+      <div id="formsPanel" class="hidden verb-forms-grid"></div>
       <div class="flex justify-center gap-3">
         <button type="button" id="learnedToggle" onclick="toggleLearned()" class="toggle-learned off px-6 py-2 rounded">Learned</button>
         <button onclick="nextCard()" class="px-6 py-2 bg-purple-500 text-white rounded hover:bg-purple-600">Next</button>
@@ -177,6 +200,25 @@
         </label>
         <p class="text-xs text-gray-500 mt-1">Shows Kanji + Kana first; tap to reveal Kana (and Romaji, if enabled).</p>
       </div>
+
+      <div>
+        <p class="font-medium mb-2">Verb Default Form</p>
+        <div class="flex flex-col gap-2 text-sm">
+          <label class="flex items-center gap-2">
+            <input type="radio" name="verbDefaultForms" value="plain" onchange="updateSettings()">
+            Plain only
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="radio" name="verbDefaultForms" value="plainPolite" onchange="updateSettings()">
+            Polite only
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="radio" name="verbDefaultForms" value="both" onchange="updateSettings()">
+            Plain + Polite
+          </label>
+        </div>
+        <p class="text-xs text-gray-500 mt-1">What a verb card shows before you tap "Forms" to see everything.</p>
+      </div>
     </div>
   </div>
 
@@ -185,18 +227,19 @@
     let currentCategory = "";
     let categoryWordsCache = {}; // category -> full word list with stable _idx attached
     let kanjiRevealed = false; // whether the reading has been revealed for the current card in Kanji Practice Mode
+    let formsExpanded = false; // whether the verb Forms panel is currently open
 
     const LESSON_SIZE = 20;
     const ALL_WORDS_FILE = {
       core: "core/2k_core.json",
-      n5: "word files/n5.json",
+      n5: "word files/n5_extended.json",
       n4: "word files/n4.json",
       n3: "word files/n3.json",
       n2: "word files/n2.json",
       n1: "word files/n1.json"
     };
 
-    let settings = { direction: "en-jp", showKanji: true, showKana: true, showRomaji: true, kanjiPractice: false };
+    let settings = { direction: "en-jp", showKanji: true, showKana: true, showRomaji: true, kanjiPractice: false, verbDefaultForms: "plain" };
 
     function loadSettings() {
       try {
@@ -215,6 +258,7 @@
       document.getElementById("showKana").checked = settings.showKana;
       document.getElementById("showRomaji").checked = settings.showRomaji;
       document.getElementById("kanjiPractice").checked = settings.kanjiPractice;
+      document.querySelector(`input[name="verbDefaultForms"][value="${settings.verbDefaultForms}"]`).checked = true;
       document.getElementById("settingsOverlay").classList.remove("hidden");
     }
 
@@ -232,8 +276,10 @@
       settings.showKana = document.getElementById("showKana").checked;
       settings.showRomaji = document.getElementById("showRomaji").checked;
       settings.kanjiPractice = document.getElementById("kanjiPractice").checked;
+      settings.verbDefaultForms = document.querySelector('input[name="verbDefaultForms"]:checked').value;
       saveSettings();
       kanjiRevealed = false;
+      formsExpanded = false;
       if (cards.length && !document.getElementById("flashcardPanel").classList.contains("hidden")) {
         updateCardUI(true);
       }
@@ -342,6 +388,7 @@
       current = 0;
       flipped = false;
       kanjiRevealed = false;
+      formsExpanded = false;
       updateCardUI(true);
       document.getElementById("lessonBoard").classList.add("hidden");
       document.getElementById("flashcardPanel").classList.remove("hidden");
@@ -390,38 +437,53 @@
       updateCardUI(true);
     }
 
-    function buildJapaneseHTML(v) {
-      const noDistinctKanji = !v.kanjiandkana || v.kanjiandkana === v.kana;
-
-      // Words with no distinct kanji form (empty, or identical to the kana): just show the kana once.
+    function buildTextBlockHTML(kanjiandkana, kana, romaji, mainSize, romajiSize) {
+      const noDistinctKanji = !kanjiandkana || kanjiandkana === kana;
+      const parts = [];
       if (noDistinctKanji) {
-        const parts = [];
-        if ((settings.showKanji || settings.showKana) && v.kana) {
-          parts.push(`<span style="font-size: 22px;">${v.kana}</span>`);
+        if ((settings.showKanji || settings.showKana) && kana) {
+          parts.push(`<span style="font-size: ${mainSize}px;">${kana}</span>`);
         }
-        if (settings.showRomaji && v.romaji) {
-          parts.push(`<span style="font-size: 11px;">${v.romaji}</span>`);
+      } else {
+        if (settings.showKanji) {
+          parts.push(`<span style="font-size: ${mainSize}px;">${kanjiandkana}</span>`);
         }
-        return parts.join("<br>");
+        if (settings.showKana && kana) {
+          parts.push(`<span style="font-size: ${mainSize}px;">${kana}</span>`);
+        }
+      }
+      if (settings.showRomaji && romaji) {
+        parts.push(`<span style="font-size: ${romajiSize}px;">${romaji}</span>`);
+      }
+      return parts.join("<br>");
+    }
+
+    function buildReadingOnlyHTML(kana, romaji, mainSize, romajiSize) {
+      const parts = [];
+      if (settings.showKana && kana) parts.push(`<span style="font-size: ${mainSize}px;">${kana}</span>`);
+      if (settings.showRomaji && romaji) parts.push(`<span style="font-size: ${romajiSize}px;">${romaji}</span>`);
+      return parts.join("<br>");
+    }
+
+    function buildJapaneseHTML(v) {
+      const kanjiandkana = v.kanjiandkana, kana = v.kana;
+      const noDistinctKanji = !kanjiandkana || kanjiandkana === kana;
+
+      if (noDistinctKanji) {
+        return buildTextBlockHTML(kanjiandkana, kana, v.romaji, 22, 11);
       }
 
-      const hasKanjiLine = settings.showKanji && v.kanjiandkana;
-      const readingParts = [];
-      if (settings.showKana && v.kana) {
-        readingParts.push(`<span style="font-size: 22px;">${v.kana}</span>`);
-      }
-      if (settings.showRomaji && v.romaji) {
-        readingParts.push(`<span style="font-size: 11px;">${v.romaji}</span>`);
-      }
+      const hasKanjiLine = settings.showKanji;
+      const readingHTML = buildReadingOnlyHTML(kana, v.romaji, 22, 11);
+      const hasReading = (settings.showKana && kana) || (settings.showRomaji && v.romaji);
 
       const normalParts = [];
-      if (hasKanjiLine) normalParts.push(`<span style="font-size: 22px;">${v.kanjiandkana}</span>`);
-      normalParts.push(...readingParts);
+      if (hasKanjiLine) normalParts.push(`<span style="font-size: 22px;">${kanjiandkana}</span>`);
+      if (readingHTML) normalParts.push(readingHTML);
       const normalHTML = normalParts.join("<br>");
 
-      if (settings.kanjiPractice && hasKanjiLine && readingParts.length > 0 && !kanjiRevealed) {
-        const kanjiSpan = `<span style="font-size: 22px;">${v.kanjiandkana}</span>`;
-        const readingHTML = readingParts.join("<br>");
+      if (settings.kanjiPractice && hasKanjiLine && hasReading && !kanjiRevealed) {
+        const kanjiSpan = `<span style="font-size: 22px;">${kanjiandkana}</span>`;
         return `
           <div class="kanji-practice-wrap">
             <div class="kanji-top">${kanjiSpan}</div>
@@ -436,6 +498,68 @@
       return normalHTML;
     }
 
+    function buildVerbAwareJapaneseHTML(v) {
+      if (v.wordType !== "verb" || !v.forms || settings.verbDefaultForms === "plain") {
+        return buildJapaneseHTML(v);
+      }
+      if (settings.verbDefaultForms === "plainPolite") {
+        const f = v.forms.plainPolite;
+        return buildTextBlockHTML(f.kanjiandkana, f.kana, f.romaji, 22, 11);
+      }
+      // both
+      const plainHTML = buildTextBlockHTML(v.forms.plain.kanjiandkana, v.forms.plain.kana, v.forms.plain.romaji, 20, 10);
+      const politeHTML = buildTextBlockHTML(v.forms.plainPolite.kanjiandkana, v.forms.plainPolite.kana, v.forms.plainPolite.romaji, 16, 9);
+      return `<div>${plainHTML}</div><div style="margin-top: 10px; opacity: 0.85;">${politeHTML}</div>`;
+    }
+
+    const FORM_LABELS = [
+      ["plain", "Plain"], ["plainPolite", "Polite"],
+      ["negative", "Negative"], ["negativePolite", "Neg. Polite"],
+      ["past", "Past"], ["pastPolite", "Past Polite"],
+      ["teForm", "Te-form"],
+      ["volitional", "Volitional"], ["volitionalPolite", "Vol. Polite"],
+    ];
+
+    function formCellHTML(label, formObj, fullWidth) {
+      const text = buildTextBlockHTML(formObj.kanjiandkana, formObj.kana, formObj.romaji, 15, 10);
+      return `<div class="form-cell${fullWidth ? " full-width" : ""}">
+        <div class="form-label">${label}</div>
+        <div class="form-main">${text}</div>
+      </div>`;
+    }
+
+    function buildFormsGridHTML(forms) {
+      return FORM_LABELS.map(([key, label]) => formCellHTML(label, forms[key], key === "teForm")).join("");
+    }
+
+    function updateFormsButtonVisibility(v) {
+      const wrap = document.getElementById("formsToggleWrap");
+      const panel = document.getElementById("formsPanel");
+      const btn = document.getElementById("formsToggleBtn");
+      if (v.wordType === "verb" && v.forms) {
+        wrap.classList.remove("hidden");
+      } else {
+        wrap.classList.add("hidden");
+      }
+      if (!formsExpanded) {
+        panel.classList.add("hidden");
+        panel.innerHTML = "";
+        btn.textContent = "Forms ▾";
+      } else {
+        panel.innerHTML = buildFormsGridHTML(v.forms);
+        panel.classList.remove("hidden");
+        btn.textContent = "Forms ▲";
+      }
+    }
+
+    function toggleFormsPanel() {
+      formsExpanded = !formsExpanded;
+      updateFormsButtonVisibility(cards[current]);
+      if (formsExpanded) {
+        scrollToPanel("flashcardPanel", 80);
+      }
+    }
+
     function updateCardUI(skipAnimation = false) {
       const inner = document.getElementById("cardInner");
       const front = document.getElementById("cardFront");
@@ -443,7 +567,7 @@
       const v = cards[current];
 
       const englishHTML = v.english || "";
-      const japaneseHTML = buildJapaneseHTML(v);
+      const japaneseHTML = buildVerbAwareJapaneseHTML(v);
 
       if (settings.direction === "jp-en") {
         front.innerHTML = japaneseHTML;
@@ -452,6 +576,8 @@
         front.innerHTML = englishHTML;
         back.innerHTML = japaneseHTML;
       }
+
+      updateFormsButtonVisibility(v);
 
       const learned = getLearnedSet(currentCategory);
       setLearnedButtonState(learned.has(v._idx));
@@ -466,6 +592,7 @@
       current = (current + 1) % cards.length;
       flipped = false;
       kanjiRevealed = false;
+      formsExpanded = false;
       updateCardUI(true);
     }
 

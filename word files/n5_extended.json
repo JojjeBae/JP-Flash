@@ -74,14 +74,14 @@
   {
     "kanjiandkana": "十",
     "english": "ten",
-    "kana": "じゅう  とお",
-    "romaji": "jū  tō",
+    "kana": "じゅう / とお",
+    "romaji": "jū / tō",
     "level": 5,
     "wordType": "number"
   },
   {
     "kanjiandkana": "零",
-    "english": "zero",
+    "english": "zero (traditional)",
     "kana": "れい",
     "romaji": "rei",
     "level": 5,
@@ -89,7 +89,7 @@
   },
   {
     "kanjiandkana": "ゼロ",
-    "english": "zero",
+    "english": "zero (modern)",
     "kana": "ゼロ",
     "romaji": "zero",
     "level": 5,
@@ -97,7 +97,7 @@
   },
   {
     "kanjiandkana": "一つ",
-    "english": "one",
+    "english": "one (thing)",
     "kana": "ひとつ",
     "romaji": "hitotsu",
     "level": 5,
@@ -105,7 +105,7 @@
   },
   {
     "kanjiandkana": "二つ",
-    "english": "two",
+    "english": "two (things)",
     "kana": "ふたつ",
     "romaji": "futatsu",
     "level": 5,
@@ -113,7 +113,7 @@
   },
   {
     "kanjiandkana": "三つ",
-    "english": "three",
+    "english": "three (things)",
     "kana": "みっつ",
     "romaji": "mittsu",
     "level": 5,
@@ -121,7 +121,7 @@
   },
   {
     "kanjiandkana": "四つ",
-    "english": "four",
+    "english": "four (things)",
     "kana": "よっつ",
     "romaji": "yottsu",
     "level": 5,
@@ -129,7 +129,7 @@
   },
   {
     "kanjiandkana": "五つ",
-    "english": "five",
+    "english": "five (things)",
     "kana": "いつつ",
     "romaji": "itsutsu",
     "level": 5,
@@ -137,7 +137,7 @@
   },
   {
     "kanjiandkana": "六つ",
-    "english": "six",
+    "english": "six (things)",
     "kana": "むっつ",
     "romaji": "muttsu",
     "level": 5,
@@ -145,7 +145,7 @@
   },
   {
     "kanjiandkana": "七つ",
-    "english": "seven",
+    "english": "seven (things)",
     "kana": "ななつ",
     "romaji": "nanatsu",
     "level": 5,
@@ -153,7 +153,7 @@
   },
   {
     "kanjiandkana": "八つ",
-    "english": "eight",
+    "english": "eight (things)",
     "kana": "やっつ",
     "romaji": "yattsu",
     "level": 5,
@@ -161,7 +161,7 @@
   },
   {
     "kanjiandkana": "九つ",
-    "english": "nine",
+    "english": "nine (things)",
     "kana": "ここのつ",
     "romaji": "kokonotsu",
     "level": 5,
@@ -377,7 +377,7 @@
   },
   {
     "kanjiandkana": "そちら",
-    "english": "over there",
+    "english": "over there (softer)",
     "kana": "そちら",
     "romaji": "sochira",
     "level": 5,
@@ -409,7 +409,7 @@
   },
   {
     "kanjiandkana": "そっち",
-    "english": "over there",
+    "english": "that way",
     "kana": "そっち",
     "romaji": "sotchi",
     "level": 5,
@@ -417,7 +417,7 @@
   },
   {
     "kanjiandkana": "あっち",
-    "english": "over there",
+    "english": "over there (away from both)",
     "kana": "あっち",
     "romaji": "atchi",
     "level": 5,

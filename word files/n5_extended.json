@@ -210,8 +210,8 @@
   {
     "kanjiandkana": "私",
     "english": "(humble) I, myself",
-    "kana": "わたくし",
-    "romaji": "watakushi",
+    "kana": "わたし / わたくし",
+    "romaji": "watashi / watakushi",
     "level": 5,
     "wordType": "pronoun"
   },
@@ -233,7 +233,7 @@
   },
   {
     "kanjiandkana": "みんな",
-    "english": "everyone",
+    "english": "everyone (casual)",
     "kana": "みんな",
     "romaji": "minna",
     "level": 5,
@@ -241,7 +241,7 @@
   },
   {
     "kanjiandkana": "皆さん",
-    "english": "everyone",
+    "english": "everyone (formal)",
     "kana": "みなさん",
     "romaji": "minasan",
     "level": 5,
@@ -249,7 +249,7 @@
   },
   {
     "kanjiandkana": "どなた",
-    "english": "who",
+    "english": "who (formal)",
     "kana": "どなた",
     "romaji": "donata",
     "level": 5,
@@ -257,7 +257,7 @@
   },
   {
     "kanjiandkana": "誰",
-    "english": "who",
+    "english": "who (casual)",
     "kana": "だれ",
     "romaji": "dare",
     "level": 5,
@@ -281,7 +281,7 @@
   },
   {
     "kanjiandkana": "あれ",
-    "english": "that",
+    "english": "that (further away)",
     "kana": "あれ",
     "romaji": "are",
     "level": 5,
@@ -505,7 +505,7 @@
   },
   {
     "kanjiandkana": "ええ",
-    "english": "yes",
+    "english": "yes (casual)",
     "kana": "ええ",
     "romaji": "ee",
     "level": 5,
@@ -513,7 +513,7 @@
   },
   {
     "kanjiandkana": "どうも",
-    "english": "thanks",
+    "english": "thanks (casual)",
     "kana": "どうも",
     "romaji": "dōmo",
     "level": 5,
@@ -521,7 +521,7 @@
   },
   {
     "kanjiandkana": "どうぞ",
-    "english": "please",
+    "english": "please (offering/granting)",
     "kana": "どうぞ",
     "romaji": "dōzo",
     "level": 5,
@@ -529,7 +529,7 @@
   },
   {
     "kanjiandkana": "ください",
-    "english": "please",
+    "english": "please (making request)",
     "kana": "ください",
     "romaji": "kudasai",
     "level": 5,
